@@ -1,0 +1,314 @@
+  .hero-section-financial {
+    background: linear-gradient(to bottom, #dceeff, #f9f5e7);
+    padding: 60px 0;
+  }
+
+  .hero-image-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .hero-image {
+    flex: 1;
+    border-radius: 100px; /* curve */
+    overflow: hidden;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* cover image without distortion */
+    display: block;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+
+  .hero-text p {
+    font-size: 1.1rem;
+    margin: 20px 0;
+  }
+
+  .btn-custom {
+    background: #007bff;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .btn-custom:hover {
+    background: #0056b3;
+    color: #fff;
+  }
+.financial-hero-img{
+    height: 500px;
+    width: auto;
+}
+  /* Responsive */
+  @media (max-width: 991px) {
+    .hero-text {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .hero-text h1 {
+      font-size: 2rem;
+    }
+    .hero-image-wrapper {
+      gap: 10px;
+    }
+    .hero-image {
+      border-radius: 60px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .hero-text h1 {
+      font-size: 1.7rem;
+    }
+    .hero-text p {
+      font-size: 1rem;
+    }
+    .hero-image-wrapper {
+      flex-direction: column; /* stack vertically */
+    }
+    .hero-image {
+      border-radius: 40px;
+    }
+  }
+
+
+
+
+@media screen and (max-width: 767.98px) {
+    .accordion-button {
+        padding: 16px 20px !important;
+        line-height: 1.5 !important;
+    }
+}
+
+
+  .accordion-buttonr
+ {
+    border-top-left-radius: 6px !important;
+    border-top-right-radius: 6px !important;
+    padding: 10px 20px!important;
+}
+
+.accordion-button {
+    background: transparent;
+    border: none !important;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: none;
+    transition: border-color 0.3s ease;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+   .finance-section {
+      padding: 60px 0;
+    }
+
+    .finance-section h2 {
+      font-weight: 700;
+    }
+
+    .finance-section p {
+      color: #555;
+      max-width: 850px;
+      margin: 0 auto 40px;
+    }
+
+    /* Accordion Styling */
+    .accordion-button {
+      font-weight: 500;
+    }
+
+    .accordion-button::after {
+      margin-left: auto;
+    }
+
+    /* Right Image Slice Effect */
+    .slice-wrapper {
+      display: flex;
+      gap: 6px;
+      height: 400px;
+      overflow: hidden;
+    }
+
+    .slice {
+      flex: 1;
+      border-radius: 12px;
+      background-image: url("https://via.placeholder.com/1000x600"); /* Replace with your image */
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* Slices with different positions */
+    .slice:nth-child(1) { background-position: 0% 50%; }
+    .slice:nth-child(2) { background-position: 20% 50%; }
+    .slice:nth-child(3) { background-position: 40% 50%; }
+    .slice:nth-child(4) { background-position: 60% 50%; }
+    .slice:nth-child(5) { background-position: 80% 50%; }
+    .slice:nth-child(6) { background-position: 100% 50%; }
+
+    /* Responsive */
+    @media (max-width: 991px) {
+      .slice-wrapper {
+        height: 300px;
+        margin-top: 30px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .slice-wrapper {
+        height: 220px;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+    .services-section {
+      padding: 40px 0;
+    }
+    .service-box {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 12px 18px;
+      margin-bottom: 20px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      background: #fff;
+    }
+    .service-box:hover {
+      border-color: #007bff;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .service-number {
+      background: #007bff;
+      color: #fff;
+      font-weight: 600;
+      padding: 8px 14px;
+      border-radius: 6px;
+      margin-right: 12px;
+      flex-shrink: 0;
+    }
+
+    /* Center Image Area */
+    .service-preview {
+      position: relative;
+      background: url("../images/industries/financial-third-section.png") center/cover no-repeat;
+      border-radius: 12px;
+      height: 450px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      color: #fff;
+    }
+    .service-preview::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+      border-radius: 12px;
+    }
+    .service-detail {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      font-size: 1.1rem;
+      font-weight: 500;
+      display: none;
+    }
+    .service-detail.active {
+      display: block;
+      animation: fadeIn 0.5s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Mobile Layout */
+    @media(max-width: 991px) {
+      .desktop-layout {
+        display: none;
+      }
+      .mobile-layout {
+        display: block;
+      }
+    }
+    @media(min-width: 992px) {
+      .desktop-layout {
+        display: block;
+      }
+      .mobile-layout {
+        display: none;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+        .solutions-section {
+      padding: 40px 0!important;
+    }
+    .solution-card {
+      border-radius: 12px;
+      padding: 25px 20px;
+      text-align: left;
+      transition: all 0.3s ease;
+      height: 100%;
+    }
+    .solution-card:hover {
+      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+      transform: translateY(-5px);
+    }
+    .solution-icon {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+    .solution-card h5 {
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-bottom: 12px;
+    }
+    .solution-card p {
+      font-size: 0.95rem;
+      margin: 0;
+    }
+
+    /* Different background colors */
+    .bg1 { background: #eaf7f1; }   /* light green */
+    .bg2 { background: #fff3e6; }   /* light orange */
+    .bg3 { background: #f0f4ff; }   /* light blue */
+    .bg4 { background: #fdf2f8; }   /* light pink */
+    .bg5 { background: #f9fbe7; }   /* light yellow-green */
+    .bg6 { background: #f3e5f5; }   /* light purple */

@@ -1,0 +1,71 @@
+.star-section .card {
+    background-color: #e6f6ff;
+    border-radius: 6px;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+
+.star-section .rounded {
+    background-color: #108aff;
+    padding: 10px 0.75rem;
+    border-radius: 6px;
+    margin: 10px auto;
+    display: flex;
+    margin-bottom: 0.25rem;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.star-section .progress-indicator span {
+    width: inherit;
+}
+
+.star-section .progress-indicator {
+    background-color: #fccc4d;
+    height: 0.75rem;
+    border-radius: 6px;
+}
+
+.star-section .rating-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    width: 100%;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    flex-wrap: wrap;
+}
+
+.star-section i {
+    color: #fccc4d;
+}
+
+.star-section .rounded {
+    display: flex;
+    gap: 2px;
+}
+
+.star-section small.grey {
+    color: grey;
+}
+
+.star-section p {
+    color: DodgerBlue;
+}
+
+.star-section small{
+    margin-left: 10px;
+}
+
+.give-props {
+    font-size: 0.75rem;
+    margin-top: 2rem;
+}
+
+

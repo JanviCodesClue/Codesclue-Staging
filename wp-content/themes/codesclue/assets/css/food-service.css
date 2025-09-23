@@ -1,0 +1,202 @@
+    .food-hero {
+      background: url('../images/industries/food-hero.png') no-repeat center center/cover;
+      color: #fff;
+      text-align: center;
+      padding: 120px 20px;
+    }
+    .food-hero-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    .food-hero-text {
+      font-size: 1.1rem;
+      max-width: 750px;
+      margin: 20px auto;
+    }
+    .food-hero-btn {
+      background: #007bff;
+      border: none;
+      padding: 12px 30px;
+      font-weight: 600;
+      border-radius: 25px;
+      color: #fff;
+      text-decoration: none;
+    }
+    .food-hero-btn:hover {
+      background: #0056b3;
+    }
+
+    /* === Orange Brush Cards Section === */
+    .food-orange-section {
+      padding: 60px 20px;
+    }
+    .col-md-4-food{
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+    .food-orange-card {
+      background: url('../images/industries/food-secound-bg.svg') no-repeat center center/contain;
+      padding: 50px;
+      color: #000;
+      border-radius: 10px;
+      text-align: center;
+      height: 100%;
+    }
+        .food-orange-card:hover {
+      background: url('../images/industries/foog-secound-bg-hover.svg') no-repeat center center/contain;
+      padding: 50px;
+      color: #000;
+      border-radius: 10px;
+      text-align: center;
+      height: 100%;
+    }
+   @media (max-width: 1242px) {
+    .col-md-4-food{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+        .food-orange-card {
+      background: url('../images/industries/food-secound-bg.svg') no-repeat center center/contain;
+      padding: 80px;
+      color: #000;
+      border-radius: 10px;
+      text-align: center;
+      height: 100%;
+    }
+        .food-orange-card:hover {
+      background: url('../images/industries/foog-secound-bg-hover.svg') no-repeat center center/contain;
+      padding: 80px;
+      color: #000;
+      border-radius: 10px;
+      text-align: center;
+      height: 100%;
+    }
+   } 
+
+     @media (max-width: 952px) {
+    .col-md-4-food{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+        .food-orange-card {
+      background: url('../images/industries/food-secound-bg.svg') no-repeat center center/contain;
+      padding: 50px;
+      color: #000;
+      border-radius: 10px;
+      text-align: center;
+      height: 100%;
+    }
+        .food-orange-card:hover {
+      background: url('../images/industries/foog-secound-bg-hover.svg') no-repeat center center/contain;
+      padding: 50px;
+      color: #000;
+      border-radius: 10px;
+      text-align: center;
+      height: 100%;
+    }
+   }
+
+    
+    .food-orange-card h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+    .food-orange-card p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+
+
+
+/* Responsive */
+@media (max-width: 992px) {
+  .food-pasta-section .row {
+    flex-direction: column !important;
+    text-align: center;
+  }
+  .food-pasta-box {
+    margin-bottom: 20px;
+  }
+  .food-pasta-img {
+    margin: 20px auto;
+  }
+
+}
+
+
+.food-section {
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .food-card {
+      border-radius: 12px;
+      padding: 30px 20px;
+      text-align: left;
+      min-height: 150px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .food-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    }
+
+    /* Background colors for cards */
+    .bg-1 { background: #eafff2; }   /* light green */
+    .bg-2 { background: #ffecec; }   /* light red */
+    .bg-3 { background: #f1f4fa; }   /* light gray-blue */
+    .bg-4 { background: #f9f3ff; }   /* light purple */
+    .bg-5 { background: #f7ffe8; }   /* light yellow-green */
+    .bg-6 { background: #fff7ec; }   /* light orange */
+
+    .food-icon {
+      width: 60px;
+      height: 60px;
+      flex-shrink: 0;
+    }
+
+    .food-title {
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin: 0;
+    }
+
+/* .food-bg{
+  background-image: url(../images/industries/food-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  width: 100%;
+} */
+
+
+.blog-single-item .thumb img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.rounded-12{
+  border-radius: 10px;
+}
+@media (min-width: 768px) {
+    .blog-single-item .thumb img {
+        height: 380px;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .blog-single-item .thumb img {
+        height: 520px;
+        border-radius: 20px;
+    }
+}
+
+   

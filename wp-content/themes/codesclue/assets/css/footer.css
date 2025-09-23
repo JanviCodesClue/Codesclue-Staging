@@ -1,0 +1,294 @@
+.get-touch-section {
+        width: calc(100% - 0px);
+        margin: 0 auto;
+        background: url(/assets/images/codesclue_texture.webp) #a4d3ff71 repeat center center;
+        padding: 40px 0px 110px;
+        border-radius: 30px;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.get-touch-section h2{
+    font-family: 'Inter', sans-serif !important;
+    font-size: 48px !important;
+    line-height: 75px !important;
+    font-weight: 700 !important;
+    color: #313539 !important;
+}
+
+.get-touch-section p{
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1rem !important;
+    line-height: 1.3rem !important;
+    font-weight: 400 !important;
+    color: #303030 !important;
+}
+
+.get-touch-section .btn-secondary {
+    width: fit-content;
+    background-color: #108aff;
+    color: #ffffff !important;
+    border: 1px solid #108aff;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        transform 0.1s ease;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 24px !important;
+    line-height: 40px !important;
+    height: fit-content !important;
+    padding: 10px 30px !important;
+    font-weight: 600 !important;
+}
+
+.get-touch-section .btn-secondary:hover {
+    background-color: #108aff80;
+    color: #303030 !important;
+    border-color: #108aff80;
+}
+
+.get-touch-section .btn-secondary:active {
+    background-color: #303030;
+    color: #ffffff !important;
+    border-color: #303030;
+    border-radius: 50px;
+    transform: scale(0.98);
+}
+
+.footer-section strong {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 13px !important;
+    line-height: 20px !important;
+    font-weight: 500;
+}
+
+.footer-section .contact-details i{
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #575757 !important;
+}
+
+.footer-section .contact-details .list__text {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    font-weight: 500;
+    color: #212121a8 !important;
+}
+
+.footer-section .contact-details:hover i,
+.footer-section .contact-details:hover .list__text {
+    color: #212121 !important;
+}
+
+.location-section span {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    color: #575757 !important;
+}
+
+.location-section .loc_desc {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    font-weight: 500;
+}
+
+.footer-section .link-title {
+    font-family: 'Poppins', sans-serif !important;
+   font-size: 18px !important;
+    line-height: 28px !important;
+    font-weight: 700 !important;
+    color: #303030 !important;
+}
+
+.footer-section .link-section a {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1rem !important;
+    line-height: 1.2rem !important;
+    font-weight: 600 !important;
+    color: #212121a8 !important;
+}
+
+.footer-section .link-section a:hover {
+    color: #108aff !important;
+}
+
+.footer-section .link-section a.active {
+    color: #108aff !important;
+}
+
+.footer-section .link-section img {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.footer-section .stamp-widget_rating span {
+    font-size: .875rem !important;
+    line-height: 1.2rem !important;
+}
+
+.footer-section .goodfirm-widget{
+    /* box-shadow: inset 0px 2px 4px #23232340 !important; */
+    border: 1px solid #108aff !important;
+}
+
+.footer-section .goodfirm-widget .stamp-widget_top {
+    padding-top: 5px !important;
+}
+
+.footer-section hr {
+    width: 90% !important;
+    margin: 40px auto !important;
+    color: #d9d9d9 !important;
+    opacity: .25;
+}
+
+.footer-brand img{
+    height: 40px !important;
+}
+
+.footer-section .copy-text {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #212121 !important;
+}
+
+.footer-social-link{
+    width: 40px !important;
+    height: 40px !important;
+    border: 1.5px solid #D9D9D9 !important;
+    border-radius: 50px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.footer-social-link:hover {
+    box-shadow: inset 0px -2px 4px #23232340 !important;
+}
+
+.footer-social-link img{
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.footer-social-link:nth-child(1):hover {
+    background: #1769ff66 !important;
+}
+
+.footer-social-link:nth-child(2):hover {
+    background: #ea4c8966 !important;
+}
+
+.footer-social-link:nth-child(3):hover {
+    background: #1da1f266 !important;
+}
+
+.footer-social-link:nth-child(4):hover {
+    background: #0077b566 !important;
+}
+
+.footer-social-link:nth-child(5):hover { 
+    background: linear-gradient(
+    45deg,
+    #f0943366,
+    #e6683c66,
+    #dc274366,
+    #cc236666,
+    #bc188866
+  );
+}
+
+.footer-social-link:nth-child(6):hover {
+    background-color: #ea433566 !important;
+}
+
+.footer-social-link:nth-child(7):hover {
+    background-color: #1877f266 !important;
+}
+
+.footer-social-link:nth-child(8):hover {
+    background-color: #ff000066 !important;
+}
+
+.footer-social-link:nth-child(3) img {
+    height: 15px !important;
+}
+
+.my-footer{
+    margin-top: 40px;
+}
+@media screen and (max-width: 767.98px) {
+   .my-footer{
+    margin-top: 30px;
+}
+.mt-sm-cus{
+    margin-top: 12px;
+}
+}
+
+
+/* Desktop & Tablet (default) → column (upar-niche) */
+.social-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.social-details {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+/* Mobile (<768px) → row (baju-baju) */
+@media (max-width: 767.98px) {
+  .social-wrapper {    /* row layout */
+    flex-wrap: wrap;         /* wrap if needed */
+    justify-content: space-between; /* equal spacing */
+    gap: 20px;
+  }
+  .social-details {
+    flex: 1 1 45%;   /* each item approx half width */
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+        .get-touch-section h2 {
+        font-size: 32px !important;
+        line-height: 50px !important;
+    }
+
+    .get-touch-section .btn-secondary {
+        padding: 10px 15px !important;
+        font-size: 1rem !important;
+        line-height: 1.6rem !important;
+    }
+}
+
+
+.size-32{
+  height: 32px;
+  width: auto;
+}
+.gap-md-0{
+  row-gap: 20px;    
+}
+
+

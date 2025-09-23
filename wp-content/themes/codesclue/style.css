@@ -1,0 +1,81 @@
+/*
+Theme Name: CodesClue
+Description: Premium Web & Mobile App Development Theme for Businesses
+Version: 1.0
+Author: CodesClue
+Author URI: https://www.codesclue.com
+Text Domain: codesclue
+*/
+
+/* WordPress specific styles */
+
+main {
+    padding-top: 58px;
+}
+@media screen and (max-width: 1199.99px) {
+  main {
+    padding-top: 28px!important;
+}
+}
+
+
+
+.wp-block-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 1em;
+}
+
+.alignright {
+    float: right;
+    margin-left: 1em;
+}
+
+.wp-caption {
+    max-width: 100%;
+}
+
+.wp-caption-text {
+    font-size: 0.9em;
+    color: #666;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+/* WordPress admin bar adjustment */
+.admin-bar .navbar.fixed-top {
+    top: 32px;
+}
+
+@media (max-width: 782px) {
+    .admin-bar .navbar.fixed-top {
+        top: 46px;
+    }
+}
+
+/* Ensure images load properly */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Fix for broken image paths */
+img[src^="/assets/images"] {
+    display: none;
+}
+
+/* Debug styles to show when images fail to load */
+img:not([src]) {
+    border: 2px solid red;
+    min-height: 50px;
+    background: #f0f0f0;
+} 

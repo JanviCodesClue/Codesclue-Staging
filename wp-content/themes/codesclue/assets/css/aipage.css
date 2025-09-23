@@ -1,0 +1,663 @@
+/* Root variables */
+/* Aboutus-section */
+/* Root variables */
+/* :root {
+    --fs-h1: 76px;
+    --fs-h2: 48px;
+    --fs-h3: 36px;
+    --fs-h4: 28px;
+    --fs-h5: 22px;
+    --fs-h6: 18px;
+    --fs-base: 16px;
+
+    --fs-h1-tab: 56px;
+    --fs-h2-tab: 40px;
+    --fs-h3-tab: 32px;
+    --fs-h4-tab: 24px;
+    --fs-h5-tab: 20px;
+    --fs-h6-tab: 16px;
+    --fs-base-tab: 15px;
+
+    --fs-h1-mob: 42px;
+    --fs-h2-mob: 32px;
+    --fs-h3-mob: 26px;
+    --fs-h4-mob: 20px;
+    --fs-h5-mob: 18px;
+    --fs-h6-mob: 15px;
+    --fs-base-mob: 14px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, button, span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-base);
+    line-height: 1.4;
+    color: #333;
+}
+
+h1 { font-size: var(--fs-h1); font-weight: 700; }
+h2 { font-size: var(--fs-h2); font-weight: 700; }
+h3 { font-size: var(--fs-h3); font-weight: 600; }
+h4 { font-size: var(--fs-h4); font-weight: 600; }
+h5 { font-size: var(--fs-h5); font-weight: 500; }
+h6 { font-size: var(--fs-h6); font-weight: 500; }
+
+p, a, button, span {
+    font-size: var(--fs-base);
+    font-weight: 400;
+}
+
+@media (max-width: 991px) {
+    h1 { font-size: var(--fs-h1-tab); }
+    h2 { font-size: var(--fs-h2-tab); }
+    h3 { font-size: var(--fs-h3-tab); }
+    h4 { font-size: var(--fs-h4-tab); }
+    h5 { font-size: var(--fs-h5-tab); }
+    h6 { font-size: var(--fs-h6-tab); }
+    p, a, button, span { font-size: var(--fs-base-tab); }
+}
+
+@media (max-width: 575px) {
+    h1 { font-size: var(--fs-h1-mob); }
+    h2 { font-size: var(--fs-h2-mob); }
+    h3 { font-size: var(--fs-h3-mob); }
+    h4 { font-size: var(--fs-h4-mob); }
+    h5 { font-size: var(--fs-h5-mob); }
+    h6 { font-size: var(--fs-h6-mob); }
+    p, a, button, span { font-size: var(--fs-base-mob); }
+} */
+
+
+.aisoftware-project{
+  width: 450px;
+}
+
+.aisoftware {
+  position: relative;
+  min-height: 650px;
+  height: calc(100vh - 75px);
+  overflow: hidden;
+  cursor: auto !important;
+  position: relative;
+  background-image: url("../gif/codesclue_website-ai-video.gif");
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.ai-bg .bg-white-50 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 650px;
+  height: calc(100vh - 75px);
+  background: linear-gradient(to right, #111111f1, #111111e1, #111111d1, #111111c1, #11111180, #11111150);
+}
+
+.hero-section .hero-side-img {
+  position: absolute;
+  z-index: 0;
+  height: 300px !important;
+}
+
+.hero-section .hero-side-img.left {
+  left: -10px !important;
+  top: 0px !important;
+}
+
+.hero-section .hero-side-img.right {
+  right: -10px !important;
+  bottom: 0px !important;
+}
+
+.hero-section .hero-top-line {
+  width: 50% !important;
+}
+
+.hero-section .hero-bottom-line {
+  width: 75% !important;
+}
+
+.hero-section .text-shadow {
+  text-shadow: 3px 3px 40px #69ddf2;
+}
+
+.ai-bg-color {
+  background: #111111;
+}
+
+.ai-bg-gradient-color {
+  background: linear-gradient(
+  to bottom,
+  #111111 0%,
+  #333333 20%,
+  #555555 50%,
+  #999999 70%,
+  #ffffff 100%
+) !important;
+}
+
+.card.ai-service-card {
+  padding: 2px;
+  background: transparent;
+  overflow: hidden;
+}
+
+.card.ai-service-card::before,
+.card.ai-service-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: conic-gradient(from var(--angle), transparent, #9900b8, #4042e2, #a6008a);
+  padding: 2px;
+  animation: spin 4s linear infinite;
+  z-index: -1;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.card.ai-service-card .card-body {
+  position: relative;
+  background-color: #000000;
+  z-index: 2;
+  padding: 20px;
+}
+
+.ai-flip-card-back .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Animation border-rotate Keyframes */
+@keyframes spin {
+  0% {
+    --angle: 0deg;
+  }
+  100% {
+    --angle: 360deg;
+  }
+}
+
+.ai-flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 250px;
+  perspective: 1000px; /* Needed for 3D effect */
+  position: relative;
+}
+
+.ai-flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+}
+
+.ai-flip-card-front,
+.ai-flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  transition:
+    opacity 0.5s ease,
+    visibility 0.5s ease;
+}
+
+.ai-flip-card-front {
+  background-color: #108aff;
+  opacity: 1;
+  visibility: visible;
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+.ai-flip-card-back {
+  background-color: #ff6b6b;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.ai-flip-card-front,
+.ai-flip-card-back {
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.ai-flip-card:hover .ai-flip-card-front {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.ai-flip-card:hover .ai-flip-card-back {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/* .wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.wrapper .circle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #108aff;
+} */
+
+.video-wrapper {
+  background: linear-gradient(rgba(16, 16, 16, 0.3), rgba(16, 16, 16, 0.3)), url("/assets/gif/codesclue_ai-tech-video.gif") center/cover no-repeat !important;
+  background-position: center;
+  background-size: 100% 100%;
+  height: 400px;
+}
+
+.h-fit {
+  height: fit-content;
+}
+
+.ai-tech-card {
+  padding: 10px !important;
+  border: 2px solid #d6d6d6 !important;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.ai-tech-card img {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.ai-tech-card .card-body {
+  padding: 5px 0px 0px !important;
+}
+
+.ai-tech-card .card-body p {
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  text-align: center !important;
+}
+
+.ai-tab-content span {
+  margin-bottom: 10px !important;
+  text-align: center !important;
+  font-weight: 500 !important;
+  color: #d6d6d6 !important;
+}
+
+.ai-tab-content .tab-content {
+  width: 100%;
+  display: grid !important;
+  gap: 5px 2% !important;
+  justify-content: center !important;
+  grid-template-columns: 48% 48% !important;
+}
+
+.ai-tech-btn-section{
+  display: grid !important;
+  grid-template-columns: 48% 48% !important;
+  justify-content: center !important;
+}
+
+.ai-tech-btn {
+  width: 100% !important;
+  padding: 1rem .8rem !important;
+  background: linear-gradient(to right, #9900b8, #4042e2, #a6008a);
+  color: #ffffff !important;
+  justify-content: center !important;
+  border-radius: 6px !important;
+  display: flex !important;
+  align-items: center !important;
+  position: relative !important;
+  z-index: 23 !important;
+}
+
+.ai-tech-btn i {
+  font-size: 24px !important;
+  font-weight: 400 !important;
+}
+
+.ai-tech-btn span {
+  padding-left: 20px !important;
+}
+
+/* Create pseudo element for animated border */
+.ai-tech-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 6px;
+  padding: 2px;
+  background: linear-gradient(270deg, #9900b8, #4042e2, #a6008a, #9900b8);
+  background-size: 400% 400%;
+  z-index: -1;
+  mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
+.why-codesclue-card,
+.ai-method-card,
+.ai-video-wraper {
+  position: relative;
+  border-radius: 6px;
+  padding: 1rem;
+  background: #121212; /* fallback inner background */
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 0 0 10px #9900b850;
+}
+
+
+.ai-video-wraper {
+  background: linear-gradient(to top, #00000099, #00000090, #00000090, #00000099), url("/assets/gif/codesclue_ai-method-video.gif") center/cover no-repeat !important;
+  height: 460px !important;
+}
+
+.ai-method-card {
+  background: #12121233; /* fallback inner background */
+}
+
+/* Animated gradient border using ::before */
+.why-codesclue-card::before,
+.ai-method-card::before,
+.ai-video-wraper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 2px;
+  border-radius: 6px;
+  background: linear-gradient(270deg, #9900b8, #4042e2, #a6008a, #9900b8);
+  background-size: 400% 400%;
+  z-index: -1;
+
+  /* Create a hollow center by masking */
+  mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+
+  animation: borderFlow 5s linear infinite;
+}
+
+/* Animate the border on hover */
+.ai-tech-btn:hover::before,
+.ai-tech-btn.active::before {
+  opacity: 1;
+  animation: borderFlow 4s linear infinite;
+}
+
+.ai-tech-btn:hover,
+.ai-tech-btn.active {
+  background: #f5f5f5 !important;
+  color: transparent !important;
+  background-clip: text;
+}
+
+/* Icon gradient on hover */
+.ai-tech-btn:hover i,
+.ai-tech-btn:hover span,
+.ai-tech-btn.active i,
+.ai-tech-btn.active span,
+.why-codesclue-card h4 span {
+  background: linear-gradient(to right, #9900b8, #4042e2, #a6008a);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: borderFlow 4s linear infinite;
+}
+
+.ai-bg-color video,
+.ai-methodology-bg video {
+  border-radius: 6px !important;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.ai-methodology-bg video {
+  height: 181px !important;
+}
+
+.ai-bg-img {
+  position: absolute !important;
+  bottom: -40px !important;
+  z-index: 1 !important;
+  rotate: 360deg !important;
+  width: 90% !important;
+}
+
+.z-11 {
+  position: relative !important;
+  z-index: 11 !important;
+}
+
+.why-codesclue-card .card-body .content-title {
+  font-size: 2.5rem !important;
+  line-height: 3rem !important;
+}
+
+.why-codesclue-card .card-body span {
+ font-size: 1.8rem !important;
+}
+
+.ai-methodology-bg {
+  background: linear-gradient(to top, #121212f9, #12121290, #12121260, #121212f9), url("../images/ai/codesclue_ai-methodology-bg.webp") center/cover no-repeat !important;
+}
+
+.ai-method-card .circle {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 50px !important;
+}
+
+.ai-method-card .circle.one {
+  width: 60px !important;
+  height: 60px !important;
+  border: 4px solid transparent !important;
+  border-top: 4px solid #4042e2 !important;
+  border-left: 4px solid #4042e2 !important;
+  border-bottom: 4px solid #4042e2 !important;
+  border-radius: 50px !important;
+}
+
+.ai-method-card .card-title {
+  margin-bottom: 0px !important;
+}
+
+.ai-method-card .circle.two {
+  min-width: 70px !important;
+  height: 70px !important;
+  border: 2px solid #a6008a !important;
+}
+
+.ai-tech-btn.rounded-50 {
+  border-radius: 50px !important;
+  width: 250px !important;
+  height: max-content !important;
+  display: flex !important;
+  justify-content: center !important;
+  position: relative;
+  top: 30px !important;
+}
+
+.ai-tech-btn.rounded-50:hover{
+  background: #a6008a !important;
+  color: #ffffff !important;
+}
+
+.ai-tech-btn.rounded-50:hover::before {
+  border-radius: 50px !important;
+}
+
+.ai-bg-color .testimonial-view {
+  position: absolute;
+  top: 150px;
+}
+
+.ai-bg-color .testimonial-view .testimonial-box, 
+.ai-bg-color .testimonial-view .testimonial-box img {
+  border-radius: 6px !important;
+}
+
+#ai-carousel .owl-item {
+  opacity: 0 !important;
+}
+
+#ai-carousel .owl-item.center.active {
+  opacity: 1 !important;
+}
+
+#ai-carousel .owl-dots {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.industry-card {
+  padding: 1rem .8rem !important;
+}
+
+.industry-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px 0px !important;
+  padding-bottom: 24px;
+  position: relative;
+}
+
+.industry-card img {
+  width: 152px !important;
+  height: 140px !important;
+}
+
+.industry-card .card-body::after, .industry-card .card-body::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  background: #a9a9a9;
+  transition: all 3s ease-in-out;
+}
+
+.industry-card .card-body::before {
+  width: 100%;
+  background: #a9a9a9;
+  transition: none !important;
+}
+
+.industry-card:hover .card-body::after {
+  width: 100%;
+  background: linear-gradient(to right, #9900b8, #4042e2, #a6008a);
+}
+
+.industry-card .card-body i {
+  display: inline-block; 
+  color: transparent !important;
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out; 
+}
+
+.industry-card:hover .card-body i {
+  display: inline-block; 
+  transform: translateX(10px);
+  background: linear-gradient(to right, #9900b8, #4042e2, #a6008a);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: borderFlow 4s linear infinite;
+}
+
+.industry-card:hover .card-body .text-link p {
+  background: linear-gradient(to right, #ffffff, #b6b6b6, #d6d6d6);
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: borderFlow 2s linear infinite;
+}
+
+.industry-card .text-link::before {
+  display: none !important;
+}
+
+#ai-industry-carousel .owl-item article {
+  padding: 10px 20px !important; 
+  background: #121212 !important;
+  border-radius: 6px !important;
+}
+
+#ai-industry-carousel .owl-item article:hover {
+  background: #303030f8 !important;
+}
+
+/* Keyframes to animate gradient */
+@keyframes borderFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+/* Hero Section */
+.hero-section-ai {
+  position: relative;
+  min-height: 100vh; /* Full screen height */
+  display: flex;
+  align-items: center; /* Vertical center */
+  padding: 80px 0; /* Top-bottom padding */
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* Container alignment fix */
+.hero-section-ai .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Text Styling */
+.hero-section-ai h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.hero-section-ai .hero-description {
+  max-width: 550px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}

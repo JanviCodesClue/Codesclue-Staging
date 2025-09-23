@@ -1,0 +1,232 @@
+.mission-section {
+  padding: 60px 20px;
+  position: relative;
+}
+
+.mission-section h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Floating Animation */
+.float-up-down {
+  animation: float 5s ease-in-out infinite;
+  border-radius: 20px;
+}
+.mt-sm-services {
+  margin: 0;
+}
+.text-services {
+  text-align: left !important;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.mission-img {
+  border-radius: 10px;
+  width: auto;
+  height: 200px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.d-sm-none {
+  display: block !important;
+}
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .mission-img {
+    max-width: 150px;
+    margin: 15px auto;
+    display: block;
+  }
+  .mission-section {
+    text-align: center;
+  }
+  .text-services {
+    text-align: left !important;
+  }
+
+  .mt-sm-services {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 1000px) {
+  .d-sm-none {
+    display: none !important;
+  }
+  .img-sm{
+    width: 400px;
+    height: auto; 
+    align-content: center;
+  }
+  .mt-sm-services{
+    margin-top: 20px;
+  }
+}
+
+.app-benefits-section {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+  background-color: #000;
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.grid-3.service-grid {
+  display: grid;
+  grid-template-columns: 33% 30% 33%;
+  gap: 10px;
+  justify-content: center;
+}
+
+.service-grid .text-justify {
+  text-align: left;
+}
+
+.service-grid .text-justify h3 {
+  text-align: left !important;
+}
+
+.benifit-details i {
+  width: 60px!important;
+  height: 60px!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.benifits-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.benifits-img img {
+  height: 700px;
+  min-width: 300px;
+}
+
+.card-32 {
+  width: 60px !important;
+  height: 60px !important;
+}
+@media screen and (max-width: 1200px) {
+  .offer-dots {
+    display: none;
+  }
+}
+
+.services-contact {
+  background: #000000;
+  /* Dark background */
+  color: #fff;
+}
+
+.services-contact-title {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.services-btn {
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.services-btn:hover {
+  background: #fff;
+  color: #1e241e;
+}
+
+/* Circle image container */
+.services-circle {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid rgba(255, 255, 255, 0.142);
+}
+
+/* All images stacked */
+.services-circle-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  border-radius: 50%;
+}
+
+/* Show only active */
+.services-circle-img.active {
+  opacity: 1;
+}
+.mt-5-cus{
+    margin-top: 50px;
+   }
+   .my-5-cus{
+    margin-top: 50px;
+    margin-bottom: 30px;
+   }
+@media screen and (max-width: 1200px) {
+   .pt-xsm-cus{
+    padding-top: 20px;
+   }
+   .mt-5-cus{
+    margin-top: 20px;
+   }
+      .my-5-cus{
+    margin-top: 30px;
+    margin-bottom: 20px;
+   }
+}
+
+
+.bg-white {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+}
+
+@media screen and (max-width: 767.98px) {
+
+   .services-section .service-card {
+        max-width: 100%;
+    }
+
+    .black-bg .grid-3 {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 0px;
+    }
+
+    .black-bg .grid-3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .benifits-img img {
+        height: 90%;
+        min-width: 130px;
+        margin-bottom: 0px;
+    }
+}

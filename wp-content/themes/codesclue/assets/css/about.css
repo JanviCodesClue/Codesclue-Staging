@@ -1,0 +1,428 @@
+
+
+
+.hero {
+    padding: 50px 0;
+    background: #fff;
+}
+
+.hero h6 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #108aff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #111;
+}
+
+.hero p {
+    color: #666;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.hero .btn-primary {
+    background: #108aff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+.hero .btn-outline {
+    margin-left: 15px;
+    color: #108aff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+    .col-cus-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+       .col-cus-hide {
+       display: none;
+    }
+    .hero {
+    padding: 20px 0;
+    background: #fff;
+}
+.pt-sm-cus{
+  padding-top: 20px;
+}
+}
+
+
+
+
+
+
+
+.solutions {
+      position: relative;
+    }
+
+
+    .solutions p {
+      color: #555;
+      font-size: 16px;
+      line-height: 1.7;
+      max-width: 600px;
+    }
+
+
+    .solutions-img img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+
+
+
+
+    .why-choose {
+      padding: 40px 0;
+      background: #fff;
+    }
+
+    .why-choose h2 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: #111;
+    }
+
+    .why-choose p.lead {
+      color: #555;
+      font-size: 16px;
+      max-width: 600px;
+    }
+
+    .feature-box {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 25px;
+    }
+
+    .feature-box i {
+      font-size: 24px;
+      color: #f0c600;
+      margin-right: 15px;
+    }
+
+    .feature-box h5 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 5px;
+      color: #111;
+    }
+
+    .feature-box p {
+      margin: 0;
+      font-size: 16px;
+      color: #666;
+    }
+
+    .why-choose img {
+      border-radius: 10px;
+      width: 100%;
+      object-fit: cover;
+    }
+
+.vision-bg{      
+    background-color: #108aff1f;
+    padding: 30px 20px;
+    border-radius: 20px
+
+  }
+  
+.card-hero{
+  background-color: #000000;
+    border: 1px solid #989898;
+    border-radius: 12px;
+    padding: 25px;
+    height: 90%;
+    transition: all 0.3s ease;
+    color:#fff;
+}
+
+.mission-section {
+      position: relative;
+      background: url("../images/about-us/Codesclue-Mission.png") no-repeat center center/cover;
+      min-height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 15px;
+    }
+
+    .glass-box {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 800px;
+      width: 100%;
+      color: #fff;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .glass-box:hover {
+      background: rgba(255, 255, 255, 0.2);
+      transform: scale(1.02);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+    }
+
+    .glass-box h2 {
+      font-size: 42px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .glass-box p {
+      font-size: 16px;
+      line-height: 1.7;
+      color: #e5e5e5;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .glass-box {
+        padding: 25px;
+      }
+
+      .glass-box h2 {
+        font-size: 30px;
+      }
+
+      .glass-box p {
+        font-size: 14px;
+      }
+    }
+
+        /* Second row */
+    .intro h4 {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 15px;
+      color: #444;
+    }
+
+    .intro h2 {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #111;
+    }
+
+    .intro h2 em {
+      font-style: italic;
+      color: #000000;
+    }
+
+    .intro p {
+      font-size: 15px;
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    .btn-custom {
+      background: #565a6e;
+      color: #fff;
+      border-radius: 30px;
+      padding: 10px 25px;
+      font-size: 15px;
+      border: none;
+    }
+
+    .btn-custom:hover {
+      background: #3d4c3c;
+      color: #fff;
+    }
+
+
+
+    .services-section {
+      padding: 70px 0;
+    }
+
+    .services-section h2 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    .services-section p {
+      font-size: 16px;
+      margin-bottom: 25px;
+      color: #555;
+    }
+
+    .btn-custom {
+      background: #108aff;
+      color: #fff;
+      border-radius: 50px;
+      padding: 10px 25px;
+      font-weight: 500;
+      border: none;
+      transition: 0.3s;
+    }
+
+    .btn-custom:hover {
+      background: #108aff;
+    }
+
+    .service-card {
+      background: #fff;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+      height: 100%;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .service-card h5 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .service-card p {
+      font-size: 15px;
+      color: #666;
+    }
+
+    .service-card a {
+      font-weight: 500;
+      color: #333;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .service-card a:hover {
+      color: #108aff;
+    }
+
+    .highlight-card {
+      background: #108aff;
+      color: #fff;
+    }
+
+    .highlight-card p,
+    .highlight-card a {
+      color: #ddd;
+    }
+
+    .highlight-card a:hover {
+      color: #108aff;
+    }
+
+
+    .codesclue-services-section {
+      padding: 50px 0 0 0;
+    }
+
+    .codesclue-services-section h2 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .codesclue-services-section p {
+      font-size: 15px;
+      color: #555;
+      margin-bottom: 25px;
+      max-width: 320px;
+    }
+
+    .codesclue-btn {
+      background: #108aff;
+      color: #fff;
+      border-radius: 30px;
+      padding: 10px 28px;
+      font-size: 15px;
+      font-weight: 500;
+      border: none;
+      transition: 0.3s;
+    }
+
+    .codesclue-btn:hover {
+      background: #108aff;
+    }
+
+    .codesclue-service-card {
+      background: #fff;
+      border: 1px solid #989898;
+      border-radius: 12px;
+      padding: 25px;
+      height: 90%;
+      transition: all 0.3s ease;
+    }
+
+    .codesclue-service-card h5 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .codesclue-service-card p {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .codesclue-service-card a {
+      font-size: 16px;
+      font-weight: 500;
+      text-decoration: none;
+      color: #108aff;
+      transition: 0.3s;
+    }
+
+    .codesclue-service-card a:hover {
+      text-decoration: underline;
+    }
+
+    .codesclue-highlight-card {
+      background: #108aff;
+      color: #fff;
+    }
+
+    .codesclue-highlight-card p {
+      color: #ccc;
+    }
+
+    .codesclue-highlight-card a {
+      color: #fff;
+    }
+
+    .codesclue-highlight-card a:hover {
+      color: #108aff;
+    }
+
+    /* Icon style */
+    .codesclue-service-icon {
+      font-size: 24px;
+      margin-bottom: 12px;
+      color: #108aff;
+    }
+
+    .codesclue-highlight-card .codesclue-service-icon {
+      color: #fff;
+    }
+    

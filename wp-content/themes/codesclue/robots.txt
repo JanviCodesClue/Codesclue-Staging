@@ -1,0 +1,5 @@
+User-agent: OAI-SearchBot/1.0; +https://openai.com/searchbot
+Allow: /
+User-agent: *
+Allow: /
+Sitemap: https://www.codesclue.com/sitemap.xml

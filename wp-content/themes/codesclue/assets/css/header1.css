@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+.main-header {
+  background: #111;
+  color: #fff;
+  position: relative;
+}
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+.menu-toggle {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 28px;
+  display: none;
+  cursor: pointer;
+}
+.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav-list li {
+  position: relative;
+}
+.nav-list li a {
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+.nav-list li a:hover {
+  background: #333;
+}
+.has-sub .sub-menu,
+.has-sub.mega .mega-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #222;
+  display: none;
+  z-index: 1000;
+}
+.has-sub:hover .sub-menu,
+.has-sub.mega:hover .mega-menu {
+  display: flex;
+}
+.sub-menu {
+  flex-direction: column;
+}
+.sub-menu li a {
+  padding: 10px 20px;
+}
+.mega-menu {
+  display: flex;
+  padding: 20px;
+}
+.mega-col {
+  margin: 0 20px;
+}
+.mega-col h4 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.mega-col ul {
+  list-style: none;
+}
+.mega-col ul li a {
+  color: #fff;
+  padding: 5px 0;
+  display: block;
+}
+@media (max-width: 991px) {
+  .menu-toggle {
+    display: block;
+  }
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #111;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    flex-direction: column;
+    transition: max-height 0.3s ease;
+  }
+  .nav-menu.open {
+    max-height: 1000px;
+  }
+  .nav-list {
+    flex-direction: column;
+    width: 100%;
+  }
+  .has-sub .sub-menu,
+  .has-sub.mega .mega-menu {
+    position: static;
+    display: none;
+    flex-direction: column;
+    background: #222;
+  }
+  .has-sub.active .sub-menu,
+  .has-sub.mega.active .mega-menu {
+    display: flex;
+  }
+}

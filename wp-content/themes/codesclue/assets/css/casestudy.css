@@ -1,0 +1,44 @@
+.case-studies-shape-one {
+    left: 0;
+    top: 19%;
+}
+
+.case-studies-shape-two {
+    right: 0;
+    bottom: 32%;
+}
+
+.case-studies-shape-three {
+    left: 0;
+    bottom: 20%;
+}
+
+.case-studies-shape-four {
+    right: 0;
+    top: 10%;
+}
+
+.case-studies-shape-five {
+    right: 0;
+    top: 25%;
+    overflow: hidden;
+}
+
+.case-studies-shape-six {
+    right: 0;
+    top: 40%;
+}
+
+.case-studies-shape-seven {
+    left: 0;
+    top: 40%;
+}
+
+.case-studies-shape-seven img,
+.case-studies-shape-five img {
+    transform: rotate(180deg);
+}
+
+.case-studies-shape-one {
+    z-index: -1 !important;
+}
