@@ -194,6 +194,8 @@ function codesclue_scripts() {
         wp_enqueue_style('codesclue-team', get_template_directory_uri() . '/assets/css/team.css', array(), '1.0.0');
     }
 
+   
+
       if (is_page('food-service')) {
         wp_enqueue_style('codesclue-food-service', get_template_directory_uri() . '/assets/css/food-service.css', array(), '1.0.0');
     }
@@ -244,35 +246,36 @@ wp_enqueue_script(
         wp_enqueue_style('codesclue-industries', get_template_directory_uri() . '/assets/css/industries.css', array(), '1.0.0');
     }
 
-    if (is_page('financial')) {
-        wp_enqueue_style('codesclue-financial', get_template_directory_uri() . '/assets/css/financial.css', array(), '1.0.0');
+
+    if (is_page('project')) {
+        wp_enqueue_style('codesclue-project', get_template_directory_uri() . '/assets/css/project.css', array(), '1.0.0');
     }
 
-    // if (is_page('project')) {
-    //     wp_enqueue_style('codesclue-project', get_template_directory_uri() . '/assets/css/project.css', array(), '1.0.0');
-    // }
 
-    if (is_page('ai-software-development') || is_page('aipage')) {
-        wp_enqueue_style('codesclue-aipage', get_template_directory_uri() . '/assets/css/aipage.css', array(), '1.0.0');
+    if (is_page('financial')) {
+        wp_enqueue_style('codesclue-financial', get_template_directory_uri() . '/assets/css/financial.css', array(), '1.0.0');
     }
 
     if (is_page('media-and-entertainment')) {
         wp_enqueue_style('codesclue-media-and-entertainment', get_template_directory_uri() . '/assets/css/media.css', array(), '1.0.0');
     }
 
-
-    if (is_page('cannabis')) {
-        wp_enqueue_style('codesclue-cannabis', get_template_directory_uri() . '/assets/css/Cannabis.css', array(), '1.0.0');
-    }
-
-
-    if (is_page('cannabis')) {
-        wp_enqueue_style('codesclue-cannabis', get_template_directory_uri() . '/assets/css/Cannabis.css', array(), '1.0.0');
+    if (is_page('ride-reach')) {
+        wp_enqueue_style('codesclue-ride-reach', get_template_directory_uri() . '/assets/css/ridereach.css', array(), '1.0.0');
     }
 
     if (is_page('healthcare')) {
         wp_enqueue_style('codesclue-heathcare', get_template_directory_uri() . '/assets/css/healthcare.css', array(), '1.0.0');
     }
+
+    if (is_page('ai-software-development') || is_page('aipage')) {
+        wp_enqueue_style('codesclue-aipage', get_template_directory_uri() . '/assets/css/aipage.css', array(), '1.0.0');
+    }
+
+    if (is_page('cannabis')) {
+        wp_enqueue_style('codesclue-cannabis', get_template_directory_uri() . '/assets/css/Cannabis.css', array(), '1.0.0');
+    }
+
 
     if (is_page('faq')) {
         wp_enqueue_style('codesclue-faq', get_template_directory_uri() . '/assets/css/faq.css', array(), '1.0.0');
@@ -1308,10 +1311,10 @@ add_action('phpmailer_init', function ($phpmailer) {
     $phpmailer->isSMTP();
     $phpmailer->Host = 'smtp.gmail.com';
     $phpmailer->SMTPAuth = true;
-    $phpmailer->Username = 'business@codesclue.com'; // your Gmail
-    $phpmailer->Password = 'cmly yrin zrgb zlni';          // Gmail App Password
-    $phpmailer->SMTPSecure = 'ssl';                        // tls or ssl
-    $phpmailer->Port = 465;                          // 465 for ssl
+    $phpmailer->Username = 'business@codesclue.com'; 
+    $phpmailer->Password = 'cmly yrin zrgb zlni';          
+    $phpmailer->SMTPSecure = 'tls';                        
+    $phpmailer->Port = 587;                          
 });
 function send_contact_email()
 {

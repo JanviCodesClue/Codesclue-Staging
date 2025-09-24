@@ -1079,7 +1079,7 @@
                                                                 class="blue-logo icon-menu-size-20"
                                                                 alt="about-blue-logo" />
                                                             Health Care</a>
-                                                        <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
+                                                         <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                             href="<?php echo home_url('/food-service/'); ?>">
                                                             <img loading="lazy"
                                                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue__foodservices.svg"
@@ -1088,7 +1088,7 @@
                                                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_foodservices.svg"
                                                                 class="blue-logo icon-menu-size-20"
                                                                 alt="about-blue-logo" />
-                                                            Food Service</a>
+                                                            Food Service</a> 
                                                     </div>
                                                     <div class="inner-services">
                                                         <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
@@ -1102,7 +1102,7 @@
                                                                 class="blue-logo icon-menu-size-20"
                                                                 alt="privacy-blue-logo" />
                                                             E-Commerce</a>
-                                                            <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
+                                                             <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                             href="<?php echo home_url('/financial/'); ?>">
                                                             <img loading="lazy"
                                                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codescluefinancial-performancial.svg"
@@ -1112,8 +1112,8 @@
                                                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codescluefinancial-performancial-blue.svg"
                                                                 class="blue-logo icon-menu-size-20"
                                                                 alt="privacy-blue-logo" />
-                                                            Financial</a>
-                                                            <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
+                                                            Financial</a> 
+                                                             <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                             href="<?php echo home_url('/media-and-entertainment/'); ?>">
                                                             <img loading="lazy"
                                                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue__media_and_entertainment.svg"
@@ -1123,7 +1123,7 @@
                                                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue__media_and_entertainment.svg"
                                                                 class="blue-logo icon-menu-size-20"
                                                                 alt="privacy-blue-logo" />
-                                                            Media & Entertainment</a>
+                                                            Media & Entertainment</a> 
                                                     </div>
                                                           
                                                     <div class="inner-services">
