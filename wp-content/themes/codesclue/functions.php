@@ -1308,8 +1308,8 @@ add_action('phpmailer_init', function ($phpmailer) {
     $phpmailer->isSMTP();
     $phpmailer->Host = 'smtp.gmail.com';
     $phpmailer->SMTPAuth = true;
-    $phpmailer->Username = 'yash.codesclue@gmail.com'; // your Gmail
-    $phpmailer->Password = 'jyza ofxr kbbz sdly';          // Gmail App Password
+    $phpmailer->Username = 'business@codesclue.com'; // your Gmail
+    $phpmailer->Password = 'cmly yrin zrgb zlni';          // Gmail App Password
     $phpmailer->SMTPSecure = 'ssl';                        // tls or ssl
     $phpmailer->Port = 465;                          // 465 for ssl
 });
@@ -1320,55 +1320,92 @@ function send_contact_email()
     $to = sanitize_email($_POST['email'] ?? '');
     $phone = sanitize_text_field($_POST['phone'] ?? '');
     $form_id = sanitize_text_field($_POST['form_id'] ?? 'contact_form');
-    $cc = ['yashdavda2001@gmail.com', 'harshs.codesclue@gmail.com'];
+    $cc = ['ketan@codesclue.com'];
+ 
     if (empty($name) || empty($to)) {
         wp_send_json_error('Please fill in all required fields.');
     }
  
-    $extra_fields = '';
+    // Prepare table rows for email
+    $rows = "
+        <tr>
+            <td><strong>Name:</strong></td>
+            <td>{$name}</td>
+        </tr>
+        <tr>
+            <td><strong>Email:</strong></td>
+            <td>{$to}</td>
+        </tr>
+        <tr>
+            <td><strong>Phone:</strong></td>
+            <td>{$phone}</td>
+        </tr>
+    ";
  
-    // Message field for contact form
+    // Message field
     if (!empty($_POST['message'])) {
         $message = sanitize_textarea_field($_POST['message']);
-        $extra_fields .= "<p><strong>Message:</strong><br>" . nl2br($message) . "</p>";
+        $rows .= "
+        <tr>
+            <td><strong>Message:</strong></td>
+            <td>" . nl2br($message) . "</td>
+        </tr>";
     }
  
-    // Services field for contact form
+    // Services field
     if (!empty($_POST['services']) && is_array($_POST['services'])) {
         $services = array_map('sanitize_text_field', $_POST['services']);
-        $extra_fields .= "<p><strong>Selected Services:</strong> " . implode(', ', $services) . "</p>";
+        $rows .= "
+        <tr>
+            <td><strong>Services:</strong></td>
+            <td>" . implode(', ', $services) . "</td>
+        </tr>";
     }
  
-    // Options / Job type field for hiring forms
+    // Job type / options field
     if (!empty($_POST['job-type']) && is_array($_POST['job-type'])) {
         $options = array_map('sanitize_text_field', $_POST['job-type']);
-        $extra_fields .= "<p><strong>Selected Options:</strong> " . implode(', ', $options) . "</p>";
+        $rows .= "
+        <tr>
+            <td><strong>Options:</strong></td>
+            <td>" . implode(', ', $options) . "</td>
+        </tr>";
     }
  
-    // Build email
-    $subject = "📩 New Submission from $form_id";
-    $body = "<h2>New Submission from <em>$form_id</em></h2>";
-    $body .= "<p><strong>Name:</strong> $name</p>";
-    $body .= "<p><strong>Email:</strong> $to</p>";
-    $body .= "<p><strong>Phone:</strong> $phone</p>";
-    $body .= $extra_fields;
+    // Email body with logo and table
+    $body = '
+    <html>
+    <body style="font-family: Arial, sans-serif; line-height:1.5; color:#333;">
+        <div style="max-width:600px; margin:0 auto; padding:20px; border:1px solid #ddd; border-radius:8px;">
+            <div style="text-align:center; margin-bottom:20px;">
+                <img src="https://codesclue.com/wp-content/themes/codesclue/assets/images/codesclue_Logo.png" alt="Company Logo" style="max-width:150px;">
+            </div>
+            <h2 style="text-align:center; color:#444;">Crafting Quality, Building Bonds for a Lifetime</h2>
+            <table style="width:100%; border-collapse:collapse; margin-top:20px;">
+                ' . $rows . '
+            </table>
+        </div>
+    </body>
+    </html>
+    ';
  
     $headers = [
+        "MIME-Version: 1.0",
         "Content-Type: text/html; charset=UTF-8",
         "From: CodesClue <yash.codesclue@gmail.com>", // must match SMTP
         "Cc: " . implode(", ", $cc)
     ];
  
     // Send email
-    if (wp_mail($to, $subject, $body, $headers)) {
+    if (wp_mail($to, "Thank you for conacting us, {$name}", $body, $headers)) {
         wp_send_json_success("Email sent to $to and CC'd to " . implode(", ", $cc));
     } else {
         global $phpmailer;
         $error = $phpmailer->ErrorInfo ?? 'Unknown error';
         wp_send_json_error("Failed to send email. Error: $error");
     }
- 
 }
+ 
  
  
 add_action('wp_ajax_send_contact_email', 'send_contact_email');
