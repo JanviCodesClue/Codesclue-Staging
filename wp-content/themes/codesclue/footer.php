@@ -374,7 +374,18 @@ function codesclue_footer_fallback_menu() {
     echo '</ul>';
 }
 ?>
+<!-- <script>
+document.addEventListener("contextmenu", e => e.preventDefault());
 
+document.addEventListener("keydown", function(e) {
+  if (e.key === "F12" || 
+     (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) ||
+     (e.ctrlKey && (e.key === "S" || e.key === "U"))) {
+    e.preventDefault();
+    e.stopPropagation();
+  }
+});
+</script> -->
 <?php wp_footer(); ?>
 </body>
 

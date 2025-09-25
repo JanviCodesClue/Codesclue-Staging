@@ -8,6 +8,19 @@ Text Domain: codesclue
 */
 
 /* WordPress specific styles */
+/* Disable text selection */
+/* body {
+  -webkit-user-select: none; 
+  -moz-user-select: none;   
+  -ms-user-select: none;     
+  user-select: none;         
+}
+
+img {
+  pointer-events: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+} */
 
 main {
     padding-top: 58px;

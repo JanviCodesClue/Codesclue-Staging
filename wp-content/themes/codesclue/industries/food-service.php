@@ -64,106 +64,50 @@ get_header(); ?>
       </div>
     </div>
   </section>
+<section class="food-beverage-section py-5">
 
-<!-- Expert Food Service Software Development -->
-    <div class="container">
-        <h2 class="text-center pb-2">Expert Food Service Software Development</h2>
+  <div class="container">
+ <h2 class="text-center pb-2">Expert Food Service Software Development</h2>
       <P CLASS="text-center pb-3">Unveil a new horizon of culinary management with our bespoke software solutions, tailored to the nuanced needs of the food industry. Our services are a blend of innovation and functionality, serving up food service management software that streamlines operations, food product development software that nurtures creativity, and restaurant management systems that enhance the dining experience.</P>
-        <div class="row g-md-4 g-4">
-                <div class="col-sm-12 col-lg-4 col-md-12">
-                    <div class="blog-single-item card-effect position-relative rounded-16 overflow-hidden wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                        <div class="thumb d-block w-100 overflow-hidden">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food (1).jpg" alt="img" class="w-100 overflow-hidden">
-                        </div>
-                        <div class="content position-absolute bottom-0 z-1 bg-white rounded-12 p-lg-4 p-3 mb-3" style="width: 90%; left: 50%; transform: translateX(-50%);">
-                            <div class="p-xxl-2">
-                                <h5>Food and Beverage Software Development</h5>
-                                <p>
-                                    Infuse your food business with our robust food and beverage software development services, which are the cornerstone of culinary efficiency. We deliver systems that refine ingredient procurement, elevate recipe management, and perfect the art of hospitality.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-lg-4 col-md-12">
-                    <div class="blog-single-item card-effect position-relative rounded-16 overflow-hidden wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-                        <div class="thumb d-block w-100 overflow-hidden">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food (2).jpg" alt="img" class="w-100 overflow-hidden">
-                        </div>
-                        <div class="content position-absolute bottom-0 z-1 bg-white rounded-12 p-lg-4 p-3 mb-3" style="width: 90%; left: 50%; transform: translateX(-50%);">
-                            <div class="p-xxl-2">
-                                <h5>Food and Beverage Software Development</h5>
-                                <p>
-                                    Infuse your food business with our robust food and beverage software development services, which are the cornerstone of culinary efficiency. We deliver systems that refine ingredient procurement, elevate recipe management, and perfect the art of hospitality.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-lg-4 col-md-12">
-                    <div class="blog-single-item card-effect position-relative rounded-16 overflow-hidden wow fadeInUp" data-wow-delay=".8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
-                        <div class="thumb d-block w-100 overflow-hidden">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food (3).jpg" alt="img" class="w-100 overflow-hidden">
-                        </div>
-                        <div class="content position-absolute bottom-0 z-1 bg-white rounded-12 p-lg-4 p-3 mb-3" style="width: 90%; left: 50%; transform: translateX(-50%);">
-                           <div class="p-xxl-2">
-                                <h5>Food and Beverage Software Development</h5>
-                                <p>
-                                    Infuse your food business with our robust food and beverage software development services, which are the cornerstone of culinary efficiency. We deliver systems that refine ingredient procurement, elevate recipe management, and perfect the art of hospitality.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                  <div class="col-sm-12 col-lg-4 col-md-12">
-                    <div class="blog-single-item card-effect position-relative rounded-16 overflow-hidden wow fadeInUp" data-wow-delay=".8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
-                        <div class="thumb d-block w-100 overflow-hidden">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food (4).jpg" alt="img" class="w-100 overflow-hidden">
-                        </div>
-                        <div class="content position-absolute bottom-0 z-1 bg-white rounded-12 p-lg-4 p-3 mb-3" style="width: 90%; left: 50%; transform: translateX(-50%);">
-                            <div class="p-xxl-2">
-                                <h5>Food and Beverage Software Development</h5>
-                                <p>
-                                    Infuse your food business with our robust food and beverage software development services, which are the cornerstone of culinary efficiency. We deliver systems that refine ingredient procurement, elevate recipe management, and perfect the art of hospitality.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                  <div class="col-sm-12 col-lg-4 col-md-12">
-                    <div class="blog-single-item card-effect position-relative rounded-16 overflow-hidden wow fadeInUp" data-wow-delay=".8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
-                        <div class="thumb d-block w-100 overflow-hidden">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food (5).jpg" alt="img" class="w-100 overflow-hidden">
-                        </div>
-                        <div class="content position-absolute bottom-0 z-1 bg-white rounded-12 p-lg-4 p-3 mb-3" style="width: 90%; left: 50%; transform: translateX(-50%);">
-                            <div class="p-xxl-2">
-                                <h5>Food and Beverage Software Development</h5>
-                                <p>
-                                    Infuse your food business with our robust food and beverage software development services, which are the cornerstone of culinary efficiency. We deliver systems that refine ingredient procurement, elevate recipe management, and perfect the art of hospitality.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                  <div class="col-sm-12 col-lg-4 col-md-12">
-                    <div class="blog-single-item card-effect position-relative rounded-16 overflow-hidden wow fadeInUp" data-wow-delay=".8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
-                        <div class="thumb d-block w-100 overflow-hidden">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food (6).jpg" alt="img" class="w-100 overflow-hidden">
-                        </div>
-                        <div class="content position-absolute bottom-0 z-1 bg-white rounded-12 p-lg-4 p-3 mb-3" style="width: 90%; left: 50%; transform: translateX(-50%);">
-                            <div class="p-xxl-2">
-                                <h5>Food and Beverage Software Development</h5>
-                                <p>
-                                    Infuse your food business with our robust food and beverage software development services, which are the cornerstone of culinary efficiency. We deliver systems that refine ingredient procurement, elevate recipe management, and perfect the art of hospitality.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </div>       
+    <!-- Card 1 -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-12">
+        <div class="food-card">
+          <div class="food-img left">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food (1).jpg" alt="Food">
+          </div>
+          <div class="food-content">
+            <h5>Food and Beverage Software Development</h5>
+            <p>Ensure your food business with our robust food and beverage software.
+              Manage operations, streamline inventory and enhance efficiency.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="food-card">
+          <div class="food-img right">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food (2).jpg" alt="Hospitality">
+          </div>
+          <div class="food-content">
+            <h5>Hospitality Management Solutions</h5>
+            <p>From hotels to restaurants, streamline guest experiences with powerful
+              hospitality management solutions built for the modern industry.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
 
 
+
+
+    
   <!-- Bottom Grid Cards -->
 <section class="food-section">
     <div class="container">
@@ -793,6 +737,13 @@ get_header(); ?>
                     </div>
 
             </section>
+
+
+
+
+
+
+
 
 
     </main>
