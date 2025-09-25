@@ -2292,7 +2292,6 @@ input[type="radio"]#tab-4:checked ~ .row label[for="tab-4"] {
 }
 
 .review-item-footer h5 {
-  margin-bottom: 6px;
   font-size: 1rem;
   font-weight: 600;
   color: #222;

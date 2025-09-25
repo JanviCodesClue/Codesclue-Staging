@@ -124,13 +124,19 @@
             <!-- Reviews -->
             <div class="review-box-footer">
                 <div class="review-item-footer">
-                    <h5>GoodFirm</h5>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/GoodFirm.png" class="size-32 rounded-circle "/>
+                        <h5 class="ps-2">GoodFirm</h5>
+                    </div>
                     <div class="stars-footer">★★★★★</div>
                     <div class="rating-footer">7 Reviews</div>
                 </div>
 
                 <div class="review-item-footer">
-                    <h5>Clutch</h5>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Clutch.png" class="size-32 rounded-circle "/>
+                        <h5 class="ps-2">Clutch</h5>
+                    </div>
                     <div class="stars-footer">★★★★★</div>
                     <div class="rating-footer">4 Reviews</div>
                 </div>
