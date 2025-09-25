@@ -1492,13 +1492,7 @@ get_header(); ?>
     </main>
 
     <!-- Scroll Top -->
-    <div id="scrollToTopBtn" class="scrollToTop">
-        <svg width="20" height="30" viewBox="0 0 48 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-                d="M24.0001 0.359375L21.4062 2.57812L0.40625 20.5781L5.59395 26.6719L20.0001 14.3281V53.6406H28.0001V14.3281L42.4062 26.6719L47.5939 20.5781L26.5938 2.57812L24.0001 0.359375Z"
-                fill="white"></path>
-        </svg>
-    </div>
+
 
     <!-- Load cacheBuster first -->
     <!-- <script src="<?php echo get_template_directory_uri(); ?>/assets/js/cacheBuster.js" defer></script> -->

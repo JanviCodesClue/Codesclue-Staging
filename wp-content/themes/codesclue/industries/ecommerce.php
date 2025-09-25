@@ -327,10 +327,10 @@ get_header(); ?>
         </section>
 
         <section>
-            <div class="container py-4">
-                <div class="row gy-4">
-                    <div class="col-lg-12">
-                        <div class="mb-2 d-flex">
+            <div class="container mb-3 py-2 border-bottom border-dark">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6">
+                    <div class="mb-2 d-flex">
                             <img class="star-size" src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/star.svg">
                             <span class="fw-semibold"> Projects</span>
 
@@ -338,8 +338,18 @@ get_header(); ?>
                         <h2 class="section-title mb-0">
                             Our Projects
                         </h2>
-                    </div>
-                    <div class="col-md-6">
+                </div>
+                <div class="col-md-5 d-flex justify-content-md-end justify-content-start my-3  mt-md-0 gap-2">
+
+                    <a href="http://localhost/codesclue/our-portfolio/" class="get-started-btn">View All
+                        <img src="http://localhost/codesclue/wp-content/themes/codesclue/assets/images/new/arrow.svg" class="btn-arrow">
+                    </a>
+                </div>
+            </div>
+        </div>
+            <div class="container py-4">
+               <div class="row gy-4 justify-content-center">
+                    <div class="col-md-8 align-self-center">
                         <div class="project-card">
                             <div class="media-wrapper">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/Cannabis.png" alt="Project Image" class="project-img">
@@ -376,7 +386,7 @@ get_header(); ?>
                     </div>
 
                     <!-- Project Card 2 -->
-                    <div class="col-md-6">
+                    <!-- <div class="col-md-6">
                         <div class="project-card">
                             <div class="media-wrapper">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/Therapix.png" alt="Project Image" class="project-img">
@@ -411,7 +421,7 @@ get_header(); ?>
                         </div>
                         <a href="https://therapix.ai/" class="fs-4 ps-2 text-decoration-underline" target="_blank"
                             style="color: #0c316b !important;">Therapix</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
