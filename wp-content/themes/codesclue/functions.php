@@ -194,6 +194,8 @@ function codesclue_scripts() {
         wp_enqueue_style('codesclue-team', get_template_directory_uri() . '/assets/css/team.css', array(), '1.0.0');
     }
 
+   
+
       if (is_page('food-service')) {
         wp_enqueue_style('codesclue-food-service', get_template_directory_uri() . '/assets/css/food-service.css', array(), '1.0.0');
     }
@@ -244,35 +246,39 @@ wp_enqueue_script(
         wp_enqueue_style('codesclue-industries', get_template_directory_uri() . '/assets/css/industries.css', array(), '1.0.0');
     }
 
-    if (is_page('financial')) {
-        wp_enqueue_style('codesclue-financial', get_template_directory_uri() . '/assets/css/financial.css', array(), '1.0.0');
+
+    if (is_page('project')) {
+        wp_enqueue_style('codesclue-project', get_template_directory_uri() . '/assets/css/project.css', array(), '1.0.0');
     }
 
-    // if (is_page('project')) {
-    //     wp_enqueue_style('codesclue-project', get_template_directory_uri() . '/assets/css/project.css', array(), '1.0.0');
-    // }
+    if (is_page('advertisement')) {
+        wp_enqueue_style('codesclue-advertisement', get_template_directory_uri() . '/assets/css/advertisement.css', array(), '1.0.0');
+    }
 
-    if (is_page('ai-software-development') || is_page('aipage')) {
-        wp_enqueue_style('codesclue-aipage', get_template_directory_uri() . '/assets/css/aipage.css', array(), '1.0.0');
+    if (is_page('financial')) {
+        wp_enqueue_style('codesclue-financial', get_template_directory_uri() . '/assets/css/financial.css', array(), '1.0.0');
     }
 
     if (is_page('media-and-entertainment')) {
         wp_enqueue_style('codesclue-media-and-entertainment', get_template_directory_uri() . '/assets/css/media.css', array(), '1.0.0');
     }
 
-
-    if (is_page('cannabis')) {
-        wp_enqueue_style('codesclue-cannabis', get_template_directory_uri() . '/assets/css/Cannabis.css', array(), '1.0.0');
-    }
-
-
-    if (is_page('cannabis')) {
-        wp_enqueue_style('codesclue-cannabis', get_template_directory_uri() . '/assets/css/Cannabis.css', array(), '1.0.0');
+    if (is_page('ride-reach')) {
+        wp_enqueue_style('codesclue-ride-reach', get_template_directory_uri() . '/assets/css/ridereach.css', array(), '1.0.0');
     }
 
     if (is_page('healthcare')) {
         wp_enqueue_style('codesclue-heathcare', get_template_directory_uri() . '/assets/css/healthcare.css', array(), '1.0.0');
     }
+
+    if (is_page('ai-software-development') || is_page('aipage')) {
+        wp_enqueue_style('codesclue-aipage', get_template_directory_uri() . '/assets/css/aipage.css', array(), '1.0.0');
+    }
+
+    if (is_page('cannabis')) {
+        wp_enqueue_style('codesclue-cannabis', get_template_directory_uri() . '/assets/css/Cannabis.css', array(), '1.0.0');
+    }
+
 
     if (is_page('faq')) {
         wp_enqueue_style('codesclue-faq', get_template_directory_uri() . '/assets/css/faq.css', array(), '1.0.0');
@@ -318,6 +324,10 @@ wp_enqueue_script(
         wp_enqueue_script('financial', get_template_directory_uri() . '/assets/js/financial.js', array(), '1.0.0', true);
     }
 
+     if (is_page('advertisement')) {
+        wp_enqueue_script('advertisement', get_template_directory_uri() . '/assets/js/advertisement.js', array(), '1.0.0', true);
+    }
+    
  if ( is_page( array('our-portfolio', 'contact-us') ) ) {
         wp_enqueue_script(
             'our-portfolio',
@@ -653,6 +663,43 @@ function codesclue_enqueue_ga()
     }
 }
 add_action('wp_enqueue_scripts', 'codesclue_enqueue_ga');
+
+
+function enqueue_custom_carousel_script() {
+    // ✅ Owl Carousel CSS
+    wp_enqueue_style(
+        'owl-carousel-css',
+        'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css',
+        array(),
+        '2.3.4'
+    );
+
+    wp_enqueue_style(
+        'owl-carousel-theme',
+        'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css',
+        array('owl-carousel-css'),
+        '2.3.4'
+    );
+
+    // ✅ Owl Carousel JS
+    wp_enqueue_script(
+        'owl-carousel',
+        'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js',
+        array('jquery'),
+        '2.3.4',
+        true
+    );
+
+    // ✅ Custom JS
+    wp_enqueue_script(
+        'custom-carousel',
+        get_template_directory_uri() . '/assets/js/custom-carousel.js',
+        array('jquery', 'owl-carousel'),
+        '1.0',
+        true
+    );
+}
+add_action('wp_enqueue_scripts', 'enqueue_custom_carousel_script');
 
 /**
  * Custom post types
@@ -1308,10 +1355,10 @@ add_action('phpmailer_init', function ($phpmailer) {
     $phpmailer->isSMTP();
     $phpmailer->Host = 'smtp.gmail.com';
     $phpmailer->SMTPAuth = true;
-    $phpmailer->Username = 'business@codesclue.com'; // your Gmail
-    $phpmailer->Password = 'cmly yrin zrgb zlni';          // Gmail App Password
-    $phpmailer->SMTPSecure = 'ssl';                        // tls or ssl
-    $phpmailer->Port = 465;                          // 465 for ssl
+    $phpmailer->Username = 'business@codesclue.com'; 
+    $phpmailer->Password = 'cmly yrin zrgb zlni';          
+    $phpmailer->SMTPSecure = 'tls';                        
+    $phpmailer->Port = 587;                          
 });
 function send_contact_email()
 {

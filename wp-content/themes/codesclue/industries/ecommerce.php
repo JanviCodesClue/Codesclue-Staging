@@ -327,10 +327,10 @@ get_header(); ?>
         </section>
 
         <section>
-            <div class="container py-4">
-                <div class="row gy-4">
-                    <div class="col-lg-12">
-                        <div class="mb-2 d-flex">
+            <div class="container mb-3 py-2 border-bottom border-dark">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6">
+                    <div class="mb-2 d-flex">
                             <img class="star-size" src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/star.svg">
                             <span class="fw-semibold"> Projects</span>
 
@@ -338,82 +338,100 @@ get_header(); ?>
                         <h2 class="section-title mb-0">
                             Our Projects
                         </h2>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="project-card">
-                            <div class="media-wrapper">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/Cannabis.png" alt="Project Image" class="project-img">
+                </div>
+                <div class="col-md-5 d-flex justify-content-md-end justify-content-start my-3  mt-md-0 gap-2">
 
-                                <div class="video-overlay">
-                                    <video class="project-video" muted loop playsinline>
-                                        <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/Green-Releaf.mp4" type="video/mp4">
-                                        Your browser does not support the
-                                        video tag.
-                                    </video>
-                                </div>
-                            </div>
-
-                            <div class="glass-info position-absolute bottom-0 text-white">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <h5 class="mb-0">AI-Driven Smart
-                                        Search</h5>
-                                    <a href="<?php echo home_url('/greenreleaf/'); ?>" class="circle-btn">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/arrow.svg" width="20" height="20" alt="Arrow">
-                                    </a>
-                                </div>
-                                <div class="info-description">
-                                    <p class="mb-0">We developed a cannabis
-                                        e-commerce platform and PWA with an
-                                        AI-powered
-                                        search engine that understands
-                                        natural language like “chill edibles
-                                        under $30.”</p>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="https://greenreleafdispensary.com/" class="fs-4 ps-2 text-decoration-underline"
-                            target="_blank" style="color: #2bb34b !important;">GreenReleaf</a>
-                    </div>
-
-                    <!-- Project Card 2 -->
-                    <div class="col-md-6">
-                        <div class="project-card">
-                            <div class="media-wrapper">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/Therapix.png" alt="Project Image" class="project-img">
-
-                                <div class="video-overlay">
-                                    <video class="project-video" muted loop playsinline>
-                                        <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/Therapix.mp4" type="video/mp4">
-                                        Your browser does not support the
-                                        video tag.
-                                    </video>
-                                </div>
-                            </div>
-
-                            <div class="glass-info position-absolute bottom-0 text-white">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <h5 class="mb-0">AI-Powered Clinical
-                                        Insights</h5>
-                                    <a href="<?php echo home_url('/therapix/'); ?>" class="circle-btn">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/arrow.svg" width="20" height="20" alt="Arrow">
-                                    </a>
-                                </div>
-                                <div class="info-description">
-                                    <p class="mb-0">Therapix helps
-                                        physiotherapists work smarter with
-                                        AI that records
-                                        sessions, extracts key insights,
-                                        suggests treatments, and offers
-                                        real-time support.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="https://therapix.ai/" class="fs-4 ps-2 text-decoration-underline" target="_blank"
-                            style="color: #0c316b !important;">Therapix</a>
-                    </div>
+                    <a href="<?php echo home_url('/our-portfolio/'); ?>" class="get-started-btn">View All
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/arrow.svg" class="btn-arrow">
+                    </a>
                 </div>
             </div>
+        </div>
+    <section class="container">
+    <div class="row align-items-stretch" id="dynamicCarousel">
+        <div class="col-lg-6 d-flex">
+              <div class="custom-card-project d-flex align-items-center">
+        
+                <div class="custom-card-text flex-grow-1 p-4 ps-5">
+                    <h3 class="mb-3">GreenReleaf</h3>
+                    <p class="mb-4">
+                    Custom built cannabis dispensary PWA that syncs real-time inventory with POS systems to deliver a seamless, compliant online shopping experience.</p>
+                    <div class="row mb-4">
+                    <div class="col-12">
+                        <strong>Industry</strong><br>Cannabis Retail & Dispensary Technology
+                    </div>
+                    <div class="col-12 pt-2">
+                        <strong>Platform</strong><br>Progressive Web App (PWA)
+                    </div>
+                    </div>
+                    <a href="<?php echo home_url('/greenreleaf/'); ?>" class="btn btn-light explore-btn">
+                    EXPLORE <span class="arrow">→</span>
+                    </a>
+                </div>
+
+                <div class="custom-card-image-project text-center">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/Cannabis.png" alt="Project" class="img-fluid">
+                </div>
+              </div>
+        </div>
+       
+         
+        <div class="col-lg-6 d-flex">
+             <div class="custom-card-project d-flex align-items-center">
+
+          <div class="custom-card-text flex-grow-1 p-4">
+            <h3 class="mb-3">Track&Take</h3>
+            <p class="mb-4">
+              Aims to improve the shopping experience by empowering users to easily find the products available in GPS-based nearby locations.
+            </p>
+            <div class="row mb-4">
+              <div class="col-12">
+                <strong>Industry</strong><br>AI-powered product discovery for local shopping
+              </div>
+              <div class="col-12 pt-2">
+                <strong>Platform</strong><br>Web and Mobile Application
+              </div>
+            </div>
+            <a href="<?php echo home_url('/trackntake/'); ?>" class="btn btn-light explore-btn">
+              EXPLORE <span class="arrow">→</span>
+            </a>
+          </div>
+
+          <div class="custom-card-image-project text-center">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/CodesClue Webappp-TrackNTake.png" alt="Project" class="img-fluid">
+          </div>
+        </div>
+        </div>
+        
+
+        <!--<div class="custom-card-project d-flex align-items-center">
+
+          <div class="custom-card-text flex-grow-1 p-4">
+            <h3 class="mb-3">Crush (Stryker)</h3>
+            <p class="mb-4">
+              A global clinical trial management platform to streamline the product trial processes.
+            </p>
+            <div class="row mb-4">
+              <div class="col-6">
+                <strong>Industry</strong><br>Healthcare
+              </div>
+              <div class="col-6">
+                <strong>Platform</strong><br>Web & iOS Mobile
+              </div>
+            </div>
+            <a href="#" class="btn btn-light explore-btn">
+              EXPLORE <span class="arrow">→</span>
+            </a>
+          </div>
+
+          <div class="custom-card-image-project text-center">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/Cannabis.png" alt="Project" class="img-fluid">
+          </div>
+        </div> -->
+
+
+    </div>
+   </section>
         </section>
 
 

@@ -200,3 +200,109 @@
 }
 
    
+
+
+
+
+
+.food-card {
+  background: #e8f9e8;
+  border-radius: 12px;
+  padding: 40px;
+  position: relative;
+  margin: 80px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.food-img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.food-img.left {
+  left: -100px; /* desktop overlap left */
+}
+
+.food-img.right {
+  right: -46px; /* desktop overlap right */
+}
+
+.food-img img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+.food-content {
+  padding-left: 120px;  
+  padding-right: 120px; 
+}
+
+.food-content h5 {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.food-content p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* 🔹 Tablet & Mobile (Image Top Overlap) */
+@media (max-width: 1045px) {
+  .food-card {
+    padding: 70px 20px 30px; /* upar space taaki image overlap kare */
+    margin: 100px 0 50px;
+    text-align: center;
+  }
+
+  .food-img {
+    position: absolute;
+    top: -70px;       /* card ke upar overlap */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .food-img.left,
+  .food-img.right {
+    left: 50%;  /* dono center me aa jayenge */
+    right: auto;
+  }
+
+  .food-img img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .food-content {
+    padding: 0; /* side space hatao */
+  }
+}
+
+/* 🔹 Small Mobile */
+@media (max-width: 576px) {
+  .food-card {
+    padding: 60px 15px 20px;
+  }
+
+  .food-img {
+    top: -55px; /* chhote screen pe overlap thoda kam */
+  }
+
+  .food-img img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .food-content h5 {
+    font-size: 16px;
+  }
+
+  .food-content p {
+    font-size: 14px;
+  }
+}

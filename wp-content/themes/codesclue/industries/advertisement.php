@@ -1,257 +1,414 @@
 <?php
 /*
-Template Name: Food Service Template
+Template Name: Advertisement Template
 */
 get_header(); ?>  
     
     
     <main>
-  <section class="food-hero">
-    <div class="container">
-      <h1 class="food-hero-title">Food and Beverage Software<br>Development Company</h1>
-      <p class="food-hero-text">
-        In the new era of digital innovation and technical modernization, we are offering next-gen on-demand 
-        food and beverage software development service to meet your every food business need. 
-        Our Food and Beverage software development solutions are aligned with each restaurant’s 
-        operational exercise to serve your food & manage customer interactions.
-      </p>
-      <a href="<?php echo home_url('/contact-us/'); ?>" class="btn food-hero-btn">LET’S CONNECT →</a>
+<!-- Hero Section -->
+<section class="advertisement-hero-section text-center">
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h1 class="advertisement-hero-title mb-3">Manage All Your Stuff Using Pakap</h1>
+        <p class="advertisement-hero-desc mb-4">All your SaaS, app & tools organized in one place.</p>
+      </div>
+      <div class="col-lg-6">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/advertisement-hero.png" class="advertisement-hero-img img-fluid" alt="App Preview">
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Orange Brush Cards -->
-  <section class="food-orange-section">
-    <div class="container">
-      <h2 class="text-center pb-2">End-to-End Food and Beverage Software Development Solutions</h2>
-      <P CLASS="text-center pb-3">In this fast-paced digitalize food and beverage industry, we are offering end-to-end food and beverage software solutions to make your business more modernize and ready-to-use (on-demand food and beverage solutions) for every F&B businesses. Our advanced features are developed very precisely and logically, ensure that your every operational activities of restaurant cover from inception to prominent services. By considering the need of every F&B business, we have developed well-versed restaurant management software to scale up business and manage reliable management practices.</P>
-      <div class="row g-4">
-        <div class="col-md-4-food">
-          <div class="food-orange-card">
-            <h3>Point of Sale (POS) Systems</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
-          </div>
+<!-- Features Section -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="advertisement-section-title text-center mb-5">Best Features Included</h2>
+    <div class="row text-center g-4">
+      <div class="col-sm-6 col-md-3">
+        <div class="advertisement-feature-box">
+          <div class="advertisement-feature-icon mb-2"><i class="fa-solid fa-user-shield"></i></div>
+          <h5 class="fw-bold mb-2">User Security</h5>
+          <p>Strong security for user data and privacy.</p>
         </div>
-        <div class="col-md-4-food">
-          <div class="food-orange-card">
-            <h3>Point of Sale (POS) Systems</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
-          </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="advertisement-feature-box">
+          <div class="advertisement-feature-icon mb-2"><i class="fa-solid fa-bolt"></i></div>
+          <h5 class="fw-bold mb-2">Smart Working App</h5>
+          <p>Beautiful UI for easy workflow and management.</p>
         </div>
-        <div class="col-md-4-food">
-          <div class="food-orange-card">
-            <h3>Point of Sale (POS) Systems</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
-          </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="advertisement-feature-box">
+          <div class="advertisement-feature-icon mb-2"><i class="fa-solid fa-lock"></i></div>
+          <h5 class="fw-bold mb-2">Privacy Protection</h5>
+          <p>Your information is always protected.</p>
         </div>
-        <div class="col-md-4-food">
-          <div class="food-orange-card">
-            <h3>Point of Sale (POS) Systems</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
-          </div>
-        </div>
-        <div class="col-md-4-food">
-          <div class="food-orange-card">
-            <h3>Point of Sale (POS) Systems</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
-          </div>
-        </div>
-        <div class="col-md-4-food">
-          <div class="food-orange-card">
-            <h3>Point of Sale (POS) Systems</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
-          </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="advertisement-feature-box">
+          <div class="advertisement-feature-icon mb-2"><i class="fa-solid fa-arrows-rotate"></i></div>
+          <h5 class="fw-bold mb-2">Lifetime Update</h5>
+          <p>Free updates to latest version, always.</p>
         </div>
       </div>
     </div>
-  </section>
-<section class="food-beverage-section py-5">
+  </div>
+</section>
 
+<!-- App Screenshots -->
+<section class="bg-light py-5">
   <div class="container">
- <h2 class="text-center pb-2">Expert Food Service Software Development</h2>
-      <P CLASS="text-center pb-3">Unveil a new horizon of culinary management with our bespoke software solutions, tailored to the nuanced needs of the food industry. Our services are a blend of innovation and functionality, serving up food service management software that streamlines operations, food product development software that nurtures creativity, and restaurant management systems that enhance the dining experience.</P>
-    <!-- Card 1 -->
-    <div class="row justify-content-center mb-5">
-      <div class="col-12">
-        <div class="food-card">
-          <div class="food-img left">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food (1).jpg" alt="Food">
-          </div>
-          <div class="food-content">
-            <h5>Food and Beverage Software Development</h5>
-            <p>Ensure your food business with our robust food and beverage software.
-              Manage operations, streamline inventory and enhance efficiency.</p>
-          </div>
+    <h2 class="advertisement-section-title text-center mb-4">Beautifully Crafted Screenshots</h2>
+    <div class="row justify-content-center mt-4">
+     <div class="ag-format-container">
+  <div class="ag-courses_box">
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+          UI/Web&amp;Graph design for teenagers 11-17&#160;years old
         </div>
+
+        <div class="ag-courses-item_date-box">
+          Start:
+          <span class="ag-courses-item_date">
+            04.11.2022
+          </span>
+        </div>
+      </a>
+    </div>
+
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+          UX/UI Web-Design&#160;+ Mobile Design
+        </div>
+
+        <div class="ag-courses-item_date-box">
+          Start:
+          <span class="ag-courses-item_date">
+            04.11.2022
+          </span>
+        </div>
+      </a>
+    </div>
+
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+          Annual package "Product+UX/UI+Graph designer&#160;2022"
+        </div>
+
+        <div class="ag-courses-item_date-box">
+          Start:
+          <span class="ag-courses-item_date">
+            04.11.2022
+          </span>
+        </div>
+      </a>
+    </div>
+
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+          Graphic Design
+        </div>
+
+        <div class="ag-courses-item_date-box">
+          Start:
+          <span class="ag-courses-item_date">
+            04.11.2022
+          </span>
+        </div>
+      </a>
+    </div>
+
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+          Motion Design
+        </div>
+
+        <div class="ag-courses-item_date-box">
+          Start:
+          <span class="ag-courses-item_date">
+            30.11.2022
+          </span>
+        </div>
+      </a>
+    </div>
+
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+          Front-end development&#160;+ jQuery&#160;+ CMS
+        </div>
+      </a>
+    </div>
+
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg">
+        </div>
+        <div class="ag-courses-item_title">
+          Digital Marketing
+        </div>
+      </a>
+    </div>
+
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+          Interior Design
+        </div>
+
+        <div class="ag-courses-item_date-box">
+          Start:
+          <span class="ag-courses-item_date">
+            31.10.2022
+          </span>
+        </div>
+      </a>
+    </div>
+
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+
+<!-- Video Section -->
+<section class="py-5 text-center" style="background:#f2f4fa;">
+  <div class="container">
+    <h2 class="advertisement-section-title mb-2">Watch Pakap In Action</h2>
+    <a href="#" class="btn btn-danger mt-3 px-4"><i class="fa-solid fa-play"></i> Play Video</a>
+  </div>
+</section>
+
+<!-- Pricing Section -->
+<section class="py-5" style="background:#f9fafe;">
+  <div class="container">
+    <h2 class="advertisement-section-title text-center mb-4">Choose Your Plan</h2>
+    <div class="row justify-content-center g-3">
+      <div class="adcard-card">
+      <img src="https://picsum.photos/id/1015/600/400" alt="Image" class="adcard-image">
+      <div class="adcard-adbox">
+        <p style="color:#000; font-weight:bold;">Advertisement</p>
       </div>
     </div>
 
     <!-- Card 2 -->
-    <div class="row justify-content-center">
-      <div class="col-12">
-        <div class="food-card">
-          <div class="food-img right">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food (2).jpg" alt="Hospitality">
-          </div>
-          <div class="food-content">
-            <h5>Hospitality Management Solutions</h5>
-            <p>From hotels to restaurants, streamline guest experiences with powerful
-              hospitality management solutions built for the modern industry.</p>
-          </div>
-        </div>
+    <div class="adcard-card">
+      <img src="https://picsum.photos/id/1018/600/400" alt="Image" class="adcard-image">
+      <div class="adcard-adbox">
+        <p style="color:#000; font-weight:bold;">Sponsored</p>
       </div>
     </div>
 
+    <!-- Card 3 -->
+    <div class="adcard-card">
+      <img src="https://picsum.photos/id/1016/600/400" alt="Image" class="adcard-image">
+      <div class="adcard-adbox">
+        <p style="color:#000; font-weight:bold;">Promotion</p>
+      </div>
+    </div>
+
+      <!-- Card 4 -->
+    <div class="adcard-card">
+      <img src="https://picsum.photos/id/1018/600/400" alt="Image" class="adcard-image">
+      <div class="adcard-adbox">
+        <p style="color:#000; font-weight:bold;">Sponsored</p>
+      </div>
+    </div>
+
+      <!-- Card 5 -->
+    <div class="adcard-card">
+      <img src="https://picsum.photos/id/1018/600/400" alt="Image" class="adcard-image">
+      <div class="adcard-adbox">
+        <p style="color:#000; font-weight:bold;">Sponsored</p>
+      </div>
+    </div>
+    </div>
   </div>
 </section>
 
-
-
-
-    
-  <!-- Bottom Grid Cards -->
-<section class="food-section">
-    <div class="container">
-      <!-- Heading -->
-      <h2 class="fw-bold mb-3">
-        Cultivating Gastronomic Excellence with Advanced Software Technologies
-      </h2>
-      <p class="text-muted mb-5">
-        Dive into the digital revolution of the food and beverage sector with custom software development that marries culinary art with tech intelligence. Our approach is steeped in scholarly insight, delivering solutions that not only streamline operations but also enrich the gastronomic narrative.
-      </p>
-
-      <!-- Cards -->
-      <div class="row g-4">
-        <div class="col-lg-4 col-md-4">
-          <div class="food-card bg-1">
-            <img src="https://img.icons8.com/ios-filled/100/artificial-intelligence.png" alt="AI Icon" class="food-icon">
-            <h5 class="food-title">AI AND ML FINTECH SOLUTIONS</h5>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-4">
-          <div class="food-card bg-2">
-            <img src="https://img.icons8.com/ios-filled/100/artificial-intelligence.png" alt="AI Icon" class="food-icon">
-            <h5 class="food-title">AI AND ML FINTECH SOLUTIONS</h5>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-4">
-          <div class="food-card bg-3">
-            <img src="https://img.icons8.com/ios-filled/100/artificial-intelligence.png" alt="AI Icon" class="food-icon">
-            <h5 class="food-title">AI AND ML FINTECH SOLUTIONS</h5>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-4">
-          <div class="food-card bg-4">
-            <img src="https://img.icons8.com/ios-filled/100/artificial-intelligence.png" alt="AI Icon" class="food-icon">
-            <h5 class="food-title">AI AND ML FINTECH SOLUTIONS</h5>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-4">
-          <div class="food-card bg-5">
-            <img src="https://img.icons8.com/ios-filled/100/artificial-intelligence.png" alt="AI Icon" class="food-icon">
-            <h5 class="food-title">AI AND ML FINTECH SOLUTIONS</h5>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-4">
-          <div class="food-card bg-6">
-            <img src="https://img.icons8.com/ios-filled/100/artificial-intelligence.png" alt="AI Icon" class="food-icon">
-            <h5 class="food-title">AI AND ML FINTECH SOLUTIONS</h5>
-          </div>
+<!-- Testimonials -->
+ <div class="container py-5">
+    <!-- Header -->
+    <div class="row mb-5 align-items-center">
+      <div class="col-md-8">
+        <div class="subtext mb-2">We are Investare</div>
+        <div class="headline-black">We set out to build</div>
+        <div class="headline-grey">a better way to invest</div>
+      </div>
+      <div class="col-md-4">
+        <div class="lead-text small">
+          Together–the investors and partners of Investate–we are reinventing real estate investing end-to-end.
         </div>
       </div>
     </div>
-  </section>
+    <!-- Images Row -->
+    <div class="row mb-5 gy-3">
+      <div class="col-md-8">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/about-advertisement-s.jpg" alt="Team celebrating" class="img-fluid rounded-4 w-100">
+      </div>
+      <div class="col-md-4">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/about-advertisement-f.jpg" alt="Team working" class="img-fluid rounded-4 w-100">
+      </div>
+    </div>
+    <!-- Story Row -->
+    <div class="row align-items-center mt-big">
+      <div class="col-md-5 mb-3 mb-md-0">
+        <h2 class="fw-bold display-5 align-middle">Our Story <span class="story-arrow">&rarr;</span></h2>
+      </div>
+      <div class="col-md-7">
+        <div class="fs-4 mb-2">
+          Our founder, Mike started Investate because he wanted to make it easy for anyone to do what he does: make money by investing in real
+        </div>
+        <div class="small text-muted">
+          He wanted to make sure those he served alongside during his time in the military could have the same opportunities to build...
+        </div>
+      </div>
+    </div>
+  </div>
 
 
+<div class="container py-5">
+      <h2 class="advertisement-section-title text-center mb-4">Choose Your Plan</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card h-100">
+          <div class="feature-icon"><i class="bi bi-brush"></i></div>
+          <h5 class="card-title">No-code required</h5>
+          <p class="card-text">Drag and drop stages to connect them into custom workflows. Leverage no-code interface and complete your AI projects without dev help.</p>
+        </div>
+      </div>
+      
+      <div class="col-md-6">
+        <div class="card h-100">
+          <div class="feature-icon"><i class="bi bi-cloud-upload"></i></div>
+          <h5 class="card-title">Bring your own model</h5>
+          <p class="card-text">Register your own model via REST API, add it to your custom workflow and run it to label your training data 10x faster.</p>
+        </div>
+      </div>
+      
+      <div class="col-md-6">
+        <div class="card h-100">
+          <div class="feature-icon"><i class="bi bi-lightning-charge"></i></div>
+          <h5 class="card-title">Leverage instant inference</h5>
+          <p class="card-text">Get immediate results from inference API. You can also switch on the webcam and test the model directly from your browser.</p>
+        </div>
+      </div>
+      
+      <div class="col-md-6">
+        <div class="card h-100">
+          <div class="feature-icon"><i class="bi bi-shield-lock"></i></div>
+          <h5 class="card-title">Keep your data and models safe</h5>
+          <p class="card-text">The security of your data is our top priority. We are SOC2 compliant and enable SSO integration so that you can rest assured that your data remains protected and private.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-        <section>
-            <div class="container ">
-                <div class="row gy-4">
-                    <div class="col-lg-12">
-                        <h2 class="section-title mb-0">
-                            Our Projects
-                        </h2>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="project-card">
-                            <div class="media-wrapper">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/Cannabis.png" alt="Project Image" class="project-img">
 
-                                <div class="video-overlay">
-                                    <video class="project-video" muted loop playsinline>
-                                        <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/Green-Releaf.mp4" type="video/mp4">
-                                        Your browser does not support the
-                                        video tag.
-                                    </video>
-                                </div>
-                            </div>
-
-                            <div class="glass-info position-absolute bottom-0 text-white">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <h5 class="mb-0">AI-Driven Smart
-                                        Search</h5>
-                                    <a href="<?php echo home_url('/greenreleaf/'); ?>" class="circle-btn">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/arrow.svg" width="20" height="20" alt="Arrow">
-                                    </a>
-                                </div>
-                                <div class="info-description">
-                                    <p class="mb-0">We developed a cannabis
-                                        e-commerce platform and PWA with an
-                                        AI-powered
-                                        search engine that understands
-                                        natural language like “chill edibles
-                                        under $30.”</p>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="https://greenreleafdispensary.com/" class="fs-4 ps-2 text-decoration-underline"
-                            target="_blank" style="color: #2bb34b !important;">GreenReleaf</a>
-                    </div>
-
-                    <!-- Project Card 2 -->
-                    <div class="col-md-6">
-                        <div class="project-card">
-                            <div class="media-wrapper">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/Therapix.png" alt="Project Image" class="project-img">
-
-                                <div class="video-overlay">
-                                    <video class="project-video" muted loop playsinline>
-                                        <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/Therapix.mp4" type="video/mp4">
-                                        Your browser does not support the
-                                        video tag.
-                                    </video>
-                                </div>
-                            </div>
-
-                            <div class="glass-info position-absolute bottom-0 text-white">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <h5 class="mb-0">AI-Powered Clinical
-                                        Insights</h5>
-                                    <a href="<?php echo home_url('/therapix/'); ?>" class="circle-btn">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/arrow.svg" width="20" height="20" alt="Arrow">
-                                    </a>
-                                </div>
-                                <div class="info-description">
-                                    <p class="mb-0">Therapix helps
-                                        physiotherapists work smarter with
-                                        AI that records
-                                        sessions, extracts key insights,
-                                        suggests treatments, and offers
-                                        real-time support.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="https://therapix.ai/" class="fs-4 ps-2 text-decoration-underline" target="_blank"
-                            style="color: #0c316b !important;">Therapix</a>
-                    </div>
-                </div>
+  <!-- Dynamic Carousel -->
+   <section class="container">
+    <h2>Our Projects</h2>
+    <div class="owl-carousel owl-theme" id="dynamicCarousel">
+        <div class="custom-card-project d-flex align-items-center">
+        
+          <div class="custom-card-text flex-grow-1 p-4 ps-5">
+            <h3 class="mb-3">RideReach</h3>
+            <p class="mb-4">
+              Bring your business to life with mobile, high impact advertising that guarantees visibility where it matters most on the busiest streets of Manchester.
+            </p>
+            <div class="row mb-4">
+              <div class="col-6">
+                <strong>Industry</strong><br>Advertising / Marketing Technology
+              </div>
+              <div class="col-6">
+                <strong>Platform</strong><br>Web & iOS Mobile
+              </div>
             </div>
-        </section>
+            <a href="<?php echo home_url('/ride-reach/'); ?>" class="btn btn-light explore-btn">
+              EXPLORE <span class="arrow">→</span>
+            </a>
+          </div>
+
+          <div class="custom-card-image-project text-center">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/codesclue-ridereach.png" alt="Project" class="img-fluid">
+          </div>
+        </div>
+
+        <!-- <div class="custom-card-project d-flex align-items-center">
+
+          <div class="custom-card-text flex-grow-1 p-4">
+            <h3 class="mb-3">Crush (Stryker)</h3>
+            <p class="mb-4">
+              A global clinical trial management platform to streamline the product trial processes.
+            </p>
+            <div class="row mb-4">
+              <div class="col-6">
+                <strong>Industry</strong><br>Healthcare
+              </div>
+              <div class="col-6">
+                <strong>Platform</strong><br>Web & iOS Mobile
+              </div>
+            </div>
+            <a href="#" class="btn btn-light explore-btn">
+              EXPLORE <span class="arrow">→</span>
+            </a>
+          </div>
+
+          <div class="custom-card-image-project text-center">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/Cannabis.png" alt="Project" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="custom-card-project d-flex align-items-center">
+
+          <div class="custom-card-text flex-grow-1 p-4">
+            <h3 class="mb-3">Crush (Stryker)</h3>
+            <p class="mb-4">
+              A global clinical trial management platform to streamline the product trial processes.
+            </p>
+            <div class="row mb-4">
+              <div class="col-6">
+                <strong>Industry</strong><br>Healthcare
+              </div>
+              <div class="col-6">
+                <strong>Platform</strong><br>Web & iOS Mobile
+              </div>
+            </div>
+            <a href="#" class="btn btn-light explore-btn">
+              EXPLORE <span class="arrow">→</span>
+            </a>
+          </div>
+
+          <div class="custom-card-image-project text-center">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/Cannabis.png" alt="Project" class="img-fluid">
+          </div>
+        </div> -->
+
+
+    </div>
+   </section>
 
 
 

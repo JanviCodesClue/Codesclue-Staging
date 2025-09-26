@@ -632,7 +632,7 @@ get_header(); ?>
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
                                 <h3 class="accordion-header content-title mb-0">
-                                    <button class="accordion-button collapsed px-5 fw-semibold" type="button"
+                                    <button class="accordion-button collapsed px-2 fw-semibold" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
                                         aria-expanded="false" aria-controls="flush-collapseOne">
                                         Why should you consider
@@ -667,7 +667,7 @@ get_header(); ?>
                             </div>
                             <div class="accordion-item" data-aos="fade-down">
                                 <h3 class="accordion-header content-title mb-0">
-                                    <button class="accordion-button collapsed px-5 fw-semibold" type="button"
+                                    <button class="accordion-button collapsed px-2 fw-semibold" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
                                         aria-expanded="false" aria-controls="flush-collapseTwo">
                                         How much does it cost to make a
@@ -705,7 +705,7 @@ get_header(); ?>
                             </div>
                             <div class="accordion-item" data-aos="fade-down">
                                 <h3 class="accordion-header content-title mb-0">
-                                    <button class="accordion-button collapsed px-5 fw-semibold" type="button"
+                                    <button class="accordion-button collapsed px-2 fw-semibold" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
                                         aria-expanded="false" aria-controls="flush-collapseThree">
                                         How can I hire app developers
@@ -741,7 +741,7 @@ get_header(); ?>
                             </div>
                             <div class="accordion-item" data-aos="fade-down">
                                 <h3 class="accordion-header content-title mb-0">
-                                    <button class="accordion-button collapsed px-5 fw-semibold" type="button"
+                                    <button class="accordion-button collapsed px-2 fw-semibold" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
                                         aria-expanded="false" aria-controls="flush-collapseFour">
                                         Do you allow flexible hiring
@@ -777,7 +777,7 @@ get_header(); ?>
                             </div>
                             <div class="accordion-item" data-aos="fade-down">
                                 <h3 class="accordion-header content-title mb-0">
-                                    <button class="accordion-button collapsed px-5 fw-semibold" type="button"
+                                    <button class="accordion-button collapsed px-2 fw-semibold" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
                                         aria-expanded="false" aria-controls="flush-collapseFive">
                                         Which Industry-Specific App
@@ -818,7 +818,7 @@ get_header(); ?>
                             </div>
                             <div class="accordion-item" data-aos="fade-down">
                                 <h3 class="accordion-header content-title mb-0">
-                                    <button class="accordion-button collapsed px-5 fw-semibold" type="button"
+                                    <button class="accordion-button collapsed px-2 fw-semibold" type="button"
                                         data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
                                         aria-expanded="false" aria-controls="flush-collapseSix">
                                         Will I be getting any support

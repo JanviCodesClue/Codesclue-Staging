@@ -377,7 +377,104 @@ get_header(); ?>
             </div>
 
 
+        <section>
+            <div class="container mb-3 py-2 border-bottom border-dark">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6">
+                   
+                        <h2 class="section-title mb-0">
+                            Our Projects
+                        </h2>
+                </div>
+                <div class="col-md-5 d-flex justify-content-md-end justify-content-start my-3  mt-md-0 gap-2">
 
+                    <a href="<?php echo home_url('/our-portfolio/'); ?>" class="get-started-btn">View All
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/arrow.svg" class="btn-arrow">
+                    </a>
+                </div>
+            </div>
+        </div>
+   <div class="container">
+    <div class="owl-carousel owl-theme" id="dynamicCarousel">
+        <div class="custom-card-project d-flex align-items-center">
+        
+          <div class="custom-card-text flex-grow-1 p-4 ps-5">
+            <h3 class="mb-3">GreenReleaf</h3>
+            <p class="mb-4">
+              Custom built cannabis dispensary PWA that syncs real-time inventory with POS systems to deliver a seamless, compliant online shopping experience
+            </p>
+            <div class="row mb-4">
+              <div class="col-6">
+                <strong>Industry</strong><br>Cannabis Retail & Dispensary Technology
+              </div>
+              <div class="col-6">
+                <strong>Platform</strong><br>Progressive Web App (PWA)
+              </div>
+            </div>
+            <a href="<?php echo home_url('/greenreleaf/'); ?>" class="btn btn-light explore-btn">
+              EXPLORE <span class="arrow">→</span>
+            </a>
+          </div>
+
+          <div class="custom-card-image-project text-center">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/CodesClue Webapp-greenreleafdispensary.png" alt="Project" class="img-fluid">
+          </div>
+        </div>
+
+        <!-- <div class="custom-card-project d-flex align-items-center">
+
+          <div class="custom-card-text flex-grow-1 p-4">
+            <h3 class="mb-3">Crush (Stryker)</h3>
+            <p class="mb-4">
+              A global clinical trial management platform to streamline the product trial processes.
+            </p>
+            <div class="row mb-4">
+              <div class="col-6">
+                <strong>Industry</strong><br>Healthcare
+              </div>
+              <div class="col-6">
+                <strong>Platform</strong><br>Web & iOS Mobile
+              </div>
+            </div>
+            <a href="#" class="btn btn-light explore-btn">
+              EXPLORE <span class="arrow">→</span>
+            </a>
+          </div>
+
+          <div class="custom-card-image-project text-center">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/Cannabis.png" alt="Project" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="custom-card-project d-flex align-items-center">
+
+          <div class="custom-card-text flex-grow-1 p-4">
+            <h3 class="mb-3">Crush (Stryker)</h3>
+            <p class="mb-4">
+              A global clinical trial management platform to streamline the product trial processes.
+            </p>
+            <div class="row mb-4">
+              <div class="col-6">
+                <strong>Industry</strong><br>Healthcare
+              </div>
+              <div class="col-6">
+                <strong>Platform</strong><br>Web & iOS Mobile
+              </div>
+            </div>
+            <a href="#" class="btn btn-light explore-btn">
+              EXPLORE <span class="arrow">→</span>
+            </a>
+          </div>
+
+          <div class="custom-card-image-project text-center">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/Cannabis.png" alt="Project" class="img-fluid">
+          </div>
+        </div> -->
+
+
+    </div>
+   </div>
+        </section>
 
 
 
