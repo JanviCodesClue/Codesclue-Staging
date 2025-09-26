@@ -664,6 +664,43 @@ function codesclue_enqueue_ga()
 }
 add_action('wp_enqueue_scripts', 'codesclue_enqueue_ga');
 
+
+function enqueue_custom_carousel_script() {
+    // ✅ Owl Carousel CSS
+    wp_enqueue_style(
+        'owl-carousel-css',
+        'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css',
+        array(),
+        '2.3.4'
+    );
+
+    wp_enqueue_style(
+        'owl-carousel-theme',
+        'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css',
+        array('owl-carousel-css'),
+        '2.3.4'
+    );
+
+    // ✅ Owl Carousel JS
+    wp_enqueue_script(
+        'owl-carousel',
+        'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js',
+        array('jquery'),
+        '2.3.4',
+        true
+    );
+
+    // ✅ Custom JS
+    wp_enqueue_script(
+        'custom-carousel',
+        get_template_directory_uri() . '/assets/js/custom-carousel.js',
+        array('jquery', 'owl-carousel'),
+        '1.0',
+        true
+    );
+}
+add_action('wp_enqueue_scripts', 'enqueue_custom_carousel_script');
+
 /**
  * Custom post types
  */

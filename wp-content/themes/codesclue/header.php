@@ -84,7 +84,7 @@
                             class="nav-logo" alt="logo" />
                         <img loading="lazy"
                             src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_favicon.png"
-                            width="50" height="50" class="nav-logo d-none" alt="logo" />
+                            width="50" height="50" class="nav-logo d-none svg-logo-sm" alt="logo" />
                     </a>
                     <a class="d-flex gap-2 ai-pill py-0 my-xl-0 my-2 me-0"
                         href="<?php echo home_url('/ai-software-development/'); ?>">

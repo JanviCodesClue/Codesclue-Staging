@@ -160,25 +160,3 @@ if (track && slides.length > 0) {
 }
 
 
- $(document).ready(function(){
-    // Only activate carousel if more than 2 items
-    if ($("#dynamicCarousel .custom-card-project").length > 2) {
-      $("#dynamicCarousel").owlCarousel({
-        loop: true,
-        margin: 20,
-        nav: true,
-        dots: true,
-        autoplay: true,
-        autoplayTimeout: 3000,
-        responsive:{
-          0:{ items:1 },
-          600:{ items:2 },
-          1000:{ items:3 }
-        }
-      });
-    } else {
-      // If 2 or fewer, show static grid
-      $("#dynamicCarousel").remove();
-      $("#staticLayout").removeClass("d-none");
-    }
-  });
