@@ -251,6 +251,9 @@ wp_enqueue_script(
         wp_enqueue_style('codesclue-project', get_template_directory_uri() . '/assets/css/project.css', array(), '1.0.0');
     }
 
+    if (is_page('advertisement')) {
+        wp_enqueue_style('codesclue-advertisement', get_template_directory_uri() . '/assets/css/advertisement.css', array(), '1.0.0');
+    }
 
     if (is_page('financial')) {
         wp_enqueue_style('codesclue-financial', get_template_directory_uri() . '/assets/css/financial.css', array(), '1.0.0');
@@ -321,6 +324,10 @@ wp_enqueue_script(
         wp_enqueue_script('financial', get_template_directory_uri() . '/assets/js/financial.js', array(), '1.0.0', true);
     }
 
+     if (is_page('advertisement')) {
+        wp_enqueue_script('advertisement', get_template_directory_uri() . '/assets/js/advertisement.js', array(), '1.0.0', true);
+    }
+    
  if ( is_page( array('our-portfolio', 'contact-us') ) ) {
         wp_enqueue_script(
             'our-portfolio',
