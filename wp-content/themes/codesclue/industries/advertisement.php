@@ -11,11 +11,11 @@ get_header(); ?>
   <div class="container">
     <div class="row align-items-center justify-content-center">
       <div class="col-lg-6 mb-4 mb-lg-0">
-        <h1 class="advertisement-hero-title mb-3">Manage All Your Stuff Using Pakap</h1>
-        <p class="advertisement-hero-desc mb-4">All your SaaS, app & tools organized in one place.</p>
+        <h1 class="advertisement-hero-title mb-3">Advertising Industry Solutions</h1>
+        <p class="advertisement-hero-desc mb-4">Empowering Brands with Technology, Data & AI</p>
       </div>
       <div class="col-lg-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/advertisement-hero.png" class="advertisement-hero-img img-fluid" alt="App Preview">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/about-advertisement-f.jpg" class="advertisement-hero-img img-fluid rounded-4" alt="App Preview">
       </div>
     </div>
   </div>
@@ -24,34 +24,34 @@ get_header(); ?>
 <!-- Features Section -->
 <section class="py-5">
   <div class="container">
-    <h2 class="advertisement-section-title text-center mb-5">Best Features Included</h2>
-    <div class="row text-center g-4">
-      <div class="col-sm-6 col-md-3">
+    <h2 class="advertisement-section-title text-center mb-5">Our Solutions for Advertising</h2>
+    <div class="row text-center g-4 align-content-stretch">
+      <div class="col-sm-6 col-md-3 d-flex">
         <div class="advertisement-feature-box">
-          <div class="advertisement-feature-icon mb-2"><i class="fa-solid fa-user-shield"></i></div>
-          <h5 class="fw-bold mb-2">User Security</h5>
-          <p>Strong security for user data and privacy.</p>
+          <div class="advertisement-feature-icon mb-2"><i class="fa-solid fa-bullhorn"></i></div>
+          <h5 class="fw-bold mb-2">AdTech Platforms</h5>
+          <p>End-to-end programmatic solutions with real-time bidding, audience segmentation, and campaign management.</p>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-3 d-flex">
         <div class="advertisement-feature-box">
-          <div class="advertisement-feature-icon mb-2"><i class="fa-solid fa-bolt"></i></div>
-          <h5 class="fw-bold mb-2">Smart Working App</h5>
-          <p>Beautiful UI for easy workflow and management.</p>
+          <div class="advertisement-feature-icon mb-2"><i class="fa-solid fa-brain"></i></div>
+          <h5 class="fw-bold mb-2">AI-Powered Insights</h5>
+          <p>Predictive analytics to understand customer behavior and optimize ad spend.</p>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-3 d-flex">
         <div class="advertisement-feature-box">
-          <div class="advertisement-feature-icon mb-2"><i class="fa-solid fa-lock"></i></div>
-          <h5 class="fw-bold mb-2">Privacy Protection</h5>
-          <p>Your information is always protected.</p>
+          <div class="advertisement-feature-icon mb-2"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <h5 class="fw-bold mb-2">Creative Automation</h5>
+          <p>Smart tools for generating, personalizing, and scaling ad creatives.</p>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-3 d-flex">
         <div class="advertisement-feature-box">
-          <div class="advertisement-feature-icon mb-2"><i class="fa-solid fa-arrows-rotate"></i></div>
-          <h5 class="fw-bold mb-2">Lifetime Update</h5>
-          <p>Free updates to latest version, always.</p>
+          <div class="advertisement-feature-icon mb-2"><i class="fa-solid fa-chart-pie"></i></div>
+          <h5 class="fw-bold mb-2">Data & Analytics</h5>
+          <p>Unified dashboards for cross-channel campaign tracking and performance measurement.</p>
         </div>
       </div>
     </div>
@@ -61,7 +61,7 @@ get_header(); ?>
 <!-- App Screenshots -->
 <section class="bg-light py-5">
   <div class="container">
-    <h2 class="advertisement-section-title text-center mb-4">Beautifully Crafted Screenshots</h2>
+    <h2 class="advertisement-section-title text-center mb-4">Challenges in the Advertising Industry</h2>
     <div class="row justify-content-center mt-4">
      <div class="ag-format-container">
   <div class="ag-courses_box">
@@ -70,14 +70,7 @@ get_header(); ?>
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
-          UI/Web&amp;Graph design for teenagers 11-17&#160;years old
-        </div>
-
-        <div class="ag-courses-item_date-box">
-          Start:
-          <span class="ag-courses-item_date">
-            04.11.2022
-          </span>
+          Fragmented Media Landscape
         </div>
       </a>
     </div>
@@ -87,14 +80,7 @@ get_header(); ?>
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
-          UX/UI Web-Design&#160;+ Mobile Design
-        </div>
-
-        <div class="ag-courses-item_date-box">
-          Start:
-          <span class="ag-courses-item_date">
-            04.11.2022
-          </span>
+          Measuring ROI Effectively
         </div>
       </a>
     </div>
@@ -104,14 +90,7 @@ get_header(); ?>
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
-          Annual package "Product+UX/UI+Graph designer&#160;2022"
-        </div>
-
-        <div class="ag-courses-item_date-box">
-          Start:
-          <span class="ag-courses-item_date">
-            04.11.2022
-          </span>
+          Data Privacy & Compliance
         </div>
       </a>
     </div>
@@ -121,14 +100,7 @@ get_header(); ?>
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
-          Graphic Design
-        </div>
-
-        <div class="ag-courses-item_date-box">
-          Start:
-          <span class="ag-courses-item_date">
-            04.11.2022
-          </span>
+          Rising Customer Acquisition Costs
         </div>
       </a>
     </div>
@@ -138,14 +110,7 @@ get_header(); ?>
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
-          Motion Design
-        </div>
-
-        <div class="ag-courses-item_date-box">
-          Start:
-          <span class="ag-courses-item_date">
-            30.11.2022
-          </span>
+          Personalization at Scale
         </div>
       </a>
     </div>
@@ -155,7 +120,7 @@ get_header(); ?>
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
-          Front-end development&#160;+ jQuery&#160;+ CMS
+         Creative Bottlenecks
         </div>
       </a>
     </div>
@@ -165,7 +130,7 @@ get_header(); ?>
         <div class="ag-courses-item_bg">
         </div>
         <div class="ag-courses-item_title">
-          Digital Marketing
+          Real-Time Decision Making
         </div>
       </a>
     </div>
@@ -175,14 +140,7 @@ get_header(); ?>
         <div class="ag-courses-item_bg"></div>
 
         <div class="ag-courses-item_title">
-          Interior Design
-        </div>
-
-        <div class="ag-courses-item_date-box">
-          Start:
-          <span class="ag-courses-item_date">
-            31.10.2022
-          </span>
+          Ad Fraud & Brand Safety
         </div>
       </a>
     </div>
@@ -193,134 +151,156 @@ get_header(); ?>
   </div>
 </section>
 
-<!-- Video Section -->
-<section class="py-5 text-center" style="background:#f2f4fa;">
-  <div class="container">
-    <h2 class="advertisement-section-title mb-2">Watch Pakap In Action</h2>
-    <a href="#" class="btn btn-danger mt-3 px-4"><i class="fa-solid fa-play"></i> Play Video</a>
-  </div>
-</section>
+
 
 <!-- Pricing Section -->
-<section class="py-5" style="background:#f9fafe;">
-  <div class="container">
-    <h2 class="advertisement-section-title text-center mb-4">Choose Your Plan</h2>
-    <div class="row justify-content-center g-3">
-      <div class="adcard-card">
-      <img src="https://picsum.photos/id/1015/600/400" alt="Image" class="adcard-image">
-      <div class="adcard-adbox">
-        <p style="color:#000; font-weight:bold;">Advertisement</p>
+<div class="container py-5">
+  <div class="row g-4">
+<h2 class="text-center">
+  How We Add Value
+</h2>
+    <!-- Card 1 -->
+    <div class="col-md-3 col-sm-6">
+      <div class="feature-card bg-gradient-1 text-white  p-4 h-100">
+        <h5 class="mb-2">Omni Channel Reach</h5>
+        <p class="mb-0 small">Seamless integration across digital, mobile, and social platforms.</p>
       </div>
     </div>
 
     <!-- Card 2 -->
-    <div class="adcard-card">
-      <img src="https://picsum.photos/id/1018/600/400" alt="Image" class="adcard-image">
-      <div class="adcard-adbox">
-        <p style="color:#000; font-weight:bold;">Sponsored</p>
+    <div class="col-md-3 col-sm-6">
+      <div class="feature-card bg-gradient-2 text-white  p-4 h-100">
+        <h5 class="mb-2">Agility & Scalability</h5>
+        <p class="mb-0 small">Solutions that evolve as your audience and campaigns grow.</p>
       </div>
     </div>
 
     <!-- Card 3 -->
-    <div class="adcard-card">
-      <img src="https://picsum.photos/id/1016/600/400" alt="Image" class="adcard-image">
-      <div class="adcard-adbox">
-        <p style="color:#000; font-weight:bold;">Promotion</p>
+    <div class="col-md-3 col-sm-6">
+      <div class="feature-card bg-gradient-3 text-white  p-4 h-100">
+        <h5 class="mb-2">Security & Compliance</h5>
+        <p class="mb-0 small">Adhering to global data protection and industry standards.</p>
       </div>
     </div>
 
-      <!-- Card 4 -->
-    <div class="adcard-card">
-      <img src="https://picsum.photos/id/1018/600/400" alt="Image" class="adcard-image">
-      <div class="adcard-adbox">
-        <p style="color:#000; font-weight:bold;">Sponsored</p>
+    <!-- Card 4 -->
+    <div class="col-md-3 col-sm-6">
+      <div class="feature-card bg-gradient-4 text-white p-4 h-100">>
+        <h5 class="mb-2">Faster Time-to-Market</h5>
+        <p class="mb-0 small">Agile processes ensuring rapid deployment.</p>
       </div>
     </div>
 
-      <!-- Card 5 -->
-    <div class="adcard-card">
-      <img src="https://picsum.photos/id/1018/600/400" alt="Image" class="adcard-image">
-      <div class="adcard-adbox">
-        <p style="color:#000; font-weight:bold;">Sponsored</p>
-      </div>
-    </div>
-    </div>
   </div>
-</section>
+</div>
+
 
 <!-- Testimonials -->
  <div class="container py-5">
     <!-- Header -->
     <div class="row mb-5 align-items-center">
       <div class="col-md-8">
-        <div class="subtext mb-2">We are Investare</div>
-        <div class="headline-black">We set out to build</div>
-        <div class="headline-grey">a better way to invest</div>
-      </div>
-      <div class="col-md-4">
-        <div class="lead-text small">
-          Together–the investors and partners of Investate–we are reinventing real estate investing end-to-end.
+        <div class="headline-black">Why Partner with CodesClue?</div>
+         <div class="lead-text">
+          Let’s build the next generation of AdTech together.
         </div>
       </div>
     </div>
     <!-- Images Row -->
-    <div class="row mb-5 gy-3">
+    <div class="row align-content-center gy-3">
       <div class="col-md-8">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/about-advertisement-s.jpg" alt="Team celebrating" class="img-fluid rounded-4 w-100">
       </div>
-      <div class="col-md-4">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/about-advertisement-f.jpg" alt="Team working" class="img-fluid rounded-4 w-100">
+      <div class="col-md-4 align-content-center">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Proven expertise in AI-driven platforms across multiple industries.</li>
+          <li class="list-group-item">Cross-functional teams covering DevOps, UX, data engineering, and product delivery.</li>
+          <li class="list-group-item">Experience in building high-performance AdTech solutions.</li>
+        <li class="list-group-item">End-to-end services from concept to launch and ongoing support.</li>        </ul>
+        
+        <!-- <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/about-advertisement-f.jpg" alt="Team working" class="img-fluid rounded-4 w-100"> -->
+        
       </div>
     </div>
     <!-- Story Row -->
-    <div class="row align-items-center mt-big">
-      <div class="col-md-5 mb-3 mb-md-0">
-        <h2 class="fw-bold display-5 align-middle">Our Story <span class="story-arrow">&rarr;</span></h2>
-      </div>
+    <div class="row align-items-center">
       <div class="col-md-7">
         <div class="fs-4 mb-2">
-          Our founder, Mike started Investate because he wanted to make it easy for anyone to do what he does: make money by investing in real
-        </div>
-        <div class="small text-muted">
-          He wanted to make sure those he served alongside during his time in the military could have the same opportunities to build...
+         The future of advertising is personalized, data driven, and AI-powered. At CodesClue, we partner with agencies and brands to design solutions that not only meet today’s challenges but also prepare for tomorrow's opportunities.
         </div>
       </div>
+      <div class="col-md-5 mb-3 mb-md-0">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/ad.jpg" alt="Team working" class="img-fluid rounded-4 w-100">
+      </div>
+      
     </div>
   </div>
 
 
-<div class="container py-5">
-      <h2 class="advertisement-section-title text-center mb-4">Choose Your Plan</h2>
+<div class="container pb-5">
+      <h2 class="advertisement-section-title text-center mb-4">Technologies We Use</h2>
     <div class="row g-4">
-      <div class="col-md-6">
+      <div class="col-md-3">
         <div class="card h-100">
-          <div class="feature-icon"><i class="bi bi-brush"></i></div>
-          <h5 class="card-title">No-code required</h5>
-          <p class="card-text">Drag and drop stages to connect them into custom workflows. Leverage no-code interface and complete your AI projects without dev help.</p>
+          <div class="feature-icon"><i class="fa-solid fa-robot"></i></div>
+          <h5 class="card-title">AI & Machine Learning</h5>
+          <p class="card-text">Build predictive models, recommendation engines, and intelligent automation to enhance campaign performance and audience targeting.</p>
         </div>
       </div>
       
-      <div class="col-md-6">
+      <div class="col-md-3">
         <div class="card h-100">
-          <div class="feature-icon"><i class="bi bi-cloud-upload"></i></div>
-          <h5 class="card-title">Bring your own model</h5>
-          <p class="card-text">Register your own model via REST API, add it to your custom workflow and run it to label your training data 10x faster.</p>
+          <div class="feature-icon"><i class="fa-solid fa-cloud"></i></div>
+          <h5 class="card-title">Big Data & Cloud</h5>
+          <p class="card-text">Process large-scale campaign data in real time with secure, scalable cloud infrastructure for seamless ad delivery.</p>
         </div>
       </div>
       
-      <div class="col-md-6">
+      <div class="col-md-3">
         <div class="card h-100">
-          <div class="feature-icon"><i class="bi bi-lightning-charge"></i></div>
-          <h5 class="card-title">Leverage instant inference</h5>
-          <p class="card-text">Get immediate results from inference API. You can also switch on the webcam and test the model directly from your browser.</p>
+          <div class="feature-icon"><i class="fa-solid fa-gears"></i></div>
+          <h5 class="card-title">DevOps & Automation</h5>
+          <p class="card-text">Enable faster deployments, continuous integration, and reliable operations to keep AdTech platforms running at scale.</p>
         </div>
       </div>
       
-      <div class="col-md-6">
+      <div class="col-md-3">
         <div class="card h-100">
-          <div class="feature-icon"><i class="bi bi-shield-lock"></i></div>
-          <h5 class="card-title">Keep your data and models safe</h5>
-          <p class="card-text">The security of your data is our top priority. We are SOC2 compliant and enable SSO integration so that you can rest assured that your data remains protected and private.</p>
+          <div class="feature-icon"><i class="fa-solid fa-paint-brush"></i></div>
+          <h5 class="card-title">UI/UX Design</h5>
+          <p class="card-text">Create intuitive dashboards, seamless user journeys, and engaging interfaces that improve campaign management and customer experience.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="feature-icon"><i class="fa-solid fa-chart-pie"></i></div>
+          <h5 class="card-title">Data Analytics & Visualization</h5>
+          <p class="card-text">Transform raw data into actionable insights with custom dashboards, KPI tracking, and advanced reporting tools.</p>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="feature-icon"><i class="fa-solid fa-code"></i></div>
+          <h5 class="card-title">Mobile & Web Development</h5>
+          <p class="card-text">Deliver high-performance applications for advertisers, publishers, and agencies to connect with audiences anywhere.</p>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="feature-icon"><i class="fa-solid fa-plug"></i></div>
+          <h5 class="card-title">APIs & Integrations</h5>
+          <p class="card-text">Connect platforms with payment gateways, third-party tools, and marketing ecosystems to ensure end-to-end efficiency.</p>
+        </div>
+      </div>
+      
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h5 class="card-title">Cybersecurity & Compliance</h5>
+          <p class="card-text">Protect sensitive customer data while adhering to global privacy regulations like GDPR and CCPA.</p>
         </div>
       </div>
     </div>
