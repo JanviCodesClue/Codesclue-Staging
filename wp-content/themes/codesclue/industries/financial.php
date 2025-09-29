@@ -18,10 +18,9 @@ get_header(); ?>
                 
                 <!-- Right Text Section -->
                 <div class="col-lg-6 col-md-12 hero-text">
-                    <h1>Financial & <br> Forex Software <br> Development Company</h1>
+                    <h1>Driving Digital Transformation in Banking & Financial Services</h1>
                     <p>
-                    Explore your digital marketplace with CMARIX, a leading eCommerce software
-                    development company in USA and India.
+                   At CodesClue Technologies, we build secure, scalable, and intelligent solutions for banks, fintechs, and financial institutions. Our expertise in AI, cloud, and automation helps improve efficiency, enhance customer experience, and ensure compliance with global regulations.
                     </p>
                     <a href="<?php echo home_url('/contact-us/'); ?>" class="btn btn-custom">LET'S CONNECT →</a>
                 </div>
@@ -36,10 +35,7 @@ get_header(); ?>
             <!-- Heading -->
             <h2 class="pb-3">Empowering Finance with Cutting-Edge Software Development</h2>
             <p>
-            We offer top forex trading software development services focused on scalability, security, 
-            and seamless integration to empower your financial business. 
-            We help you stay ahead of the evolving financial landscape by offering a range of services, 
-            including custom fintech app development to modernization to compliance.
+           Empowering Finance with Cutting Edge Software Development
             </p>
 
             <div class="row align-items-center">
@@ -49,46 +45,59 @@ get_header(); ?>
                 <div class="accordion" id="financeAccordion">
                 <div class="accordion-item mb-3">
                     <h2 class="accordion-header">
-                    <button class="accordion-button collapsed px-5" type="button" data-bs-toggle="collapse" data-bs-target="#item1">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/empowering.png" alt="icon" class="me-2">
-                        Custom Financial Software Development
+                    <button class="accordion-button collapsed px-2" type="button" data-bs-toggle="collapse" data-bs-target="#item1">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/Billing-Solutions.png" alt="icon" class="me-2">
+                        Billing & Payment Software Solutions
                     </button>
                     </h2>
                     <div id="item1" class="accordion-collapse collapse" data-bs-parent="#financeAccordion">
                     <div class="accordion-body">
-                        Detailed content about financial software development services.
+                        Experience unparalleled efficiency with CodesClue's billing and payment software solutions, offering comprehensive invoice management, secure transaction processing, and automated reconciliation. Ensure accuracy and compliance with our advanced reporting features, providing a transparent financial overview for businesses and clients alike.
                     </div>
                     </div>
                 </div>
 
                 <div class="accordion-item mb-3">
                     <h2 class="accordion-header">
-                    <button class="accordion-button collapsed px-5" type="button" data-bs-toggle="collapse" data-bs-target="#item2">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/empowering.png" alt="icon" class="me-2">
-                        Custom Financial Software Development
+                    <button class="accordion-button collapsed px-2" type="button" data-bs-toggle="collapse" data-bs-target="#item2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/Accounting-Information.png" alt="icon" class="me-2">
+                        Accounting Information Systems
                     </button>
                     </h2>
                     <div id="item2" class="accordion-collapse collapse" data-bs-parent="#financeAccordion">
                     <div class="accordion-body">
-                        More details here...
+                        Revolutionize your accounting practices with CodesClue's robust Accounting Information Systems. Experience streamlined ledger management, automated compliance reporting, and integrated payroll services, ensuring accuracy and efficiency in all your financial operations.
                     </div>
                     </div>
                 </div>
 
                 <div class="accordion-item mb-3">
                     <h2 class="accordion-header">
-                    <button class="accordion-button collapsed px-5" type="button" data-bs-toggle="collapse" data-bs-target="#item3">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/empowering.png" alt="icon" class="me-2">
-                        Custom Financial Software Development
+                    <button class="accordion-button collapsed px-2" type="button" data-bs-toggle="collapse" data-bs-target="#item3">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/Mobile-Banking-Solutions.png" alt="icon" class="me-2">
+                        Mobile Banking Solutions
                     </button>
                     </h2>
                     <div id="item3" class="accordion-collapse collapse" data-bs-parent="#financeAccordion">
                     <div class="accordion-body">
-                        More details here...
+                        CodesClue’s mobile banking solutions redefine convenience, providing users with on-the-go account access, secure fund transfer capabilities, and personalized financial alerts. Elevate the customer experience with mobile features designed for the modern user’s banking needs with our banking software development services.
                     </div>
                     </div>
                 </div>
 
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed px-2" type="button" data-bs-toggle="collapse" data-bs-target="#item4">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/Cybersecurity.png" alt="icon" class="me-2">
+                       Cybersecurity
+                    </button>
+                    </h2>
+                    <div id="item4" class="accordion-collapse collapse" data-bs-parent="#financeAccordion">
+                    <div class="accordion-body">
+                        Fortify your financial ecosystem with CodesClue's cybersecurity solutions. Protect sensitive financial data with advanced encryption, intrusion detection systems, and continuous security monitoring to safeguard against the ever-evolving threat landscape.
+                    </div>
+                    </div>
+                </div>
                 <!-- Repeat more items as needed -->
                 </div>
             </div>
@@ -119,11 +128,11 @@ get_header(); ?>
                         </div>
                         <div class="service-box" data-detail="detail2">
                             <div class="service-number">02</div>
-                            <div>Custom FinTech Software Development</div>
+                            <div>Financial Web Development</div>
                         </div>
                         <div class="service-box" data-detail="detail3">
                             <div class="service-number">03</div>
-                            <div>Custom FinTech Software Development</div>
+                            <div>Financial App Development</div>
                         </div>
                         </div>
 
@@ -131,22 +140,22 @@ get_header(); ?>
                         <div class="col-lg-4">
                         <div class="service-preview">
                             <div id="detail1" class="service-detail active">
-                            Ensure better health outcomes with healthcare solutions through faster diagnosis.
+                            Revolutionize your financial services with CodesClue's custom FinTech software development. Tailored to your business's unique needs, our solutions encompass everything from mobile payment systems to sophisticated investment platforms, ensuring compliance and competitive edge in a dynamic financial landscape.
                             </div>
                             <div id="detail2" class="service-detail">
-                            Streamline financial operations with modern software solutions for businesses.
+                            Establish a robust online presence with CMARIX's financial web development services. We create secure, scalable, and user-friendly websites that cater to the diverse needs of the financial sector, from banks to investment firms, enhancing user experience and digital engagement.
                             </div>
                             <div id="detail3" class="service-detail">
-                            Advanced trading systems for forex & finance enterprises.
+                            Enter the mobile-first era with confidence through CMARIX's financial app development. Among all the financial app development companies, our mobile solutions are designed with security and user engagement at the forefront, providing your customers with seamless financial services on-the-go, including real-time transactions, financial tracking, and personalized financial insights.
                             </div>
                             <div id="detail4" class="service-detail">
-                            Secure payment gateway integration for fintech companies.
+                            Seamlessly connect with essential financial ecosystems using CMARIX’s integration services. We ensure your platforms communicate effectively with external systems, from banking APIs to third-party financial services, for a unified and efficient financial operation.
                             </div>
                             <div id="detail5" class="service-detail">
-                            Risk management and compliance automation solutions.
+                            Stay ahead of technological advancements with CodesClue's finance software development and software modernization services. We revitalize legacy systems with the latest in financial technology, improving performance, security, and ensuring that your software meets modern day expectations for agility and compliance.
                             </div>
                             <div id="detail6" class="service-detail">
-                            AI-powered analytics and customer engagement platforms.
+                            Transform your financial services with CodesClue’s digitalization and optimization strategies. Our solutions enhance your digital capabilities, streamline operations, and optimize financial processes through automation, delivering superior service quality and operational excellence.
                             </div>
                         </div>
                         </div>
@@ -155,15 +164,15 @@ get_header(); ?>
                         <div class="col-lg-4 text-start">
                         <div class="service-box" data-detail="detail4">
                             <div class="service-number">04</div>
-                            <div>Custom FinTech Software Development</div>
+                            <div>Integration with Third-Party Systems</div>
                         </div>
                         <div class="service-box" data-detail="detail5">
                             <div class="service-number">05</div>
-                            <div>Custom FinTech Software Development</div>
+                            <div>Software Modernization</div>
                         </div>
                         <div class="service-box" data-detail="detail6">
                             <div class="service-number">06</div>
-                            <div>Custom FinTech Software Development</div>
+                            <div>Digitalization and Optimization</div>
                         </div>
                         </div>
 
@@ -225,7 +234,7 @@ get_header(); ?>
             <div class="text-center mb-5">
             <h2 class="fw-bold">Advanced FinTech Solutions: Pioneering the Future of Finance</h2>
             <p class="text-muted">
-                As a leading custom banking and financial software development company in USA and India, we bring exceptional technical expertise with extensive experience in the banking and financial sector.
+                We design next generation FinTech platforms that combine security, scalability, and intelligence helping financial institutions deliver seamless, innovative, and future ready services.
             </p>
             </div>
 
@@ -233,54 +242,54 @@ get_header(); ?>
             <!-- Card 1 -->
             <div class="col-xl-4 col-lg-4 col-md-4 col-12">
                 <div class="solution-card bg1">
-                <div class="solution-icon">💡</div>
-                <h5>AI AND ML FINTECH SOLUTIONS</h5>
-                <p>Ensure better outcomes with AI-powered fintech tools for automation, fraud detection, and predictive analytics.</p>
+                <div class="solution-icon"><i class="fa-solid fa-money-bill-transfer"></i></div>
+                <h5>Digital Banking Platforms</h5>
+                <p>Build secure mobile and web banking solutions with real-time transactions, intuitive dashboards, and personalized services.</p>
                 </div>
             </div>
 
             <!-- Card 2 -->
             <div class="col-xl-4 col-lg-4 col-md-4 col-12">
                 <div class="solution-card bg2">
-                <div class="solution-icon">📷</div>
-                <h5>IOT-ENABLED SECURITY CAMERAS</h5>
-                <p>Enhance security with IoT-powered surveillance ensuring smart monitoring and risk prevention.</p>
+                <div class="solution-icon"><i class="fa-solid fa-wallet"></i></div>
+                <h5>Payment Gateways & Wallets</h5>
+                <p>Seamlessly integrate multi currency payment systems, e-wallets, and contactless payment options to enhance customer convenience.</p>
                 </div>
             </div>
 
             <!-- Card 3 -->
             <div class="col-xl-4 col-lg-4 col-md-4 col-12">
                 <div class="solution-card bg3">
-                <div class="solution-icon">👩‍⚕️</div>
-                <h5>IMPROVED PATIENT CARE</h5>
-                <p>Seamless healthcare fintech solutions for faster diagnosis, patient communication, and data integration.</p>
+                <div class="solution-icon"><i class="fa-solid fa-lock"></i></div>
+                <h5>AI-Powered Risk & Fraud Detection</h5>
+                <p>Deploy advanced machine learning models to detect anomalies, prevent fraud, and ensure regulatory compliance.</p>
                 </div>
             </div>
 
             <!-- Card 4 -->
             <div class="col-xl-4 col-lg-4 col-md-4 col-12">
                 <div class="solution-card bg4">
-                <div class="solution-icon">🏦</div>
-                <h5>CUSTOM BANKING SOFTWARE</h5>
-                <p>Tailored solutions for banks to optimize operations, compliance, and customer engagement.</p>
+                <div class="solution-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <h5>Wealth & Investment Platforms</h5>
+                <p>Create smart tools for portfolio management, robo advisory, and real-time market insights to empower investors.</p>
                 </div>
             </div>
 
             <!-- Card 5 -->
             <div class="col-xl-4 col-lg-4 col-md-4 col-12">
                 <div class="solution-card bg5">
-                <div class="solution-icon">🔐</div>
-                <h5>SECURE PAYMENT SOLUTIONS</h5>
-                <p>Advanced payment gateways with encryption and fraud detection systems for safer transactions.</p>
+                <div class="solution-icon"><i class="fa-solid fa-network-wired"></i></div>
+                <h5>Blockchain & Smart Contracts</h5>
+                <p>Leverage decentralized technologies for transparent, secure, and tamper-proof financial transactions.</p>
                 </div>
             </div>
 
             <!-- Card 6 -->
             <div class="col-xl-4 col-lg-4 col-md-4 col-12">
                 <div class="solution-card bg6">
-                <div class="solution-icon">📊</div>
-                <h5>RISK MANAGEMENT TOOLS</h5>
-                <p>Develop risk prediction tools and compliance automation for smarter financial decisions.</p>
+                <div class="solution-icon"><i class="fa-solid fa-file-shield"></i></div>
+                <h5>RegTech & Compliance Automation</h5>
+                <p>Automate KYC, AML, and compliance workflows to reduce risk, improve efficiency, and meet evolving regulatory standards.</p>
                 </div>
             </div>
             </div>
@@ -288,92 +297,6 @@ get_header(); ?>
         </section>
     
 
-
-
-        <section>
-            <div class="container ">
-                <div class="row gy-4">
-                    <div class="col-lg-12">
-                        <h2 class="section-title mb-0">
-                            Our Projects
-                        </h2>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="project-card">
-                            <div class="media-wrapper">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/Cannabis.png" alt="Project Image" class="project-img">
-
-                                <div class="video-overlay">
-                                    <video class="project-video" muted loop playsinline>
-                                        <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/Green-Releaf.mp4" type="video/mp4">
-                                        Your browser does not support the
-                                        video tag.
-                                    </video>
-                                </div>
-                            </div>
-
-                            <div class="glass-info position-absolute bottom-0 text-white">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <h5 class="mb-0">AI-Driven Smart
-                                        Search</h5>
-                                    <a href="<?php echo home_url('/greenreleaf/'); ?>" class="circle-btn">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/arrow.svg" width="20" height="20" alt="Arrow">
-                                    </a>
-                                </div>
-                                <div class="info-description">
-                                    <p class="mb-0">We developed a cannabis
-                                        e-commerce platform and PWA with an
-                                        AI-powered
-                                        search engine that understands
-                                        natural language like “chill edibles
-                                        under $30.”</p>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="https://greenreleafdispensary.com/" class="fs-4 ps-2 text-decoration-underline"
-                            target="_blank" style="color: #2bb34b !important;">GreenReleaf</a>
-                    </div>
-
-                    <!-- Project Card 2 -->
-                    <div class="col-md-6">
-                        <div class="project-card">
-                            <div class="media-wrapper">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/Therapix.png" alt="Project Image" class="project-img">
-
-                                <div class="video-overlay">
-                                    <video class="project-video" muted loop playsinline>
-                                        <source src="<?php echo get_template_directory_uri(); ?>/assets/videos/Therapix.mp4" type="video/mp4">
-                                        Your browser does not support the
-                                        video tag.
-                                    </video>
-                                </div>
-                            </div>
-
-                            <div class="glass-info position-absolute bottom-0 text-white">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <h5 class="mb-0">AI-Powered Clinical
-                                        Insights</h5>
-                                    <a href="<?php echo home_url('/therapix/'); ?>" class="circle-btn">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/arrow.svg" width="20" height="20" alt="Arrow">
-                                    </a>
-                                </div>
-                                <div class="info-description">
-                                    <p class="mb-0">Therapix helps
-                                        physiotherapists work smarter with
-                                        AI that records
-                                        sessions, extracts key insights,
-                                        suggests treatments, and offers
-                                        real-time support.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="https://therapix.ai/" class="fs-4 ps-2 text-decoration-underline" target="_blank"
-                            style="color: #0c316b !important;">Therapix</a>
-                    </div>
-                </div>
-            </div>
-        </section>
 
 
 

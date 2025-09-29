@@ -221,11 +221,11 @@
 }
 
 .food-img.left {
-  left: -100px; /* desktop overlap left */
+  left: -28px; /* desktop overlap left */
 }
 
 .food-img.right {
-  right: -46px; /* desktop overlap right */
+  right: -28px; /* desktop overlap right */
 }
 
 .food-img img {
