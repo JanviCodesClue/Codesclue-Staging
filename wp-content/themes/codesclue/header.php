@@ -1089,6 +1089,16 @@
                                                                 class="blue-logo icon-menu-size-20"
                                                                 alt="about-blue-logo" />
                                                             Food Service</a> 
+                                                            <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
+                                                            href="<?php echo home_url('/advertisement/'); ?>">
+                                                            <img loading="lazy"
+                                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/advertisement-black.svg"
+                                                                class="black-logo icon-menu-size-20" alt="about-logo" />
+                                                            <img loading="lazy"
+                                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/advertisement-blue.svg"
+                                                                class="blue-logo icon-menu-size-20"
+                                                                alt="about-blue-logo" />
+                                                            Advertisement</a>
                                                     </div>
                                                     <div class="inner-services">
                                                         <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
@@ -1540,7 +1550,10 @@
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Food Service</a></li>   
                     <li class="sub-menu-2"><a href="<?php echo home_url('/media-and-entertainment/'); ?>"><img loading="lazy"
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue__media_and_entertainment.svg"
-                                    class="me-3 icon-menu-size-20" alt="html-logo" />Media & Entertainment</a></li>                              
+                                    class="me-3 icon-menu-size-20" alt="html-logo" />Media & Entertainment</a></li>  
+                    <li class="sub-menu-2"><a href="<?php echo home_url('/advertisement/'); ?>"><img loading="lazy"
+                                    src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/advertisement-black.svg"
+                                    class="me-3 icon-menu-size-20" alt="html-logo" />Advertisement</a></li>                            
                     </ul>
                 </div>
             </div>
