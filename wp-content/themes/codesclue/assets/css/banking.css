@@ -1,0 +1,42 @@
+.banking-hero-bg{
+    background-image: url("../images/industries/banking/baking-hero-bg.png");
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+}
+  .btn-custom {
+    background: #007bff;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .btn-custom:hover {
+    background: #0056b3;
+    color: #fff;
+  }
+  .banking-card{
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 15px;
+  }
+  .banking-card:hover{
+    background-color: #a6d1ff;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 15px;
+    scale: 1.02;
+  }
+  .banking-icon-25{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+  }
+  .border-left{
+    border-left: 2px #1389FD solid;
+    padding-left: 40px;
+  }

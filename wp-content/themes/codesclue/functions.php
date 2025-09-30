@@ -279,6 +279,10 @@ wp_enqueue_script(
         wp_enqueue_style('codesclue-cannabis', get_template_directory_uri() . '/assets/css/Cannabis.css', array(), '1.0.0');
     }
 
+    if (is_page('banking')) {
+        wp_enqueue_style('codesclue-banking', get_template_directory_uri() . '/assets/css/banking.css', array(), '1.0.0');
+    }
+
     if (is_page('eagle-bank')) {
         wp_enqueue_style('codesclue-eagle-bank', get_template_directory_uri() . '/assets/css/eagle-bank.css', array(), '1.0.0');
     }
