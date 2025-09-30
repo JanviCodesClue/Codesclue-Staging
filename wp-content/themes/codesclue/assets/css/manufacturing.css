@@ -1,0 +1,172 @@
+.manufacturing-hero-bg{
+    background-image: url("../images/industries/manufacturing/Manufacturingh-hero-img-bg.png");
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+}
+  .btn-custom {
+    background: #007bff;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .btn-custom:hover {
+    background: #0056b3;
+    color: #fff;
+  }
+
+
+
+  
+.manufacturing-card {
+  position: relative;
+  height: 440px;
+  background-color: #fff;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3),
+    -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+.manufacturing-bg-dark{
+    background-color: #000000;
+    padding: 50px 0;
+}
+.manufacturing-card .manufacturing-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #CEE3F8;
+  background: linear-gradient(139deg,rgba(206, 227, 248, 1) 0%, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 1) 37%, rgba(0, 0, 0, 1) 86%, rgba(0, 0, 0, 1) 100%);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.manufacturing-card .manufacturing-box:hover {
+  transform: translateY(-50px);
+}
+
+
+
+.manufacturing-card .manufacturing-box .manufacturing-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.manufacturing-card .manufacturing-box .manufacturing-content h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.327);
+}
+
+.manufacturing-card .manufacturing-box .manufacturing-content h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+.manufacturing-card .manufacturing-box .manufacturing-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.manufacturing-card .manufacturing-box .manufacturing-content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.manufacturing-card .manufacturing-box .manufacturing-content a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
+}
+
+.manufacturing-card-se {
+      align-items: center;
+      border-right: 2px solid #000; /* Right border */
+      padding: 15px;
+      max-width: 700px;
+    }
+    .icon-circle {
+      background-color: #000;
+      color: #fff;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      margin-right: 15px;
+    }
+    .manufacturing-card-se h5 {
+      font-weight: 600;
+    }
+    .mmanufacturing-card-se p {
+      margin: 0;
+      color: #555;
+    }
+
+
+     .solution-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      transition: all 0.3s ease-in-out;
+      background: #fff;
+    }
+    .solution-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+    .icon-box {
+      width: 50px;
+      height: 50px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 15px;
+    }
+
+    .solution-card p {
+      margin: 0;
+      font-size: 14px;
+      color: #555;
+    }
+    .bg-green-manufacturing  { background: #E8F8F5; } .icon-green  { background: #A2D9CE; color: #117A65; }
+    .bg-red-manufacturing    { background: #FDEDEC; } .icon-red    { background: #F5B7B1; color: #922B21; }
+    .bg-blue-manufacturing   { background: #EBF5FB; } .icon-blue   { background: #AED6F1; color: #1B4F72; }
+    .bg-purple-manufacturing { background: #F5EEF8; } .icon-purple { background: #E8DAEF; color: #6C3483; }
+    .bg-lime-manufacturing   { background: #EAFAF1; } .icon-lime   { background: #D5F5E3; color: #1E8449; }
+    .bg-orange-manufacturing { background: #FEF5E7; } .icon-orange { background: #FAD7A0; color: #A04000; }
