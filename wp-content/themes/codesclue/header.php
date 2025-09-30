@@ -1099,6 +1099,16 @@
                                                                 class="blue-logo icon-menu-size-20"
                                                                 alt="about-blue-logo" />
                                                             Advertisement</a>
+                                                            <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
+                                                            href="<?php echo home_url('/banking/'); ?>">
+                                                            <img loading="lazy"
+                                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/banking-black.svg"
+                                                                class="black-logo icon-menu-size-20" alt="about-logo" />
+                                                            <img loading="lazy"
+                                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/banking-blue.svg"
+                                                                class="blue-logo icon-menu-size-20"
+                                                                alt="about-blue-logo" />
+                                                            Banking</a>
                                                     </div>
                                                     <div class="inner-services">
                                                         <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
@@ -1134,6 +1144,17 @@
                                                                 class="blue-logo icon-menu-size-20"
                                                                 alt="privacy-blue-logo" />
                                                             Media & Entertainment</a> 
+                                                             <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
+                                                            href="<?php echo home_url('/manufacturing/'); ?>">
+                                                            <img loading="lazy"
+                                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/Manufacturing-black.svg"
+                                                                class="black-logo icon-menu-size-20"
+                                                                alt="privacy-logo" />
+                                                            <img loading="lazy"
+                                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/Manufacturing-blue.svg"
+                                                                class="blue-logo icon-menu-size-20"
+                                                                alt="privacy-blue-logo" />
+                                                            Manufacturing</a> 
                                                     </div>
                                                           
                                                     <div class="inner-services">
@@ -1545,15 +1566,21 @@
                         <li class="sub-menu-2"><a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center" href="<?php echo home_url('/financial/'); ?>">
                                     <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codescluefinancial-performancial.svg"  class="black-logo icon-menu-size-20" alt="privacy-logo" />
                                      Financial</a></li>
-                     <li class="sub-menu-2"><a href="<?php echo home_url('/food-service/'); ?>"><img loading="lazy"
+                        <li class="sub-menu-2"><a href="<?php echo home_url('/food-service/'); ?>"><img loading="lazy"
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue__foodservices.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Food Service</a></li>   
-                    <li class="sub-menu-2"><a href="<?php echo home_url('/media-and-entertainment/'); ?>"><img loading="lazy"
+                        <li class="sub-menu-2"><a href="<?php echo home_url('/media-and-entertainment/'); ?>"><img loading="lazy"
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue__media_and_entertainment.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Media & Entertainment</a></li>  
-                    <li class="sub-menu-2"><a href="<?php echo home_url('/advertisement/'); ?>"><img loading="lazy"
+                        <li class="sub-menu-2"><a href="<?php echo home_url('/advertisement/'); ?>"><img loading="lazy"
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/advertisement-black.svg"
-                                    class="me-3 icon-menu-size-20" alt="html-logo" />Advertisement</a></li>                            
+                                    class="me-3 icon-menu-size-20" alt="html-logo" />Advertisement</a></li> 
+                        <li class="sub-menu-2"><a href="<?php echo home_url('/banking/'); ?>"><img loading="lazy"
+                                    src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/banking-black.svg"
+                                    class="me-3 icon-menu-size-20" alt="html-logo" />Banking</a></li>
+                        <li class="sub-menu-2"><a href="<?php echo home_url('/manufacturing/'); ?>"><img loading="lazy"
+                                    src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/Manufacturing-black.svg"
+                                    class="me-3 icon-menu-size-20" alt="html-logo" />Manufacturing</a></li>                           
                     </ul>
                 </div>
             </div>
