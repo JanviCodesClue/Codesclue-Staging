@@ -1,0 +1,177 @@
+.eagle-info-bg {
+    width: 100%;
+    height: auto;
+    background-image: url("../images/portfolio-img/project-assets/eagle-informetion.png");
+    background-size: cover;        /* make it cover the div */
+    background-position: center;   /* center the image */
+    background-repeat: no-repeat;  /* don’t repeat */
+}
+.info-card{
+    display: flex;
+}
+.info-card .icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px auto;
+}
+
+.eagle-platform-bg{
+    background-color: #D5E1EE;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+.eagle-card-1{
+    background-color: #0C1E54;
+    border-radius: 20px;
+    color: #fff; 
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.eagle-card-2{
+    background-image: url("../images/portfolio-img/project-assets/fgf.png");
+    color: #fff;
+    padding: 20px 80px 50px 90px;
+    width: 100%;
+    height: auto;
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+    margin-bottom: 25px;
+}
+.eagle-card-last{
+    background-image: url("../images/portfolio-img/project-assets/eagle3.png");
+    color: #fff;
+    padding: 142px 80px 50px 115px;
+    width: 100%;
+    height: auto;
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+    margin-bottom: 25px;
+} 
+
+
+/* Fix for cut issue */
+.eagle-card-1,
+.eagle-card-2,
+.eagle-card-last {
+  overflow: visible !important;
+  position: relative;
+}
+
+/* Row should allow overflow */
+.eagle-multi-platform .row {
+  overflow: visible !important;
+}
+.eagle-title{
+    text-align: center;
+}
+/* Half circle fix */
+.eagle-card-1,
+.eagle-card-2 {
+  margin-left: 0px;  /* left cards बाहर निकलें */
+  margin-right: 0px; /* right cards बाहर निकलें */
+}
+
+/* Center icon overlap */
+/* .eagle-card-1::after,
+.eagle-card-2::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -35px; 
+  width: 120px;
+  height: 120px;
+  background-image: url("../images/portfolio-img/project-assets/eagle-img.png");
+}
+.eagle-card-2::after {
+  left: -35px;
+  right: auto;
+} */
+
+
+
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #05164d; /* navy blue */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  flex-shrink: 0;
+}
+
+
+.eagle-gold-bg{
+    background-color: #A48F58;
+    color: #fff;
+    padding: 20px;
+} 
+.eagle-blue-bg{
+    background-color: #0E1945;
+    color: #fff;
+    padding: 20px;
+}
+.border-top-left{
+    border-radius: 0 20px 20px 20px;
+}
+.border-bottom{
+    border-radius: 0 0px 20px 20px;
+}
+.border-top-right{
+    border-radius: 20px 0px 20px 20px;
+}
+
+
+
+.eagle-profile-card {
+  width: 100%; /* apne hisaab se set kar sakte ho */
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Top heading part */
+.eagle-profile-title {
+  background: #fff;
+  color: #9c854a; /* gold tone as per image */
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  padding: 12px 16px;
+  border-bottom: 0;
+}
+
+/* Bottom blue curved part */
+.eagle-profile-text {
+  background: #2f3e6b; /* dark blue shade */
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+
+.eagle-icon-20{
+  width: 30px;
+  height: 30px;
+}
+.rounded--eagle{
+  border-radius: 25px;
+}
+
+.eagle-border-black{
+  border: #000 1px solid;
+    border-radius: 0 35px 0 35px;
+}
