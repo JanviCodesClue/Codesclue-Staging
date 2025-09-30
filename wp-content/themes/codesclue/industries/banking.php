@@ -1,5 +1,11 @@
-<main class="main">
-
+<?php
+/*
+Template Name: Banking Template
+*/
+get_header(); ?>  
+    
+    <main class="main">
+        
     <section>
         <div class="banking-hero-bg">
             <div class="container">
@@ -302,11 +308,11 @@
 
 
     <section>
-        <div class="container">
+        <div class="container mb-4">
             <div class="row gy-4">
-                <h2 class="fw-bold text-center py-4">Advanced Banking Solutions: Creating the Future of Banking Sector
+                <h2 class="fw-bold text-center pt-4">Advanced Banking Solutions: Creating the Future of Banking Sector
                 </h2>
-                <p>As a leading specialized banking software development firm, CMARIX smoothly combines excellent
+                <p class="pt-1">As a leading specialized banking software development firm, CMARIX smoothly combines excellent
                     technological expertise with considerable banking industry experience.</p>
                 <div class="col-md-4">
                     <div class="border border-dark p-4 rounded">
@@ -373,7 +379,23 @@
                         </p>
                     </div>
                 </div>
+                 <div class="col-md-4">
+                    <div class="border border-dark p-4 rounded">
+                        <div class="d-flex mb-3"><img  src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/3rd-icon.png"
+                                class="banking-icon-25">
+                            <h5>AI and ML Fintech Solutions</h5>
+                        </div>
+                        <p>
+                            Ensure better health outcomes with healthcare solutions through faster diagnosis, seamless
+                            doctor-patient communications,and personalized treatment plans.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-</main>
+
+    
+    </main>
+
+<?php get_footer(); ?>
