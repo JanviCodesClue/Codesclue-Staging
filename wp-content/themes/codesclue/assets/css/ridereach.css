@@ -16,7 +16,7 @@
       z-index: 2;
     }
     .ridereach-title {
-      font-size: 3rem;
+      font-size: 6rem;
       font-weight: 700;
     }
     .ridereach-subtitle {
@@ -494,7 +494,7 @@
     }
     .ridereach-icon {
  height: 20px;
- width: 20px;
+ width: auto;
     }
     .ridereach-architectural h5 {
       font-size: 18px;
