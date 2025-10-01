@@ -19,7 +19,7 @@ get_header(); ?>
                         </p>
                         <a href="<?php echo home_url('/contact-us/'); ?>" class="btn btn-custom">LET'S CONNECT →</a>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/banking-right-img.png"
                             class="mx-auto my-3" alt="center logo">
                     </div>
@@ -30,7 +30,7 @@ get_header(); ?>
 
     <section>
         <div class="container">
-            <div class="row align-content-lg-stretch gy-4">
+            <div class="row align-content-stretch gy-4">
                 <h2 class="fw-bold text-center py-4">Empowering the Banking Industry with Our Banking & Financial Services
                 </h2>
                 <div class="col-md-4 d-flex">
@@ -46,9 +46,8 @@ get_header(); ?>
                 </div>
                 <div class="col-md-4 d-flex">
                     <div class="banking-card ">
-                        <div class="d-flex mb-3"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/baking-icon.png"
-                                class="banking-icon-25">
+                        <div class="d-flex mb-3"><i class="fa-solid fa-mobile-screen banking-icon-25"></i>
+
                             <h5>Digital Banking Platforms</h5>
                         </div>
                         <p>
@@ -58,9 +57,8 @@ get_header(); ?>
                 </div>
                 <div class="col-md-4 d-flex">
                     <div class="banking-card ">
-                        <div class="d-flex mb-3"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/baking-icon.png"
-                                class="banking-icon-25">
+                        <div class="d-flex mb-3"><i class="fa-solid fa-credit-card banking-icon-25"></i>
+
                             <h5>Payment & Transaction Innovation</h5>
                         </div>
                         <p>
@@ -70,9 +68,8 @@ get_header(); ?>
                 </div>
                 <div class="col-md-4 d-flex">
                     <div class="banking-card ">
-                        <div class="d-flex mb-3"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/baking-icon.png"
-                                class="banking-icon-25">
+                        <div class="d-flex mb-3"><i class="fa-solid fa-scale-balanced banking-icon-25"></i>
+
                             <h5>Regulatory & Compliance Automation</h5>
                         </div>
                         <p>
@@ -82,9 +79,8 @@ get_header(); ?>
                 </div>
                 <div class="col-md-4 d-flex">
                     <div class="banking-card ">
-                        <div class="d-flex mb-3"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/baking-icon.png"
-                                class="banking-icon-25">
+                        <div class="d-flex mb-3"><i class="fa-solid fa-shield-halved banking-icon-25"></i>
+
                             <h5>Cybersecurity & Fraud Prevention</h5>
                         </div>
                         <p>
@@ -94,9 +90,8 @@ get_header(); ?>
                 </div>
                 <div class="col-md-4 d-flex">
                     <div class="banking-card ">
-                        <div class="d-flex mb-3"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/baking-icon.png"
-                                class="banking-icon-25">
+                        <div class="d-flex mb-3"><i class="fa-solid fa-chart-line banking-icon-25"></i>
+
                             <h5>Data Analytics & Customer Insights</h5>
                         </div>
                         <p>
@@ -106,9 +101,8 @@ get_header(); ?>
                 </div>
                 <div class="col-md-4 d-flex">
                     <div class="banking-card ">
-                        <div class="d-flex mb-3"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/baking-icon.png"
-                                class="banking-icon-25">
+                        <div class="d-flex mb-3"><i class="fa-solid fa-sack-dollar banking-icon-25"></i>
+
                             <h5>Wealth & Asset Management Solutions</h5>
                         </div>
                         <p>
@@ -118,9 +112,8 @@ get_header(); ?>
                 </div>
                 <div class="col-md-4 d-flex">
                     <div class="banking-card ">
-                        <div class="d-flex mb-3"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/baking-icon.png"
-                                class="banking-icon-25">
+                        <div class="d-flex mb-3"><i class="fa-solid fa-cloud banking-icon-25"></i>
+
                             <h5>Cloud & API-Driven Ecosystems</h5>
                         </div>
                         <p>
@@ -130,9 +123,7 @@ get_header(); ?>
                 </div>
                 <div class="col-md-4 d-flex">
                     <div class="banking-card ">
-                        <div class="d-flex mb-3"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/baking-icon.png"
-                                class="banking-icon-25">
+                        <div class="d-flex mb-3"><i class="fa-solid fa-robot banking-icon-25"></i>
                             <h5>AI & Automation in Banking Operations</h5>
                         </div>
                         <p>
@@ -147,119 +138,78 @@ get_header(); ?>
 
     <section>
         <div class="container">
-            <div class="row gy-4">
-                <h2 class="fw-bold text-center py-4">Empowering the Banking Industry with our Banking Financial Services
+            <div class="row align-content-stretch gy-4">
+                <h2 class="fw-bold text-center py-4">Innovative AI in Banking and Financial Services
                 </h2>
                 <div class="col-md-4 d-flex">
                     <div class="banking-card ">
-                        <div class="d-flex mb-3"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/banking-left-icon.png"
-                                class="banking-icon-25">
-                            <h5>Custom Mobile Banking Software Development</h5>
+                        <div class="d-flex align-items-center mb-3"><i class="fa-solid fa-user-check banking-icon-25 icon-blue"></i>
+
+                            <h5>Hyper Personalized Customer Engagement</h5>
                         </div>
                         <div class="border-left">
                             <p>
-                                Our commitment to meeting the dynamic demands of contemporary banking extends beyond
-                                simple and secure transactions. With a very user-friendly user interface, real-time
-                                account access, and customized financial management features, our mobile bank software
-                                solutions empower consumers. As one of the global top providers of custom software
-                                development services, we guarantee ease of use and access to mobile banking and digital
-                                solutions.
+                               AI enables banks to deliver customized financial products and tailored experiences in real time, building stronger relationships and elevating customer satisfaction.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 d-flex">
                     <div class="banking-card ">
-                        <div class="d-flex mb-3"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/banking-left-icon.png"
-                                class="banking-icon-25">
-                            <h5>Custom Mobile Banking Software Development</h5>
+                        <div class="d-flex align-items-center mb-3"><i class="fa-solid fa-triangle-exclamation banking-icon-25 icon-blue"></i>
+                            <h5>Intelligent Risk Management</h5>
                         </div>
                         <div class="border-left">
                             <p>
-                                Our commitment to meeting the dynamic demands of contemporary banking extends beyond
-                                simple and secure transactions. With a very user-friendly user interface, real-time
-                                account access, and customized financial management features, our mobile bank software
-                                solutions empower consumers. As one of the global top providers of custom software
-                                development services, we guarantee ease of use and access to mobile banking and digital
-                                solutions.
+                                Machine learning models analyze vast datasets to detect anomalies, predict creditworthiness, and anticipate market risks, empowering banks with proactive decision making.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 d-flex">
                     <div class="banking-card ">
-                        <div class="d-flex mb-3"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/banking-left-icon.png"
-                                class="banking-icon-25">
-                            <h5>Custom Mobile Banking Software Development</h5>
+                        <div class="d-flex align-items-center mb-3"><i class="fa-solid fa-hand-holding-dollar banking-icon-25 icon-blue"></i>
+                            <h5>Automated Advisory & Wealth Management</h5>
                         </div>
                         <div class="border-left">
                             <p>
-                                Our commitment to meeting the dynamic demands of contemporary banking extends beyond
-                                simple and secure transactions. With a very user-friendly user interface, real-time
-                                account access, and customized financial management features, our mobile bank software
-                                solutions empower consumers. As one of the global top providers of custom software
-                                development services, we guarantee ease of use and access to mobile banking and digital
-                                solutions.
+                                AI-driven robo advisors and portfolio tools democratize access to financial planning, offering clients data backed insights and efficient wealth management services.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 d-flex">
                     <div class="banking-card ">
-                        <div class="d-flex mb-3"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/banking-left-icon.png"
-                                class="banking-icon-25">
-                            <h5>Custom Mobile Banking Software Development</h5>
+                        <div class="d-flex align-items-center mb-3"><i class="fa-solid fa-shield-halved banking-icon-25 icon-blue"></i>
+                            <h5>Fraud Detection & Transaction Security</h5>
                         </div>
                         <div class="border-left">
                             <p>
-                                Our commitment to meeting the dynamic demands of contemporary banking extends beyond
-                                simple and secure transactions. With a very user-friendly user interface, real-time
-                                account access, and customized financial management features, our mobile bank software
-                                solutions empower consumers. As one of the global top providers of custom software
-                                development services, we guarantee ease of use and access to mobile banking and digital
-                                solutions.
+                               Real-time AI monitoring identifies unusual transaction patterns, combats fraud, and enhances trust by securing sensitive financial operations against emerging threats.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 d-flex">
                     <div class="banking-card ">
-                        <div class="d-flex mb-3"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/banking-left-icon.png"
-                                class="banking-icon-25">
-                            <h5>Custom Mobile Banking Software Development</h5>
+                        <div class="d-flex align-items-center mb-3"><i class="fa-solid fa-bolt banking-icon-25 icon-blue"></i>
+                            <h5>Process Acceleration & Efficiency Gains</h5>
                         </div>
                         <div class="border-left">
                             <p>
-                                Our commitment to meeting the dynamic demands of contemporary banking extends beyond
-                                simple and secure transactions. With a very user-friendly user interface, real-time
-                                account access, and customized financial management features, our mobile bank software
-                                solutions empower consumers. As one of the global top providers of custom software
-                                development services, we guarantee ease of use and access to mobile banking and digital
-                                solutions.
+                                From loan approvals to compliance checks, AI automates manual tasks, reduces turnaround times, and optimizes resources across banking functions.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 d-flex">
                     <div class="banking-card ">
-                        <div class="d-flex mb-3"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/banking-left-icon.png"
-                                class="banking-icon-25">
-                            <h5>Custom Mobile Banking Software Development</h5>
+                        <div class="d-flex align-items-center mb-3"><i class="fa-solid fa-chart-line banking-icon-25 icon-blue"></i>
+                            <h5>Predictive Analytics for Growth</h5>
                         </div>
                         <div class="border-left">
                             <p>
-                                Our commitment to meeting the dynamic demands of contemporary banking extends beyond
-                                simple and secure transactions. With a very user-friendly user interface, real-time
-                                account access, and customized financial management features, our mobile bank software
-                                solutions empower consumers. As one of the global top providers of custom software
-                                development services, we guarantee ease of use and access to mobile banking and digital
-                                solutions.
+                               Advanced analytics forecast customer behavior, investment trends, and market shifts, enabling institutions to anticipate opportunities and drive sustainable growth.
                             </p>
                         </div>
                     </div>
@@ -271,80 +221,62 @@ get_header(); ?>
 
     <section>
         <div class="container mb-4">
-            <div class="row gy-4">
-                <h2 class="fw-bold text-center pt-4">Advanced Banking Solutions: Creating the Future of Banking Sector
+            <div class="row align-content-stretch gy-4">
+                <h2 class="fw-bold text-center pt-4">Advanced Banking Solutions – Innovative AI in Banking and Financial Services
                 </h2>
-                <p class="pt-1">As a leading specialized banking software development firm, CMARIX smoothly combines excellent
-                    technological expertise with considerable banking industry experience.</p>
-                <div class="col-md-4">
+                <div class="col-md-4 d-flex">
                     <div class="border border-dark p-4 rounded">
-                        <div class="d-flex mb-3"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/3rd-icon.png"
-                                class="banking-icon-25">
-                            <h5>AI and ML Fintech Solutions</h5>
+                        <div class="d-flex align-items-center mb-3"><i class="fa-solid fa-user-group banking-icon-25"></i>
+                            <h5>Smarter Customer Experiences</h5>
                         </div>
                         <p>
-                            Ensure better health outcomes with healthcare solutions through faster diagnosis, seamless
-                            doctor-patient communications,and personalized treatment plans.
+                            Deliver personalized digital banking with AI chatbots and virtual assistants that provide instant, accurate, and secure interactions across channels.
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 d-flex">
                     <div class="border border-dark p-4 rounded">
-                        <div class="d-flex mb-3"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/3rd-icon.png"
-                                class="banking-icon-25">
-                            <h5>AI and ML Fintech Solutions</h5>
+                        <div class="d-flex align-items-center mb-3"><i class="fa-solid fa-fingerprint banking-icon-25 "></i>
+                            <h5>Real-Time Fraud Detections</h5>
                         </div>
                         <p>
-                            Ensure better health outcomes with healthcare solutions through faster diagnosis, seamless
-                            doctor-patient communications,and personalized treatment plans.
+                            Leverage AI fraud detection systems that monitor transactions in real time, preventing financial crime and protecting customer trust.
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 d-flex">
                     <div class="border border-dark p-4 rounded">
-                        <div class="d-flex mb-3"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/3rd-icon.png"
-                                class="banking-icon-25">
-                            <h5>AI and ML Fintech Solutions</h5>
+                        <div class="d-flex align-items-center mb-3"><i class="fa-solid fa-file-invoice-dollar banking-icon-25 "></i>
+                            <h5>Intelligent Credit Scoring</h5>
                         </div>
                         <p>
-                            Ensure better health outcomes with healthcare solutions through faster diagnosis, seamless
-                            doctor-patient communications,and personalized treatment plans.
+                            Use AI-driven credit scoring models that analyze diverse data sources to deliver faster, fairer, and more reliable lending decisions.
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 d-flex">
                     <div class="border border-dark p-4 rounded">
-                        <div class="d-flex mb-3"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/3rd-icon.png"
-                                class="banking-icon-25">
-                            <h5>AI and ML Fintech Solutions</h5>
+                        <div class="d-flex align-items-center mb-3"><i class="fa-solid fa-chart-line banking-icon-25 "></i>
+                            <h5>Predictive Financial Insights</h5>
                         </div>
                         <p>
-                            Ensure better health outcomes with healthcare solutions through faster diagnosis, seamless
-                            doctor-patient communications,and personalized treatment plans.
+                            Harness AI predictive analytics to anticipate customer needs, forecast market trends, and unlock new growth opportunities.
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 d-flex">
                     <div class="border border-dark p-4 rounded">
-                        <div class="d-flex mb-3"><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/3rd-icon.png"
-                                class="banking-icon-25">
-                            <h5>AI and ML Fintech Solutions</h5>
+                        <div class="d-flex align-items-center mb-3"><i class="fa-solid fa-scale-balanced banking-icon-25 "></i>
+                            <h5>Enhanced Regulatory Compliance</h5>
                         </div>
                         <p>
-                            Ensure better health outcomes with healthcare solutions through faster diagnosis, seamless
-                            doctor-patient communications,and personalized treatment plans.
+                            Ensure continuous regulatory compliance in banking with AI systems that track evolving rules, automate reporting, and minimize risk.
                         </p>
                     </div>
                 </div>
-                 <div class="col-md-4">
+                 <div class="col-md-4 d-flex">
                     <div class="border border-dark p-4 rounded">
-                        <div class="d-flex mb-3"><img  src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/banking/3rd-icon.png"
-                                class="banking-icon-25">
+                        <div class="d-flex align-items-center mb-3"><i class="fa-solid fa-robot banking-icon-25 "></i>
                             <h5>AI and ML Fintech Solutions</h5>
                         </div>
                         <p>
