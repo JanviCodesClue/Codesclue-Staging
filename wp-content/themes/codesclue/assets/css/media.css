@@ -72,9 +72,8 @@
     }
 
     .media-service-icon  {
-    height: 30px;
-    width: 30px;
-    margin-right: 10px;
+   font-size: 30px;
+    margin-right: 20px;
     }
 
     .media-service-title {
@@ -84,18 +83,22 @@
     }
 
     .media-service-text {
-      font-size: 0.95rem;
+      font-size: 1rem;
       color: #555;
     }
-
+.bg-blue-light{
+  background-color: #eaf3ff;
+}
     .media-service-img img {
       width: 100%;
       border-radius: 8px;
     }
 
 
-
-
+  .meadia-icon-15{
+    font-size: 15px;
+    padding-right: 10px;
+  }
 
 
     .entertainment-services {
