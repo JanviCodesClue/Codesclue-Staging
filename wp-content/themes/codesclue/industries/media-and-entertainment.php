@@ -10,15 +10,10 @@ get_header(); ?>
     <div class="media-overlay"></div>
     <div class="container media-content">
       <h1 class="media-title">
-        Leading Media and Entertainment <br>
-        Software Development Company
+        Reimagining Media and Entertainment <br> with Digital Innovation
       </h1>
       <p class="media-text">
-        CMARIX is a top-tier software development company in USA and India to provide
-        cutting-edge solutions for media and entertainment world. What makes us different
-        from everyone else is our result-driven software development solutions. We at CMARIX,
-        design and develop advanced content streaming software ensure to proven result to the
-        digital hunger of consumers across the globe.
+       We empower media and entertainment companies with cutting edge digital solutions that transform how content is created, distributed, and consumed. From streaming platforms and mobile apps to AI-powered recommendation engines and immersive experiences, our solutions help brands engage audiences at scale. We build secure, scalable platforms that support high traffic, personalized content delivery, and seamless monetization models. With expertise in cloud, AI, and analytics, we enable businesses to unlock new revenue streams, enhance user engagement, and stay ahead in a rapidly evolving digital landscape.
       </p>
       <a href="#" class="btn media-btn">
         LET’S CONNECT →
@@ -31,98 +26,110 @@ get_header(); ?>
     <div class="container">
       <!-- Section Heading -->
       <h2 class="media-services-title">
-        Elevate Media & Entertainment Software Solutions with CMARIX Expertise
+        Elevate Media & Entertainment Software Solutions with CodesClue's Expertise
       </h2>
       <p class="media-services-desc">
-        Discover our specialized services designed to deliver advanced media and entertainment software solutions.
-        From intuitive UI/UX to robust backend systems, we bring innovation and scalability to every project.
+        We design and develop next generation Media & Entertainment software solutions that empower companies to create, distribute, and monetize content more effectively. From OTT platforms to immersive experiences, we combine innovation with scalability. With CodesClue's expertise, businesses can deliver personalized, engaging, and secure digital experiences to audiences worldwide.
       </p>
 
       <!-- Service Items -->
       <div class="row align-items-center media-service-item">
-        <div class="col-md-9">
-          <div class="media-service-title d-flex"><img src="https://cdn-icons-png.flaticon.com/512/1179/1179069.png" alt="Icon" class="media-service-icon"><h3>OTT Platform Development</h3></div>
+        <div class="col-md-9 bg-blue-light rounded p-4">
+          <div class="media-service-title d-flex"><i class="fa-solid fa-tv media-service-icon"></i><h3>OTT Platform Development</h3></div>
           <p class="media-service-text">
             Build scalable OTT platforms with high-quality video streaming, multi-device compatibility,
             and seamless user experiences tailored for global audiences.
           </p>
+          <div class="d-flex align-items-center mt-3 mb-1"><i class="fa-solid fa-film meadia-icon-15"></i><p>Adaptive bitrate streaming for smooth performance</p></div>
+          <div class="d-flex align-items-center mt-3 mb-1"><i class="fa-solid fa-film meadia-icon-15"></i><p>Multi-device and cross-platform accessibility</p></div>
+          <div class="d-flex align-items-center mt-3 mb-1"><i class="fa-solid fa-film meadia-icon-15"></i><p>Flexible subscription, ad-based, and pay-per-view models</p></div>             
         </div>
         <div class="col-md-3 media-service-img justify-content-end">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/media-services (1).png" alt="Service">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/media/ott-platform-development.jpg" alt="Service">
         </div>
       </div>
 
       <div class="row align-items-center media-service-item flex-md-row-reverse">
-        <div class="col-md-9">
-          <div class="media-service-title d-flex"><img src="https://cdn-icons-png.flaticon.com/512/1179/1179069.png" alt="Icon" class="media-service-icon"><h3>OTT Platform Development</h3></div>
+          <div class="col-md-9 bg-blue-light rounded p-4">
+          <div class="media-service-title d-flex"><i class="fa-solid fa-folder-open media-service-icon"></i><h3>Content Management Systems (CMS)</h3></div>
           <p class="media-service-text">
-            Build scalable OTT platforms with high-quality video streaming, multi-device compatibility,
-            and seamless user experiences tailored for global audiences.
+           Our advanced CMS solutions empower media houses to manage, publish, and distribute content effortlessly. With workflow automation, collaborative tools, and multi-language support, we ensure faster time-to-market and improved content quality.
           </p>
-        </div>
-        <div class="col-md-3 media-service-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/media-services (2).png" alt="Service">
-        </div>
-      </div>
-
-         <div class="row align-items-center media-service-item">
-        <div class="col-md-9">
-          <div class="media-service-title d-flex"><img src="https://cdn-icons-png.flaticon.com/512/1179/1179069.png" alt="Icon" class="media-service-icon"><h3>OTT Platform Development</h3></div>
-          <p class="media-service-text">
-            Build scalable OTT platforms with high-quality video streaming, multi-device compatibility,
-            and seamless user experiences tailored for global audiences.
-          </p>
+          <div class="d-flex align-items-center mt-3 mb-1"><i class="fa-solid fa-film meadia-icon-15"></i><p>Centralized content repository with smart search</p></div>
+          <div class="d-flex align-items-center mt-3 mb-1"><i class="fa-solid fa-film meadia-icon-15"></i><p>Custom approval workflows and role-based access</p></div>
+          <div class="d-flex align-items-center mt-3 mb-1"><i class="fa-solid fa-film meadia-icon-15"></i><p>Localization and multi-language publishing</p></div>             
         </div>
         <div class="col-md-3 media-service-img justify-content-end">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/media-services (1).png" alt="Service">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/media/content-management-systems.jpg" alt="Service">
         </div>
       </div>
 
-      <div class="row align-items-center media-service-item flex-md-row-reverse">
-        <div class="col-md-9">
-          <div class="media-service-title d-flex"><img src="https://cdn-icons-png.flaticon.com/512/1179/1179069.png" alt="Icon" class="media-service-icon"><h3>OTT Platform Development</h3></div>
+       <div class="row align-items-center media-service-item">
+        <div class="col-md-9 bg-blue-light rounded p-4">
+          <div class="media-service-title d-flex"><i class="fa-solid fa-users media-service-icon"></i><h3>Audience Engagement & Personalization</h3></div>
           <p class="media-service-text">
-            Build scalable OTT platforms with high-quality video streaming, multi-device compatibility,
-            and seamless user experiences tailored for global audiences.
+            We help businesses create engaging digital experiences using AI-driven personalization and interactive features. By understanding audience preferences, our platforms increase loyalty, retention, and user satisfaction across channels.
           </p>
-        </div>
-        <div class="col-md-3 media-service-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/media-services (2).png" alt="Service">
-        </div>
-      </div>
-         <div class="row align-items-center media-service-item">
-        <div class="col-md-9">
-          <div class="media-service-title d-flex"><img src="https://cdn-icons-png.flaticon.com/512/1179/1179069.png" alt="Icon" class="media-service-icon"><h3>OTT Platform Development</h3></div>
-          <p class="media-service-text">
-            Build scalable OTT platforms with high-quality video streaming, multi-device compatibility,
-            and seamless user experiences tailored for global audiences.
-          </p>
+          <div class="d-flex align-items-center mt-3 mb-1"><i class="fa-solid fa-film meadia-icon-15"></i><p>AI-powered recommendation engines</p></div>
+          <div class="d-flex align-items-center mt-3 mb-1"><i class="fa-solid fa-film meadia-icon-15"></i><p>Gamification and interactive media elements</p></div>
+          <div class="d-flex align-items-center mt-3 mb-1"><i class="fa-solid fa-film meadia-icon-15"></i><p>Real-time audience analytics for tailored campaigns</p></div>             
         </div>
         <div class="col-md-3 media-service-img justify-content-end">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/media-services (1).png" alt="Service">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/media/audience-engagement-personalization.jpg" alt="Service">
         </div>
       </div>
 
-      <div class="row align-items-center media-service-item flex-md-row-reverse">
-        <div class="col-md-9">
-          <div class="media-service-title d-flex"><img src="https://cdn-icons-png.flaticon.com/512/1179/1179069.png" alt="Icon" class="media-service-icon"><h3>OTT Platform Development</h3></div>
+       <div class="row align-items-center media-service-item flex-md-row-reverse">
+          <div class="col-md-9 bg-blue-light rounded p-4">
+          <div class="media-service-title d-flex"><i class="fa-solid fa-sack-dollar media-service-icon"></i><h3>Media Monetization Solutions</h3></div>
           <p class="media-service-text">
-            Build scalable OTT platforms with high-quality video streaming, multi-device compatibility,
-            and seamless user experiences tailored for global audiences.
+          Our monetization frameworks enable businesses to diversify revenue models and maximize profitability. From ad-supported streaming to in-app purchases, we build secure, scalable solutions that align with business goals.
           </p>
+          <div class="d-flex align-items-center mt-3 mb-1"><i class="fa-solid fa-film meadia-icon-15"></i><p>Subscription and freemium revenue options</p></div>
+          <div class="d-flex align-items-center mt-3 mb-1"><i class="fa-solid fa-film meadia-icon-15"></i><p>Ad integration with advanced targeting features</p></div>
+          <div class="d-flex align-items-center mt-3 mb-1"><i class="fa-solid fa-film meadia-icon-15"></i><p>Secure payment gateways and transaction monitoring</p></div>             
         </div>
-        <div class="col-md-3 media-service-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/media-services (2).png" alt="Service">
+        <div class="col-md-3 media-service-img justify-content-end">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/media/media-monetization-solutions.jpg" alt="Service">
         </div>
       </div>
-      <!-- Repeat structure for more services -->
+
+      <div class="row align-items-center media-service-item">
+        <div class="col-md-9 bg-blue-light rounded p-4">
+          <div class="media-service-title d-flex"><i class="fa-solid fa-vr-cardboard media-service-icon"></i><h3>AR/VR & Immersive Experiences</h3></div>
+          <p class="media-service-text">
+            We deliver cutting-edge AR/VR applications that redefine content consumption and audience interaction. From virtual concerts to interactive exhibitions, our solutions help brands stand out with immersive storytelling.
+          </p>
+          <div class="d-flex align-items-center mt-3 mb-1"><i class="fa-solid fa-film meadia-icon-15"></i><p>Virtual reality concerts and live events</p></div>
+          <div class="d-flex align-items-center mt-3 mb-1"><i class="fa-solid fa-film meadia-icon-15"></i><p>3D showcases for media and entertainment assets</p></div>
+          <div class="d-flex align-items-center mt-3 mb-1"><i class="fa-solid fa-film meadia-icon-15"></i><p>Integration with IoT devices and wearables</p></div>             
+        </div>
+        <div class="col-md-3 media-service-img justify-content-end">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/media/arvr-immersive-experiences.jpg" alt="Service">
+        </div>
+      </div>
+
+       <div class="row align-items-center media-service-item flex-md-row-reverse">
+          <div class="col-md-9 bg-blue-light rounded p-4">
+          <div class="media-service-title d-flex"><i class="fa-solid fa-chart-line media-service-icon"></i><h3>Data Analytics & Insights</h3></div>
+          <p class="media-service-text">
+          Our data-driven solutions empower businesses with actionable insights to optimize performance, audience engagement, and monetization strategies. With predictive analytics and AI-driven dashboards, companies can make smarter decisions.
+          </p>
+          <div class="d-flex align-items-center mt-3 mb-1"><i class="fa-solid fa-film meadia-icon-15"></i><p>Custom KPI dashboards and reporting tools</p></div>
+          <div class="d-flex align-items-center mt-3 mb-1"><i class="fa-solid fa-film meadia-icon-15"></i><p>Predictive analytics for audience and revenue trends</p></div>
+          <div class="d-flex align-items-center mt-3 mb-1"><i class="fa-solid fa-film meadia-icon-15"></i><p>AI-based performance monitoring and forecasting</p></div>             
+        </div>
+        <div class="col-md-3 media-service-img justify-content-end">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/media/data-analytics-insights.jpg" alt="Service">
+        </div>
+      </div>
     </div>
   </section>
 
  <section class="entertainment-services">
     <div class="container entertainment-container">
       <h2 class="entertainment-title text-white">
-        Innovative Media & Entertainment Software Services
+        Innovative Media & Entertainment Software Services by CodesClue
       </h2>
 
       <!-- Carousel Start -->
@@ -135,9 +142,9 @@ get_header(); ?>
               <div class="col-md-4">
                 <div class="entertainment-card">
                   <div class="entertainment-card-body">
-                    <h5 class="entertainment-card-title">Media & Entertainment</h5>
+                    <h5 class="entertainment-card-title mb-2">OTT & Streaming Platform Development</h5>
                     <p class="entertainment-card-text">
-                      Build high-performance OTT, streaming, and media apps with secure content distribution and engaging UI/UX.
+                     We design high-performance OTT platforms and video streaming solutions that ensure seamless content delivery across devices and geographies. With adaptive streaming, advanced security, and integrated monetization models, our platforms enable businesses to scale globally while delivering personalized user experiences.
                     </p>
                   </div>
                 </div>
@@ -145,9 +152,9 @@ get_header(); ?>
               <div class="col-md-4">
                 <div class="entertainment-card">
                   <div class="entertainment-card-body">
-                    <h5 class="entertainment-card-title">Healthcare Solutions</h5>
+                    <h5 class="entertainment-card-title mb-2">AR/VR & Immersive Media Solutions</h5>
                     <p class="entertainment-card-text">
-                      Telemedicine, EMR/EHR, patient management, and HIPAA-compliant healthcare apps for better services.
+                      CodesClue builds next-generation AR/VR applications for media and entertainment that transform digital experiences. From virtual concerts and live events to gamified storytelling, our immersive solutions enhance brand engagement, increase retention, and open new revenue streams in the digital economy.
                     </p>
                   </div>
                 </div>
@@ -155,9 +162,9 @@ get_header(); ?>
               <div class="col-md-4">
                 <div class="entertainment-card">
                   <div class="entertainment-card-body">
-                    <h5 class="entertainment-card-title">E-Learning Platforms</h5>
+                    <h5 class="entertainment-card-title mb-2">Content Management & Monetization Systems</h5>
                     <p class="entertainment-card-text">
-                      Scalable LMS, virtual classrooms, and AI-driven personalized e-learning experiences.
+                      Our intelligent content management systems for media companies streamline publishing workflows, localization, and secure content distribution. By integrating AI-powered analytics and flexible monetization frameworks, including subscriptions, ad-tech, and digital commerce, we help organizations maximize ROI and stay ahead in a competitive market.
                     </p>
                   </div>
                 </div>
@@ -165,88 +172,11 @@ get_header(); ?>
             </div>
           </div>
 
-          <!-- Slide 2 -->
-          <div class="carousel-item">
-            <div class="row g-4">
-              <div class="col-md-4">
-                <div class="entertainment-card">
-                  <div class="entertainment-card-body">
-                    <h5 class="entertainment-card-title">FinTech Applications</h5>
-                    <p class="entertainment-card-text">
-                      Secure mobile banking, payment gateways, investment tracking, and AI-powered financial insights.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="entertainment-card">
-                  <div class="entertainment-card-body">
-                    <h5 class="entertainment-card-title">Travel & Booking</h5>
-                    <p class="entertainment-card-text">
-                      Real-time booking engines, itinerary planners, and AI-driven travel personalization platforms.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="entertainment-card">
-                  <div class="entertainment-card-body">
-                    <h5 class="entertainment-card-title">Retail & eCommerce</h5>
-                    <p class="entertainment-card-text">
-                      Powerful eCommerce solutions with inventory management, payment integrations, and personalized shopping.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 3 -->
-          <div class="carousel-item">
-            <div class="row g-4">
-              <div class="col-md-4">
-                <div class="entertainment-card">
-                  <div class="entertainment-card-body">
-                    <h5 class="entertainment-card-title">Real Estate Platforms</h5>
-                    <p class="entertainment-card-text">
-                      Property listing portals, AR/VR-based virtual tours, and lead management software.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="entertainment-card">
-                  <div class="entertainment-card-body">
-                    <h5 class="entertainment-card-title">Logistics & Supply Chain</h5>
-                    <p class="entertainment-card-text">
-                      Fleet management, shipment tracking, and AI-driven demand forecasting solutions.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="entertainment-card">
-                  <div class="entertainment-card-body">
-                    <h5 class="entertainment-card-title">EdTech SaaS</h5>
-                    <p class="entertainment-card-text">
-                      Subscription-based SaaS platforms for education businesses with analytics and secure access.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    
 
         </div>
 
-        <!-- Controls -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#entertainmentCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#entertainmentCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </button>
-      </div>
+
       <!-- Carousel End -->
 
     </div>
@@ -257,36 +187,41 @@ get_header(); ?>
 
   <div class="container my-5">
   <div class="row justify-content-center align-items-center">
-    
+    <h2 class="text-center">
+       Forging the Future of Media & Entertainment with Advanced Digital Solutions
+      </h2>
+      <p class="text-center py-4">CodesClue empowers media and entertainment enterprises with next generation digital solutions that redefine how content is produced, distributed, and monetized. Our expertise drives global audience engagement, operational efficiency, and sustained revenue growth.</p>
     <!-- Left Side -->
     <div class="col-lg-4 d-flex flex-column gap-4">
       
       <!-- Card 1 -->
       <div class="entertainment-music card-box">
-        <div class="card-icon">AI</div>
-        <h6>AI AND ML FINTECH SOLUTIONS</h6>
+        <div class="card-icon"><i class="fa-solid fa-circle-play"></i>
+</div>
+        <h6>OTT & Video Streaming Platforms</h6>
         <p class="card-text">
-          Ensure better health outcomes with healthcare solutions through
-          faster diagnosis, seamless doctor-patient communications,
-          and personalized treatment plans.
+         We design scalable OTT and streaming platforms that deliver seamless, high quality video across multiple devices. With adaptive streaming, integrated monetization models, and AI-driven personalization, businesses can expand reach and enhance viewer satisfaction.
         </p>
       </div>
       
       <!-- Card 2 -->
       <div class="entertainment-movie card-box">
-        <div class="card-icon">AI</div>
-        <h6>AI AND ML FINTECH SOLUTIONS</h6>
+        <div class="card-icon"><i class="fa-solid fa-pen-to-square"></i>
+</div>
+        <h6>Advanced Content Management Systems (CMS)</h6>
         <p class="card-text">
-          This is hidden text for Movie Card. It will appear on hover.
+          Our intelligent content management systems for media companies streamline publishing, localization, and distribution. With collaborative workflows and secure delivery, organizations can accelerate content cycles while maintaining global consistency.
         </p>
       </div>
       
       <!-- Card 3 -->
       <div class="entertainment-gaming card-box">
-        <div class="card-icon">AI</div>
-        <h6>AI AND ML FINTECH SOLUTIONS</h6>
+        <div class="card-icon"><i class="fa-solid fa-users"></i>
+
+</div>
+        <h6>Audience Engagement & Personalization</h6>
         <p class="card-text">
-          This is hidden text for Gaming Card. It will appear on hover.
+          Through AI-powered recommendation engines and analytics, we help media businesses create immersive, personalized experiences. Interactive features and real-time insights strengthen loyalty and maximize user engagement.
         </p>
       </div>
     </div>
@@ -301,28 +236,31 @@ get_header(); ?>
       
       <!-- Card 4 -->
       <div class="entertainment-drama card-box">
-        <div class="card-icon">AI</div>
-        <h6>AI AND ML FINTECH SOLUTIONS</h6>
+        <div class="card-icon"><i class="fa-solid fa-vr-cardboard"></i>
+</div>
+        <h6>AR/VR & Immersive Experiences</h6>
         <p class="card-text">
-          This is hidden text for Drama Card. It will appear on hover.
+          CodesClue builds AR/VR solutions for entertainment that transform storytelling into dynamic digital experiences. From virtual concerts to gamified events, our immersive platforms captivate audiences and open new revenue opportunities.
         </p>
       </div>
       
       <!-- Card 5 -->
       <div class="entertainment-sports card-box">
-        <div class="card-icon">AI</div>
-        <h6>AI AND ML FINTECH SOLUTIONS</h6>
+        <div class="card-icon"><i class="fa-solid fa-sack-dollar"></i>
+</div>
+        <h6>Media Monetization Frameworks</h6>
         <p class="card-text">
-          This is hidden text for Sports Card. It will appear on hover.
+         We enable flexible media monetization models including subscriptions, ad-supported platforms, and digital commerce. Secure payment integrations and ad-tech ensure sustainable profitability in a competitive market.
         </p>
       </div>
       
       <!-- Card 6 -->
       <div class="entertainment-dance card-box">
-        <div class="card-icon">AI</div>
-        <h6>AI AND ML FINTECH SOLUTIONS</h6>
+        <div class="card-icon"><i class="fa-solid fa-chart-line"></i>
+</div>
+        <h6>Data Analytics & Business Insights</h6>
         <p class="card-text">
-          This is hidden text for Dance Card. It will appear on hover.
+          Our AI-driven analytics platforms deliver actionable insights into audience behavior, campaign performance, and revenue trends. This empowers businesses to optimize strategies, improve ROI, and stay ahead in the digital ecosystem.
         </p>
       </div>
     </div>
