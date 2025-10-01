@@ -8,12 +8,9 @@ get_header(); ?>
     <main>
   <section class="food-hero">
     <div class="container">
-      <h1 class="food-hero-title">Food and Beverage Software<br>Development Company</h1>
+      <h1 class="food-hero-title">Transforming the Food & Services <br>Industry with Digital Innovation</h1>
       <p class="food-hero-text">
-        In the new era of digital innovation and technical modernization, we are offering next-gen on-demand 
-        food and beverage software development service to meet your every food business need. 
-        Our Food and Beverage software development solutions are aligned with each restaurant’s 
-        operational exercise to serve your food & manage customer interactions.
+        CodesClue develops next-generation software solutions for the food and services industry that enhance customer satisfaction and operational efficiency. From online ordering and delivery apps to restaurant management and loyalty systems, we create secure, scalable platforms tailored to modern business needs. Our expertise enables brands to streamline workflows, boost engagement, and achieve sustainable growth in a competitive market.
       </p>
       <a href="<?php echo home_url('/contact-us/'); ?>" class="btn food-hero-btn">LET’S CONNECT →</a>
     </div>
@@ -22,64 +19,151 @@ get_header(); ?>
   <!-- Orange Brush Cards -->
   <section class="food-orange-section">
     <div class="container">
-      <h2 class="text-center pb-2">End-to-End Food and Beverage Software Development Solutions</h2>
-      <P CLASS="text-center pb-3">In this fast-paced digitalize food and beverage industry, we are offering end-to-end food and beverage software solutions to make your business more modernize and ready-to-use (on-demand food and beverage solutions) for every F&B businesses. Our advanced features are developed very precisely and logically, ensure that your every operational activities of restaurant cover from inception to prominent services. By considering the need of every F&B business, we have developed well-versed restaurant management software to scale up business and manage reliable management practices.</P>
-      <div class="row g-4">
-        <div class="col-md-4-food">
-          <div class="food-orange-card">
-            <h3>Point of Sale (POS) Systems</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
-          </div>
-        </div>
-        <div class="col-md-4-food">
-          <div class="food-orange-card">
-            <h3>Point of Sale (POS) Systems</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
-          </div>
-        </div>
-        <div class="col-md-4-food">
-          <div class="food-orange-card">
-            <h3>Point of Sale (POS) Systems</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
-          </div>
-        </div>
-        <div class="col-md-4-food">
-          <div class="food-orange-card">
-            <h3>Point of Sale (POS) Systems</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
-          </div>
-        </div>
-        <div class="col-md-4-food">
-          <div class="food-orange-card">
-            <h3>Point of Sale (POS) Systems</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
-          </div>
-        </div>
-        <div class="col-md-4-food">
-          <div class="food-orange-card">
-            <h3>Point of Sale (POS) Systems</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
-          </div>
-        </div>
+      <h2 class="text-center pb-2">End-to-End Food and Services Software Development Solutions</h2>
+      <P CLASS="text-center pb-3">CodesClue delivers advanced food and services software solutions that streamline operations, enhance customer engagement, and drive business growth. From restaurant management to delivery logistics, we provide scalable, secure, and user-friendly platforms. Our expertise helps brands digitize services, unlock new revenue streams, and thrive in today's competitive marketplace.</P>
+      <div class="row align-items-lg-stretch g-4">
+            <div class="col-md-4 d-flex">
+            <div class="food-service-card p-3" style="background:#E6F2FF;">
+                <div>
+                <h4>Online Ordering Systems</h4>
+                <p>We develop intuitive online ordering solutions that deliver seamless customer experiences across web and mobile platforms. These systems ensure faster ordering, secure payments, and real-time updates for restaurants and customers alike.</p>
+                <div class="food-service-tags">
+                    <span>User-friendly ordering interfaces</span>
+                    <span>Real-time menu management</span>
+                    <span>Secure, multi-gateway payment options</span>
+                </div>
+                </div>
+                
+            </div>
+            </div>
+            <div class="col-md-4 d-flex">
+               <div class="food-service-card p-3" style="background:#E9E0FF;">
+                <div>
+                <h4>Restaurant Management Platforms</h4>
+                <p>Our platforms streamline operations with integrated POS, resource planning, and workflow automation. By connecting every aspect of the restaurant, we help businesses reduce costs and improve service delivery.</p>
+                <div class="food-service-tags">
+                    <span>Centralized POS integration</span>
+                    <span>Table, order, and staff management</span>
+                    <span>Inventory and supplier synchronization</span>
+                </div>
+                </div>
+               </div>
+            </div>
+            <div class="col-md-4 d-flex">
+               <div class="food-service-card p-3" style="background:#FFE6D9;">
+                <div>
+                <h4>Food Delivery Applications</h4>
+                <p>We design robust delivery applications that simplify logistics, enhance visibility, and improve customer trust. Features like real-time tracking and optimized delivery routes ensure faster, reliable service.</p>
+                <div class="food-service-tags">
+                    <span>Live GPS order tracking</span>
+                    <span>Driver assignment and route optimization</span>
+                    <span>Customer feedback and ratings system</span>
+                </div>
+                </div>
+                
+               </div>
+            </div>
+            <div class="col-md-4 d-flex">
+               <div class="food-service-card p-3" style="background:#F7F9EC;">
+                <div>
+                <h4>Loyalty & Rewards Programs</h4>
+                <p>Our loyalty solutions keep customers engaged and encourage repeat business. With data-driven insights, brands can offer personalized incentives and strengthen customer relationships.</p>
+                <div class="food-service-tags">
+                    <span>Points-based reward systems</span>
+                    <span>AI-powered personalization</span>
+                    <span>Integrated discounts and coupon engines</span>
+                </div>
+                </div>
+               </div>
+            </div>
+            <div class="col-md-4 d-flex">
+               <div class="food-service-card p-3" style="background:#F1F1F6;">
+                <div>
+                <h4>Inventory & Supply Chain Management</h4>
+                <p>We deliver intelligent supply chain platforms that automate stock management and optimize resource planning. This minimizes waste while ensuring restaurants never run out of essentials.</p>
+                <div class="food-service-tags">
+                    <span>Low-stock alerts and auto-replenishment</span>
+                    <span>Supplier management dashboards</span>
+                    <span>Forecasting and demand planning tools</span>
+                </div>
+                </div>
+               </div>
+            </div>
+            <div class="col-md-4 d-flex">
+               <div class="food-service-card p-3" style="background:#F5ECF0;">
+                <div>
+                <h4>Cloud Kitchen Solutions</h4>
+                <p>CodesClue enables cloud kitchens to scale efficiently with centralized management platforms. Our systems integrate orders, workflows, and deliveries to maximize efficiency across multiple brands.</p>
+                <div class="food-service-tags">
+                    <span>Unified order and menu management</span>
+                    <span>Kitchen display and process automation</span>
+                    <span>Multi-brand and delivery partner integration</span>
+                </div>
+                </div>
+                
+               </div>
+            </div>
+            <div class="col-md-4 d-flex">
+               <div class="food-service-card p-3" style="background:#F3FAFF;">
+                <div>
+                <h4>Payment & Billing Solutions</h4>
+                <p>Our secure payment platforms simplify transactions and improve transparency. With multiple payment options and automated billing, businesses can ensure faster checkouts and reliable compliance.</p>
+                <div class="food-service-tags">
+                    <span>Multi-method payment support</span>
+                    <span>Automated billing and invoicing</span>
+                    <span>PCI-DSS compliant data security</span>
+                </div>
+                </div>
+               </div>
+            </div>
+            <div class="col-md-4 d-flex">
+               <div class="food-service-card p-3" style="background:#F5EEFF;">
+                <div>
+                <h4>Customer Experience Platforms</h4>
+                <p>We help brands build personalized journeys with omni-channel engagement solutions. From push notifications to real-time feedback, businesses can nurture customer loyalty and boost satisfaction.</p>
+                <div class="food-service-tags">
+                    <span>AI-driven recommendation engines</span>
+                    <span>Campaigns and push notifications</span>
+                    <span>Feedback and review integration</span>
+                </div>
+                </div>
+               </div>
+            </div>
+            <div class="col-md-4 d-flex">
+               <div class="food-service-card p-3" style="background:#FBFFF4;">
+                <div>
+                <h4>Analytics & Business Intelligence</h4>
+                <p>Our analytics solutions turn raw data into actionable insights. From customer behavior to sales performance, businesses can make informed decisions to optimize operations and plan growth.</p>
+                <div class="food-service-tags">
+                    <span>Customizable KPI dashboards</span>
+                    <span>Sales and performance analytics</span>
+                    <span>Predictive forecasting and trend analysis</span>
+                </div>
+                </div>
+                
+               </div>
+            </div>
       </div>
     </div>
   </section>
+
+
+
 <section class="food-beverage-section py-5">
 
   <div class="container">
  <h2 class="text-center pb-2">Expert Food Service Software Development</h2>
-      <P CLASS="text-center pb-3">Unveil a new horizon of culinary management with our bespoke software solutions, tailored to the nuanced needs of the food industry. Our services are a blend of innovation and functionality, serving up food service management software that streamlines operations, food product development software that nurtures creativity, and restaurant management systems that enhance the dining experience.</P>
+      <P CLASS="text-center pb-3">CodesClue delivers custom food service software solutions designed to optimize operations, enhance customer engagement, and boost profitability. From restaurant management systems to delivery apps and analytics platforms, we help food businesses embrace digital transformation. Our scalable, secure, and user-friendly solutions empower brands to compete and grow in a rapidly evolving market.</P>
     <!-- Card 1 -->
     <div class="row justify-content-center mb-5">
       <div class="col-12">
         <div class="food-card">
           <div class="food-img left">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food (1).jpg" alt="Food">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/online-ordering-delivery-platforms.jpg" alt="Food">
           </div>
           <div class="food-content">
-            <h5>Food and Beverage Software Development</h5>
-            <p>Ensure your food business with our robust food and beverage software.
-              Manage operations, streamline inventory and enhance efficiency.</p>
+            <h5>Online Ordering & Delivery Platforms</h5>
+            <p>We build seamless ordering and delivery systems that connect customers to restaurants instantly. With intuitive interfaces, real-time updates, and secure payment integrations, our solutions simplify the entire journey from menu browsing to doorstep delivery.</p>
           </div>
         </div>
       </div>
@@ -90,17 +174,76 @@ get_header(); ?>
       <div class="col-12">
         <div class="food-card">
           <div class="food-img right">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food (2).jpg" alt="Hospitality">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/restaurant-management-systems.jpg" alt="Hospitality">
           </div>
           <div class="food-content">
-            <h5>Hospitality Management Solutions</h5>
-            <p>From hotels to restaurants, streamline guest experiences with powerful
-              hospitality management solutions built for the modern industry.</p>
+            <h5>Restaurant Management Systems</h5>
+            <p>Our management platforms unify POS, reservations, staff scheduling, and inventory into one system. By automating workflows and enabling real-time monitoring, restaurants can improve efficiency, reduce costs, and deliver better customer service.</p>
           </div>
         </div>
       </div>
     </div>
 
+
+        <!-- Card 1 -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-12">
+        <div class="food-card">
+          <div class="food-img left">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/customer-loyalty-engagement.jpg" alt="Food">
+          </div>
+          <div class="food-content">
+            <h5>Customer Loyalty & Engagement</h5>
+            <p>We design digital loyalty programs and engagement tools that strengthen customer relationships. Personalized rewards, gamified campaigns, and targeted offers ensure higher retention rates and long-term brand advocacy.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="food-card">
+          <div class="food-img right">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/inventory-supply-chain-solutions.jpg" alt="Hospitality">
+          </div>
+          <div class="food-content">
+            <h5>Inventory & Supply Chain Solutions</h5>
+            <p>Our software tracks stock in real time, predicts demand, and automates replenishment. By minimizing waste and ensuring supply chain visibility, businesses can run more sustainably and avoid costly disruptions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+            <!-- Card 1 -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-12">
+        <div class="food-card">
+          <div class="food-img left">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/cloud-kitchen-enablement.jpg" alt="Food">
+          </div>
+          <div class="food-content">
+            <h5>Cloud Kitchen Enablement</h5>
+            <p>We develop platforms tailored for cloud and ghost kitchens to manage multiple brands under one roof. Centralized order management, automated kitchen workflows, and delivery integration drive efficiency and scalability.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="food-card">
+          <div class="food-img right">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/analytics-business-intelligence.jpg" alt="Hospitality">
+          </div>
+          <div class="food-content">
+            <h5>Analytics & Business Intelligence</h5>
+            <p>Our BI dashboards turn complex data into actionable insights. From sales performance to customer trends, predictive analytics help food service businesses refine strategies, improve decision-making, and plan future growth.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -116,50 +259,70 @@ get_header(); ?>
         Cultivating Gastronomic Excellence with Advanced Software Technologies
       </h2>
       <p class="text-muted mb-5">
-        Dive into the digital revolution of the food and beverage sector with custom software development that marries culinary art with tech intelligence. Our approach is steeped in scholarly insight, delivering solutions that not only streamline operations but also enrich the gastronomic narrative.
+        CodesClue empowers the food and hospitality sector with transformative software solutions that elevate dining experiences and operational efficiency. By blending innovation with scalability, we help businesses deliver consistent quality, personalized engagement, and sustainable growth.
       </p>
 
       <!-- Cards -->
-      <div class="row g-4">
-        <div class="col-lg-4 col-md-4">
-          <div class="food-card bg-1">
-            <img src="https://img.icons8.com/ios-filled/100/artificial-intelligence.png" alt="AI Icon" class="food-icon">
-            <h5 class="food-title">AI AND ML FINTECH SOLUTIONS</h5>
+      <div class="row align-items-lg-stretch g-4">
+        <div class="col-lg-4 col-md-4 d-flex">
+          <div class="p-4 bg-1">
+             <div class="d-flex align-items-center mb-2">
+                <i class="fa-solid fa-cubes food-icon"></i>
+                <h5 class="food-title">Digital Menu & Smart Ordering</h5>
+             </div>
+            <p class="text-start">We design interactive digital menus and contactless ordering systems that enrich the dining experience. With personalization, real-time updates, and mobile accessibility, restaurants can serve customers faster and smarter.</p>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-4">
-          <div class="food-card bg-2">
-            <img src="https://img.icons8.com/ios-filled/100/artificial-intelligence.png" alt="AI Icon" class="food-icon">
-            <h5 class="food-title">AI AND ML FINTECH SOLUTIONS</h5>
+        <div class="col-lg-4 col-md-4 d-flex">
+          <div class="p-4 bg-1">
+             <div class="d-flex align-items-center mb-2">
+                <i class="fa-solid fa-calendar-check food-icon"></i>
+                <h5 class="food-title">Reservation & Table Management</h5>
+             </div>
+            <p class="text-start">Our intelligent booking platforms streamline reservations and optimize table utilization. By reducing wait times and improving seating efficiency, we ensure smoother service delivery and enhanced guest satisfaction.</p>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-4">
-          <div class="food-card bg-3">
-            <img src="https://img.icons8.com/ios-filled/100/artificial-intelligence.png" alt="AI Icon" class="food-icon">
-            <h5 class="food-title">AI AND ML FINTECH SOLUTIONS</h5>
+        
+
+        <div class="col-lg-4 col-md-4 d-flex">
+          <div class="p-4 bg-1">
+             <div class="d-flex align-items-center mb-2">
+                <i class="fa-solid fa-kitchen-set food-icon"></i>
+                <h5 class="food-title">Kitchen Display & Workflow Automation</h5>
+             </div>
+            <p class="text-start">We develop kitchen management systems that connect orders directly to chefs, automate task flows, and minimize errors. This ensures quicker service, reduced waste, and better synchronization between front and back of house.</p>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-4">
-          <div class="food-card bg-4">
-            <img src="https://img.icons8.com/ios-filled/100/artificial-intelligence.png" alt="AI Icon" class="food-icon">
-            <h5 class="food-title">AI AND ML FINTECH SOLUTIONS</h5>
+        <div class="col-lg-4 col-md-4 d-flex">
+          <div class="p-4 bg-1">
+             <div class="d-flex align-items-center mb-2">
+                <i class="fa-solid fa-truck-fast food-icon"></i>
+                <h5 class="food-title">Multi Channel Food Delivery Integration</h5>
+             </div>
+            <p class="text-start">Our solutions integrate restaurants with leading delivery platforms, enabling businesses to manage orders across multiple channels. With unified dashboards, real-time tracking, and efficient logistics, brands can expand reach effortlessly.</p>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-4">
-          <div class="food-card bg-5">
-            <img src="https://img.icons8.com/ios-filled/100/artificial-intelligence.png" alt="AI Icon" class="food-icon">
-            <h5 class="food-title">AI AND ML FINTECH SOLUTIONS</h5>
+        <div class="col-lg-4 col-md-4 d-flex">
+          <div class="p-4 bg-1">
+             <div class="d-flex align-items-center mb-2">
+                <i class="fa-solid fa-comments food-icon"></i>
+                <h5 class="food-title">Feedback & Experience Management</h5>
+             </div>
+            <p class="text-start">We create feedback-driven systems that capture real-time customer insights and reviews. This empowers businesses to continuously refine their offerings, strengthen brand reputation, and foster long-term loyalty.</p>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-4">
-          <div class="food-card bg-6">
-            <img src="https://img.icons8.com/ios-filled/100/artificial-intelligence.png" alt="AI Icon" class="food-icon">
-            <h5 class="food-title">AI AND ML FINTECH SOLUTIONS</h5>
+        <div class="col-lg-4 col-md-4 d-flex">
+          <div class="p-4 bg-1">
+             <div class="d-flex align-items-center mb-2">
+                <i class="fa-solid fa-leaf food-icon"></i>
+                <h5 class="food-title">Sustainable Operations & Compliance</h5>
+             </div>
+            <p class="text-start">Our platforms embed sustainability tracking and compliance management into food service operations. From energy optimization to regulatory adherence, we help businesses run responsibly while boosting operational resilience.</p>
           </div>
         </div>
       </div>

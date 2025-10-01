@@ -156,12 +156,33 @@
     .bg-6 { background: #fff7ec; }   /* light orange */
 
     .food-icon {
-      width: 60px;
-      height: 60px;
+      font-size: 30px;
+      padding-right: 10px;
       flex-shrink: 0;
     }
-
+    .food-service-card {
+      border-radius: 15px;
+      padding: 25px;
+      min-height: 280px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .food-service-card:hover {
+      transform: translateY(-5px);
+    }
+    .food-service-tags span {
+      display: inline-block;
+      background: rgba(255,255,255,0.5);
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 14px;
+      margin: 4px 6px 0 0;
+    }
     .food-title {
+      text-align: left;
       font-weight: 600;
       font-size: 1.1rem;
       margin: 0;
