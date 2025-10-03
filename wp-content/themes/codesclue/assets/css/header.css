@@ -359,7 +359,7 @@ nav .navbar-brand img:nth-child(1) {
     position: fixed;
     width: max-content;
     top: 65px;
-    left: 50%;
+    left: 40%;
     transform: translate(-40%);
     transition: all 0.5s ease;
 }
@@ -508,6 +508,11 @@ ul.link-box li a img {
     grid-template-columns: auto auto auto auto !important;
 }
 
+.navbar-nav .grid-5 {
+    display: grid; /* make sure it's grid */
+    grid-template-columns: auto auto auto auto auto !important;
+    gap: 10px; /* optional spacing */
+}
 .inner-services .social-details:hover span,
 .inner-services .social-details:hover strong {
     color: #108aff !important;

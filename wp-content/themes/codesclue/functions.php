@@ -137,7 +137,13 @@ function codesclue_scripts() {
             'support-testing',
             'vue-js',
             'swift',
-            'html-page'
+            'html-page',
+            'cloud-consulting-migrations',
+            'devsecops-sre',
+            'security-governance',
+            'cloud-reporting',
+            'application-modernization',
+            'genaiops'
         ))) {
             wp_enqueue_style(
                 'codesclue-services',

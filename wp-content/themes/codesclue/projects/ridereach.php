@@ -721,7 +721,7 @@ CodesClue’s Architectural Design for RideReach</h3>
       </div>
 
       <!-- Card 2 -->
-<div class="col-lg-6 col-md-6">
+     <div class="col-lg-6 col-md-6">
         <div class="api-card">
           <p>RideReach has been engineered with industry standard API integrations that ensure seamless connectivity, secure communication, and future-ready scalability. By adopting modern, reliable, and enterprise grade frameworks, the platform is designed to deliver consistent performance while maintaining flexibility for evolving business needs. This approach guarantees that operations remain smooth, efficient, and adaptable across diverse environments.</p>
         </div>

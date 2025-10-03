@@ -892,26 +892,26 @@ get_header(); ?>
                             <!-- Frontend -->
                             <div class="tab-content tab-1 d-flex flex-wrap gap-4 justify-content-start">
 
-                                <a href="<?php echo home_url('/ios/'); ?>" class="tech-pill"
+                                <a href="<?php echo home_url('/technology-ios/'); ?>" class="tech-pill"
                                     data-desc="10+ years crafting intuitive, high-quality iOS apps aligned with Apple's ecosystem.">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_ios.svg" loading="lazy"
                                         alt="iOS">
                                     <span class="pill-content">iOS</span>
                                 </a>
-                                <a href="<?php echo home_url('/android/'); ?>" class="tech-pill"
+                                <a href="<?php echo home_url('/technology-android/'); ?>" class="tech-pill"
                                     data-desc="8+ years building fast, scalable Android apps for business growth.">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_android.svg" loading="lazy"
                                         alt="Android">
                                     <span class="pill-content">Android</span>
                                 </a>
-                                <a href="<?php echo home_url('/react-native/'); ?>" class="tech-pill"
+                                <a href="<?php echo home_url('/technology-react-native/'); ?>" class="tech-pill"
                                     data-desc="5+ years creating cross-platform apps with native-like experience.">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_react.svg" loading="lazy"
                                         alt="React Native">
                                     <span class="pill-content">React
                                         Native</span>
                                 </a>
-                                <a href="<?php echo home_url('/flutter/'); ?>" class="tech-pill"
+                                <a href="<?php echo home_url('/technology-flutter/'); ?>" class="tech-pill"
                                     data-desc="5+ years building dynamic, scalable Flutter apps with great UX.">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_flutter.svg" loading="lazy"
                                         alt="Flutter">
@@ -940,13 +940,13 @@ get_header(); ?>
                                         alt="Bootstrap">
                                     <span class="pill-content">Bootstrap</span>
                                 </a>
-                                <a href="<?php echo home_url('/angular/'); ?>" class="tech-pill"
+                                <a href="<?php echo home_url('/technology-angular/'); ?>" class="tech-pill"
                                     data-desc="6+ years creating dynamic, enterprise-grade Angular applications.">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_angular.svg" loading="lazy"
                                         alt="Angular">
                                     <span class="pill-content">Angular</span>
                                 </a>
-                                <a href="<?php echo home_url('/react-js/'); ?>" class="tech-pill"
+                                <a href="<?php echo home_url('/technology-reactjs/'); ?>" class="tech-pill"
                                     data-desc="6+ years building fast, modern UIs with React.js.">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_react.svg" loading="lazy"
                                         alt="ReactJS">
@@ -980,13 +980,13 @@ get_header(); ?>
                                         alt=".NET">
                                     <span class="pill-content">.NET</span>
                                 </a>
-                                <a href="<?php echo home_url('/node-js/'); ?>" class="tech-pill"
+                                <a href="<?php echo home_url('/technology-nodejs/'); ?>" class="tech-pill"
                                     data-desc="5+ years developing real-time, high-performance Node.js apps.">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_node.svg" loading="lazy"
                                         alt="NodeJS">
                                     <span class="pill-content">Node.js</span>
                                 </a>
-                                <a href="<?php echo home_url('/ror/'); ?>" class="tech-pill"
+                                <a href="<?php echo home_url('/technology-ror/'); ?>" class="tech-pill"
                                     data-desc="4+ years building secure, scalable apps with Ruby on Rails.">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_ror.svg" loading="lazy"
                                         alt="RoR">
@@ -1222,6 +1222,8 @@ get_header(); ?>
                                 alt="client-logo" />
                             <img src="<?php echo get_template_directory_uri(); ?>/assets//images/client-logo/codesclue_NLB_Icon.webp" class="clients-logo"
                                 alt="client-logo" />
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets//images/client-logo/codesclue_RideReachLogo.webp" class="clients-logo"
+                                alt="client-logo" />    
                             <img src="<?php echo get_template_directory_uri(); ?>/assets//images/client-logo/codesclue_AZER_Icon.webp" class="clients-logo"
                                 alt="client-logo" />
                             <img src="<?php echo get_template_directory_uri(); ?>/assets//images/client-logo/codesclue_Trackntake.webp" class="clients-logo"
