@@ -632,9 +632,9 @@ CodesClue’s Architectural Design for RideReach</h3>
                     <div class="techstack-card">
                         <div class="row">
                             <div class="col-6">
-                                <div>🗂️</div>
+                                <div class="d-flex"><i class="fa-brands fa-react me-2"></i> <h6>Frontend</h6></div>
                                 <div>
-                                    <h6>Frontend</h6>
+                                   
                                     <ul>
                                     <li>React.js</li>
                                     <li>Redux / Block</li>
@@ -642,12 +642,11 @@ CodesClue’s Architectural Design for RideReach</h3>
                                 </div>
                             </div>
                              <div class="col-6 left-border">
-                                <div>🗂️</div>
+                                <div class="d-flex"><i class="fa-solid fa-server me-2"></i><h6>Backend & APIs</h6></div>
                                 <div>
-                                    <h6>Frontend</h6>
+                                    
                                     <ul>
-                                    <li>React.js</li>
-                                    <li>Redux / Block</li>
+                                    <li>Node.js</li>
                                     </ul>
                                 </div>
                             </div>
@@ -659,22 +658,19 @@ CodesClue’s Architectural Design for RideReach</h3>
                     <div class="techstack-card">
                     <div class="row">
                             <div class="col-6">
-                                <div>🗂️</div>
+                                <div class="d-flex"><i class="fa-solid fa-cloud me-2"></i><h6>Database & Storage</h6></div>
                                 <div>
-                                    <h6>Frontend</h6>
                                     <ul>
-                                    <li>React.js</li>
-                                    <li>Redux / Block</li>
+                                    <li>MongoDB</li>
+                                    <li>Amazon S3</li>
                                     </ul>
                                 </div>
                             </div>
                              <div class="col-6 left-border">
-                                <div>🗂️</div>
+                                <div class="d-flex"><i class="fa-solid fa-network-wired me-2"></i><h6>Infrastructure & Deployment</h6></div>
                                 <div>
-                                    <h6>Frontend</h6>
                                     <ul>
-                                    <li>React.js</li>
-                                    <li>Redux / Block</li>
+                                    <li>Docker & Kubernetes</li>
                                     </ul>
                                 </div>
                             </div>
@@ -685,22 +681,21 @@ CodesClue’s Architectural Design for RideReach</h3>
                     <div class="techstack-card">
                     <div class="row">
                             <div class="col-6">
-                                <div>🗂️</div>
+                                <div class="d-flex"><i class="fa-solid fa-file-shield me-2"></i><h6>Security & Compliance</h6></div>
                                 <div>
-                                    <h6>Frontend</h6>
                                     <ul>
-                                    <li>React.js</li>
-                                    <li>Redux / Block</li>
+                                    <li>OAuth 2.0 / JWT</li>
+                                    <li>GDPR Compliance</li>
+                                    <li>TLS/SSL + AES Encryption</li>
                                     </ul>
                                 </div>
                             </div>
                              <div class="col-6 left-border">
-                                <div>🗂️</div>
+                               <div class="d-flex"><i class="fa-solid fa-toolbox me-2"></i><h6>DevOps & Monitoring</h6></div>
                                 <div>
-                                    <h6>Frontend</h6>
                                     <ul>
-                                    <li>React.js</li>
-                                    <li>Redux / Block</li>
+                                    <li>Jenkins / GitHub</li>
+                                    <li>Sentry / Datadog</li>
                                     </ul>
                                 </div>
                             </div>
@@ -715,81 +710,22 @@ CodesClue’s Architectural Design for RideReach</h3>
 
 <section class="third-party-apis py-5">
   <div class="container">
-    <h2 class="text-center mb-5">3rd Party APIs</h2>
+    <h2 class="text-center mb-5">Integrated With Industry Standard APIs</h2>
     <div class="row g-4">
 
       <!-- Card 1 -->
-      <div class="col-lg-4 col-md-4">
+      <div class="col-lg-6 col-md-6">
         <div class="api-card">
-          <h5>Maps & Location Services</h5>
-          <ul>
-            <li><i class="bi bi-geo-alt"></i> Google Maps API</li>
-          </ul>
+          <p>RideReach has been engineered with industry standard API integrations that ensure seamless connectivity, secure communication, and future-ready scalability. By adopting modern, reliable, and enterprise grade frameworks, the platform is designed to deliver consistent performance while maintaining flexibility for evolving business needs. This approach guarantees that operations remain smooth, efficient, and adaptable across diverse environments.</p>
         </div>
       </div>
 
       <!-- Card 2 -->
-      <div class="col-lg-4 col-md-4">
+<div class="col-lg-6 col-md-6">
         <div class="api-card">
-          <h5>Messaging & Notifications</h5>
-          <ul>
-            <li><i class="bi bi-chat-dots"></i> Firebase</li>
-          </ul>
+          <p>RideReach has been engineered with industry standard API integrations that ensure seamless connectivity, secure communication, and future-ready scalability. By adopting modern, reliable, and enterprise grade frameworks, the platform is designed to deliver consistent performance while maintaining flexibility for evolving business needs. This approach guarantees that operations remain smooth, efficient, and adaptable across diverse environments.</p>
         </div>
       </div>
-
-      <!-- Card 3 -->
-      <div class="col-lg-4 col-md-4">
-        <div class="api-card">
-          <h5>Analytics & Tracking</h5>
-          <ul>
-            <li><i class="bi bi-graph-up"></i> Google Analytics</li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Card 4 -->
-      <div class="col-lg-4 col-md-4">
-        <div class="api-card">
-          <h5>Cloud & Storage</h5>
-          <ul>
-            <li><i class="bi bi-cloud"></i> AWS S3</li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Card 5 -->
-      <div class="col-lg-4 col-md-4">
-        <div class="api-card">
-          <h5>Authentication & Identity</h5>
-          <ul>
-            <li><i class="bi bi-shield-lock"></i> OAuth 2.0</li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Card 6 -->
-      <div class="col-lg-4 col-md-4">
-        <div class="api-card">
-          <h5>Communication & Support</h5>
-          <ul>
-            <li><i class="bi bi-people"></i> GDPR Consent APIs</li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Card 7 -->
-<!-- Card 7 (centered) -->
-<div class="col-lg-4 col-md-4  mx-auto">
-  <div class="api-card">
-    <h5>Payment Gateways</h5>
-    <ul>
-      <li><i class="bi bi-credit-card"></i> Stripe</li>
-      <li><i class="bi bi-phone"></i> Apple Pay</li>
-      <li><i class="bi bi-wallet2"></i> Google Pay</li>
-    </ul>
-  </div>
-</div>
 
 
     </div>
@@ -797,6 +733,65 @@ CodesClue’s Architectural Design for RideReach</h3>
 </section>
 
 
+<section class="py-5 bg-dark text-white mb-4">
+  <div class="container text-center">
+    <!-- Section Title -->
+    <h2 class="fw-bold mb-3">Our Contribution, Client's Vision</h2>
+    <p class="mb-5">
+      The RideReach platform is the intellectual property of our client, the brand, vision, and strategy remain fully theirs.
+      Our role was to bring that vision to life through design, development, and technology execution. 
+      At CodesClue, we engineered a scalable, secure, and user-friendly platform while preserving the uniqueness of the RideReach brand. 
+      This ensures clear client ownership, with our contribution as the trusted technology partner powering its foundation.
+    </p>
+
+    <!-- Cards Row -->
+    <div class="row g-4">
+      <!-- Vision -->
+      <div class="col-md-4">
+        <div class="card h-100 bg-dark border border-light text-center p-4">
+          <div class="icon-circle mb-3 p-2">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/Vision.png">
+          </div>
+          <h4 class="fw-bold text-light">Vision</h4>
+          <p class="mb-0 text-light">
+           To revolutionize transit advertising by transforming everyday rides into powerful platforms for brand engagement and audience connection.
+          </p>
+        </div>
+      </div>
+
+      <!-- Mission -->
+      <div class="col-md-4">
+        <div class="card h-100 bg-dark border border-light text-center p-4">
+          <div class="icon-circle mb-3 p-2">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/Mission.png">
+          </div>
+          <h4 class="fw-bold text-light">Mission</h4>
+          <p class="mb-0 text-light">
+            To deliver innovative, tech-enabled advertising solutions that provide measurable impact for 
+            brands while enhancing the commuter experience.
+          </p>
+        </div>
+      </div>
+
+      <!-- Values -->
+      <div class="col-md-4">
+        <div class="card h-100 bg-dark border border-light text-center p-4">
+          <div class="icon-circle mb-3 p-2">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/Values.png">
+          </div>
+          <h4 class="fw-bold text-light">Values</h4>
+          <p class="mb-0 text-light">
+            Innovation, transparency, and customer centricity guide us in creating scalable solutions that 
+            empower brands, partners, and communities alike.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 
 
