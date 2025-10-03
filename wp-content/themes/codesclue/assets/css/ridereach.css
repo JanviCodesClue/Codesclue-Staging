@@ -614,3 +614,17 @@
   color: #0d6efd;
   font-size: 16px;
 }
+
+
+
+
+.icon-circle {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
