@@ -72,7 +72,7 @@ get_header(); ?>
 
       <section class="third-party-apis py-5">
             <div class="container">
-                <h2 class="text-center mb-5">What We Offer</h2>
+                <h3 class="section-title text-center mb-5">What We Offer</h3>
                 <div class="row g-4">
 
                 <!-- Card 1 -->
@@ -131,13 +131,13 @@ get_header(); ?>
                             <h2 class="section-title d-flex  text-left text-white">
                                 Why choose CodesClue?</h2>
                             <div class="benifit-details py-xxl-0 py-md-3 py-2 d-flex flex-column gap-2">
-                                <i class="fa-regular fa-lightbulb text-primary font-24 bg-white rounded-2"></i>
+                                <i class="fa-solid fa-user-shield text-primary font-24 bg-white rounded-2"></i>
                                 <p class="content-sub-title text-left text-white mb-0">Reliability & Security Expertise
                                 </p>
                                 <span class="small-text text-white">Deployed 100+ secure, highly available architectures.</span>
                             </div>
                             <div class="benifit-details py-xxl-0 py-md-3 py-2 d-flex flex-column gap-2">
-                                <i class="fa-brands fa-android text-primary font-24 bg-white rounded-2"></i>
+                                <i class="fa-solid fa-file-shield text-primary font-24 bg-white rounded-2"></i>
                                 <p class="content-sub-title text-left text-white mb-0">Compliance-First Approach</p>
                                 <span class="small-text text-white">ISO 27001, SOC 2, GDPR, HIPAA-ready implementations</span>
                             </div>
@@ -149,12 +149,12 @@ get_header(); ?>
                         <div
                             class="d-flex flex-column justify-content-md-around justify-content-center mt-md-4 text-justify">
                             <div class="benifit-details py-xxl-0 py-md-3 py-2 d-flex flex-column gap-2">
-                                <i class="fa-solid fa-chess text-primary font-24 bg-white rounded-2"></i>
+                                <i class="fa-solid fa-gear text-primary font-24 bg-white rounded-2"></i>
                                 <p class="content-sub-title text-left text-white mb-0">Automation at the Core</p>
                                 <span class="small-text text-white">Security, testing, and monitoring baked into every workflow</span>
                             </div>
                             <div class="benifit-details py-xxl-0 py-md-3 py-2 d-flex flex-column gap-2">
-                                <i class="fa-solid fa-people-arrows text-primary font-24 bg-white rounded-2"></i>
+                                <i class="fa-solid fa-globe text-primary font-24 bg-white rounded-2"></i>
                                 <p class="content-sub-title text-left text-white mb-0">Global SRE Experience
                                 </p>
                                 <span class="small-text text-white">Reliable systems delivered across 30+ countries</span>

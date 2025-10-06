@@ -75,7 +75,7 @@ get_header(); ?>
 
             <section class="third-party-apis py-5">
             <div class="container">
-                <h2 class="text-center mb-5">What We Offer</h2>
+                <h3 class="section-title text-center mb-5">What We Offer</h3>
                 <div class="row g-4">
 
                 <!-- Card 1 -->
@@ -135,13 +135,13 @@ get_header(); ?>
                             <h2 class="section-title d-flex  text-left text-white">
                                 Why choose CodesClue?</h2>
                             <div class="benifit-details py-xxl-0 py-md-3 py-2 d-flex flex-column gap-2">
-                                <i class="fa-regular fa-lightbulb text-primary font-24 bg-white rounded-2"></i>
+                                <i class="fa-solid fa-cloud text-primary font-24 bg-white rounded-2"></i>
                                 <p class="content-sub-title text-left text-white mb-0">Proven Cloud Expertise
                                 </p>
                                 <span class="small-text text-white">5000+ successful migrations delivered globally.</span>
                             </div>
                             <div class="benifit-details py-xxl-0 py-md-3 py-2 d-flex flex-column gap-2">
-                                <i class="fa-brands fa-android text-primary font-24 bg-white rounded-2"></i>
+                                <i class="fa-solid fa-diagram-project text-primary font-24 bg-white rounded-2"></i>
                                 <p class="content-sub-title text-left text-white mb-0">Multi-Cloud Mastery</p>
                                 <span class="small-text text-white">Certified in
 AWS, Azure, GCP, and hybrid models</span>
@@ -154,12 +154,12 @@ AWS, Azure, GCP, and hybrid models</span>
                         <div
                             class="d-flex flex-column justify-content-md-around justify-content-center mt-md-4 text-justify">
                             <div class="benifit-details py-xxl-0 py-md-3 py-2 d-flex flex-column gap-2">
-                                <i class="fa-solid fa-chess text-primary font-24 bg-white rounded-2"></i>
+                                <i class="fa-solid fa-medal text-primary font-24 bg-white rounded-2"></i>
                                 <p class="content-sub-title text-left text-white mb-0">Industry Compliance</p>
                                 <span class="small-text text-white">Built to meet ISO 27001, SOC 2, GDPR, HIPAA standards</span>
                             </div>
                             <div class="benifit-details py-xxl-0 py-md-3 py-2 d-flex flex-column gap-2">
-                                <i class="fa-solid fa-people-arrows text-primary font-24 bg-white rounded-2"></i>
+                                <i class="fa-solid fa-globe text-primary font-24 bg-white rounded-2"></i>
                                 <p class="content-sub-title text-left text-white mb-0">Global Reach
                                 </p>
                                 <span class="small-text text-white">Cloud transformations delivered in 30+ countries</span>

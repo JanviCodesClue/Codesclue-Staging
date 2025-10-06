@@ -73,7 +73,7 @@ get_header(); ?>
 
       <section class="third-party-apis py-5">
             <div class="container">
-                <h2 class="text-center mb-5">What We Offer</h2>
+                <h3 class="section-title text-center mb-5">What We Offer</h3>
                 <div class="row g-4">
 
                 <!-- Card 1 -->
@@ -132,13 +132,13 @@ get_header(); ?>
                             <h2 class="section-title d-flex  text-left text-white">
                                 Why choose CodesClue?</h2>
                             <div class="benifit-details py-xxl-0 py-md-3 py-2 d-flex flex-column gap-2">
-                                <i class="fa-regular fa-lightbulb text-primary font-24 bg-white rounded-2"></i>
+                                <i class="fa-solid fa-shield-halved text-primary font-24 bg-white rounded-2"></i>
                                 <p class="content-sub-title text-left text-white mb-0">Holistic Security Expertise
                                 </p>
                                 <span class="small-text text-white">From application security to cloud governance</span>
                             </div>
                             <div class="benifit-details py-xxl-0 py-md-3 py-2 d-flex flex-column gap-2">
-                                <i class="fa-brands fa-android text-primary font-24 bg-white rounded-2"></i>
+                                <i class="fa-solid fa-file-shield text-primary font-24 bg-white rounded-2"></i>
                                 <p class="content-sub-title text-left text-white mb-0">Proven Compliance Success</p>
                                 <span class="small-text text-white">Assisted clients in passing 50+ major audits</span>
                             </div>
@@ -150,12 +150,12 @@ get_header(); ?>
                         <div
                             class="d-flex flex-column justify-content-md-around justify-content-center mt-md-4 text-justify">
                             <div class="benifit-details py-xxl-0 py-md-3 py-2 d-flex flex-column gap-2">
-                                <i class="fa-solid fa-chess text-primary font-24 bg-white rounded-2"></i>
+                                <i class="fa-solid fa-gears text-primary font-24 bg-white rounded-2"></i>
                                 <p class="content-sub-title text-left text-white mb-0">Automation-First Governance</p>
                                 <span class="small-text text-white">Policy-as-code, automated enforcement, continuous monitoring</span>
                             </div>
                             <div class="benifit-details py-xxl-0 py-md-3 py-2 d-flex flex-column gap-2">
-                                <i class="fa-solid fa-people-arrows text-primary font-24 bg-white rounded-2"></i>
+                                <i class="fa-solid fa-globe text-primary font-24 bg-white rounded-2"></i>
                                 <p class="content-sub-title text-left text-white mb-0">Trusted by Global Enterprises
                                 </p>
                                 <span class="small-text text-white">Securing businesses in 30+ countries</span>
