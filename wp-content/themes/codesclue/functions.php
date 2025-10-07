@@ -275,7 +275,7 @@ wp_enqueue_script(
 
     if (is_page('healthcare')) {
         wp_enqueue_style('codesclue-heathcare', get_template_directory_uri() . '/assets/css/healthcare.css', array(), '1.0.0');
-    }
+    } 
 
     if (is_page('ai-software-development') || is_page('aipage')) {
         wp_enqueue_style('codesclue-aipage', get_template_directory_uri() . '/assets/css/aipage.css', array(), '1.0.0');
@@ -283,6 +283,10 @@ wp_enqueue_script(
 
     if (is_page('cannabis')) {
         wp_enqueue_style('codesclue-cannabis', get_template_directory_uri() . '/assets/css/Cannabis.css', array(), '1.0.0');
+    }
+
+    if (is_page('trackntake')) {
+        wp_enqueue_style('codesclue-trackntake', get_template_directory_uri() . '/assets/css/TrackNtake.css', array(), '1.0.0');
     }
 
     if (is_page('banking')) {

@@ -1,17 +1,21 @@
     .food-hero {
       background: url('../images/industries/food-hero.png') no-repeat center center/cover;
       color: #fff;
+      display: flex;
+      align-items: center;
       text-align: center;
-      padding: 120px 20px;
+      height: 96vh;
     }
     .food-hero-title {
-      font-size: 2.5rem;
+      font-size: 2.5rem!important;
+      text-align: center;
       font-weight: 700;
     }
     .food-hero-text {
-      font-size: 1.1rem;
+      margin: 0 auto;
+      font-size: 1.1rem!important;
+      text-align: center;
       max-width: 750px;
-      margin: 20px auto;
     }
     .food-hero-btn {
       background: #007bff;
@@ -28,82 +32,109 @@
 
     /* === Orange Brush Cards Section === */
     .food-orange-section {
-      padding: 60px 20px;
+      padding-top: 60px;
     }
     .col-md-4-food{
         flex: 0 0 auto;
         width: 33.33333333%;
     }
+    .col-md-4-cus-food{
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
     .food-orange-card {
-      background: url('../images/industries/food-secound-bg.svg') no-repeat center center/contain;
-      padding: 50px;
+      background: url('../images/industries/food-secound-bg.png') no-repeat center center/contain;
+      padding-top: 30px!important;
+      padding-left: 50px!important;
       color: #000;
       border-radius: 10px;
-      text-align: center;
-      height: 100%;
+      text-align: left;
+      height: 168px;
+      width: 416px;
     }
         .food-orange-card:hover {
-      background: url('../images/industries/foog-secound-bg-hover.svg') no-repeat center center/contain;
-      padding: 50px;
+     background: url('../images/industries/foog-secound-bg-hover.png') no-repeat center center/contain;
+      padding-left: 50px!important;
+      padding-top: 30px!important;
       color: #000;
       border-radius: 10px;
-      text-align: center;
-      height: 100%;
+      text-align: left;
+      height: 168px;
+      width: 416px;
     }
-   @media (max-width: 1242px) {
+.food-list-icon-size{
+      height: auto;
+    width: 30px;
+    margin-left: 50px;
+    margin-right: 8px;
+}
+
+    .food-service-oreange-card-list{
+      font-size: 12px;
+    }
+   @media (max-width: 1399px) {
     .col-md-4-food{
         flex: 0 0 auto;
         width: 50%;
     }
         .food-orange-card {
-      background: url('../images/industries/food-secound-bg.svg') no-repeat center center/contain;
-      padding: 80px;
+      background: url('../images/industries/food-secound-bg.png') no-repeat center center/contain;
+      padding-left: 50px!important;
       color: #000;
       border-radius: 10px;
-      text-align: center;
-      height: 100%;
+      text-align: left;
+      height: 152PX;
+      width: 387PX;
     }
         .food-orange-card:hover {
-      background: url('../images/industries/foog-secound-bg-hover.svg') no-repeat center center/contain;
-      padding: 80px;
+      background: url('../images/industries/foog-secound-bg-hover.png') no-repeat center center/contain;
+       padding-left: 50px!important;
       color: #000;
       border-radius: 10px;
-      text-align: center;
-      height: 100%;
+      text-align: left;
+      height: 152PX;
+      width: 387PX;
     }
    } 
 
-     @media (max-width: 952px) {
+     @media (max-width: 1199px) {
+       .col-md-4-cus-food{
+        flex: 0 0 auto;
+        width: 50%;
+    }
     .col-md-4-food{
         flex: 0 0 auto;
         width: 100%;
     }
-        .food-orange-card {
-      background: url('../images/industries/food-secound-bg.svg') no-repeat center center/contain;
-      padding: 50px;
+    .food-orange-card {
+      background: url('../images/industries/food-secound-bg.png') no-repeat center center/contain;
+     padding-left: 50px!important;
+     padding-top: 32px !important;
       color: #000;
       border-radius: 10px;
-      text-align: center;
-      height: 100%;
+      text-align: left;
+      height: 192PX;
+      width: 387PX;
     }
         .food-orange-card:hover {
-      background: url('../images/industries/foog-secound-bg-hover.svg') no-repeat center center/contain;
-      padding: 50px;
+      background: url('../images/industries/foog-secound-bg-hover.png') no-repeat center center/contain;
+      padding-left: 50px!important;
+      padding-top: 32px !important;
       color: #000;
       border-radius: 10px;
-      text-align: center;
-      height: 100%;
+      text-align: left;
+      height: 192PX;
+      width: 387PX;
     }
    }
 
     
     .food-orange-card h3 {
-      font-size: 1.2rem;
-      font-weight: 700;
-      margin-bottom: 15px;
+      font-size: 16px!important;
+      font-weight: 500;
     }
     .food-orange-card p {
-      font-size: 0.95rem;
+      font-size: 12px;
       line-height: 1.5;
     }
 
@@ -112,6 +143,32 @@
 
 /* Responsive */
 @media (max-width: 992px) {
+      .col-md-4-cus-food{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .food-orange-card {
+      background: url('../images/industries/food-secound-bg.png') no-repeat center center/contain;
+     padding-left: 50px!important;
+     padding-top: 32px !important;
+      color: #000;
+      border-radius: 10px;
+      text-align: left;
+      height: 200px;
+      width: 414px;
+    }
+        .food-orange-card:hover {
+      background: url('../images/industries/foog-secound-bg-hover.png') no-repeat center center/contain;
+      padding-left: 50px!important;
+      padding-top: 32px !important;
+      color: #000;
+      border-radius: 10px;
+      text-align: left;
+      height: 201px;
+      width: 427px;
+    }
+
   .food-pasta-section .row {
     flex-direction: column !important;
     text-align: center;
@@ -124,10 +181,14 @@
   }
 
 }
-
+@media (max-width: 991px) {
+    .faq-section {
+        margin-top: 30px !important;
+    }
+}
 
 .food-section {
-      padding: 60px 0;
+      padding-top: 40px;
       text-align: center;
     }
 
@@ -148,13 +209,29 @@
     }
 
     /* Background colors for cards */
-    .bg-1 { background: #eafff2; }   /* light green */
-    .bg-2 { background: #ffecec; }   /* light red */
-    .bg-3 { background: #f1f4fa; }   /* light gray-blue */
-    .bg-4 { background: #f9f3ff; }   /* light purple */
-    .bg-5 { background: #f7ffe8; }   /* light yellow-green */
-    .bg-6 { background: #fff7ec; }   /* light orange */
-
+    .bg-1 { background: #E7F9EF;
+      border-radius: 20px;
+    }   /* light green */
+    .bg-2 { background: #FFEBEC;
+      border-radius: 20px;
+    }   /* light red */
+    .bg-3 { background: #F1F1F6;
+      border-radius: 20px;
+    }   /* light gray-blue */
+    .bg-4 { background: #F5ECF9;
+      border-radius: 20px;
+    }   /* light purple */
+    .bg-5 { background: #F7F9EC;
+      border-radius: 20px;
+    }   /* light yellow-green */
+    .bg-6 { background: #E6F4FF;
+      border-radius: 20px;
+    }   /* light orange */
+.food-card-last-icon{
+  height: 30px;
+   padding-right: 10px;
+  width: auto;
+}
     .food-icon {
       font-size: 30px;
       padding-right: 10px;
@@ -212,7 +289,19 @@
         border-radius: 20px;
     }
 }
-
+@media (max-width: 768px) {
+    .food-hero-title {
+      font-size: 1.5rem!important;
+      text-align: center;
+      font-weight: 700;
+    }
+    .food-hero-text {
+      margin: 0 auto;
+      font-size: 0.8rem!important;
+      text-align: center;
+      max-width: 750px;
+    }
+}
 @media (min-width: 1200px) {
     .blog-single-item .thumb img {
         height: 520px;
@@ -221,17 +310,22 @@
 }
 
    
+.contect-food-left{
+    padding-left: 0;  
+  padding-right: 150px;
+}
 
-
-
+.contect-food-right{
+    padding-left: 160px;  
+  padding-right: 0;
+}
 
 
 .food-card {
-  background: #e8f9e8;
+  background: #8FBB85;
   border-radius: 12px;
-  padding: 40px;
   position: relative;
-  margin: 80px 0;
+  margin: 20px 0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
@@ -239,6 +333,8 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  border: #227E0D 7px solid;
+  border-radius: 50%;
 }
 
 .food-img.left {
@@ -257,10 +353,6 @@
   box-shadow: 0 5px 20px rgba(0,0,0,0.3);
 }
 
-.food-content {
-  padding-left: 120px;  
-  padding-right: 120px; 
-}
 
 .food-content h5 {
   font-weight: 600;
@@ -277,13 +369,13 @@
 @media (max-width: 1045px) {
   .food-card {
     padding: 70px 20px 30px; /* upar space taaki image overlap kare */
-    margin: 100px 0 50px;
+    margin: 70px 0 20px 0;
     text-align: center;
   }
 
   .food-img {
     position: absolute;
-    top: -70px;       /* card ke upar overlap */
+    top: -80px;       /* card ke upar overlap */
     left: 50%;
     transform: translateX(-50%);
   }
@@ -303,7 +395,155 @@
     padding: 0; /* side space hatao */
   }
 }
+@media (max-width: 485px) {
+    .food-orange-card {
+        background: url(../images/industries/food-secound-bg.png) no-repeat center center / contain;
+        padding-left: 47px !important;
+        padding-top: 19px !important;
+        color: #000;
+        border-radius: 10px;
+        text-align: left;
+        height: 152px;
+        width: 400px;
+    }
+      .food-orange-card:hover {
+        background: url(../images/industries/foog-secound-bg-hover.png) no-repeat center center / contain;
+        padding-left: 8px !important;
+        padding-top: 32px !important;
+        color: #000;
+        border-radius: 10px;
+        text-align: left;
+        height: 165px;
+        width: 303px;
+    }
+}
 
+@media (max-width: 445px) {
+    .food-orange-card {
+        background: url(../images/industries/food-secound-bg.png) no-repeat center center / contain;
+        padding-left: 47px !important;
+        padding-top: 32px !important;
+        color: #000;
+        border-radius: 10px;
+        text-align: left;
+        height: 152px;
+        width: 377px;
+    }
+      .food-orange-card:hover {
+        background: url(../images/industries/foog-secound-bg-hover.png) no-repeat center center / contain;
+        padding-left: 8px !important;
+        padding-top: 32px !important;
+        color: #000;
+        border-radius: 10px;
+        text-align: left;
+        height: 165px;
+        width: 303px;
+    }
+}
+@media (max-width: 421px) {
+    .food-orange-card {
+        background: url(../images/industries/food-secound-bg.png) no-repeat center center / contain;
+        padding-left: 17px !important;
+        padding-top: 32px !important;
+        color: #000;
+        border-radius: 10px;
+        text-align: left;
+        height: 152px;
+        width: 342px;
+    }
+      .food-orange-card:hover {
+        background: url(../images/industries/foog-secound-bg-hover.png) no-repeat center center / contain;
+        padding-left: 8px !important;
+        padding-top: 32px !important;
+        color: #000;
+        border-radius: 10px;
+        text-align: left;
+        height: 165px;
+        width: 303px;
+    }
+}
+@media (max-width: 389px) {
+    .food-orange-card {
+        background: url(../images/industries/food-secound-bg.png) no-repeat center center / contain;
+        padding-left: 20px !important;
+        padding-top: 26px !important;
+        color: #000;
+        border-radius: 10px;
+        text-align: left;
+        height: 150px;
+        width: 319px;
+    }
+      .food-orange-card:hover {
+        background: url(../images/industries/foog-secound-bg-hover.png) no-repeat center center / contain;
+        padding-left: 8px !important;
+        padding-top: 32px !important;
+        color: #000;
+        border-radius: 10px;
+        text-align: left;
+        height: 165px;
+        width: 303px;
+    }
+}
+@media (max-width: 371px) {
+    .food-orange-card {
+        background: url(../images/industries/food-secound-bg.png) no-repeat center center / contain;
+        padding-left: 28px !important;
+        padding-top: 31px !important;
+        color: #000;
+        border-radius: 10px;
+        text-align: left;
+        height: 156px;
+        width: 299px;
+    }
+    .food-orange-card p {
+    font-size: 10px;
+    line-height: 1.5;
+}
+.food-orange-card h3 {
+    font-size: 14px !important;
+    font-weight: 500;
+}
+      .food-orange-card:hover {
+        background: url(../images/industries/foog-secound-bg-hover.png) no-repeat center center / contain;
+        padding-left: 8px !important;
+        padding-top: 32px !important;
+        color: #000;
+        border-radius: 10px;
+        text-align: left;
+        height: 165px;
+        width: 303px;
+    }
+}
+@media (max-width: 349px) {
+    .food-orange-card {
+        background: url(../images/industries/food-secound-bg.png) no-repeat center center / contain;
+        padding-left: 28px !important;
+        padding-top: 22px !important;
+        color: #000;
+        border-radius: 10px;
+        text-align: left;
+        height: 146px;
+        width: 283px;
+    }
+    .food-orange-card p {
+    font-size: 10px;
+    line-height: 1.5;
+}
+.food-orange-card h3 {
+    font-size: 12px !important;
+    font-weight: 500;
+}
+      .food-orange-card:hover {
+        background: url(../images/industries/foog-secound-bg-hover.png) no-repeat center center / contain;
+        padding-left: 8px !important;
+        padding-top: 32px !important;
+        color: #000;
+        border-radius: 10px;
+        text-align: left;
+        height: 165px;
+        width: 303px;
+    }
+}
 /* 🔹 Small Mobile */
 @media (max-width: 576px) {
   .food-card {
@@ -311,7 +551,7 @@
   }
 
   .food-img {
-    top: -55px; /* chhote screen pe overlap thoda kam */
+    top: -70px; /* chhote screen pe overlap thoda kam */
   }
 
   .food-img img {
