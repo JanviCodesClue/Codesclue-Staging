@@ -2,7 +2,7 @@
       position: relative;
       background: url('../images/industries/Entertainment-hero.png') center/cover no-repeat;
       color: #fff;
-      padding: 100px 20px;
+      height: 100vh;
     }
 
     .media-overlay {
@@ -49,7 +49,7 @@
 
     .media-services {
       padding: 80px 20px;
-      background: #f8f8f8;
+      /* background: #f8f8f8; */
     }
 
     .media-services-title {
@@ -86,12 +86,12 @@
       font-size: 1rem;
       color: #555;
     }
-.bg-blue-light{
+/* .bg-blue-light{
   background-color: #eaf3ff;
-}
+} */
     .media-service-img img {
       width: 100%;
-      border-radius: 8px;
+      border-radius: 30px;
     }
 
 

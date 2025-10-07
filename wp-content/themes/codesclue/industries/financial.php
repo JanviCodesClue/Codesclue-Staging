@@ -31,84 +31,84 @@ get_header(); ?>
 
 
         <section class="finance-section text-center">
-        <div class="container">
-            <!-- Heading -->
-            <h2 class="pb-3">Empowering Finance with Cutting-Edge Software Development</h2>
-            <p>
-           Empowering Finance with Cutting Edge Software Development
-            </p>
+            <div class="container">
+                <!-- Heading -->
+                <h2 class="pb-3">Empowering Finance with Cutting-Edge Software Development</h2>
+                <p>
+            Empowering Finance with Cutting Edge Software Development
+                </p>
 
-            <div class="row align-items-center">
-            
-            <!-- Left Accordion -->
-            <div class="col-lg-6 col-md-12 text-start">
-                <div class="accordion" id="financeAccordion">
-                <div class="accordion-item mb-3">
-                    <h2 class="accordion-header">
-                    <button class="accordion-button collapsed px-2" type="button" data-bs-toggle="collapse" data-bs-target="#item1">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/Billing-Solutions.png" alt="icon" class="me-2">
-                        Billing & Payment Software Solutions
-                    </button>
-                    </h2>
-                    <div id="item1" class="accordion-collapse collapse" data-bs-parent="#financeAccordion">
-                    <div class="accordion-body">
-                        Experience unparalleled efficiency with CodesClue's billing and payment software solutions, offering comprehensive invoice management, secure transaction processing, and automated reconciliation. Ensure accuracy and compliance with our advanced reporting features, providing a transparent financial overview for businesses and clients alike.
+                <div class="row align-items-center">
+                
+                <!-- Left Accordion -->
+                <div class="col-lg-6 col-md-12 text-start">
+                    <div class="accordion" id="financeAccordion">
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button-finance collapsed px-2" type="button" data-bs-toggle="collapse" data-bs-target="#item1">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/Billing-Solutions.png" alt="icon" class="me-2 accordiation-icon-financial">
+                            Billing & Payment Software Solutions
+                        </button>
+                        </h2>
+                        <div id="item1" class="accordion-collapse collapse show" data-bs-parent="#financeAccordion">
+                        <div class="accordion-body">
+                            Experience unparalleled efficiency with CodesClue's billing and payment software solutions, offering comprehensive invoice management, secure transaction processing, and automated reconciliation. Ensure accuracy and compliance with our advanced reporting features, providing a transparent financial overview for businesses and clients alike.
+                        </div>
+                        </div>
                     </div>
+
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button-finance collapsed px-2" type="button" data-bs-toggle="collapse" data-bs-target="#item2">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/Accounting-Information.png" alt="icon" class="me-2 accordiation-icon-financial">
+                            Accounting Information Systems
+                        </button>
+                        </h2>
+                        <div id="item2" class="accordion-collapse collapse" data-bs-parent="#financeAccordion">
+                        <div class="accordion-body">
+                            Revolutionize your accounting practices with CodesClue's robust Accounting Information Systems. Experience streamlined ledger management, automated compliance reporting, and integrated payroll services, ensuring accuracy and efficiency in all your financial operations.
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button-finance collapsed px-2" type="button" data-bs-toggle="collapse" data-bs-target="#item3">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/Mobile-Banking-Solutions.png" alt="icon" class="me-2 accordiation-icon-financial">
+                            Mobile Banking Solutions
+                        </button>
+                        </h2>
+                        <div id="item3" class="accordion-collapse collapse" data-bs-parent="#financeAccordion">
+                        <div class="accordion-body">
+                            CodesClue’s mobile banking solutions redefine convenience, providing users with on-the-go account access, secure fund transfer capabilities, and personalized financial alerts. Elevate the customer experience with mobile features designed for the modern user’s banking needs with our banking software development services.
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item mb-3">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button-finance collapsed px-2" type="button" data-bs-toggle="collapse" data-bs-target="#item4">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/Cybersecurity.png" alt="icon" class="me-2 accordiation-icon-financial">
+                        Cybersecurity
+                        </button>
+                        </h2>
+                        <div id="item4" class="accordion-collapse collapse" data-bs-parent="#financeAccordion">
+                        <div class="accordion-body">
+                            Fortify your financial ecosystem with CodesClue's cybersecurity solutions. Protect sensitive financial data with advanced encryption, intrusion detection systems, and continuous security monitoring to safeguard against the ever-evolving threat landscape.
+                        </div>
+                        </div>
+                    </div>
+                    <!-- Repeat more items as needed -->
                     </div>
                 </div>
 
-                <div class="accordion-item mb-3">
-                    <h2 class="accordion-header">
-                    <button class="accordion-button collapsed px-2" type="button" data-bs-toggle="collapse" data-bs-target="#item2">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/Accounting-Information.png" alt="icon" class="me-2">
-                        Accounting Information Systems
-                    </button>
-                    </h2>
-                    <div id="item2" class="accordion-collapse collapse" data-bs-parent="#financeAccordion">
-                    <div class="accordion-body">
-                        Revolutionize your accounting practices with CodesClue's robust Accounting Information Systems. Experience streamlined ledger management, automated compliance reporting, and integrated payroll services, ensuring accuracy and efficiency in all your financial operations.
-                    </div>
-                    </div>
+                <!-- Right Sliced Image -->
+                <div class="col-lg-6 col-md-12">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/finance-secound-section.png" alt="icon" class="">
                 </div>
 
-                <div class="accordion-item mb-3">
-                    <h2 class="accordion-header">
-                    <button class="accordion-button collapsed px-2" type="button" data-bs-toggle="collapse" data-bs-target="#item3">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/Mobile-Banking-Solutions.png" alt="icon" class="me-2">
-                        Mobile Banking Solutions
-                    </button>
-                    </h2>
-                    <div id="item3" class="accordion-collapse collapse" data-bs-parent="#financeAccordion">
-                    <div class="accordion-body">
-                        CodesClue’s mobile banking solutions redefine convenience, providing users with on-the-go account access, secure fund transfer capabilities, and personalized financial alerts. Elevate the customer experience with mobile features designed for the modern user’s banking needs with our banking software development services.
-                    </div>
-                    </div>
-                </div>
-
-                <div class="accordion-item mb-3">
-                    <h2 class="accordion-header">
-                    <button class="accordion-button collapsed px-2" type="button" data-bs-toggle="collapse" data-bs-target="#item4">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/Cybersecurity.png" alt="icon" class="me-2">
-                       Cybersecurity
-                    </button>
-                    </h2>
-                    <div id="item4" class="accordion-collapse collapse" data-bs-parent="#financeAccordion">
-                    <div class="accordion-body">
-                        Fortify your financial ecosystem with CodesClue's cybersecurity solutions. Protect sensitive financial data with advanced encryption, intrusion detection systems, and continuous security monitoring to safeguard against the ever-evolving threat landscape.
-                    </div>
-                    </div>
-                </div>
-                <!-- Repeat more items as needed -->
                 </div>
             </div>
-
-            <!-- Right Sliced Image -->
-            <div class="col-lg-6 col-md-12">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/finance-secound-section.png" alt="icon" class="me-2">
-            </div>
-
-            </div>
-        </div>
         </section>
 
 
@@ -143,13 +143,13 @@ get_header(); ?>
                             Revolutionize your financial services with CodesClue's custom FinTech software development. Tailored to your business's unique needs, our solutions encompass everything from mobile payment systems to sophisticated investment platforms, ensuring compliance and competitive edge in a dynamic financial landscape.
                             </div>
                             <div id="detail2" class="service-detail">
-                            Establish a robust online presence with CMARIX's financial web development services. We create secure, scalable, and user-friendly websites that cater to the diverse needs of the financial sector, from banks to investment firms, enhancing user experience and digital engagement.
+                            Establish a robust online presence with CodesClue's financial web development services. We create secure, scalable, and user-friendly websites that cater to the diverse needs of the financial sector, from banks to investment firms, enhancing user experience and digital engagement.
                             </div>
                             <div id="detail3" class="service-detail">
-                            Enter the mobile-first era with confidence through CMARIX's financial app development. Among all the financial app development companies, our mobile solutions are designed with security and user engagement at the forefront, providing your customers with seamless financial services on-the-go, including real-time transactions, financial tracking, and personalized financial insights.
+                            Enter the mobile-first era with confidence through CodesClue's financial app development. Among all the financial app development companies, our mobile solutions are designed with security and user engagement at the forefront, providing your customers with seamless financial services on-the-go, including real-time transactions, financial tracking, and personalized financial insights.
                             </div>
                             <div id="detail4" class="service-detail">
-                            Seamlessly connect with essential financial ecosystems using CMARIX’s integration services. We ensure your platforms communicate effectively with external systems, from banking APIs to third-party financial services, for a unified and efficient financial operation.
+                            Seamlessly connect with essential financial ecosystems using CodesClue’s integration services. We ensure your platforms communicate effectively with external systems, from banking APIs to third-party financial services, for a unified and efficient financial operation.
                             </div>
                             <div id="detail5" class="service-detail">
                             Stay ahead of technological advancements with CodesClue's finance software development and software modernization services. We revitalize legacy systems with the latest in financial technology, improving performance, security, and ensuring that your software meets modern day expectations for agility and compliance.
@@ -185,37 +185,37 @@ get_header(); ?>
                         <div class="col-12 mb-3">
                         <div class="card p-3">
                             <h5><span class="badge bg-primary me-2">01</span> Custom FinTech Software Development</h5>
-                            <p class="mt-2">Ensure better health outcomes with healthcare solutions through faster diagnosis.</p>
+                            <p class="mt-2"> Revolutionize your financial services with CodesClue's custom FinTech software development. Tailored to your business's unique needs, our solutions encompass everything from mobile payment systems to sophisticated investment platforms, ensuring compliance and competitive edge in a dynamic financial landscape.</p>
                         </div>
                         </div>
                         <div class="col-12 mb-3">
                         <div class="card p-3">
                             <h5><span class="badge bg-primary me-2">02</span> Custom FinTech Software Development</h5>
-                            <p class="mt-2">Streamline financial operations with modern software solutions for businesses.</p>
+                            <p class="mt-2">Establish a robust online presence with CodesClue's financial web development services. We create secure, scalable, and user-friendly websites that cater to the diverse needs of the financial sector, from banks to investment firms, enhancing user experience and digital engagement.</p>
                         </div>
                         </div>
                         <div class="col-12 mb-3">
                         <div class="card p-3">
                             <h5><span class="badge bg-primary me-2">03</span> Custom FinTech Software Development</h5>
-                            <p class="mt-2">Advanced trading systems for forex & finance enterprises.</p>
+                            <p class="mt-2">Enter the mobile-first era with confidence through CodesClue's financial app development. Among all the financial app development companies, our mobile solutions are designed with security and user engagement at the forefront, providing your customers with seamless financial services on-the-go, including real-time transactions, financial tracking, and personalized financial insights.</p>
                         </div>
                         </div>
                         <div class="col-12 mb-3">
                         <div class="card p-3">
                             <h5><span class="badge bg-primary me-2">04</span> Custom FinTech Software Development</h5>
-                            <p class="mt-2">Secure payment gateway integration for fintech companies.</p>
+                            <p class="mt-2">Seamlessly connect with essential financial ecosystems using CodesClue’s integration services. We ensure your platforms communicate effectively with external systems, from banking APIs to third-party financial services, for a unified and efficient financial operation.</p>
                         </div>
                         </div>
                         <div class="col-12 mb-3">
                         <div class="card p-3">
                             <h5><span class="badge bg-primary me-2">05</span> Custom FinTech Software Development</h5>
-                            <p class="mt-2">Risk management and compliance automation solutions.</p>
+                            <p class="mt-2">Stay ahead of technological advancements with CodesClue's finance software development and software modernization services. We revitalize legacy systems with the latest in financial technology, improving performance, security, and ensuring that your software meets modern day expectations for agility and compliance.</p>
                         </div>
                         </div>
                         <div class="col-12 mb-3">
                         <div class="card p-3">
                             <h5><span class="badge bg-primary me-2">06</span> Custom FinTech Software Development</h5>
-                            <p class="mt-2">AI-powered analytics and customer engagement platforms.</p>
+                            <p class="mt-2">ATransform your financial services with CodesClue’s digitalization and optimization strategies. Our solutions enhance your digital capabilities, streamline operations, and optimize financial processes through automation, delivering superior service quality and operational excellence.</p>
                         </div>
                         </div>
                     </div>
@@ -242,7 +242,7 @@ get_header(); ?>
             <!-- Card 1 -->
             <div class="col-xl-4 col-lg-4 col-md-4 col-12">
                 <div class="solution-card bg1">
-                <div class="solution-icon"><i class="fa-solid fa-money-bill-transfer"></i></div>
+                <div class="solution-icon"><i class="fa-solid fa-money-bill-transfer font-color-green"></i></div>
                 <h5>Digital Banking Platforms</h5>
                 <p>Build secure mobile and web banking solutions with real-time transactions, intuitive dashboards, and personalized services.</p>
                 </div>
@@ -251,7 +251,7 @@ get_header(); ?>
             <!-- Card 2 -->
             <div class="col-xl-4 col-lg-4 col-md-4 col-12">
                 <div class="solution-card bg2">
-                <div class="solution-icon"><i class="fa-solid fa-wallet"></i></div>
+                <div class="solution-icon"><i class="fa-solid fa-wallet font-color-orange"></i></div>
                 <h5>Payment Gateways & Wallets</h5>
                 <p>Seamlessly integrate multi currency payment systems, e-wallets, and contactless payment options to enhance customer convenience.</p>
                 </div>
@@ -260,7 +260,7 @@ get_header(); ?>
             <!-- Card 3 -->
             <div class="col-xl-4 col-lg-4 col-md-4 col-12">
                 <div class="solution-card bg3">
-                <div class="solution-icon"><i class="fa-solid fa-lock"></i></div>
+                <div class="solution-icon"><i class="fa-solid fa-lock font-color-blue"></i></div>
                 <h5>AI-Powered Risk & Fraud Detection</h5>
                 <p>Deploy advanced machine learning models to detect anomalies, prevent fraud, and ensure regulatory compliance.</p>
                 </div>
@@ -269,7 +269,7 @@ get_header(); ?>
             <!-- Card 4 -->
             <div class="col-xl-4 col-lg-4 col-md-4 col-12">
                 <div class="solution-card bg4">
-                <div class="solution-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <div class="solution-icon"><i class="fa-solid fa-chart-line font-color-pink"></i></div>
                 <h5>Wealth & Investment Platforms</h5>
                 <p>Create smart tools for portfolio management, robo advisory, and real-time market insights to empower investors.</p>
                 </div>
@@ -278,7 +278,7 @@ get_header(); ?>
             <!-- Card 5 -->
             <div class="col-xl-4 col-lg-4 col-md-4 col-12">
                 <div class="solution-card bg5">
-                <div class="solution-icon"><i class="fa-solid fa-network-wired"></i></div>
+                <div class="solution-icon"><i class="fa-solid fa-network-wired font-color-yellow"></i></div>
                 <h5>Blockchain & Smart Contracts</h5>
                 <p>Leverage decentralized technologies for transparent, secure, and tamper-proof financial transactions.</p>
                 </div>
@@ -287,7 +287,7 @@ get_header(); ?>
             <!-- Card 6 -->
             <div class="col-xl-4 col-lg-4 col-md-4 col-12">
                 <div class="solution-card bg6">
-                <div class="solution-icon"><i class="fa-solid fa-file-shield"></i></div>
+                <div class="solution-icon"><i class="fa-solid fa-file-shield font-color-dark"></i></div>
                 <h5>RegTech & Compliance Automation</h5>
                 <p>Automate KYC, AML, and compliance workflows to reduce risk, improve efficiency, and meet evolving regulatory standards.</p>
                 </div>
@@ -302,7 +302,7 @@ get_header(); ?>
 
         
 
-            <section class="tech-showcase py-5 container">
+            <section class="tech-showcase container">
                 <div class="position-relative">
 
                     <!-- Radio Buttons (Hidden) -->
@@ -314,7 +314,7 @@ get_header(); ?>
                     <div class="row align-items-end flex-column flex-lg-row ">
                         <!-- Left Side -->
                         <div class="custom-col-lg-4">
-                            <h2 class="mb-5 fs-2 fw-bold aos-init aos-animate">Explore
+                            <h2 class="mbd-5-cus fs-2 fw-bold aos-init aos-animate">Explore
                                 the Technologies Behind Our
                                 Solutions</h2>
                             <div class="d-flex flex-wrap gap-2">

@@ -286,7 +286,7 @@ get_header(); ?>
                     <div class="row align-items-end flex-column flex-lg-row ">
                         <!-- Left Side -->
                         <div class="custom-col-lg-4">
-                            <h2 class="mb-5 fs-2 fw-bold aos-init aos-animate">Explore
+                            <h2 class="mbd-5-cus fs-2 fw-bold aos-init aos-animate">Explore
                                 the Technologies Behind Our
                                 Solutions</h2>
                             <div class="d-flex flex-wrap gap-2">

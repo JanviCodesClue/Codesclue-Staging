@@ -145,9 +145,14 @@ body {
     margin-bottom: 1.5rem;
     color: #333;
   }
+  .mbd-5-cus{
+  margin-bottom: 1rem!important;
+}
 }
 
-
+.mbd-5-cus{
+  margin-bottom: 3rem;
+}
 
 
 .page-title-area {
@@ -159,7 +164,7 @@ body {
   border-bottom: 14px solid #108aff;
 }
 .page-title-area .section-subtitle {
-  font-size: 85px;
+  font-size: 65px;
   font-style: italic;
   font-weight: 500;
   line-height: 1.13;

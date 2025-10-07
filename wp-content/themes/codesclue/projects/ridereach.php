@@ -18,9 +18,9 @@ get_header(); ?>
                     <h4>Client Product</h4>
                     <h1 class="ridereach-title">Ride <span style="color:#ddd;">Reach</span></h1>
                     <h5 class="ridereach-subtitle mb-3">REACHING AUDIENCES ANYWHERE</h5>
-                    <div class="d-flex">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/project-assets/hero-icon.png" alt="RideReach Vehicle">
-                        <p class="mb-4 border-left-ride ps-3">
+                    <div class="d-flex align-items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/hero-icon.png" alt="RideReach Vehicle">
+                        <p class=" border-left-ride ps-3">
                         RideReach makes getting around simple and stress free, connecting riders 
                         with trusted drivers in just a few taps. With real time tracking, secure 
                         payments, and a smooth booking experience; it’s the smarter way to travel.
@@ -42,20 +42,24 @@ get_header(); ?>
                 <div class="col-lg-2 col-md-12 d-flex align-items-center">
                     <div class="ridereach-icons justify-content-center">
                         <div class="ridereach-icon-box">
-                            <img src="icon1.png" alt="">
-                            <small>Seamless Travel</small>
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/Technology.png" alt="">
+                            <p><strong>Technology</strong></p>
+                            <span>ReactJS, NodeJS,<BR>MongoDB, AWS</span>
                         </div>
                         <div class="ridereach-icon-box">
-                            <img src="icon2.png" alt="">
-                            <small>Industry<br>Advancement</small>
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/Industry.png" alt="">
+                            <p><strong>Industry</strong></p>
+                            <span>Advertisement</span>
+                        </div>
+                       <div class="ridereach-icon-box">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/Built For.png" alt="">
+                            <p><strong>Built For</strong></p>
+                            <span>Customer website, Admin CMS</span>
                         </div>
                         <div class="ridereach-icon-box">
-                            <img src="icon3.png" alt="">
-                            <small>Customer<br>Needs</small>
-                        </div>
-                        <div class="ridereach-icon-box">
-                            <img src="icon4.png" alt="">
-                            <small>Access For All</small>
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/access.png" alt="">
+                            <p><strong>Access</strong></p>
+                            <span>UK</span>
                         </div>
                     </div>
                 </div>
@@ -163,7 +167,7 @@ get_header(); ?>
 
         <section>
             <div class="text-center my-4">
-                <h2>Driving Digital Transformation: <br>
+                <h2 class="section-title">Driving Digital Transformation: <br>
                 CodesClue’s Approach for RideReach</h2>
             </div>
             <div class="ridereach-section">
@@ -283,7 +287,7 @@ get_header(); ?>
 
             <!-- Heading -->
             <div class="ridereach-heading">
-                <h2>Built With Scalable Architecture</h2>
+                <h2 class="section-title text-light">Built With Scalable Architecture</h2>
             </div>
 
             <!-- Cards Grid -->
@@ -360,7 +364,7 @@ get_header(); ?>
                 </div>
 
                 <!-- Card 4 -->
-<div class="col-md-6">
+        <div class="col-md-6">
     <div class="ridereach-card-architectural">
         <div class="ridereach-number">4</div>
         <div class="ridereach-content">
@@ -489,8 +493,8 @@ get_header(); ?>
         <section class="ridereach-ads container">
         <!-- Section Title -->
         <div class="section-title">
-            <h3>Technical Brilliance
-CodesClue’s Architectural Design for RideReach</h3>
+            <h3 class="section-title">Technical Brilliance
+                CodesClue’s Architectural Design for RideReach</h3>
         </div>
 
         <div class="row mb-4">
@@ -618,7 +622,7 @@ CodesClue’s Architectural Design for RideReach</h3>
 
         <section class="techstack-section">
         <div class="container position-relative">
-            <h2 class="techstack-title">Tech Stack</h2>
+            <h2 class="fw-bold text-center mb-3">Tech Stack</h2>
             <div class="row">
             <!-- Left Side Image -->
             <div class="col-lg-6">
@@ -710,7 +714,7 @@ CodesClue’s Architectural Design for RideReach</h3>
 
 <section class="third-party-apis py-5">
   <div class="container">
-    <h2 class="text-center mb-5">Integrated With Industry Standard APIs</h2>
+    <h2 class="text-center mb-5 fw-bold">Integrated With Industry Standard APIs</h2>
     <div class="row g-4">
 
       <!-- Card 1 -->
@@ -721,7 +725,7 @@ CodesClue’s Architectural Design for RideReach</h3>
       </div>
 
       <!-- Card 2 -->
-<div class="col-lg-6 col-md-6">
+     <div class="col-lg-6 col-md-6">
         <div class="api-card">
           <p>RideReach has been engineered with industry standard API integrations that ensure seamless connectivity, secure communication, and future-ready scalability. By adopting modern, reliable, and enterprise grade frameworks, the platform is designed to deliver consistent performance while maintaining flexibility for evolving business needs. This approach guarantees that operations remain smooth, efficient, and adaptable across diverse environments.</p>
         </div>
