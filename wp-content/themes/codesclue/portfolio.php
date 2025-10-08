@@ -331,6 +331,16 @@ get_header(); ?>
                             <div class="col-md-6">
                                 <div class="work-box-7">
                                     <div class="thumb">
+                                        <div class="meta"><span class="tag">Ride Reach</span><span class="tag">van advertising</span><span class="tag">Website</span></div>
+                                        <a href="<?php echo home_url('/ride-reach/'); ?>" target="_blank">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/codesclue-ridereach.png"
+                                                class="img-fluid"/></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="work-box-7">
+                                    <div class="thumb">
                                         <div class="meta"><span class="tag">The Fit Level</span><span class="tag">Gym
                                                 and Fitness</span><span class="tag">WEB/APP</span></div>
                                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/codesclue_TFL.png" class="img-fluid"/>
@@ -400,16 +410,7 @@ get_header(); ?>
                                     </div>
                                 </div>
                             </div>
-                             <div class="col-md-6">
-                                <div class="work-box-7">
-                                    <div class="thumb">
-                                        <div class="meta"><span class="tag">Ride Reach</span><span class="tag">van advertising</span><span class="tag">Website</span></div>
-                                        <a href="<?php echo home_url('/ride-reach/'); ?>" target="_blank">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/codesclue-ridereach.png"
-                                                class="img-fluid"/></a>
-                                    </div>
-                                </div>
-                            </div>
+                             
                         </div>
                     </div>
 

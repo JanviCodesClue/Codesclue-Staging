@@ -1,8 +1,12 @@
 .manufacturing-hero-bg{
     background-image: url("../images/industries/manufacturing/Manufacturingh-hero-img-bg.png");
     width: 100%;
-    height: auto;
-    padding: 20px 0;
+    height: 96vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
   .btn-custom {
     background: #007bff;

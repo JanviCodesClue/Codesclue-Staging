@@ -21,13 +21,13 @@
     }
 
     .media-title {
-      font-size: 2rem;
+      font-size: 2rem!important;
       font-weight: 700;
     }
 
     .media-text {
       margin-top: 15px;
-      font-size: 1rem;
+      font-size: 1rem!important;
       line-height: 1.6;
     }
 
@@ -142,17 +142,51 @@
 
 
 
+.font-color-green{
+  color: #036E00;
+}
+
+.font-color-orange{
+  color: #FD8300;
+}
+.font-color-blue{
+  color: #0044FF;
+}
+.font-color-pink{
+  color: #FF008B;
+}
+.font-color-yellow{
+  color: #7F8D00;
+}
+.font-color-dark{
+  color: #630071;
+}
+
+.icon-size-media{
+  font-size: 30px;
+  margin-bottom:10px;
+}
 
 
-
-
-
-
+@media (max-width: 768px) {
+    .media-title {
+        font-size: 1.5rem !important;
+        text-align: center;
+        font-weight: 700;
+    }
+    .media-text {
+    margin-top: 15px;
+    font-size: 0.8rem!important;
+    line-height: 1.6;
+}
+.my-sm-2-cus{
+  margin: 25px 0;
+}
+}
     .card-box {
   position: relative;
   padding: 20px;
   border-radius: 16px;
-  min-height: 120px; /* fixed height */
   background: #f5f5f5;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -198,4 +232,4 @@
 .entertainment-gaming { background: #f1f1f9; }
 .entertainment-drama { background: #f8f4ff; }
 .entertainment-sports { background: #fdfde8; }
-.entertainment-dance { background: #e8fdf8; }
+.entertainment-dance { background: #f0f4ff; }

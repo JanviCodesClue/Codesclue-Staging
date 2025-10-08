@@ -196,7 +196,7 @@ get_header(); ?>
       
       <!-- Card 1 -->
       <div class="entertainment-music card-box">
-        <div class="card-icon"><i class="fa-solid fa-circle-play"></i>
+        <div><i class="icon-size-media fa-solid fa-circle-play font-color-green"></i>
 </div>
         <h6>OTT & Video Streaming Platforms</h6>
         <p class="card-text">
@@ -206,7 +206,7 @@ get_header(); ?>
       
       <!-- Card 2 -->
       <div class="entertainment-movie card-box">
-        <div class="card-icon"><i class="fa-solid fa-pen-to-square"></i>
+        <div><i class="icon-size-media fa-solid fa-pen-to-square font-color-orange"></i>
 </div>
         <h6>Advanced Content Management Systems (CMS)</h6>
         <p class="card-text">
@@ -216,7 +216,7 @@ get_header(); ?>
       
       <!-- Card 3 -->
       <div class="entertainment-gaming card-box">
-        <div class="card-icon"><i class="fa-solid fa-users"></i>
+        <div><i class="icon-size-media fa-solid fa-users font-color-dark"></i>
 
 </div>
         <h6>Audience Engagement & Personalization</h6>
@@ -228,7 +228,7 @@ get_header(); ?>
     
     <!-- Center Image -->
     <div class="col-lg-4 text-center">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/entertainment-solution.png" class="img-fluid rounded-4 shadow" alt="VR Image">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/entertainment-solution.png" class="img-fluid rounded-5 shadow my-sm-2-cus" alt="VR Image">
     </div>
     
     <!-- Right Side -->
@@ -236,7 +236,7 @@ get_header(); ?>
       
       <!-- Card 4 -->
       <div class="entertainment-drama card-box">
-        <div class="card-icon"><i class="fa-solid fa-vr-cardboard"></i>
+        <div><i class="icon-size-media fa-solid fa-vr-cardboard font-color-pink"></i>
 </div>
         <h6>AR/VR & Immersive Experiences</h6>
         <p class="card-text">
@@ -246,7 +246,7 @@ get_header(); ?>
       
       <!-- Card 5 -->
       <div class="entertainment-sports card-box">
-        <div class="card-icon"><i class="fa-solid fa-sack-dollar"></i>
+        <div><i class="icon-size-media fa-solid fa-sack-dollar font-color-yellow"></i>
 </div>
         <h6>Media Monetization Frameworks</h6>
         <p class="card-text">
@@ -256,7 +256,7 @@ get_header(); ?>
       
       <!-- Card 6 -->
       <div class="entertainment-dance card-box">
-        <div class="card-icon"><i class="fa-solid fa-chart-line"></i>
+        <div><i class="icon-size-media fa-solid fa-chart-line font-color-blue"></i>
 </div>
         <h6>Data Analytics & Business Insights</h6>
         <p class="card-text">
