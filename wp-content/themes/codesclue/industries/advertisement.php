@@ -156,7 +156,7 @@ get_header(); ?>
 <!-- Pricing Section -->
 <div class="container py-5">
   <div class="row g-4">
-<h2 class="text-center">
+<h2 class="text-center advertisement-section-title">
   How We Add Value
 </h2>
     <!-- Card 1 -->
@@ -185,7 +185,7 @@ get_header(); ?>
 
     <!-- Card 4 -->
     <div class="col-md-3 col-sm-6">
-      <div class="feature-card bg-gradient-4 text-white p-4 h-100">>
+      <div class="feature-card bg-gradient-4 text-white p-4 h-100">
         <h5 class="mb-2">Faster Time-to-Market</h5>
         <p class="mb-0 small">Agile processes ensuring rapid deployment.</p>
       </div>
@@ -309,7 +309,7 @@ get_header(); ?>
 
   <!-- Dynamic Carousel -->
    <section class="container">
-    <h2>Our Projects</h2>
+    <h2 class="headline-black">Our Projects</h2>
     <div class="owl-carousel owl-theme" id="dynamicCarousel">
         <div class="custom-card-project d-flex align-items-center">
         

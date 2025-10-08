@@ -202,9 +202,8 @@ get_header(); ?>
                 </h2>
                 <p class="text-center  pb-3">We enable manufacturers to harness the power of advanced digital ecosystems, integrating intelligence, automation, and scalability. Our solutions are designed to accelerate operational excellence, reinforce resilience, and drive sustained competitive advantage.</p>
            <div class="row align-content-stretch g-4">
-    
     <!-- Card 1 -->
-    <div class="col-md-4 col-sm-6 d-flex">
+    <div class="col-md-4 col-sm-12 d-flex">
       <div class="solution-card bg-green-manufacturing">
         <div class="icon-box icon-green"><i class="fa-solid fa-robot"></i>
 </div>
@@ -214,7 +213,7 @@ get_header(); ?>
     </div>
 
     <!-- Card 2 -->
-    <div class="col-md-4 col-sm-6 d-flex">
+    <div class="col-md-4 col-sm-12 d-flex">
       <div class="solution-card bg-red-manufacturing">
         <div class="icon-box icon-red"><i class="fa-solid fa-database"></i>
 </div>
@@ -224,7 +223,7 @@ get_header(); ?>
     </div>
 
     <!-- Card 3 -->
-    <div class="col-md-4 col-sm-6 d-flex">
+    <div class="col-md-4 col-sm-12 d-flex">
       <div class="solution-card bg-blue-manufacturing">
         <div class="icon-box icon-blue"><i class="fa-solid fa-truck-fast"></i>
 </div>
@@ -234,7 +233,7 @@ get_header(); ?>
     </div>
 
     <!-- Card 4 -->
-    <div class="col-md-4 col-sm-6 d-flex">
+    <div class="col-md-4 col-sm-12 d-flex">
       <div class="solution-card bg-purple-manufacturing">
         <div class="icon-box icon-purple"><i class="fa-solid fa-industry"></i>
 </div>
@@ -244,7 +243,7 @@ get_header(); ?>
     </div>
 
     <!-- Card 5 -->
-    <div class="col-md-4 col-sm-6 d-flex">
+    <div class="col-md-4 col-sm-12 d-flex">
       <div class="solution-card bg-lime-manufacturing">
         <div class="icon-box icon-lime"><i class="fa-solid fa-seedling"></i>
 </div>
@@ -254,7 +253,7 @@ get_header(); ?>
     </div>
 
     <!-- Card 6 -->
-    <div class="col-md-4 col-sm-6 d-flex">
+    <div class="col-md-4 col-sm-12 d-flex">
       <div class="solution-card bg-orange-manufacturing">
         <div class="icon-box icon-orange"><i class="fa-solid fa-shield-halved"></i>
 </div>

@@ -275,7 +275,7 @@ wp_enqueue_script(
 
     if (is_page('healthcare')) {
         wp_enqueue_style('codesclue-heathcare', get_template_directory_uri() . '/assets/css/healthcare.css', array(), '1.0.0');
-    } 
+    }
 
     if (is_page('ai-software-development') || is_page('aipage')) {
         wp_enqueue_style('codesclue-aipage', get_template_directory_uri() . '/assets/css/aipage.css', array(), '1.0.0');
