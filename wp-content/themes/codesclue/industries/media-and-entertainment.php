@@ -15,14 +15,14 @@ get_header(); ?>
       <p class="media-text">
        We empower media and entertainment companies with cutting edge digital solutions that transform how content is created, distributed, and consumed. From streaming platforms and mobile apps to AI-powered recommendation engines and immersive experiences, our solutions help brands engage audiences at scale. We build secure, scalable platforms that support high traffic, personalized content delivery, and seamless monetization models. With expertise in cloud, AI, and analytics, we enable businesses to unlock new revenue streams, enhance user engagement, and stay ahead in a rapidly evolving digital landscape.
       </p>
-      <a href="#" class="btn media-btn">
+      <a href="<?php echo home_url('/contact-us/'); ?>" class="btn media-btn">
         LET’S CONNECT →
       </a>
     </div>
   </section>
     
 
-   <section class="media-services">
+   <section class="my-5">
     <div class="container">
       <!-- Section Heading -->
       <h2 class="media-services-title">
@@ -186,7 +186,7 @@ get_header(); ?>
 
 
   <div class="container my-5">
-  <div class="row justify-content-center align-items-center">
+    <div class="row justify-content-center align-items-center">
     <h2 class="text-center">
        Forging the Future of Media & Entertainment with Advanced Digital Solutions
       </h2>
@@ -197,7 +197,7 @@ get_header(); ?>
       <!-- Card 1 -->
       <div class="entertainment-music card-box">
         <div><i class="icon-size-media fa-solid fa-circle-play font-color-green"></i>
-</div>
+      </div>
         <h6>OTT & Video Streaming Platforms</h6>
         <p class="card-text">
          We design scalable OTT and streaming platforms that deliver seamless, high quality video across multiple devices. With adaptive streaming, integrated monetization models, and AI-driven personalization, businesses can expand reach and enhance viewer satisfaction.

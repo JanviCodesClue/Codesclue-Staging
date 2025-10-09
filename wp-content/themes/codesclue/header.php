@@ -267,7 +267,7 @@
                                 'android', 'react-native', 'flutter', 'ios', 'ipad', 'pwa', 'kotlin', 'swift',
                                 'html-page', 'css', 'js', 'angular', 'react-js', 'vue-js',
                                 'laravel', 'php', 'node-js', 'java', 'ror', 'mongo-db', 'dotnet',
-                                'auto-mated-testing', 'manual-testing', 'api-testing', 'mobile-testing', 
+                                'auto-mated-testing', 'manual-testing', 'api-testing', 'mobile-testing',
                                 'software-testing', 'support-testing', 'performance-testing'
                             ) ) ) echo 'active'; ?>">
                         <a class="nav-link dropdown-toggle" id="ServiceDropdown" role="button" data-bs-toggle="dropdown"
@@ -1644,12 +1644,9 @@
                     <li class="sub-menu-2"><a href="<?php echo home_url('/ecommerce/'); ?>"><img loading="lazy"
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_E-Commerce.svg"
                                 class="me-3 icon-menu-size-20" alt="html-logo" />E-Commerce</a></li>
-                    <li class="sub-menu-2"><a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
-                            href="<?php echo home_url('/financial/'); ?>">
-                            <img loading="lazy"
+                    <li class="sub-menu-2"><a href="<?php echo home_url('/financial/'); ?>"><img loading="lazy"
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codescluefinancial-performancial.svg"
-                                class="black-logo icon-menu-size-20" alt="privacy-logo" />
-                            Financial</a></li>
+                                class="me-3 icon-menu-size-20" alt="html-logo" />Financial</a></li>
                     <li class="sub-menu-2"><a href="<?php echo home_url('/food-service/'); ?>"><img loading="lazy"
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue__foodservices.svg"
                                 class="me-3 icon-menu-size-20" alt="html-logo" />Food Service</a></li>

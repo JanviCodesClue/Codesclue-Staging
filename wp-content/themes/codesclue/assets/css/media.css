@@ -21,7 +21,7 @@
     }
 
     .media-title {
-      font-size: 2rem!important;
+      font-size: 2.5rem!important;
       font-weight: 700;
     }
 
@@ -169,6 +169,13 @@
 
 
 @media (max-width: 768px) {
+     .media-hero {
+      position: relative;
+      background: url('../images/industries/Entertainment-hero.png') center/cover no-repeat;
+      color: #fff;
+      height: auto;
+      padding: 80px 0;
+    }
     .media-title {
         font-size: 1.5rem !important;
         text-align: center;
