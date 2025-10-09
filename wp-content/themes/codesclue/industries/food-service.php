@@ -338,7 +338,7 @@ get_header(); ?>
 
       <!-- Cards -->
       <div class="row align-items-lg-stretch g-4">
-        <div class="col-lg-4 col-md-4 d-flex">
+        <div class="col-lg-4 col-md-6 d-flex">
           <div class="p-4 bg-1">
              <div class="d-flex align-items-center mb-2">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/digital-menu-smart-ordering.png" class="food-card-last-icon" >
@@ -348,7 +348,7 @@ get_header(); ?>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-4 d-flex">
+        <div class="col-lg-4 col-md-6 d-flex">
           <div class="p-4 bg-2">
              <div class="d-flex align-items-center mb-2">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/reservation-table-management.png" class="food-card-last-icon" >
@@ -360,7 +360,7 @@ get_header(); ?>
 
         
 
-        <div class="col-lg-4 col-md-4 d-flex">
+        <div class="col-lg-4 col-md-6 d-flex">
           <div class="p-4 bg-3">
              <div class="d-flex align-items-center mb-2">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/kitchen-display-workflow-automation.png" class="food-card-last-icon" >
@@ -370,7 +370,7 @@ get_header(); ?>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-4 d-flex">
+        <div class="col-lg-4 col-md-6 d-flex">
           <div class="p-4 bg-4">
              <div class="d-flex align-items-center mb-2">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/fried-chicken_3101563 1.png" class="food-card-last-icon" >
@@ -380,7 +380,7 @@ get_header(); ?>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-4 d-flex">
+        <div class="col-lg-4 col-md-6 d-flex">
           <div class="p-4 bg-5">
              <div class="d-flex align-items-center mb-2">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/feedback-experience-management.png" class="food-card-last-icon" >
@@ -390,7 +390,7 @@ get_header(); ?>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-4 d-flex">
+        <div class="col-lg-4 col-md-6 d-flex">
           <div class="p-4 bg-6">
              <div class="d-flex align-items-center mb-2">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/sustainable-operations-compliance.png" class="food-card-last-icon" >

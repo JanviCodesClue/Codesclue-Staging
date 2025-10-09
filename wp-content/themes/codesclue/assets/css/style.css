@@ -2662,7 +2662,7 @@ nav .accordion-header .accordion-button{
     header,
     .main-hero-section,
     nav {
-        max-width: 1920px;
+        max-width: 100%;
         margin: 0 auto;
     }
 
