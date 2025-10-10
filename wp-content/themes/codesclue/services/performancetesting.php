@@ -214,7 +214,7 @@ get_header(); ?>
                     <div class="row align-items-center">
 
                         <!-- LEFT TEXT -->
-                        <div class="col-lg-5 col-md-5 text-center pt-xsm-cus">
+                        <div class="col-lg-5 col-md-5 pt-xsm-cus">
                             <h2 class="services-contact-title">
                                 Projects That Define Us
                             </h2>
