@@ -332,6 +332,9 @@ wp_enqueue_script(
     wp_enqueue_script('codesclue-counter', get_template_directory_uri() . '/assets/js/counter.js', array('jquery'), '1.0.0', true);
     wp_enqueue_script('codesclue-cache-buster', get_template_directory_uri() . '/assets/js/cacheBuster.js', array(), '1.0.0', true);
 
+
+
+    
     // ===== Page Specific Scripts =====
     
     if (is_page('cannabis')) {
@@ -685,6 +688,10 @@ function codesclue_enqueue_ga()
 }
 add_action('wp_enqueue_scripts', 'codesclue_enqueue_ga');
 
+function add_goodfirms_widget_script() {
+    wp_enqueue_script('goodfirms-widget', 'https://assets.goodfirms.co/assets/js/widget.min.js', array(), null, true);
+}
+add_action('wp_enqueue_scripts', 'add_goodfirms_widget_script');
 
 function enqueue_custom_carousel_script() {
     // ✅ Owl Carousel CSS
