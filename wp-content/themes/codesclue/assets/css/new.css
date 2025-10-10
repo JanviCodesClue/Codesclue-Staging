@@ -198,7 +198,7 @@ body {
   border-bottom: 14px solid #108aff;
     }
   .page-title-area .section-subtitle {
-    font-size: 50px;
+    font-size: 32px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -208,7 +208,7 @@ body {
 }
 @media (max-width: 575px) {
   .page-title-area .section-subtitle {
-    font-size: 32px;
+    font-size: 20px;
   }
 }
 
@@ -263,7 +263,7 @@ body {
 @media only screen and (max-width: 767px) {
   .page-title-area .section-content-wrapper {
     grid-template-columns: 1fr;
-    padding-bottom: 37px;
+    padding-bottom: 3px;
   }
 }
 .page-title-area .section-content-wrapper .content-shape-1 {
@@ -285,7 +285,7 @@ body {
 }
 @media only screen and (max-width: 767px) {
   .page-title-area .section-content-wrapper .content-shape-1 {
-    width: 55px;
+    width: 35px;
   }
 }
 .page-title-area .section-content-wrapper .content-shape-1 img {
@@ -378,7 +378,7 @@ body {
 }
 
 .content-shape-1 img {
-  width: 85px;
+  width: 65px;
 }
 
 .hero-area-3 .section-content-wrapper .content-shape-1 {
@@ -1566,6 +1566,12 @@ body {
   .project-card {
     height: 320px;
   }
+  .page-title-area .breadcrumb li {
+  display: inline;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+}
 }
 
 .project-card:hover {

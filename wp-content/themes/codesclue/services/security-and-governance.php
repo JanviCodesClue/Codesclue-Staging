@@ -47,7 +47,9 @@ get_header(); ?>
                         <div class="col-lg-8">
                             <div class="section-title-wrapper my-4">
                                 <div class="title-wrapper fade-anim">
-                                    <h3 class="section-title mb-0">Protecting Your Digital Assets with Confidence From risk assessment to compliance enforcement</h3>
+                                    <h3 class="section-title mb-3">Protecting Your Digital Assets with Confidence From risk assessment to compliance enforcement</h3>
+
+
                                     <h5>We safeguard your business at every layer.</h5>
                                 </div>
                                 <div class="subtitle-wrapper fade-anim py-4">
