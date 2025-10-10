@@ -688,10 +688,7 @@ function codesclue_enqueue_ga()
 }
 add_action('wp_enqueue_scripts', 'codesclue_enqueue_ga');
 
-function add_goodfirms_widget_script() {
-    wp_enqueue_script('goodfirms-widget', 'https://assets.goodfirms.co/assets/js/widget.min.js', array(), null, true);
-}
-add_action('wp_enqueue_scripts', 'add_goodfirms_widget_script');
+
 
 function enqueue_custom_carousel_script() {
     // ✅ Owl Carousel CSS
