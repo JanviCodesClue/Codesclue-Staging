@@ -570,7 +570,7 @@ ul.link-box li a img {
     color: #108aff !important;
 }
 
-.inner-services .goodfirm-widget .stamp-widget_top {
+.inner-services .goodfirm-widget-header .stamp-widget_top {
     background-color: #e3f2fe !important;
 }
 
@@ -588,11 +588,11 @@ ul.link-box li a img {
     padding: 0px 5px !important;
 }
 
-.footer__section .goodfirm-widget {
+.footer__section .goodfirm-widget-header {
     width: 140px !important;
 }
 
-.goodfirm-widget {
+.goodfirm-widget-header {
     background-color: white !important;
     font-family: "Poppins", sans-serif !important;
     height: auto;
@@ -600,15 +600,15 @@ ul.link-box li a img {
     border-radius: 6px !important;
 }
 
-.goodfirm-widget a {
+.goodfirm-widget-header a {
     height: 90px;
 }
 
-.goodfirm-widget iframe {
+.goodfirm-widget-header iframe {
     display: none !important;
 }
 
-.goodfirm-widget .stamp-widget_top {
+.goodfirm-widget-header .stamp-widget_top {
     align-items: center;
     border: 1px solid #f3f3f3;
     border-bottom: 0;
@@ -620,7 +620,7 @@ ul.link-box li a img {
     width: 100%;
 }
 
-.goodfirm-widget .stamp-widget_rating {
+.goodfirm-widget-header .stamp-widget_rating {
     color: #17313b;
     font-size: 22px;
     letter-spacing: 0.2px;
@@ -646,7 +646,7 @@ ul.link-box li a img {
     width: 20px;
 }
 
-.goodfirm-widget .stamp-widget_rating {
+.goodfirm-widget-header .stamp-widget_rating {
     color: #17313b;
     font-size: 22px;
     letter-spacing: 0.2px;
@@ -656,7 +656,7 @@ ul.link-box li a img {
     position: relative;
 }
 
-.goodfirm-widget .stamp-widget_reviews {
+.goodfirm-widget-header .stamp-widget_reviews {
     color: #108aff;
     font-size: 10px;
     letter-spacing: 1.5px;
@@ -665,7 +665,7 @@ ul.link-box li a img {
     text-transform: uppercase;
 }
 
-.goodfirm-widget .stamp-widget_rating span {
+.goodfirm-widget-header .stamp-widget_rating span {
     font-weight: 500;
 }
 

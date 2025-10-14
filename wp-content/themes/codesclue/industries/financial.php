@@ -29,7 +29,7 @@ get_header(); ?>
                 <!-- Heading -->
                 <h2 class="financial-sub-heading pb-3">Empowering Finance with Cutting-Edge Software Development</h2>
                 <p>
-            Empowering Finance with Cutting Edge Software Development
+           At CodesClue Technologies, we help banks, fintechs, and financial institutions harness the power of AI, automation, and secure cloud platforms. From digital banking solutions to risk management and compliance tools, we deliver scalable software that drives innovation, ensures trust, and enhances customer experience in the evolving financial landscape.
                 </p>
 
                 <div class="row align-items-center">
@@ -540,7 +540,7 @@ get_header(); ?>
             </section>
 
 
-            <section class="container faq-section section-40 bg-linear-white" id="faqSection">
+            <section class="container faq-section bg-linear-white" id="faqSection">
                
                     <div class="row mx-0 px-0">
                         <div class="col-lg-7 px-lg-0 px-0">

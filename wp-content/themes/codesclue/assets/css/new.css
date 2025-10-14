@@ -2249,10 +2249,11 @@ input[type="radio"]#tab-4:checked ~ .row label[for="tab-4"] {
 
 /* === Awards Section === */
 .awards-wrapper-footer {
-  flex: 1 1 65%;
+  flex: 1 1 60%;
   border-radius: 15px;
   padding: 20px 30px;
-  
+      display: flex;
+    align-items: center;
   background: #f0f9ff;
 }
 
@@ -2273,7 +2274,7 @@ input[type="radio"]#tab-4:checked ~ .row label[for="tab-4"] {
 }
 
 .badge-img-footer {
-  max-height: 90px;
+  max-height: 92px;
   width: auto;
   object-fit: contain;
   transition: transform 0.3s ease;
@@ -2469,4 +2470,14 @@ pre[class*="language-"] code[class*="language-"] .token.string { color: #7ec699 
 .owl-dots,
 .owl-nav {
   display: none !important;
+}
+
+
+@media (max-width: 1399.98px){
+.badge-img-footer {
+    max-height: 100px;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
 }

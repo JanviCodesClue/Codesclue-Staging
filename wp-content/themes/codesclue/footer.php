@@ -122,7 +122,7 @@
             </div>
 
             <!-- Reviews -->
-            <div class="review-box-footer">
+            <!-- <div class="review-box-footer">
                 <div class="review-item-footer">
                     <div class="d-flex align-items-center justify-content-center">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/GoodFirm.png" class="size-32 rounded-circle "/>
@@ -141,12 +141,46 @@
                     <div class="rating-footer">4 Reviews</div>
                 </div>
                 <div class="review-item-footer only-col-12">
-                    
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/codesclue-awaerd.png">
-              
-                    
                 </div>
-            </div>
+            </div> -->
+
+            <div class="review-box-footer">
+    <!-- GoodFirm Widget -->
+    <div class="review-item-footer">
+      <div class="goodfirm-widget-wrapper custom-body-class">
+  <div class="goodfirm-widget"
+       data-widget-type="goodfirms-widget-t6"
+       data-widget-pattern="star-no-review"
+       data-height="100"
+       data-company-id="169180">
+  </div>
+</div>
+
+
+    </div>
+
+    <!-- Clutch Section -->
+    <div class="review-item-footer">
+        <div>
+            <div class="d-flex align-items-center justify-content-center">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Clutch.png" class="size-32 rounded-circle "/>
+            <h5 class="ps-2">Clutch</h5>
+        </div>
+        <div class="stars-footer">★★★★★</div>
+        <div class="rating-footer">4 Reviews</div>
+        </div>
+        
+    </div>
+<div class="review-item-footer only-col-12">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/codesclue-awaerd.png" class="footer-imf-award-sm">
+                </div>
+    <!-- Award Image -->
+    
+</div>
+
+<!-- GoodFirm Script -->
+
         </div>
 
 
