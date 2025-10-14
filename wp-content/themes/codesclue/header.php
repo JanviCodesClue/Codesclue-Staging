@@ -749,7 +749,7 @@
                                                     <div
                                                         class="d-sm-flex d-none flex-wrap gap-sm-4 gap-2 align-items-center justify-content-lg-start justify-content-center">
 
-                                                        <div class="goodfirm-widget">
+                                                        <div class="goodfirm-widget-header">
                                                             <a href="https://www.goodfirms.co/company/codesclue-technologies#review_analytics"
                                                                 rel="nofollow" target="_blank" class="content">
                                                                 <div class="stamp-widget_top">
@@ -772,7 +772,7 @@
                                                                 </div>
                                                             </a>
                                                         </div>
-                                                        <div class="goodfirm-widget">
+                                                        <div class="goodfirm-widget-header">
                                                             <a href="https://clutch.co/profile/codesclue-technologies?utm_source=widget&utm_medium=9&utm_campaign=widget&utm_content=num_reviews&utm_term=127.0.0.1#reviews"
                                                                 rel="nofollow" target="_blank" class="content">
                                                                 <div class="stamp-widget_top">
@@ -1441,7 +1441,7 @@
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/cloud-consulting-migrations.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Cloud Consulting & Migrations</a></li>
                         <li><a href="<?php echo home_url('/devsecops-sre/'); ?>"> <img loading="lazy"
-                                    src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/devsecops-sre.svg"
+                                    src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/DevSecOps-SRE.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />DevSecOps & SRE</a></li>
                         <li><a href="<?php echo home_url('/security-governance/'); ?>">
                                 <img loading="lazy"
@@ -1452,11 +1452,11 @@
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/cloud-reporting.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Cloud Reporting</a></li>
                         <li><a href="<?php echo home_url('/application-modernization/'); ?>"> <img loading="lazy"
-                                    src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/application-modernization.svg"
+                                    src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/Application-modernization.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Application Modernization</a></li>
                         <li><a href="<?php echo home_url('/genaiops/'); ?>">
                                 <img loading="lazy"
-                                    src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/genaiops.svg"
+                                    src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/GenAIOps.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />GenAIOps</a></li>
                     </ul>
                 </div>
