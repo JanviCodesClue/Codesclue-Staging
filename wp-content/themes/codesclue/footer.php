@@ -159,24 +159,22 @@
 
 
     </div>
-
+<div class="review-item-footer only-col-12">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/codesclue-awaerd.png" class="footer-imf-award-sm">
+</div>
     <!-- Clutch Section -->
     <div class="review-item-footer">
         <div>
+            <div class="rating-footer">EXCELLENT</div>
+            <div class="stars-footer">★★★★★</div>
             <div class="d-flex align-items-center justify-content-center">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Clutch.png" class="size-32 rounded-circle "/>
             <h5 class="ps-2">Clutch</h5>
         </div>
-        <div class="stars-footer">★★★★★</div>
-        <div class="rating-footer">4 Reviews</div>
         </div>
-        
     </div>
-<div class="review-item-footer only-col-12">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/codesclue-awaerd.png" class="footer-imf-award-sm">
-                </div>
+
     <!-- Award Image -->
-    
 </div>
 
 <!-- GoodFirm Script -->

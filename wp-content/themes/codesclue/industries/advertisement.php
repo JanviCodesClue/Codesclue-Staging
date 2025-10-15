@@ -332,7 +332,7 @@ get_header(); ?>
           </div>
 
           <div class="custom-card-image-project text-center">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/codesclue-ridereach.png" alt="Project" class="img-fluid">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/codesclue-ridereach 1.png" alt="Project" class="img-fluid">
           </div>
         </div>
 
