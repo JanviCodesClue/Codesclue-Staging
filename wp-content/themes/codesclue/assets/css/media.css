@@ -1,242 +1,296 @@
-   .media-hero {
-      position: relative;
-      background: url('../images/industries/Entertainment-hero.png') center/cover no-repeat;
-      color: #fff;
-      height: 100vh;
-    }
-
-    .media-overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.6);
-    }
-
-    .media-content {
-      position: relative;
-      z-index: 2;
-      max-width: 800px;
-    }
-
-    .media-title {
-      font-size: 2.5rem!important;
-      font-weight: 700;
-    }
-
-    .media-text {
-      margin-top: 15px;
-      font-size: 1rem!important;
-      line-height: 1.6;
-    }
-
-    .media-btn {
-      margin-top: 25px;
-      background: #1e73ff;
-      color: #fff;
-      border: none;
-      padding: 12px 28px;
-      border-radius: 50px;
-      font-weight: 500;
-      transition: 0.3s;
-    }
-
-    .media-btn:hover {
-      background: #0056d2;
-    }
-
-
-    .media-services {
-      padding: 80px 20px;
-      /* background: #f8f8f8; */
-    }
-
-    .media-services-title {
-      font-size: 1.8rem;
-      font-weight: 700;
-      margin-bottom: 20px;
-      text-align: center;
-    }
-
-    .media-services-desc {
-      max-width: 800px;
-      margin: 0 auto 20px;
-      text-align: center;
-      font-size: 1rem;
-      color: #555;
-    }
-
-    .media-service-item {
-      margin-bottom: 20px;
-    }
-
-    .media-service-icon  {
-   font-size: 30px;
-    margin-right: 20px;
-    }
-
-    .media-service-title {
-      font-size: 1.25rem;
-      font-weight: 600;
-      margin-bottom: 10px;
-    }
-
-    .media-service-text {
-      font-size: 1rem;
-      color: #555;
-    }
-/* .bg-blue-light{
-  background-color: #eaf3ff;
-} */
-    .media-service-img img {
-      width: 100%;
-      border-radius: 30px;
-    }
-
-
-  .meadia-icon-15{
-    font-size: 15px;
-    padding-right: 10px;
-  }
-
-
-    .entertainment-services {
-      position: relative;
-      background: url('../images/industries/Entertainment-service.png') no-repeat center center/cover;
-      padding: 80px 0;
-      color: #fff;
-    }
-    .entertainment-services::before {
-      content: "";
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: rgba(0, 0, 0, 0.55);
-      z-index: 0;
-    }
-    .entertainment-services .entertainment-container {
-      position: relative;
-      z-index: 1;
-    }
-    .entertainment-card {
-      border: none;
-      border-radius: 16px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-      height: 100%;
-      background: #fff;
-      color: #000;
-    }
-    .entertainment-card .entertainment-card-body {
-      padding: 25px;
-    }
-    .entertainment-title {
-      font-weight: 700;
-      text-align: center;
-      margin-bottom: 50px;
-    }
-    .entertainment-carousel .carousel-control-prev,
-    .entertainment-carousel .carousel-control-next {
-      width: 5%;
-    }
-
-
-
-.font-color-green{
-  color: #036E00;
+.main-media {
+    padding-top: 80px;
+}
+.media-hero{
+  height: 92vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: url('../images/industries/media/Entertainment-hero.png') center/cover no-repeat;
+}
+.media-btn {
+  background: #1e73ff;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-weight: 500;
+  transition: 0.3s;
 }
 
-.font-color-orange{
-  color: #FD8300;
+.media-btn:hover {
+  background: #0056d2;
+  color: #fff;
 }
-.font-color-blue{
-  color: #0044FF;
-}
-.font-color-pink{
-  color: #FF008B;
-}
-.font-color-yellow{
-  color: #7F8D00;
-}
-.font-color-dark{
-  color: #630071;
-}
-
-.icon-size-media{
-  font-size: 30px;
-  margin-bottom:10px;
-}
-
-
-@media (max-width: 768px) {
-     .media-hero {
-      position: relative;
-      background: url('../images/industries/Entertainment-hero.png') center/cover no-repeat;
-      color: #fff;
-      height: auto;
-      padding: 80px 0;
-    }
-    .media-title {
-        font-size: 1.5rem !important;
-        text-align: center;
-        font-weight: 700;
-    }
-    .media-text {
-    margin-top: 15px;
-    font-size: 0.8rem!important;
-    line-height: 1.6;
-}
-.my-sm-2-cus{
-  margin: 25px 0;
-}
-}
-    .card-box {
-  position: relative;
-  padding: 20px;
-  border-radius: 16px;
-  background: #f5f5f5;
-  transition: all 0.3s ease;
-  cursor: pointer;
-  overflow: hidden;
-}
-
-/* heading hamesha visible */
-.card-box h6 {
-  margin: 0;
-  font-weight: 600;
-}
-
-/* text hidden by default */
-.card-box .card-text {
-  opacity: 0;
-  max-height: 0;
-  overflow: hidden;
-  font-size: 14px;
-  line-height: 1.4;
-  transition: all 0.4s ease;
-  margin-top: 8px;
-}
-
-/* on hover only show text (no overlap, no resize jump) */
-.card-box:hover .card-text {
-  opacity: 1;
-  max-height: 200px; /* enough space for text */
-}
-
-.card-icon {
-  display: inline-block;
-  background: #d1fae5;
-  color: #111;
+.media-hero-title{
+  font-size: 40px;
   font-weight: bold;
-  padding: 6px 12px;
-  border-radius: 6px;
-  margin-bottom: 8px;
+  text-align: center;
+  color: #fff;
+}
+.media-hero-des{
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
 }
 
-/* unique bg colors for each */
-.entertainment-music { background: #e6f8ed; }
-.entertainment-movie { background: #fde8e8; }
-.entertainment-gaming { background: #f1f1f9; }
-.entertainment-drama { background: #f8f4ff; }
-.entertainment-sports { background: #fdfde8; }
-.entertainment-dance { background: #f0f4ff; }
+.media-mt-20{
+  margin-top:20px;
+}
+.media-sm-hide{
+  display: inline;
+}
+.media-pt-16{
+  padding-top: 16px;
+}
+.media-second-section-bg{
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 40px 0px;
+  background: url('../images/industries/media/media-second-section-bg.png') center/cover no-repeat;
+}
+.media-section-heading{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+.media-section-dec{
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+}
+.media-second-card{
+  background-color: #0000005d;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+}
+.media-py{
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.media-service-icon  {
+font-size: 30px;
+margin-right: 16px;
+}
+.pe-16{
+  padding-right: 16px;
+}
+.pt-16{
+  padding-top: 16px;
+}
+.g-16{
+  gap: 16px 0px;
+}
+.media-service-text{
+  font-size: 16px;
+}
+  .media-service-title{
+  font-size: 28px;
+}
+.media-second-third-bg{
+   height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 40px 0px;
+  background: url('../images/industries/media/media-section-third.png') center/cover no-repeat;
+}
+.media-third-card{
+  background-color: #fff;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 20px;
+  color: #000;
+}
+.media-second-four-bg{
+   height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 40px 0px;
+  background: #fff;
+}
+.media-four-card{
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 25px;
+  color: #000;
+}
+.four-bg-1{
+  background-color: #EAF7F1;
+}
+.four-bg-2{
+  background-color: #FFF3E6;
+}
+.four-bg-3{
+  background-color: #F0F4FF;
+}
+.four-bg-4{
+  background-color: #FDF2F8;
+}
+.four-bg-5{
+  background-color: #F9FBE7;
+}
+.four-bg-6{
+  background-color: #F3E5F5;
+}
+.media-four-card{
+  background-color: #fff;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 25px;
+  color: #000;
+}
+.media-section-four-heading{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+  color: #000;
+}
+.media-section-four-dec{
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  color: #000;
+}
+.four-img-right{
+  border-radius: 10px;
+}
+@media only screen and (max-width: 1440px) and (min-width: 820px)  {
+  .media-hero{
+    height: 92vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url('../images/industries/media/Entertainment-hero.png') center/cover no-repeat;
+  }
+  .media-service-title{
+  font-size: 28px;
+}
+ }
+  @media only screen and (max-width: 991.98px) and (min-width: 820px)  {
+  .media-sm-hide{
+  display: none;
+}
+.d-only-big{
+  display: none!important;
+}
+  }
+ @media only screen and (max-width: 819.99px) and (min-width: 394px)  {
+  .media-hero{
+  height: auto;
+  width: 100%;
+  display: flex;
+  padding: 60px 0;
+  align-items: center;
+  background: url('../images/industries/media/Entertainment-hero-teb.png') center/cover no-repeat;
+  }
+  .media-sm-hide{
+  display: none;
+}
+.media-hero-title{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+.media-section-heading{
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+.media-service-title{
+  font-size: 20px;
+}
+.media-section-four-heading{
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+  color: #000;
+}
+.d-only-big{
+  display: none!important;
+}
+ }
+@media only screen and (max-width: 393px) {
+  .media-hero{
+  height: auto;
+  width: 100%;
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  background: url('../images/industries/media/Entertainment-hero-mobail.png') center/cover no-repeat;
+  }
+  .media-sm-hide{
+  display: none;
+}
+.media-hero-title{
+  font-size: 27.2px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+.media-hero-des{
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+}
+.media-service-text{
+  font-size: 15px;
+}
+.media-section-heading{
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+.media-section-dec{
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+}
+.media-service-title{
+  font-size: 18px;
+}
+.media-section-four-heading{
+  font-size: 26px;
+  font-weight: bold;
+  text-align: left;
+  color: #000;
+}
+.media-section-four-dec{
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left;
+  color: #000;
+}
+.d-only-big{
+  display: none!important;
+}
+}
