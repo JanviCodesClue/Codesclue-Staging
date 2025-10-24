@@ -6,267 +6,339 @@ get_header(); ?>
     
     
     <main>
-        <section class="food-hero">
-            <div class="container">
-            <h1 class="food-hero-title">Transforming the Food & Services <br>Industry with Digital Innovation</h1>
-            <p class="food-hero-text py-4">
-                CodesClue develops next-generation software solutions for the food and services industry that enhance customer satisfaction and operational efficiency. From online ordering and delivery apps to restaurant management and loyalty systems, we create secure, scalable platforms tailored to modern business needs. Our expertise enables brands to streamline workflows, boost engagement, and achieve sustainable growth in a competitive market.
-            </p>
-            <a href="<?php echo home_url('/contact-us/'); ?>" class="btn food-hero-btn">LET’S CONNECT →</a>
-            </div>
-        </section>
+  <section class="food-hero">
+    <div class="container">
+      <h1 class="food-hero-title">Transforming the Food & Services <br>Industry with Digital Innovation</h1>
+      <p class="food-hero-text py-4">
+        CodesClue develops next-generation software solutions for the food and services industry that enhance customer satisfaction and operational efficiency. From online ordering and delivery apps to restaurant management and loyalty systems, we create secure, scalable platforms tailored to modern business needs. Our expertise enables brands to streamline workflows, boost engagement, and achieve sustainable growth in a competitive market.
+      </p>
+      <a href="<?php echo home_url('/contact-us/'); ?>" class="btn food-hero-btn">LET’S CONNECT →</a>
+    </div>
+  </section>
 
-  
+  <!-- Orange Brush Cards -->
+  <section class="food-orange-section">
+    <div class="container">
+      <h2 class="text-center pb-2">End-to-End Food and Services Software Development Solutions</h2>
+      <P CLASS="text-center pb-3">CodesClue delivers advanced food and services software solutions that streamline operations, enhance customer engagement, and drive business growth. From restaurant management to delivery logistics, we provide scalable, secure, and user-friendly platforms. Our expertise helps brands digitize services, unlock new revenue streams, and thrive in today's competitive marketplace.</P>
 
-        <section>
-            <div class="food-second-section-bg">
-                <div class="container">
-                    <h2 class="food-section-heading text-light">End-to-End Food and Services Software Development Solutions</h2>
-                    <p class="food-section-dec text-light pt-16">CodesClue delivers advanced food and services software solutions that streamline operations, enhance customer engagement, and drive business growth. From restaurant management to delivery logistics, we provide scalable, secure, and user-friendly platforms. Our expertise helps brands digitize services, unlock new revenue streams, and thrive in today's competitive marketplace.</p>
-                    <div class="row align-items-lg-stretch">
-                        <div class="col-lg-4 d-flex pt-16">
-                            <div class="food-second-card">
-                                <div class="icon-circle">
-                                    <i class="fa-solid fa-cart-shopping"></i>
-                                </div>
-                                <h5 class="food-service-title food-py">Online Ordering Systems</h5>
-                                <p class="food-service-text">We develop intuitive online ordering solutions that deliver seamless customer experiences across web and mobile platforms. These systems ensure faster ordering, secure payments, and real-time updates for restaurants and customers alike.</p>
-                                <div class="food-service-tags pt-16">
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">User-friendly ordering interfaces</p></div>  
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Real-time menu management</p></div>
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"><p class="food-service-oreange-card-list">Secure, multi-gateway payment options</p></div>
-                                </div>
+      
+
+
+      <div class="row align-items-lg-stretch mx-auto g-4">
+            <div class="col-md-4-cus-food d-flex">
+                <div class="mx-auto">
+                    <div class="food-orange-card p-3" >
+                        <div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-cart-shopping pe-3"></i><h3>Online Ordering Systems</h3>
                             </div>
-                        </div>
-                        <div class="col-lg-4 d-flex pt-16">
-                            <div class="food-second-card">
-                                <div class="icon-circle">
-                                    <i class="fa-solid fa-utensils"></i>
-                                </div>
-                                <h5 class="food-service-title food-py">Restaurant Management Platforms</h5>
-                                <p class="food-service-text">Our platforms streamline operations with integrated POS, resource planning, and workflow automation. By connecting every aspect of the restaurant, we help businesses reduce costs and improve service delivery.</p>
-                                <div class="food-service-tags pt-16">
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Centralized POS integration</p></div>  
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Table, order, and staff management</p></div>
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"><p class="food-service-oreange-card-list">Inventory and supplier synchronization</p></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 d-flex pt-16">
-                            <div class="food-second-card">
-                                <div class="icon-circle">
-                                    <i class="fa-solid fa-boxes-stacked"></i>
-                                </div>
-                                <h5 class="food-service-title food-py">Inventory & Supply Chain Management</h5>
-                                <p class="food-service-text">We deliver intelligent supply chain platforms that automate stock management and optimize resource planning. This minimizes waste while ensuring restaurants never run out of essentials.</p>
-                                <div class="food-service-tags pt-16">
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Low-stock alerts and auto-replenishment</p></div>  
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Supplier management dashboards</p></div>
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"><p class="food-service-oreange-card-list">Forecasting and demand planning tools</p></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 d-flex pt-16">
-                            <div class="food-second-card">
-                                <div class="icon-circle">
-                                    <i class="fa-solid fa-gift"></i>
-                                </div>
-                                <h5 class="food-service-title food-py">Cloud Kitchen Solutions</h5>
-                                <p class="food-service-text">CodesClue enables cloud kitchens to scale efficiently with centralized management platforms. Our systems integrate orders, workflows, and deliveries to maximize efficiency across multiple brands.</p>
-                                <div class="food-service-tags pt-16">
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Unified order and menu management</p></div>  
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Kitchen display and process automation</p></div>
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"><p class="food-service-oreange-card-list">Multi-brand and delivery partner integration</p></div>
-                                </div>
-                            </div>
-                        </div>
                         
-                        <div class="col-lg-4 d-flex pt-16">
-                            <div class="food-second-card">
-                                <div class="icon-circle">
-                                    <i class="fa-solid fa-motorcycle"></i>
-                                </div>
-                                <h5 class="food-service-title food-py">Food Delivery Applications</h5>
-                                <p class="food-service-text">We design robust delivery applications that simplify logistics, enhance visibility, and improve customer trust. Features like real-time tracking and optimized delivery routes ensure faster, reliable service.</p>
-                                <div class="food-service-tags pt-16">
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Live GPS order tracking</p></div>  
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Driver assignment and route optimization</p></div>
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"><p class="food-service-oreange-card-list">Customer feedback and ratings system</p></div>
-                                </div>
-                            </div>
+                            <p class="mt-2">We develop intuitive online ordering solutions that deliver seamless customer experiences across web and mobile platforms. These systems ensure faster ordering, secure payments, and real-time updates for restaurants and customers alike.</p>
+                        
                         </div>
-                        <div class="col-lg-4 d-flex pt-16">
-                            <div class="food-second-card">
-                                <div class="icon-circle">
-                                    <i class="fa-solid fa-gift"></i>
-                                </div>
-                                <h5 class="food-service-title food-py">Loyalty & Rewards Programs</h5>
-                                <p class="food-service-text">Our loyalty solutions keep customers engaged and encourage repeat business. With data-driven insights, brands can offer personalized incentives and strengthen customer relationships.</p>
-                                <div class="food-service-tags pt-16">
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Points-based reward systems</p></div>  
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">AI-powered personalization</p></div>
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"><p class="food-service-oreange-card-list">Integrated discounts and coupon engines</p></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 d-flex pt-16">
-                            <div class="food-second-card">
-                                <div class="icon-circle">
-                                    <i class="fa-solid fa-credit-card"></i>
-                                </div>
-                                <h5 class="food-service-title food-py">Payment & Billing Solutions</h5>
-                                <p class="food-service-text">We develop intuitive online ordering solutions that deliver seamless customer experiences across web and mobile platforms. These systems ensure faster ordering, secure payments, and real-time updates for restaurants and customers alike.</p>
-                                <div class="food-service-tags pt-16">
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Multi-method payment support</p></div>  
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Automated billing and invoicing</p></div>
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"><p class="food-service-oreange-card-list">PCI-DSS compliant data security</p></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 d-flex pt-16">
-                            <div class="food-second-card">
-                                <div class="icon-circle">
-                                    <i class="fa-solid fa-headset"></i>
-                                </div>
-                                <h5 class="food-service-title food-py">Customer Experience Platforms</h5>
-                                <p class="food-service-text">We help brands build personalized journeys with omni-channel engagement solutions. From push notifications to real-time feedback, businesses can nurture customer loyalty and boost satisfaction.</p>
-                                <div class="food-service-tags pt-16">
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">AI-driven recommendation engines</p></div>  
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Campaigns and push notifications</p></div>
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"><p class="food-service-oreange-card-list">Feedback and review integration</p></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 d-flex pt-16">
-                            <div class="food-second-card">
-                                <div class="icon-circle">
-                                    <i class="fa-solid fa-chart-line"></i>
-                                </div>
-                                <h5 class="food-service-title food-py">Analytics & Business Intelligence</h5>
-                                <p class="food-service-text">Our analytics solutions turn raw data into actionable insights. From customer behavior to sales performance, businesses can make informed decisions to optimize operations and plan growth.</p>
-                                <div class="food-service-tags pt-16">
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Customizable KPI dashboards</p></div>  
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Sales and performance analytics</p></div>
-                                    <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"><p class="food-service-oreange-card-list">Predictive forecasting and trend analysis</p></div>
-                                </div>
-                            </div>
-                        </div>
+                    
+                    </div>
+                    <div class="food-service-tags">
+                        <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">User-friendly ordering interfaces</p></div>  
+                        <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Real-time menu management</p></div>
+                            <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"><p class="food-service-oreange-card-list">Secure, multi-gateway payment options</p></div>
                     </div>
                 </div>
             </div>
-        </section>
 
 
-        <section>
-            <div class="container pt-40">
-                <h2 class="food-section-heading">Expert Food Service Software Development</h2>
-                <p class="food-section-dec pt-16">CodesClue delivers custom food service software solutions designed to optimize operations, enhance customer engagement, and boost profitability. From restaurant management systems to delivery apps and analytics platforms, we help food businesses embrace digital transformation. Our scalable, secure, and user-friendly solutions empower brands to compete and grow in a rapidly evolving market.</p>
-                <div class="row justify-content-center pt-16">
-                <div class="col-12">
-                    <div class="food-card">
-                    <div class="food-img left">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/online-ordering-delivery-platforms.jpg" alt="Food">
+            <div class="col-md-4-cus-food d-flex">
+                <div class="mx-auto">
+                    <div class="food-orange-card p-3" >
+                        <div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-utensils pe-3"></i><h3>Restaurant Management Platforms</h3>
+                            </div>
+                        
+                            <p class="mt-2">Our platforms streamline operations with integrated POS, resource planning, and workflow automation. By connecting every aspect of the restaurant, we help businesses reduce costs and improve service delivery.</p>
+                        
+                        </div>
+                    
                     </div>
-                    <div class="food-content contect-food-right">
-                        <h5>Online Ordering & Delivery Platforms</h5>
-                        <p>We build seamless ordering and delivery systems that connect customers to restaurants instantly. With intuitive interfaces, real-time updates, and secure payment integrations, our solutions simplify the entire journey from menu browsing to doorstep delivery.</p>
+                    <div class="food-service-tags">
+                        <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Centralized POS integration</p></div>  
+                        <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Table, order, and staff management</p></div>
+                            <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"><p class="food-service-oreange-card-list">Inventory and supplier synchronization</p></div>
                     </div>
-                    </div>
-                </div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="row justify-content-center pt-16">
-                <div class="col-12">
-                    <div class="food-card">
-                    <div class="food-img right">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/restaurant-management-systems.jpg" alt="Hospitality">
-                    </div>
-                    <div class="food-content contect-food-left">
-                        <h5>Restaurant Management Systems</h5>
-                        <p>Our management platforms unify POS, reservations, staff scheduling, and inventory into one system. By automating workflows and enabling real-time monitoring, restaurants can improve efficiency, reduce costs, and deliver better customer service.</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-
-                <!-- Card 1 -->
-                <div class="row justify-content-center pt-16">
-                <div class="col-12">
-                    <div class="food-card">
-                    <div class="food-img left">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/customer-loyalty-engagement.jpg" alt="Food">
-                    </div>
-                    <div class="food-content contect-food-right">
-                        <h5>Customer Loyalty & Engagement</h5>
-                        <p>We design digital loyalty programs and engagement tools that strengthen customer relationships. Personalized rewards, gamified campaigns, and targeted offers ensure higher retention rates and long-term brand advocacy.</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="row justify-content-center pt-16">
-                <div class="col-12">
-                    <div class="food-card">
-                    <div class="food-img right">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/inventory-supply-chain-solutions.jpg" alt="Hospitality">
-                    </div>
-                    <div class="food-content contect-food-left">
-                        <h5>Inventory & Supply Chain Solutions</h5>
-                        <p>Our software tracks stock in real time, predicts demand, and automates replenishment. By minimizing waste and ensuring supply chain visibility, businesses can run more sustainably and avoid costly disruptions.</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-
-                        <!-- Card 1 -->
-                <div class="row justify-content-center pt-16">
-                <div class="col-12">
-                    <div class="food-card">
-                    <div class="food-img left">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/cloud-kitchen-enablement.jpg" alt="Food">
-                    </div>
-                    <div class="food-content contect-food-right">
-                        <h5>Cloud Kitchen Enablement</h5>
-                        <p>We develop platforms tailored for cloud and ghost kitchens to manage multiple brands under one roof. Centralized order management, automated kitchen workflows, and delivery integration drive efficiency and scalability.</p>
-                    </div>
-                    </div>
-                </div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="row justify-content-center pt-16">
-                <div class="col-12">
-                    <div class="food-card">
-                    <div class="food-img right">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/analytics-business-intelligence.jpg" alt="Hospitality">
-                    </div>
-                    <div class="food-content contect-food-left">
-                        <h5>Analytics & Business Intelligence</h5>
-                        <p>Our BI dashboards turn complex data into actionable insights. From sales performance to customer trends, predictive analytics help food service businesses refine strategies, improve decision-making, and plan future growth.</p>
-                    </div>
-                    </div>
-                </div>
                 </div>
             </div>
-        </section>
 
 
+            <div class="col-md-4-cus-food d-flex">
+                <div class="mx-auto">
+                    <div class="food-orange-card p-3" >
+                        <div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-motorcycle pe-3"></i><h3>Food Delivery Applications</h3>
+                            </div>
+                        
+                            <p class="mt-2">We design robust delivery applications that simplify logistics, enhance visibility, and improve customer trust. Features like real-time tracking and optimized delivery routes ensure faster, reliable service.</p>
+                        
+                        </div>
+                    
+                    </div>
+                    <div class="food-service-tags">
+                        <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Live GPS order tracking</p></div>  
+                        <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Driver assignment and route optimization</p></div>
+                            <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"><p class="food-service-oreange-card-list">Customer feedback and ratings system</p></div>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-md-4-cus-food d-flex">
+                <div class="mx-auto">
+                    <div class="food-orange-card p-3" >
+                        <div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-gift pe-3"></i><h3>Loyalty & Rewards Programs</h3>
+                            </div>
+                        
+                            <p class="mt-2">Our loyalty solutions keep customers engaged and encourage repeat business. With data-driven insights, brands can offer personalized incentives and strengthen customer relationships.</p>
+                        
+                        </div>
+                    
+                    </div>
+                    <div class="food-service-tags">
+                        <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Points-based reward systems</p></div>  
+                        <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">AI-powered personalization</p></div>
+                            <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"><p class="food-service-oreange-card-list">Integrated discounts and coupon engines</p></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4-cus-food d-flex">
+                <div class="mx-auto">
+                    <div class="food-orange-card p-3" >
+                        <div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-boxes-stacked pe-3"></i><h3>Inventory & Supply Chain Management</h3>
+                            </div>
+                        
+                            <p class="mt-2">We deliver intelligent supply chain platforms that automate stock management and optimize resource planning. This minimizes waste while ensuring restaurants never run out of essentials.</p>
+                        
+                        </div>
+                    
+                    </div>
+                    <div class="food-service-tags">
+                        <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Low-stock alerts and auto-replenishment</p></div>  
+                        <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Supplier management dashboards</p></div>
+                            <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"><p class="food-service-oreange-card-list">Forecasting and demand planning tools</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4-cus-food d-flex">
+                <div class="mx-auto">
+                    <div class="food-orange-card p-3" >
+                        <div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-cloud pe-3"></i><h3>Cloud Kitchen Solutions</h3>
+                            </div>
+                        
+                            <p class="mt-2">CodesClue enables cloud kitchens to scale efficiently with centralized management platforms. Our systems integrate orders, workflows, and deliveries to maximize efficiency across multiple brands.</p>
+                        
+                        </div>
+                    
+                    </div>
+                    <div class="food-service-tags">
+                        <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Unified order and menu management</p></div>  
+                        <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Kitchen display and process automation</p></div>
+                            <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"><p class="food-service-oreange-card-list">Multi-brand and delivery partner integration</p></div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-4-cus-food d-flex">
+                <div class="mx-auto">
+                    <div class="food-orange-card p-3" >
+                        <div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-credit-card pe-3"></i><h3>Payment & Billing Solutions</h3>
+                            </div>
+                        
+                            <p class="mt-2">Our secure payment platforms simplify transactions and improve transparency. With multiple payment options and automated billing, businesses can ensure faster checkouts and reliable compliance.</p>
+                        
+                        </div>
+                    
+                    </div>
+                    <div class="food-service-tags">
+                        <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Multi-method payment support</p></div>  
+                        <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Automated billing and invoicing</p></div>
+                            <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"><p class="food-service-oreange-card-list">PCI-DSS compliant data security</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4-cus-food d-flex">
+                <div class="mx-auto">
+                    <div class="food-orange-card p-3" >
+                        <div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-headset pe-3"></i><h3>Customer Experience Platforms</h3>
+                            </div>
+                        
+                            <p class="mt-2">We help brands build personalized journeys with omni-channel engagement solutions. From push notifications to real-time feedback, businesses can nurture customer loyalty and boost satisfaction.</p>
+                        
+                        </div>
+                    
+                    </div>
+                    <div class="food-service-tags">
+                        <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">AI-driven recommendation engines</p></div>  
+                        <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Campaigns and push notifications</p></div>
+                            <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"><p class="food-service-oreange-card-list">Feedback and review integration</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4-cus-food d-flex">
+                <div class="mx-auto">
+                    <div class="food-orange-card p-3" >
+                        <div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-chart-line pe-3"></i><h3>Analytics & Business Intelligence</h3>
+                            </div>
+                        
+                            <p class="mt-2">Our analytics solutions turn raw data into actionable insights. From customer behavior to sales performance, businesses can make informed decisions to optimize operations and plan growth.</p>
+                        
+                        </div>
+                    
+                    </div>
+                    <div class="food-service-tags">
+                        <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Customizable KPI dashboards</p></div>  
+                        <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"> <p class="food-service-oreange-card-list">Sales and performance analytics</p></div>
+                            <div class="d-flex align-items-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/food-list-icon.png" class="food-list-icon-size" alt="Food"><p class="food-service-oreange-card-list">Predictive forecasting and trend analysis</p></div>
+                    </div>
+                </div>
+            </div>
+      
+      </div>
+    </div>
+  </section>
+
+
+
+<section class="food-beverage-section pt-5">
+
+  <div class="container">
+ <h2 class="text-center pb-2">Expert Food Service Software Development</h2>
+      <P CLASS="text-center pb-3">CodesClue delivers custom food service software solutions designed to optimize operations, enhance customer engagement, and boost profitability. From restaurant management systems to delivery apps and analytics platforms, we help food businesses embrace digital transformation. Our scalable, secure, and user-friendly solutions empower brands to compete and grow in a rapidly evolving market.</P>
+    <!-- Card 1 -->
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="food-card ">
+          <div class="food-img left">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/online-ordering-delivery-platforms.jpg" alt="Food">
+          </div>
+          <div class="food-content contect-food-right">
+            <h5>Online Ordering & Delivery Platforms</h5>
+            <p>We build seamless ordering and delivery systems that connect customers to restaurants instantly. With intuitive interfaces, real-time updates, and secure payment integrations, our solutions simplify the entire journey from menu browsing to doorstep delivery.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="food-card">
+          <div class="food-img right">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/restaurant-management-systems.jpg" alt="Hospitality">
+          </div>
+          <div class="food-content contect-food-left">
+            <h5>Restaurant Management Systems</h5>
+            <p>Our management platforms unify POS, reservations, staff scheduling, and inventory into one system. By automating workflows and enabling real-time monitoring, restaurants can improve efficiency, reduce costs, and deliver better customer service.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+        <!-- Card 1 -->
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="food-card">
+          <div class="food-img left">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/customer-loyalty-engagement.jpg" alt="Food">
+          </div>
+          <div class="food-content contect-food-right">
+            <h5>Customer Loyalty & Engagement</h5>
+            <p>We design digital loyalty programs and engagement tools that strengthen customer relationships. Personalized rewards, gamified campaigns, and targeted offers ensure higher retention rates and long-term brand advocacy.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="food-card">
+          <div class="food-img right">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/inventory-supply-chain-solutions.jpg" alt="Hospitality">
+          </div>
+          <div class="food-content contect-food-left">
+            <h5>Inventory & Supply Chain Solutions</h5>
+            <p>Our software tracks stock in real time, predicts demand, and automates replenishment. By minimizing waste and ensuring supply chain visibility, businesses can run more sustainably and avoid costly disruptions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+            <!-- Card 1 -->
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="food-card">
+          <div class="food-img left">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/cloud-kitchen-enablement.jpg" alt="Food">
+          </div>
+          <div class="food-content contect-food-right">
+            <h5>Cloud Kitchen Enablement</h5>
+            <p>We develop platforms tailored for cloud and ghost kitchens to manage multiple brands under one roof. Centralized order management, automated kitchen workflows, and delivery integration drive efficiency and scalability.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="food-card">
+          <div class="food-img right">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/analytics-business-intelligence.jpg" alt="Hospitality">
+          </div>
+          <div class="food-content contect-food-left">
+            <h5>Analytics & Business Intelligence</h5>
+            <p>Our BI dashboards turn complex data into actionable insights. From sales performance to customer trends, predictive analytics help food service businesses refine strategies, improve decision-making, and plan future growth.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+    
   <!-- Bottom Grid Cards -->
-<section class="food-section pt-40">
+<section class="food-section">
     <div class="container">
       <!-- Heading -->
-      <h2 class="food-section-heading">
+      <h2 class="fw-bold mb-3">
         Cultivating Gastronomic Excellence with Advanced Software Technologies
       </h2>
-      <p class="food-section-dec pt-16">
+      <p class="text-muted mb-3">
         CodesClue empowers the food and hospitality sector with transformative software solutions that elevate dining experiences and operational efficiency. By blending innovation with scalability, we help businesses deliver consistent quality, personalized engagement, and sustainable growth.
       </p>
 
       <!-- Cards -->
-      <div class="row align-items-lg-stretch g-4 pt-16">
-        <div class="col-lg-4 col-md-4 d-flex">
+      <div class="row align-items-lg-stretch g-4">
+        <div class="col-lg-4 col-md-6 d-flex">
           <div class="p-4 bg-1">
              <div class="d-flex align-items-center mb-2">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/digital-menu-smart-ordering.png" class="food-card-last-icon" >
@@ -276,7 +348,7 @@ get_header(); ?>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-4 d-flex">
+        <div class="col-lg-4 col-md-6 d-flex">
           <div class="p-4 bg-2">
              <div class="d-flex align-items-center mb-2">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/reservation-table-management.png" class="food-card-last-icon" >
@@ -288,7 +360,7 @@ get_header(); ?>
 
         
 
-        <div class="col-lg-4 col-md-4 d-flex">
+        <div class="col-lg-4 col-md-6 d-flex">
           <div class="p-4 bg-3">
              <div class="d-flex align-items-center mb-2">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/kitchen-display-workflow-automation.png" class="food-card-last-icon" >
@@ -298,7 +370,7 @@ get_header(); ?>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-4 d-flex">
+        <div class="col-lg-4 col-md-6 d-flex">
           <div class="p-4 bg-4">
              <div class="d-flex align-items-center mb-2">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/fried-chicken_3101563 1.png" class="food-card-last-icon" >
@@ -308,7 +380,7 @@ get_header(); ?>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-4 d-flex">
+        <div class="col-lg-4 col-md-6 d-flex">
           <div class="p-4 bg-5">
              <div class="d-flex align-items-center mb-2">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/feedback-experience-management.png" class="food-card-last-icon" >
@@ -318,7 +390,7 @@ get_header(); ?>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-4 d-flex">
+        <div class="col-lg-4 col-md-6 d-flex">
           <div class="p-4 bg-6">
              <div class="d-flex align-items-center mb-2">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/sustainable-operations-compliance.png" class="food-card-last-icon" >
@@ -330,6 +402,13 @@ get_header(); ?>
       </div>
     </div>
 </section>
+
+
+
+
+
+
+        
 
             <section class="tech-showcase container">
                 <div class="position-relative">
@@ -811,6 +890,13 @@ get_header(); ?>
                     </div>
 
             </section>
+
+
+
+
+
+
+
 
 
     </main>
