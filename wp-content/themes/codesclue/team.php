@@ -6,8 +6,8 @@
  */
 get_header(); ?>
 
-    <main>
-        <section class="page-title-area">
+<main>
+  <section class="page-title-area">
             <div class="container">
                 <div class="page-title-area-inner section-spacing-top">
 
@@ -38,11 +38,11 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-        </section>
+  </section>
 
-        <!-- Team Deatails section-40 -->
-        <div class="container pt-40 ">
-            <div class="row d-only-lg">
+  <!-- Team Deatails section-40 -->
+  <div class="container">
+            <div class="row d-only-lg pt-40">
                 <div class="col-lg-6">
                     <div class="our-team">
                         <h2 class="our-team-h2">Our Team</h2>
@@ -61,9 +61,9 @@ get_header(); ?>
                 <img class="p-8" src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/team-second.png" alt="image">
                 </div>
             </div>
-        </div>
-        <div class="container pt-40 ">
-            <div class="row d-only-md">
+  </div>
+  <div class="container">
+            <div class="row d-only-md pt-40">
                 <div class="col-lg-6">
                     <div class="our-team">
                         <h2 class="our-team-h2">Our Team</h2>
@@ -82,17 +82,18 @@ get_header(); ?>
                         <p class="team-dec p-8">CodesClue is not just any ordinary mobile app and software development company but also a family of forward looking top industry talents. Whether it’s enterprises, SMEs, or even startups, our dedicated teams are ready to shape your ideas into innovative solutions.</p>
                 </div>
             </div>
-        </div>
+  </div>
 
 
 
-        <div class="container pt-40">
+  <div class="container">
+    <div class="pt-40">
             <div class="co-card">
                 <div class="row">
                     <div class="col-lg-5">
                         <img class="p-8" src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/co-img.png" alt="image">
                     </div>
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 align-self-center">
                         <p class="team-dec">Ketan Patel is the driving force behind the remarkable success of CodesClue. With over 14 years of experience in leadership and management within software and product development, he has been instrumental in shaping the company’s journey.</p>
                         <p class="team-dec pt-16">His expertise spans across diverse areas of the IT industry, including consulting, design, project management, business development, innovation, and strategic growth. Above all, his visionary leadership has been key to CodesClue’s achievements and continued evolution.</p>
                         <p class="team-dec pt-16">He is obsessed with delivering quality to the organization and to all CodesClue partners and clientele</p>
@@ -101,64 +102,64 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-        </div>
+    </div>
+  </div>
 
   <section class="life-section pt-40">
     <div class="container">
       <div class="row g-3 align-items-center">
-        <!-- Left Column -->
          <div class="col-2">
-          <img src="https://picsum.photos/400/250?random=1" class="life-img" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (1).png" class="life-img" alt="">
         </div>
         <div class="col-2">
-          <img src="https://picsum.photos/400/250?random=1" class="life-img" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (2).png" class="life-img" alt="">
         </div>
         <div class="col-2">
-          <img src="https://picsum.photos/400/250?random=1" class="life-img" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (3).png" class="life-img" alt="">
         </div>
-        <div class="col-2">
-          <img src="https://picsum.photos/400/250?random=1" class="life-img" alt="">
+        <div class="col-2 m-hide">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (4).png" class="life-img" alt="">
         </div>
-        <div class="col-2">
-          <img src="https://picsum.photos/400/250?random=1" class="life-img" alt="">
+        <div class="col-2 m-hide">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (5).png" class="life-img" alt="">
         </div>
-        <div class="col-2">
-          <img src="https://picsum.photos/400/250?random=1" class="life-img" alt="">
+        <div class="col-2 m-hide">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (6).png" class="life-img" alt="">
+        </div>
+        <div class="col-2  ">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (7).png" class="life-img" alt="">
         </div>
         <div class="col-2  d-flex flex-column gap-3">
-          <img src="https://picsum.photos/400/250?random=1" class="life-img" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (8).png" class="life-img" alt="">
         </div>
-        <div class="col-2  d-flex flex-column gap-3">
-          <img src="https://picsum.photos/400/250?random=1" class="life-img" alt="">
-        </div>
-        <!-- Center Text -->
-        <div class="col-4  life-text">
+        <div class="col-4   m-hide">
           <h2>Life @ <span>CodesClue</span></h2>
-          <p>At CodesClue, we believe collaboration and creativity define our culture. 
-             Our workspace encourages innovation and teamwork every single day.</p>
+          <p>Our vibrant culture empowers creativity, collaboration, and continuous growth.</p>
         </div>
-
-        <!-- Right Column -->
            <div class="col-2  d-flex flex-column gap-3">
-          <img src="https://picsum.photos/400/250?random=1" class="life-img" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (9).png" class="life-img" alt="">
         </div>
-        <div class="col-2  d-flex flex-column gap-3">
-          <img src="https://picsum.photos/400/250?random=1" class="life-img" alt="">
+        <div class="col-2  m-hide ">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (10).png" class="life-img" alt="">
         </div>
       </div>
     </div>
   </section>
 
 
-  <div class="container pt-40">
-    <div class="divaider">
-        
+
+
+
+  <div class="container">
+    <div class="pt-40">
+       <div class="divaider">
+    </div>
     </div>
   </div>
 
 
-  <div class="container pt-40">
-    <div class="row">
+  <div class="container">
+    <div class="row  pt-40">
         <div class="col-lg-4 col-md-12 col-sm-12">
            <img class="p-8" src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/innovation.png" alt="image">
            <h4 class="taem-inner-heading">Innovation</h4>
@@ -171,7 +172,7 @@ get_header(); ?>
            <p class="team-dec pt-16">By fostering open communication, transparency, and teamwork, we ensure every stakeholder is involved at every stage of the process.<stong>Together, we innovate, build, and grow</strong></p>
            <img class="p-8" src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/collaboration.png" alt="image">
         </div>
-         <div class="col-lg-4 col-md-12 col-sm-12 d-only-md-sec"> 
+         <div class="col-lg-4 col-md-12 col-sm-12 d-only-md-sec">
            <img class="p-8" src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/collaboration.png" alt="image">
            <h4 class="taem-inner-heading">Collaboration</h4>
            <p class="team-dec pt-16">At CodesClue, we believe collaboration is the foundation of every successful project. We work closely with our clients as partners, aligning our expertise with their vision to deliver meaningful results.</p>
@@ -189,10 +190,10 @@ get_header(); ?>
   </div>
 
 
-  <div class="container pt-40">
-    <div class="row">
+  <div class="container">
+    <div class="row pt-40 pb-40">
         <div class="col-lg-3 col-md-3 col-sm-12">
-            <img class="p-8" src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/last-team.png" alt="image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/last-team.png" alt="image">
         </div>
         <div class="col-lg-7 col-md-7 col-sm-12">
             <h4 class="taem-inner-heading">5+ years of relationship building experience</h4>
@@ -203,6 +204,7 @@ get_header(); ?>
         </div>
     </div>
   </div>
-    </main>
+
+</main>
 
 <?php get_footer(); ?>

@@ -196,9 +196,7 @@ function codesclue_scripts() {
         wp_enqueue_style('codesclue-portfolio', get_template_directory_uri() . '/assets/css/portfolio.css', array(), '1.0.0');
     }
 
-    if (is_page('meet-our-team')) {
-        wp_enqueue_style('codesclue-team', get_template_directory_uri() . '/assets/css/team.css', array(), '1.0.0');
-    }
+ 
 
    
 
@@ -328,15 +326,14 @@ wp_enqueue_script(
     wp_enqueue_script('codesclue-contact-email', get_template_directory_uri() . '/assets/js/contactEmail.js', array('jquery'), '1.0.0', true);
     wp_enqueue_script('codesclue-ainavtab', get_template_directory_uri() . '/assets/js/ainavtab.js', array('jquery'), '1.0.0', true);
     wp_enqueue_script('codesclue-hiring-form', get_template_directory_uri() . '/assets/js/hiringForm.js', array('jquery'), '1.0.0', true);
-    wp_enqueue_script('codesclue-team', get_template_directory_uri() . '/assets/js/team.js', array('jquery'), '1.0.0', true);
     wp_enqueue_script('codesclue-counter', get_template_directory_uri() . '/assets/js/counter.js', array('jquery'), '1.0.0', true);
     wp_enqueue_script('codesclue-cache-buster', get_template_directory_uri() . '/assets/js/cacheBuster.js', array(), '1.0.0', true);
 
 
 
-    
+
     // ===== Page Specific Scripts =====
-    
+
     if (is_page('cannabis')) {
         wp_enqueue_script('Cannabis', get_template_directory_uri() . '/assets/js/Cannabis.js', array(), '1.0.0', true);
     }
@@ -351,7 +348,7 @@ wp_enqueue_script(
      if (is_page('advertisement')) {
         wp_enqueue_script('advertisement', get_template_directory_uri() . '/assets/js/advertisement.js', array(), '1.0.0', true);
     }
-    
+
  if ( is_page( array('our-portfolio', 'contact-us') ) ) {
         wp_enqueue_script(
             'our-portfolio',
@@ -567,6 +564,22 @@ function enqueue_dotlottie_player() {
     );
 }
 add_action('wp_enqueue_scripts', 'enqueue_dotlottie_player');
+
+
+function enqueue_team_assets() {
+    // Enqueue CSS
+    wp_enqueue_style('team-css', get_template_directory_uri() . '/assets/css/team.css');
+
+    // Enqueue JS
+    wp_enqueue_script('team-js', get_template_directory_uri() . '/assets/js/team.js', array(), null, true);
+
+    // Pass PHP data (like theme directory URL) to JS
+    wp_localize_script('team-js', 'themeData', array(
+        'themeUri' => get_template_directory_uri()
+    ));
+}
+add_action('wp_enqueue_scripts', 'enqueue_team_assets');
+
 
 
 

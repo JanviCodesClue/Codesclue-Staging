@@ -87,6 +87,9 @@
   .pt-40{
     padding-top: 40px;
   }
+  .pb-40{
+    padding-bottom: 40px;
+  }
   .p-8{
     padding-top: 8px;
     padding-bottom: 8px;
@@ -154,7 +157,7 @@
 
     .life-img {
       width: 100%;
-      height: 250px;
+      height: auto;
       object-fit: cover;
       border-radius: 10px;
       transition: opacity 1s ease-in-out;
@@ -194,6 +197,17 @@
   .d-only-md-sec{
     display: block;
   }
+    .life-text h2 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #222;
+}
+.life-text p {
+    max-width: 600px;
+    color: #555;
+    margin-top: 15px;
+    font-size: 14px;
+}
   }
 @media only screen and (max-width: 819.99px) and (min-width: 394px)  {
     .d-only-lg{
@@ -208,6 +222,33 @@
   .d-only-md-sec{
     display: block;
   }
+    .pt-40{
+    padding-top: 40px!important;
+  }
+  .pb-40{
+    padding-bottom: 40px!important;
+  }
+  .p-8{
+    padding-top: 8px!important;
+    padding-bottom: 8px!important;
+  }
+  .pt-16{
+    padding-top: 16px!important;
+  }
+  .pb-16{
+    padding-bottom: 16px!important;
+  }
+    .life-text h2 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #222;
+}
+.life-text p {
+    max-width: 600px;
+    color: #555;
+    margin-top: 15px;
+    font-size: 14px;
+}
  }
 @media only screen and (max-width: 393px) {
     .d-only-lg{
@@ -229,4 +270,47 @@
   .d-only-md-sec{
     display: block;
   }
+    .pt-40{
+    padding-top: 40px!important;
+  }
+  .pb-40{
+    padding-bottom: 40px!important;
+  }
+  .p-8{
+    padding-top: 8px!important;
+    padding-bottom: 8px!important;
+  }
+  .pt-16{
+    padding-top: 16px!important;
+  }
+  .pb-16{
+    padding-bottom: 16px!important;
+  }
+    .life-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* sabhi col-2 by default 100% width kar do */
+  .life-section .col-2 {
+    flex: 0 0 33.33%;
+    padding: 5px;
+  }
+  .m-hide{
+    display: none;
+  }
+  .life-text h2 {
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: #222;
 }
+.life-text p {
+    max-width: 600px;
+    color: #555;
+    margin-top: 15px;
+    font-size: 14px;
+}
+}
+

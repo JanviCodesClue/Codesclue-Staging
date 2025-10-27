@@ -1,36 +1,93 @@
-const images = document.querySelectorAll(".life-img");
+document.addEventListener("DOMContentLoaded", function() {
+  const images = document.querySelectorAll(".life-img");
 
-    // Replace with your actual image sets
-    const imageSets = [
-      [
-        "https://picsum.photos/400/250?random=11",
-        "https://picsum.photos/400/250?random=12",
-        "https://picsum.photos/400/250?random=13",
-        "https://picsum.photos/400/250?random=14"
-      ],
-      [
-        "https://picsum.photos/400/250?random=21",
-        "https://picsum.photos/400/250?random=22",
-        "https://picsum.photos/400/250?random=23",
-        "https://picsum.photos/400/250?random=24"
-      ],
-      [
-        "https://picsum.photos/400/250?random=31",
-        "https://picsum.photos/400/250?random=32",
-        "https://picsum.photos/400/250?random=33",
-        "https://picsum.photos/400/250?random=34"
-      ]
-    ];
+  if (!images.length) return; // stop if no images found
 
-    let index = 0;
+  const base = themeData.themeUri; // from PHP
 
-    setInterval(() => {
-      images.forEach((img, i) => {
-        img.classList.add("fade-out");
-        setTimeout(() => {
-          img.src = imageSets[index][i % 4];
-          img.classList.remove("fade-out");
-        }, 1000);
-      });
-      index = (index + 1) % imageSets.length;
-    }, 5000);
+  const imageSets = [
+    [
+      `${base}/assets/images/teams/codesclue-team (11).png`,
+      `${base}/assets/images/teams/codesclue-team (12).png`,
+      `${base}/assets/images/teams/codesclue-team (13).png`,
+      `${base}/assets/images/teams/codesclue-team (14).png`
+    ],
+    [
+      `${base}/assets/images/teams/codesclue-team (15).png`,
+      `${base}/assets/images/teams/codesclue-team (16).png`,
+      `${base}/assets/images/teams/codesclue-team (17).png`,
+      `${base}/assets/images/teams/codesclue-team (18).png`
+    ],
+    [
+      `${base}/assets/images/teams/codesclue-team (19).png`,
+      `${base}/assets/images/teams/codesclue-team (20).png`,
+      `${base}/assets/images/teams/codesclue-team (21).png`,
+      `${base}/assets/images/teams/codesclue-team (22).png`
+    ],
+    [
+      `${base}/assets/images/teams/codesclue-team (23).png`,
+      `${base}/assets/images/teams/codesclue-team (24).png`,
+      `${base}/assets/images/teams/codesclue-team (1).png`,
+      `${base}/assets/images/teams/codesclue-team (2).png`
+    ]
+  ];
+
+  let index = 0;
+
+  setInterval(() => {
+    images.forEach((img, i) => {
+      img.classList.add("fade-out");
+      setTimeout(() => {
+        img.src = imageSets[index][i % 4];
+        img.classList.remove("fade-out");
+      }, 1000);
+    });
+    index = (index + 1) % imageSets.length;
+  }, 5000);
+});
+
+
+
+
+
+//  const images = document.querySelectorAll(".life-img");
+
+//   const imageSets = [
+//       [
+//         "<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (11).png",
+//         "<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (12).png",
+//         "<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (13).png",
+//         "<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (14).png"
+//       ],
+//       [
+//         "<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (15).png",
+//         "<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (16).png",
+//         "<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (17).png",
+//         "<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (18).png"
+//       ],
+//       [
+//         "<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (19).png",
+//         "<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (20).png",
+//         "<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (21).png",
+//         "<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (22).png"
+//       ],
+//       [
+//         "<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (23).png",
+//         "<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (24).png",
+//         "<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (1).png",
+//         "<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (2).png"
+//       ]
+//     ];
+
+
+//   let index = 0;
+//   setInterval(() => {
+//     images.forEach((img, i) => {
+//       img.classList.add("fade-out");
+//       setTimeout(() => {
+//         img.src = imageSets[index][i % 4];
+//         img.classList.remove("fade-out");
+//       }, 1000);
+//     });
+//     index = (index + 1) % imageSets.length;
+//   }, 5000);
