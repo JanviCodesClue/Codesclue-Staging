@@ -7,29 +7,23 @@ document.addEventListener("DOMContentLoaded", function() {
 
   const imageSets = [
     [
-      `${base}/assets/images/teams/codesclue-team (11).png`,
-      `${base}/assets/images/teams/codesclue-team (12).png`,
-      `${base}/assets/images/teams/codesclue-team (13).png`,
-      `${base}/assets/images/teams/codesclue-team (14).png`
+      `${base}/assets/images/teams/codesclue (7).png`,
+      `${base}/assets/images/teams/codesclue (8).png`,
+      `${base}/assets/images/teams/codesclue (9).png`,
+      `${base}/assets/images/teams/codesclue (10).png`
     ],
     [
-      `${base}/assets/images/teams/codesclue-team (15).png`,
-      `${base}/assets/images/teams/codesclue-team (16).png`,
-      `${base}/assets/images/teams/codesclue-team (17).png`,
-      `${base}/assets/images/teams/codesclue-team (18).png`
+      `${base}/assets/images/teams/codesclue (11).png`,
+      `${base}/assets/images/teams/codesclue (12).png`,
+      `${base}/assets/images/teams/codesclue (13).png`,
+      `${base}/assets/images/teams/codesclue (14).png`
     ],
     [
-      `${base}/assets/images/teams/codesclue-team (19).png`,
-      `${base}/assets/images/teams/codesclue-team (20).png`,
-      `${base}/assets/images/teams/codesclue-team (21).png`,
-      `${base}/assets/images/teams/codesclue-team (22).png`
+      `${base}/assets/images/teams/codesclue (15).png`,
+      `${base}/assets/images/teams/codesclue (16).png`,
+      `${base}/assets/images/teams/codesclue (5).png`,
+      `${base}/assets/images/teams/codesclue (6).png`
     ],
-    [
-      `${base}/assets/images/teams/codesclue-team (23).png`,
-      `${base}/assets/images/teams/codesclue-team (24).png`,
-      `${base}/assets/images/teams/codesclue-team (1).png`,
-      `${base}/assets/images/teams/codesclue-team (2).png`
-    ]
   ];
 
   let index = 0;
