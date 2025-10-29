@@ -7,7 +7,7 @@
 get_header(); ?>
 
 <main>
-  <section class="page-title-area">
+  <!-- <section class="page-title-area">
             <div class="container">
                 <div class="page-title-area-inner section-spacing-top">
 
@@ -38,11 +38,11 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-  </section>
+  </section> -->
 
   <!-- Team Deatails section-40 -->
   <div class="container">
-            <div class="row d-only-lg pt-40">
+            <div class="row d-only-lg pt-80">
                 <div class="col-lg-6">
                     <div class="our-team">
                         <h2 class="our-team-h2">Our Team</h2>
@@ -63,7 +63,7 @@ get_header(); ?>
             </div>
   </div>
   <div class="container">
-            <div class="row d-only-md pt-40">
+            <div class="row d-only-md pt-80">
                 <div class="col-lg-6">
                     <div class="our-team">
                         <h2 class="our-team-h2">Our Team</h2>
@@ -109,38 +109,38 @@ get_header(); ?>
     <div class="container">
       <div class="row g-3 align-items-center">
          <div class="col-2">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (1).png" class="life-img" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue (101).png" class="" alt="">
         </div>
         <div class="col-2">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (2).png" class="life-img" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue (102).png" class="" alt="">
         </div>
         <div class="col-2">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (3).png" class="life-img" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue (103).png" class="" alt="">
         </div>
         <div class="col-2 m-hide">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (4).png" class="life-img" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue (104).png" class="" alt="">
         </div>
         <div class="col-2 m-hide">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (5).png" class="life-img" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue (105).png" class="" alt="">
         </div>
         <div class="col-2 m-hide">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (6).png" class="life-img" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue (106).png" class="" alt="">
         </div>
         <div class="col-2  ">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (7).png" class="life-img" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue (107).png" class="" alt="">
         </div>
         <div class="col-2  d-flex flex-column gap-3">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (8).png" class="life-img" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue (108).png" class="" alt="">
         </div>
         <div class="col-4   m-hide">
           <h2>Life @ <span>CodesClue</span></h2>
           <p>Our vibrant culture empowers creativity, collaboration, and continuous growth.</p>
         </div>
            <div class="col-2  d-flex flex-column gap-3">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (9).png" class="life-img" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue (109).png" class="" alt="">
         </div>
         <div class="col-2  m-hide ">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue-team (10).png" class="life-img" alt="">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teams/codesclue (110).png" class="" alt="">
         </div>
       </div>
     </div>
