@@ -27,7 +27,12 @@
   margin-top: 25px;
   margin-bottom: 13px;
 }
-
+.m-hide{
+  display: none;
+}
+.d-hide{
+  display: flex;
+}
 @media only screen and (max-width: 1919px) {
   .team-area .team-wrapper-box {
     padding-top: 50px;
@@ -184,7 +189,16 @@
   .taem-inner-heading{
   font-size: 28px;
   font-weight: 700;
-}
+  }
+  .w-100{
+    width:100%;
+  }
+  .pb-16-m{
+    padding-bottom: 16px;
+  }
+      .pt-16-m{
+    padding-top: 16px;
+  }
     .d-only-lg{
     display: none;
   }
@@ -210,6 +224,25 @@
 }
   }
 @media only screen and (max-width: 819.99px) and (min-width: 394px)  {
+    .w-100{
+    width:100%;
+  }
+  .d-hide{
+    display: none;
+  }
+  .m-hide{
+  display: flex;
+}
+  .pb-16-m{
+    padding-bottom: 16px;
+  }
+      .pt-16-m{
+    padding-top: 16px;
+  }
+.col-3-m{
+  flex: 0 0 auto;
+  width: 25%;
+  }
     .d-only-lg{
     display: none;
   }
@@ -251,6 +284,25 @@
 }
  }
 @media only screen and (max-width: 393px) {
+    .w-100{
+    width:100%;
+  }
+  .d-hide{
+  display: none;
+}
+  .m-hide{
+  display: flex;
+}
+  .pb-16-m{
+    padding-bottom: 16px;
+  }
+    .pt-16-m{
+    padding-top: 16px;
+  }
+.col-3-m{
+  flex: 0 0 auto;
+  width: 33.33%;
+}
     .d-only-lg{
     display: none;
   }
@@ -297,9 +349,6 @@
   .life-section .col-2 {
     flex: 0 0 33.33%;
     padding: 5px;
-  }
-  .m-hide{
-    display: none;
   }
   .life-text h2 {
     font-weight: 700;
