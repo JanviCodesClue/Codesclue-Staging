@@ -232,7 +232,9 @@ wp_enqueue_script(
 );
 
 }
-
+if (is_page('blog')) {
+        wp_enqueue_style('codesclue-blog', get_template_directory_uri() . '/assets/css/blog.css', array(), '1.0.0');
+    }
 
     if (is_page('contact-us')) {
         wp_enqueue_style('codesclue-contact', get_template_directory_uri() . '/assets/css/contact.css', array(), '1.0.0');

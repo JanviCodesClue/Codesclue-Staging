@@ -1,0 +1,84 @@
+.heading-blog{
+    font-size: 42px;
+    font-weight: 900;
+}
+.subheading-blog{
+    font-size: 32px;
+    font-weight: 500;
+}
+.blog-mt-16{
+    margin-top: 16px;
+}
+.dec-blog{
+    font-size: 16px;
+}
+.date-blog{
+    border: 1px solid #000;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    padding: 10px 20px !important;
+    font-size: 16px;
+    color: #000;
+    width: fit-content;
+}
+.mt-blog-40{
+    margin-top: 40px;
+}
+.border-16-blog{
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.mb-40-m{
+    margin-bottom: 40px;
+}
+
+.blog-body{
+    height: 87%;
+}
+
+.d-flex-blog{
+    display: flex!important;
+}
+@media only screen and (max-width: 1404px) and (min-width: 1199px){
+.blog-body{
+    height: 85%;
+}
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px){
+.blog-body{
+    height: 82%;
+}
+}
+@media only screen and (max-width: 991.98px) and (min-width: 768px){
+.blog-body{
+    height: 90%;
+}
+}
+@media only screen and (max-width: 991.98px) and (min-width: 407px){
+.blog-body{
+    height: 87%;
+}
+}
+@media only screen and (max-width: 991.98px)  {
+    .blog-mt-16-sm{
+    margin-top: 16px;
+}
+}
+@media only screen and (max-width: 380px)  {
+.d-flex-blog{
+    display: block!important;
+}
+.blog-body {
+    height: 73%;
+}
+    .blog-mt-16-xsm{
+    margin-top: 16px;
+}
+}
