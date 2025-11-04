@@ -312,7 +312,6 @@ get_header(); ?>
     <h2 class="headline-black">Our Projects</h2>
     <div class="owl-carousel owl-theme" id="dynamicCarousel">
         <div class="custom-card-project d-flex align-items-center">
-        
           <div class="custom-card-text flex-grow-1 p-4 ps-5">
             <h3 class="mb-3">RideReach</h3>
             <p class="mb-4">

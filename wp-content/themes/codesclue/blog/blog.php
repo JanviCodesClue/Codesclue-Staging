@@ -45,20 +45,20 @@ get_header(); ?>
                 <div class="row align-items-center">
                     <div class="col-lg-8">
                         <h1 class="heading-blog">Our Recent Blog Post</h1>
-                        <h4 class="subheading-blog blog-mt-16">Powering the Next Digital Wave 🌊💻</h4>
-                        <p class="dec-blog blog-mt-16">In the past decade, the world has witnessed a complete digital overhaul. From automation in manufacturing and AI in healthcare to blockchain in finance and cloud-based entertainment platforms — the pace of innovation has been extraordinary.</p>
+                        <h4 class="subheading-blog blog-mt-16">Top App Development Companies in India 📱🚀</h4>
+                        <p class="dec-blog blog-mt-16">India has emerged as one of the leading hubs for mobile and web application development. From startups to enterprise-grade solutions, app development companies in India are delivering cutting-edge technology, innovative designs, and scalable software solutions.</p>
                         <div class="d-flex blog-mt-16 align-items-center flex-wrap justify-content-between">
-                            <a href="<?php echo home_url('/next-wave-tech/'); ?>"
+                            <a href="<?php echo home_url('/top-app-development/'); ?>"
                                 class="btn btn-primary py-2 px-md-4 px-3">Read
                                 More</a>
                             <div class="d-flex gap-md-3 gap-2  align-items-center date-blog">
                                 <i class="fa-solid fa-calendar-days font-24 text-dark"></i>
-                                <p class="gray-text">October 9, 2025</p>
+                                <p class="gray-text">November 4, 2025</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 blog-mt-16-sm">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images//blog/next-wave-tech-2.png" alt="blog-img" class="border-16-blog">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images//blog/top-app-development.jpg" alt="blog-img" class="border-16-blog">
                     </div>
                 </div>
             </div>
@@ -79,6 +79,30 @@ get_header(); ?>
                     <button class="blog-filter-btn blog-btn" data-filter="other">Other</button>
                 </div>
                 <div class="row">
+                         <div class="col-lg-4 col-sm-12 col-12 d-flex align-content-stretch blog-mt-16 blog-item-add">
+                            <article
+                                class="blog-item"
+                                data-category="cannabis">
+                                <div class="blog-body">
+                                    <img loading="lazy" alt="blog-img" class="img-fluid border-radius"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/next-wave-tech.png" />
+                                    <h3 class="content-title text-left blog-mt-16">
+                                        Powering the Next Digital Wave 🌊💻
+                                    </h3>
+                                    <p class="content-desc blog-mt-16">In the past decade, the world has witnessed a complete digital overhaul. From automation in manufacturing and AI in healthcare to blockchain in finance and cloud-based entertainment platforms - the pace of innovation has been extraordinary...
+                                    </p>
+                                </div>
+                                    <div class="d-flex-blog justify-content-between blog-mt-16">
+                                         <a href="<?php echo home_url('/next-wave-tech/'); ?>"
+                                        class="btn btn-dark py-2 px-sm-4 px-3">Read
+                                        More</a>
+                                    <div class="d-flex date-blog align-items-center blog-mt-16-xsm">
+                                        <i class="fa-solid fa-calendar-days font-24"></i>
+                                        <p class="gray-text ms-3">October 9, 2025</p>
+                                    </div>
+                                    </div>
+                            </article>
+                         </div>
                          <div class="col-lg-4 col-sm-12 col-12 d-flex align-content-stretch blog-mt-16 blog-item-add">
                             <article
                                 class="blog-item"
