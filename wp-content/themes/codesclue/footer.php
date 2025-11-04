@@ -158,10 +158,11 @@
         <div>
             <div class="rating-footer">EXCELLENT</div>
             <div class="stars-footer">★★★★★</div>
-            <div class="d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center justify-content-center pb-2">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/GoodFirm.png" class="size-32 rounded-circle "/>
                 <h5 class="ps-2">GoodFirm</h5>
             </div>
+            <storng>8 Reviews</storng>
         </div>
 
 
@@ -174,10 +175,11 @@
         <div>
             <div class="rating-footer">EXCELLENT</div>
             <div class="stars-footer">★★★★★</div>
-            <div class="d-flex align-items-center justify-content-center">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Clutch.png" class="size-32 rounded-circle "/>
-            <h5 class="ps-2">Clutch</h5>
-        </div>
+            <div class="d-flex align-items-center justify-content-center pb-2">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Clutch.png" class="size-32 rounded-circle "/>
+                <h5 class="ps-2">Clutch</h5>
+            </div>
+            <storng>5 Reviews</storng>
         </div>
     </div>
 

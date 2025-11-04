@@ -328,110 +328,79 @@ get_header(); ?>
 
         <section>
             <div class="container mb-3 py-2 border-bottom border-dark">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md-6">
-                    <div class="mb-2 d-flex">
-                            <img class="star-size" src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/star.svg">
-                            <span class="fw-semibold"> Projects</span>
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md-6">
+                        <div class="mb-2 d-flex">
+                                <img class="star-size" src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/star.svg">
+                                <span class="fw-semibold"> Projects</span>
 
+                            </div>
+                            <h2 class="section-title mb-0">
+                                Our Projects
+                            </h2>
+                    </div>
+                    <div class="col-md-5 d-flex justify-content-md-end justify-content-start my-3  mt-md-0 gap-2">
+
+                        <a href="<?php echo home_url('/our-portfolio/'); ?>" class="get-started-btn">View All
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/arrow.svg" class="btn-arrow">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <section class="container">
+                <div class="row align-items-stretch" id="dynamicCarousel">
+                    <div class="col-lg-6 d-flex">
+                        <div class="custom-card-project d-flex align-items-center">
+                            <div class="custom-card-text flex-grow-1 p-4 ps-5">
+                                <h3 class="mb-3">GreenReleaf</h3>
+                                <p class="mb-4">
+                                Custom built cannabis dispensary PWA that syncs real-time inventory with POS systems to deliver a seamless, compliant online shopping experience.</p>
+                                <div class="row mb-4">
+                                <div class="col-12">
+                                    <strong>Industry</strong><br>Cannabis Retail & Dispensary Technology
+                                </div>
+                                <div class="col-12 pt-2">
+                                    <strong>Platform</strong><br>Progressive Web App (PWA)
+                                </div>
+                                </div>
+                                <a href="<?php echo home_url('/greenreleaf/'); ?>" class="btn btn-light explore-btn">
+                                EXPLORE <span class="arrow">→</span>
+                                </a>
+                            </div>
+
+                            <div class="custom-card-image-project text-center">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/Cannabis.png" alt="Project" class="img-fluid">
+                            </div>
                         </div>
-                        <h2 class="section-title mb-0">
-                            Our Projects
-                        </h2>
-                </div>
-                <div class="col-md-5 d-flex justify-content-md-end justify-content-start my-3  mt-md-0 gap-2">
-
-                    <a href="<?php echo home_url('/our-portfolio/'); ?>" class="get-started-btn">View All
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/arrow.svg" class="btn-arrow">
-                    </a>
-                </div>
-            </div>
-        </div>
-    <section class="container">
-    <div class="row align-items-stretch" id="dynamicCarousel">
-        <div class="col-lg-6 d-flex">
-              <div class="custom-card-project d-flex align-items-center">
-        
-                <div class="custom-card-text flex-grow-1 p-4 ps-5">
-                    <h3 class="mb-3">GreenReleaf</h3>
-                    <p class="mb-4">
-                    Custom built cannabis dispensary PWA that syncs real-time inventory with POS systems to deliver a seamless, compliant online shopping experience.</p>
-                    <div class="row mb-4">
-                    <div class="col-12">
-                        <strong>Industry</strong><br>Cannabis Retail & Dispensary Technology
                     </div>
-                    <div class="col-12 pt-2">
-                        <strong>Platform</strong><br>Progressive Web App (PWA)
+                    <div class="col-lg-6 d-flex">
+                        <div class="custom-card-project d-flex align-items-center">
+
+                    <div class="custom-card-text flex-grow-1 p-4">
+                        <h3 class="mb-3">Track&Take</h3>
+                        <p class="mb-4">
+                        Aims to improve the shopping experience by empowering users to easily find the products available in GPS-based nearby locations.
+                        </p>
+                        <div class="row mb-4">
+                        <div class="col-12">
+                            <strong>Industry</strong><br>AI-powered product discovery for local shopping
+                        </div>
+                        <div class="col-12 pt-2">
+                            <strong>Platform</strong><br>Web and Mobile Application
+                        </div>
+                        </div>
+                        <a href="<?php echo home_url('/trackntake/'); ?>" class="btn btn-light explore-btn">
+                        EXPLORE <span class="arrow">→</span>
+                        </a>
+                    </div>
+
+                    <div class="custom-card-image-project text-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/CodesClue Webappp-TrackNTake.png" alt="Project" class="img-fluid">
                     </div>
                     </div>
-                    <a href="<?php echo home_url('/greenreleaf/'); ?>" class="btn btn-light explore-btn">
-                    EXPLORE <span class="arrow">→</span>
-                    </a>
+                    </div>
                 </div>
-
-                <div class="custom-card-image-project text-center">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/Cannabis.png" alt="Project" class="img-fluid">
-                </div>
-              </div>
-        </div>
-       
-         
-        <div class="col-lg-6 d-flex">
-             <div class="custom-card-project d-flex align-items-center">
-
-          <div class="custom-card-text flex-grow-1 p-4">
-            <h3 class="mb-3">Track&Take</h3>
-            <p class="mb-4">
-              Aims to improve the shopping experience by empowering users to easily find the products available in GPS-based nearby locations.
-            </p>
-            <div class="row mb-4">
-              <div class="col-12">
-                <strong>Industry</strong><br>AI-powered product discovery for local shopping
-              </div>
-              <div class="col-12 pt-2">
-                <strong>Platform</strong><br>Web and Mobile Application
-              </div>
-            </div>
-            <a href="<?php echo home_url('/trackntake/'); ?>" class="btn btn-light explore-btn">
-              EXPLORE <span class="arrow">→</span>
-            </a>
-          </div>
-
-          <div class="custom-card-image-project text-center">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/CodesClue Webappp-TrackNTake.png" alt="Project" class="img-fluid">
-          </div>
-        </div>
-        </div>
-        
-
-        <!--<div class="custom-card-project d-flex align-items-center">
-
-          <div class="custom-card-text flex-grow-1 p-4">
-            <h3 class="mb-3">Crush (Stryker)</h3>
-            <p class="mb-4">
-              A global clinical trial management platform to streamline the product trial processes.
-            </p>
-            <div class="row mb-4">
-              <div class="col-6">
-                <strong>Industry</strong><br>Healthcare
-              </div>
-              <div class="col-6">
-                <strong>Platform</strong><br>Web & iOS Mobile
-              </div>
-            </div>
-            <a href="#" class="btn btn-light explore-btn">
-              EXPLORE <span class="arrow">→</span>
-            </a>
-          </div>
-
-          <div class="custom-card-image-project text-center">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/Cannabis.png" alt="Project" class="img-fluid">
-          </div>
-        </div> -->
-
-
-    </div>
-   </section>
+            </section>
         </section>
 
 
