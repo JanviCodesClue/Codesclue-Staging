@@ -1870,17 +1870,21 @@ header nav {
 
 .blog-filter-btn {
     padding: 6px 20px !important;
-    border: none;
-    /* border-radius: 20px; */
+    border: 1px solid #000;
+    border-radius: 50px;
     cursor: pointer;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     transition: background-color 0.3s;
     text-wrap-mode: nowrap;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
 }
 
 .blog-filter-btn.active,
 .blog-filter-btn:hover {
-    background-color: #108aff;
+    background-color: #000000;
     color: white;
 }
 
@@ -1904,16 +1908,31 @@ header nav {
 }
 
 .blog-item.show {
-    display: flex !important;
+    display: block !important;
     opacity: 1;
-    border: 1px solid transparent;
+    padding: 16px;
+    border: 1px solid #000;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
 }
 
 .blog-item:hover {
-    background-color: #108aff22;
+    background-color: #108cff25;
+    display: block !important;
+    opacity: 1;
+    padding: 16px;
     border: 1px solid #108aff;
-    border-radius: 6px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
 }
+
+
 
 .footer-link:hover {
     opacity: 0.7;
