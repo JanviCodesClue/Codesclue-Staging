@@ -91,34 +91,34 @@ get_header(); ?>
             margin-bottom: 0;
             line-height: 1.6;
         }
-        
+
         /* Fix AOS opacity issue for FAQ section */
         .faq-section [data-aos^="fade"] {
             opacity: 1 !important;
         }
-        
+
         .faq-section .accordion-body {
             opacity: 1 !important;
             visibility: visible !important;
         }
-        
+
         .faq-section .accordion-collapse.show {
             opacity: 1 !important;
             visibility: visible !important;
         }
-        
+
         /* Override any AOS animations that might interfere */
         .faq-section * {
             opacity: 1 !important;
         }
-        
+
         /* Ensure FAQ content is always visible */
         .faq-section .content-desc,
         .faq-section .content-title {
             opacity: 1 !important;
             visibility: visible !important;
         }
-        
+
 
     </style>
 
@@ -170,7 +170,7 @@ get_header(); ?>
               }
             ]
           }
-          
+
     </script>
     <!-- Google tag (gtag.js) -->
     <script>
@@ -322,14 +322,14 @@ get_header(); ?>
 
                             <div class="custom-col my-3">
                                 <div >
-                                    <h3>20+</h3>
+                                    <h3>30+</h3>
                                     <p>Professional Teams</p>
                                 </div>
                             </div>
 
                             <div class="custom-col my-3">
                                 <div >
-                                    <h3>12+</h3>
+                                    <h3>15+</h3>
                                     <p>Successful Projects</p>
                                 </div>
                             </div>

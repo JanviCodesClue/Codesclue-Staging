@@ -757,7 +757,7 @@
                                                                         <span>5.0</span><span class="font-18">/</span>5
                                                                     </div>
                                                                     <p class="stamp-widget_reviews">
-                                                                        7
+                                                                        8
                                                                         reviews
                                                                     </p>
                                                                 </div>
@@ -780,7 +780,7 @@
                                                                         <span>5.0</span><span class="font-18">/</span>5
                                                                     </div>
                                                                     <p class="stamp-widget_reviews">
-                                                                        4
+                                                                       5
                                                                         reviews
                                                                     </p>
                                                                 </div>
