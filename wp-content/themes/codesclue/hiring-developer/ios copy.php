@@ -1,26 +1,26 @@
 <?php
 /**
- * Template Name: Hire React-Native Developer Page
+ * Template Name: Hire IOS Developer Page
  *
  * @package CodesClue
  */
 get_header(); ?>
 
-  <main>
+    <main>
         <!-- Hero section -->
-        <section class="main-hero-section react-bg d-flex align-items-center py-cus" id="heroSection">
-            <div class="container">
-                <div class="row align-items-center g-4">
+        <section class="main-hero-section ios-bg d-flex align-items-center py-cus" id="heroSection">
+    <div class="container">
+        <div class="row align-items-center g-4">
 
                     <div class="col-xl-7 col-lg-7 col-md-12 text-lg-start">
 
-                        <h1 class="h1-font-style font-48 mb-2 text-white text-left">Hire React Native Developers
-                        </h1>
-                        <p class="hero_description fw-500 text-white mb-0 mt-0 text-left">Build powerful and efficient
-                            cross-platform mobile apps with our experienced React Native developers. We ensure seamless
-                            performance, faster development, and cost-effective solutions to bring your mobile app
-                            vision to life.</p>
-                        <div class="row mt-5-cus-services  gx-2 gy-2">
+                            <h1 class="h1-font-style font-48 text-white mb-2 text-left">Hire iOS Developers
+                            </h1>
+                            <p class="hero_description text-white fw-500 mb-0 mt-0 text-left">Develop cutting-edge iOS
+                                applications with our expert iOS developers. Our team specializes in building secure,
+                                high-quality, and engaging mobile applications that align perfectly with Apple's
+                                ecosystem and deliver outstanding user experiences.</p>
+                           <div class="row mt-5-cus-services  gx-2 gy-2">
                             <div class="col-lg-4 col-md-4 col-sm-12 ">
                                 <div class="feature-box">
                                     <i class="fa-solid fa-sack-dollar"></i>
@@ -39,72 +39,70 @@ get_header(); ?>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-5 col-md-12">
-                        <div class="bg-custom bg-opacity-75 p-4 rounded">
-
-                            <h3 class="content-title mb-3 text-white">Get Free Consultation</h2>
-                                <form id="ReactNativehiringForm">
-                                    <div class="form-group mb-2 mt-2">
-                                        <label for="name" class="text-light">Full Name</label>
-                                        <input type="text" class="form-control" id="name" placeholder="Full Name"
-                                            required />
-                                    </div>
-                                    <div class="form-group mb-2 mt-2">
-                                        <label for="email" class="text-light">Email</label>
-                                        <input type="email" class="form-control" id="email" placeholder="Email Address"
-                                            required />
-                                    </div>
-                                    <div class="form-group mb-2 mt-2">
-                                        <label for="phone" class="text-light">Phone No</label>
-                                        <input type="number" id="phone" class="form-control" name="phone" required
-                                            minlength="8" maxlength="12" placeholder="Phone No." />
-                                    </div>
-
-                                    <div class="form-group mb-3 hiring-checks">
-                                        <label for="exampleInput1" class="text-light">Choose one hiring model</label>
-                                        <div class="d-flex gap-2 flex-wrap">
-                                            <div class="bagdehire" data-service="Full Time">
-                                                <input type="checkbox" name="job-type[]" id="full" value="Full time">
-                                                <label for="full" itemprop="name">Full time</label>
-                                            </div>
-                                            <div class="bagdehire" data-service="Part Time">
-                                                <input type="checkbox" name="job-type[]" id="part" value="Part time">
-                                                <label for="part" itemprop="name">Part time</label>
-                                            </div>
-                                            <div class="bagdehire" data-service="Hourly Hire">
-                                                <input type="checkbox" name="job-type[]" id="hourly"
-                                                    value="Hourly hire">
-                                                <label for="hourly" itemprop="name">Hourly hire</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button class="btn btn-secondary border-radius w-100 reverse col-12"
-                                        type="submit">Hire
-                                        Developer</button>
-                                </form>
-                                <div class="position-fixed top-0 end-0 p-3" style="z-index: 1050;">
-                                    <div id="toastContainer"
-                                        class="toast align-items-center text-white bg-success border-0" role="alert"
-                                        aria-live="assertive" aria-atomic="true">
-                                        <div class="d-flex">
-                                            <div class="toast-body" id="toastMessage">Your message here.</div>
-                                            <button type="button" class="btn-close btn-close-white me-2 m-auto"
-                                                data-bs-dismiss="toast" aria-label="Close"></button>
-                                        </div>
-                                    </div>
-                                </div>
-                                </aritcle>
                         </div>
-                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_black-plane.webp" alt="black-plane"
-                            class="hero-bg-img" />
+                        <div class="col-xl-5 col-lg-5 col-md-12">
+    <div class="bg-custom bg-opacity-75 p-4 rounded">
+
+                                    <h3 class="content-title mb-3 text-white">Get Free Consultation</h2>
+                                    <form id="iOShiringForm">
+                                        <div class="form-group mb-2 mt-2">
+                                            <label for="name" class="text-light">Full Name</label>
+                                            <input type="text" class="form-control" id="name" placeholder="Full Name"
+                                                required />
+                                        </div>
+                                        <div class="form-group mb-2 mt-2">
+                                            <label for="email" class="text-light">Email</label>
+                                            <input type="email" class="form-control" id="email"
+                                                placeholder="Email Address" required />
+                                        </div>
+                                        <div class="form-group mb-2 mt-2">
+                                            <label for="phone" class="text-light">Phone No</label>
+                                            <input type="number" id="phone" class="form-control" name="phone" required
+                                                minlength="8" maxlength="12" placeholder="Phone No." />
+                                        </div>
+
+                                        <div class="form-group mb-3 hiring-checks">
+                                            <label for="exampleInput1" class="text-light">Choose one hiring model</label>
+                                            <div class="d-flex gap-2 flex-wrap">
+                                                <div class="bagdehire" data-service="Full Time">
+                                                    <input type="checkbox" name="job-type[]" id="full"
+                                                        value="Full time">
+                                                    <label for="full" itemprop="name">Full time</label>
+                                                </div>
+                                                <div class="bagdehire" data-service="Part Time">
+                                                    <input type="checkbox" name="job-type[]" id="part"
+                                                        value="Part time">
+                                                    <label for="part" itemprop="name">Part time</label>
+                                                </div>
+                                                <div class="bagdehire" data-service="Hourly Hire">
+                                                    <input type="checkbox" name="job-type[]" id="hourly"
+                                                        value="Hourly hire">
+                                                    <label for="hourly" itemprop="name">Hourly hire</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-secondary border-radius w-100 reverse col-12" type="submit">Hire
+                                            Developer</button>
+                                    </form>
+                                    <div class="position-fixed top-0 end-0 p-3" style="z-index: 1050;">
+                                        <div id="toastContainer" class="toast align-items-center text-white bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+                                            <div class="d-flex">
+                                                <div class="toast-body" id="toastMessage">Your message here.</div>
+                                                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </aritcle>
+                            </div>
+                            <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_white-plane.webp" alt="white-plane"
+                                class="hero-bg-img" />
+                        </div>
                     </div>
                 </div>
             </div>
-            </div>
         </section>
 
-        <section class="tech-slack__section section-40">
+                <section class="tech-slack__section section-40">
             <div class="container">
                 <div class="row mx-0 px-0">
                     <h2 class="section-sub-title mb-lg-4 mb-3">Our Dedicated Developer Hiring Models</h2>
@@ -234,14 +232,15 @@ get_header(); ?>
 
 
 
+
+  <!-- Hire Section -->
         <section class="hire__section section-40">
             <div class="container">
                 <div class="row mx-0 px-0">
                     <div class="col-lg-7 col-12 mb-xl-0 mb-4 pe-lg-4 px-0">
                         <div class="steps-container p-sm-5 p-2 bg-lightpink">
                             <div class="step ps-5 border-radius" id="step1">
-                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-share.svg" alt="share.webp"
-                                    height="30px" />
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-share.svg" alt="share.webp" height="30px" />
                                 <h3 class="content-sub-title ps-sm-5 ps-4 text-left mb-3">1. Share Your
                                     Requirements</h3>
                                 <p class="gray-text text-left ps-sm-5 ps-4 mb-0">To help us
@@ -249,8 +248,7 @@ get_header(); ?>
                                     abilities you are searching for.</p>
                             </div>
                             <div class="step ps-5 border-radius" id="step2">
-                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-credit-card.svg" alt="address-card.webp"
-                                    height="30px" />
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-credit-card.svg" alt="address-card.webp" height="30px" />
                                 <h3 class="content-sub-title ps-sm-5 ps-4 text-left mb-3">2. Identify Suitable
                                     Candidates</h3>
                                 <p class="gray-text text-left ps-sm-5 ps-4 mb-0">We will select
@@ -258,8 +256,7 @@ get_header(); ?>
                                     experience level.</p>
                             </div>
                             <div class="step ps-5 border-radius" id="step3">
-                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-user-time.svg" alt="user.webp"
-                                    height="30px" />
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-user-time.svg" alt="user.webp" height="30px" />
                                 <h3 class="content-sub-title ps-sm-5 ps-4 text-left mb-3">3. Conduct Interviews
                                 </h3>
                                 <p class="gray-text text-left ps-sm-5 ps-4 mb-0">Choose the
@@ -267,8 +264,7 @@ get_header(); ?>
                                     and determine which is the best fit for your project.</p>
                             </div>
                             <div class="step ps-5 border-radius" id="step4">
-                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-chart-tree.svg" alt="chart.webp"
-                                    height="30px" />
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-chart-tree.svg" alt="chart.webp" height="30px" />
                                 <h3 class="content-sub-title ps-sm-5 ps-4 text-left mb-3">4. Onboarding and Start
                                     the Project</h3>
                                 <p class="gray-text text-left ps-sm-5 ps-4 mb-0">After you have
@@ -278,8 +274,8 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="col-lg-5 col-12 ps-lg-4 px-0">
-                        <h2 class="section-sub-title text-left">Hire React Native Developers in just
-                            4
+                        <h2 class="section-sub-title text-left">Hire iOS Application Developers in
+                            just 4
                             Steps</h2>
                         <p class="conten-desc text-left my-3">Looking to hire a app
                             developer
@@ -292,13 +288,10 @@ get_header(); ?>
                                 <i class="fa-solid fa-cube font-18"></i> iOS Development
                             </span>
                             <span class="tag_step">
-                                <i class="fa-solid fa-cube font-18"></i> React Native Apps
+                                <i class="fa-solid fa-cube font-18"></i> Cross-Platform Apps
                             </span>
                             <span class="tag_step">
                                 <i class="fa-solid fa-cube font-18"></i> Native App Development
-                            </span>
-                            <span class="tag_step">
-                                <i class="fa-solid fa-cube font-18"></i> Cross-Platform Apps
                             </span>
                             <span class="tag_step">
                                 <i class="fa-solid fa-cube font-18"></i> Flutter Development
@@ -307,30 +300,31 @@ get_header(); ?>
                                 <i class="fa-solid fa-cube font-18"></i> Android Development
                             </span>
                             <span class="tag_step">
+                                <i class="fa-solid fa-cube font-18"></i> React Native Apps
+                            </span>
+                            <span class="tag_step">
                                 <i class="fa-solid fa-cube font-18"></i> Mobile UI/UX Design
                             </span>
                             <span class="tag_step">
                                 <i class="fa-solid fa-cube font-18"></i> App Store Optimization
                             </span>
                         </div>
-                        <a href="<?php echo home_url('/hire-react-native-developer/'); ?>"
+                        <a href="<?php echo home_url('/hire-ios-developer/'); ?>"
                             class="btn btn-secondary-outliner export_btn d-inline-flex justify-content-between align-items-center px-md-5 px-4 mt-3 py-md-3 py-2 gap-3 bg-black text-white">
                             <i class="fa-solid fa-arrow-up-right-from-square font-24 rotate-90"></i>
                             Hire Developer Now
                         </a>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_hiredeveloper.svg" class="d-none" height="300px"
-                            alt="hire-developer" loading="lazy" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_hiredeveloper.svg" class="d-none" height="300px" alt="hire-developer" loading="lazy" />
                     </div>
                 </div>
             </div>
         </section>
 
 
-
         <!-- Our Expertise section -->
         <section class="section-40 pt-0 service__section" id="serviceSection">
             <div class="container">
-                <h2 class="section-title text-left ">Our Expertise In React Native</h2>
+                <h2 class="section-title text-left ">Our Expertise In iOS</h2>
                 <div class="d-flex mt-md-4  mb-md-0 my-2 justify-content-lg-start justify-content-center flex-wrap">
                     <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
                         <div
@@ -338,8 +332,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">01</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native Cross-Platform App
-                                    Development</span>
+                                <span class="content-desc text-center py-2">Custom iOS app development</span>
                             </div>
                         </div>
                     </div>
@@ -349,7 +342,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">02</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native iOS App Development</span>
+                                <span class="content-desc text-center py-2">iOS Mobile App Consulting</span>
                             </div>
                         </div>
                     </div>
@@ -359,7 +352,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">03</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native Android App Development</span>
+                                <span class="content-desc text-center py-2">Wearable App for Apple Watch</span>
                             </div>
                         </div>
                     </div>
@@ -369,7 +362,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">04</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native Integration</span>
+                                <span class="content-desc text-center py-2">Augmented Reality & Virtual Reality Apps</span>
                             </div>
                         </div>
                     </div>
@@ -379,8 +372,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">05</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native Update, Support, and
-                                    Maintenance</span>
+                                <span class="content-desc text-center py-2">Custom iOS App UI/UX Design</span>
                             </div>
                         </div>
                     </div>
@@ -390,7 +382,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">06</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native App Consultancy</span>
+                                <span class="content-desc text-center py-2">iOS App Migration</span>
                             </div>
                         </div>
                     </div>
@@ -400,7 +392,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">07</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">Native Module Development</span>
+                                <span class="content-desc text-center py-2">Intelligent BOT and Chat App</span>
                             </div>
                         </div>
                     </div>
@@ -410,7 +402,47 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">08</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">API Integration</span>
+                                <span class="content-desc text-center py-2">Apple TV App Development</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
+                        <div
+                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                            <h3 class="number-main mb-0 text-center">09</h3>
+                            <div
+                                class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
+                                <span class="content-desc text-center py-2">Geofencing and Geolocation - GPS based Apps</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
+                        <div
+                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                            <h2 class="number-main mb-0 text-center">10</h3>
+                            <div
+                                class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
+                                <span class="content-desc text-center py-2">Real Time Audio Video Streaming Apps</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
+                        <div
+                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                            <h2 class="number-main mb-0 text-center">11</h3>
+                            <div
+                                class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
+                                <span class="content-desc text-center py-2">On Demand Delivery Apps</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
+                        <div
+                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                            <h2 class="number-main mb-0 text-center">12</h3>
+                            <div
+                                class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
+                                <span class="content-desc text-center py-2">Fitness Training App</span>
                             </div>
                         </div>
                     </div>
@@ -428,58 +460,51 @@ get_header(); ?>
                     <div class="benefit__card  p-md-3 p-2 border-radius">
                         <div class="d-flex align-items-center gap-3">
                             <div class="benefit-img">
-                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp"
-                                    alt="Combined Shape" />
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp" alt="Combined Shape" />
                             </div>
-                            <h3 class="content-sub-title mb-0 text-left">Complete App Development Services </h3>
+                            <h3 class="content-sub-title mb-0 text-left">Extensive Native iOS Expertise</h3>
                         </div>
-                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">CodesClue is a leading React Native app
-                            development company serving clients across the USA, UK, and Australia. We offer end-to-end
-                            React Native app development services, from concept and design to development and launch.
-                            Our API integration approach ensures that every application is tailored to meet your unique
-                            business needs, delivering seamless performance and functionality.</p>
+                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">At CodesClue, we target every development
+                            endeavor with a new approach, creating industry benchmarks. Backed with over a decade of
+                            experience, native app development technology and a strong dedicated team of iOS app
+                            developers in India, our iOS development services are guaranteed for excellence in terms of
+                            innovation and infinite scalability.</p>
 
                     </div>
                     <div class="benefit__card  p-md-3 p-2 border-radius">
                         <div class="d-flex align-items-center gap-3">
                             <div class="benefit-img">
-                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp"
-                                    alt="Combined Shape" />
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp" alt="Combined Shape" />
                             </div>
-                            <h3 class="content-sub-title mb-0 text-left">Local Expertise with a Global Reach
-                            </h3>
+                            <h3 class="content-sub-title mb-0 text-left">Rapid Access to Talent Pool.</h3>
                         </div>
-                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">With over 2 years of experience and 7+
-                            satisfied customers worldwide, CodesClue has built a strong reputation as a trusted partner
-                            in React Native application development. Our deep understanding of regional challenges and
-                            opportunities enables us to create tailored solutions, making us the ideal choice for
-                            businesses looking to enhance their global online presence.</p>
+                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">Within a few days of your formal approval,
+                            you get access to our developer(s) and SCRUM master. Our dedicated iOS app developer's team
+                            is passionate about clean code and sharp performance of your next-gen iOS app. They work
+                            dedicatedly to serve your project with full assurance of quality.</p>
                     </div>
                     <div class="benefit__card  p-md-3 p-2 border-radius">
                         <div class="d-flex align-items-center gap-3">
                             <div class="benefit-img">
-                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp"
-                                    alt="Combined Shape" />
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp" alt="Combined Shape" />
                             </div>
-                            <h3 class="content-sub-title mb-0 text-left">Better Usability and Performance </h3>
+                            <h3 class="content-sub-title mb-0 text-left">Ongoing Technical Support</h3>
                         </div>
-                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">At CodesClue, we create apps with
-                            better
-                            performance by using native code to render JavaScript code. Our emphasis on utilizing JSX
-                            and JavaScript guarantees that your application offers a genuine native experience,
-                            gratifying users with snappy load speeds and seamless user interfaces.</p>
+                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">Whether it is about maintenance or the
+                            next round of iOS app development, our iOS developers provide you support and assistance to
+                            make your experience effortless while maximizing productivity and ensuring incremental
+                            improvements.</p>
                     </div>
                     <div class="benefit__card  p-md-3 p-2 border-radius">
                         <div class="d-flex align-items-center gap-3">
                             <div class="benefit-img">
-                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp"
-                                    alt="Combined Shape" />
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp" alt="Combined Shape" />
                             </div>
-                            <h3 class="content-sub-title mb-0 text-left">Dedication to Excellence </h3>
+                            <h3 class="content-sub-title mb-0 text-left">Scalable Implementation</h3>
                         </div>
-                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">Every facet of the React Native app
-                            development service is driven to quality by understanding your business requirements and
-                            translating them into a digital product that stands out in the market.</p>
+                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">We have got a highly skilled team of
+                            experts that makes faster implementation of any iOS solution with ease. We have the ability
+                            to rapidly scale the development potential.</p>
                     </div>
                 </div>
             </div>
@@ -487,12 +512,14 @@ get_header(); ?>
 
         <!-- Service Portfolio section -->
         <section class="section tech-stack__section section-40" id="techStackSection">
-            <div class="container">
-                <div class="content-desc text-dark fst-italic d-flex align-items-center mb-2">
+            <div class="text-center pb-0">
+                  <div class="container">
+                    <div  class="content-desc text-dark fst-italic d-flex align-items-center mb-2">
                     <div class="line"></div>
                     Discover Our
                 </div>
                 <h3 class="section-title mb-4">Service Portfolio</h3>
+                </div>
             </div>
             <div class="container">
                 <div class="col-12 mx-auto px-0 d-flex flex-wrap">
@@ -503,12 +530,10 @@ get_header(); ?>
                                 <a href="<?php echo home_url('/android/'); ?>">
                                     <li class="font-18">
                                         <img loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_android.svg"
-                                            class="black-logo" width="18px" height="18px" alt="android-logo" /><img
-                                            loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_android.svg"
-                                            class="blue-logo" width="18px" height="18px"
-                                            alt="android-blue-logo" />Android
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_android.svg" class="black-logo"
+                                            width="18px" height="18px" alt="android-logo" /><img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_android.svg" class="blue-logo"
+                                            width="18px" height="18px" alt="android-blue-logo" />Android
                                     </li>
                                 </a>
                                 <a href="<?php echo home_url('/react-native/'); ?>">
@@ -517,58 +542,54 @@ get_header(); ?>
                                 </a>
                                 <a href="<?php echo home_url('/ios/'); ?>">
                                     <li class="font-18">
-                                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_ios.svg"
-                                            class="black-logo" width="18px" height="18px" alt="ios-logo" /><img
-                                            loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_ios.svg"
-                                            class="blue-logo" width="18px" height="18px" alt="ios-blue-logo" />iOS
+                                        <img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_ios.svg" class="black-logo"
+                                            width="18px" height="18px" alt="ios-logo" /><img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_ios.svg" class="blue-logo"
+                                            width="18px" height="18px" alt="ios-blue-logo" />iOS
                                     </li>
                                 </a>
                                 <a href="<?php echo home_url('/flutter/'); ?>">
                                     <li class="font-18">
                                         <img loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_flutter.svg"
-                                            class="black-logo" width="18px" height="18px" alt="flutter-logo" /><img
-                                            loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_flutter.svg"
-                                            class="blue-logo" width="18px" height="18px"
-                                            alt="flutter-blue-logo" />Flutter
-                                    </li>
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_flutter.svg" class="black-logo"
+                                            width="18px" height="18px" alt="flutter-logo" /><img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_flutter.svg" class="blue-logo"
+                                            width="18px" height="18px" alt="flutter-blue-logo" />Flutter
+                                        </li>
                                 </a>
                                 <a href="<?php echo home_url('/pwa/'); ?>">
                                     <li class="font-18"><img loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_pwa.svg"
-                                            class="black-logo" alt="pwa-logo" width="24px" height="24px" /><img
-                                            loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_pwa.svg"
-                                            class="blue-logo" alt="pwa-logo" width="24px" height="24px" />PWA
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_pwa.svg" class="black-logo"
+                                            alt="pwa-logo" width="24px" height="24px" /><img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_pwa.svg" class="blue-logo"
+                                            alt="pwa-logo" width="24px" height="24px" />PWA
                                     </li>
                                 </a>
                                 <a href="<?php echo home_url('/kotlin/'); ?>">
                                     <li class="font-18"><img loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_kotlin.svg"
-                                            class="black-logo" width="18px" height="18px" alt="kotline-logo" /><img
-                                            loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_kotlin.svg"
-                                            class="blue-logo" width="18px" height="18px" alt="kotline-logo" />Kotlin
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_kotlin.svg" class="black-logo"
+                                            width="18px" height="18px" alt="kotline-logo" /><img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_kotlin.svg" class="blue-logo"
+                                            width="18px" height="18px" alt="kotline-logo" />Kotlin
                                     </li>
                                 </a>
                                 <a href="<?php echo home_url('/ipad/'); ?>">
                                     <li class="font-18">
-                                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_ipad.svg"
-                                            class="black-logo" width="18px" height="18px" alt="ipad-logo" /><img
-                                            loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_ipad.svg"
-                                            class="blue-logo" width="18px" height="18px" alt="ipad-blue-logo" />iPad
+                                        <img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_ipad.svg" class="black-logo"
+                                            width="18px" height="18px" alt="ipad-logo" /><img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_ipad.svg" class="blue-logo"
+                                            width="18px" height="18px" alt="ipad-blue-logo" />iPad
                                     </li>
                                 </a>
                                 <a href="<?php echo home_url('/swift/'); ?>">
                                     <li class="font-18">
-                                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_swift.svg"
-                                            class="black-logo" width="18px" height="18px" alt="swift-logo" /><img
-                                            loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_swift.svg"
-                                            class="blue-logo" width="18px" height="18px" alt="swift-blue-logo" />Swift
+                                        <img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_swift.svg" class="black-logo"
+                                            width="18px" height="18px" alt="swift-logo" /><img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_swift.svg" class="blue-logo"
+                                            width="18px" height="18px" alt="swift-blue-logo" />Swift
                                     </li>
                                 </a>
                             </ul>
@@ -580,12 +601,10 @@ get_header(); ?>
                             <ul class="grid-3">
                                 <a href="<?php echo home_url('/angular/'); ?>">
                                     <li class="font-18"><img loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_angular.svg"
-                                            class="black-logo" width="18px" height="18px" alt="angular-logo" /><img
-                                            loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_angular.svg"
-                                            class="blue-logo" width="18px" height="18px"
-                                            alt="angular-blue-logo" />Angular
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_angular.svg" class="black-logo"
+                                        width="18px" height="18px" alt="angular-logo" /><img loading="lazy"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_angular.svg" class="blue-logo"
+                                        width="18px" height="18px" alt="angular-blue-logo" />Angular
                                     </li>
                                 </a>
                                 <a href="<?php echo home_url('/react-js/'); ?>">
@@ -594,46 +613,43 @@ get_header(); ?>
                                 </a>
                                 <a href="<?php echo home_url('/vue-js/'); ?>">
                                     <li class="font-18">
-                                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_vue.svg"
-                                            class="black-logo" width="18px" height="18px" alt="vue-logo" /><img
-                                            loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_vue.svg"
-                                            class="blue-logo" width="18px" height="18px" alt="vue-blue-logo" />Vue.js
+                                        <img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_vue.svg" class="black-logo"
+                                            width="18px" height="18px" alt="vue-logo" /><img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_vue.svg" class="blue-logo"
+                                            width="18px" height="18px" alt="vue-blue-logo" />Vue.js
                                     </li>
                                 </a>
                                 <a href="<?php echo home_url('/js/'); ?>">
                                     <li class="font-18"><img loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_js.svg" class="black-logo"
-                                            width="18px" height="18px" alt="js-logo" /><img loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_js.svg"
-                                            class="blue-logo" width="18px" height="18px" alt="js-blue-logo" />Javascript
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_js.svg" class="black-logo"
+                                        width="18px" height="18px" alt="js-logo" /><img loading="lazy"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_js.svg" class="blue-logo"
+                                        width="18px" height="18px" alt="js-blue-logo" />Javascript
                                     </li>
                                 </a>
                                 <a href="<?php echo home_url('/dotnet/'); ?>">
                                     <li class="font-18"><img loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_dotnet.svg"
-                                            class="black-logo" width="18px" height="18px" alt="dotnet-logo" /><img
-                                            loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_dotnet.svg"
-                                            class="blue-logo" width="18px" height="18px" alt="dotnet-blue-logo" />.NET
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_dotnet.svg" class="black-logo"
+                                            width="18px" height="18px" alt="dotnet-logo" /><img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_dotnet.svg" class="blue-logo"
+                                            width="18px" height="18px" alt="dotnet-blue-logo" />.NET
                                     </li>
                                 </a>
                                 <a href="<?php echo home_url('/html-page/'); ?>">
                                     <li class="font-18"><img loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_html.svg"
-                                            class="black-logo" width="18px" height="18px" alt="html-logo" /><img
-                                            loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_html.svg"
-                                            class="blue-logo" width="18px" height="18px" alt="html-blue-logo" />Html
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_html.svg" class="black-logo"
+                                            width="18px" height="18px" alt="html-logo" /><img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_html.svg" class="blue-logo"
+                                            width="18px" height="18px" alt="html-blue-logo" />Html
                                     </li>
                                 </a>
                                 <a href="<?php echo home_url('/css/'); ?>">
                                     <li class="font-18"><img loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_css.svg"
-                                            class="black-logo" width="18px" height="18px" alt="css-logo" /><img
-                                            loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_css.svg"
-                                            class="blue-logo" width="18px" height="18px" alt="css-blue-logo" />CSS
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_css.svg" class="black-logo"
+                                            width="18px" height="18px" alt="css-logo" /><img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_css.svg" class="blue-logo"
+                                            width="18px" height="18px" alt="css-blue-logo" />CSS
                                     </li>
                                 </a>
                             </ul>
@@ -645,57 +661,49 @@ get_header(); ?>
                             <ul class="grid-2">
                                 <a href="<?php echo home_url('/laravel/'); ?>">
                                     <li class="font-18"><img loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_laravel.svg"
-                                            class="black-logo" width="18px" height="18px" alt="laravel-logo" /><img
-                                            loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_laravel.svg"
-                                            class="blue-logo" width="18px" height="18px"
-                                            alt="laravel-blue-logo" />Laravel
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_laravel.svg" class="black-logo"
+                                        width="18px" height="18px" alt="laravel-logo" /><img loading="lazy"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_laravel.svg" class="blue-logo"
+                                        width="18px" height="18px" alt="laravel-blue-logo" />Laravel
                                     </li>
                                 </a>
                                 <a href="<?php echo home_url('/node-js/'); ?>">
                                     <li class="font-18"><img loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_node.svg"
-                                            class="black-logo" width="18px" height="18px" alt="node-logo" /><img
-                                            loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_node.svg"
-                                            class="blue-logo" width="18px" height="18px" alt="node-blue-logo" />Node.js
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_node.svg" class="black-logo"
+                                        width="18px" height="18px" alt="node-logo" /><img loading="lazy"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_node.svg" class="blue-logo"
+                                        width="18px" height="18px" alt="node-blue-logo" />Node.js
                                     </li>
                                 </a>
                                 <a href="<?php echo home_url('/php/'); ?>">
                                     <li class="font-18"><img loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_php.svg"
-                                            class="black-logo" width="18px" height="18px" alt="php-logo" /><img
-                                            loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_php.svg"
-                                            class="blue-logo" width="18px" height="18px" alt="php-blue-logo" />PHP</li>
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_php.svg" class="black-logo"
+                                        width="18px" height="18px" alt="php-logo" /><img loading="lazy"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_php.svg" class="blue-logo"
+                                        width="18px" height="18px" alt="php-blue-logo" />PHP</li>
                                 </a>
                                 <a href="<?php echo home_url('/ror/'); ?>">
                                     <li class="font-18"><img loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_rails.svg"
-                                            class="black-logo" width="18px" height="18px" alt="ror-logo" /><img
-                                            loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_rails.svg"
-                                            class="blue-logo" width="18px" height="18px" alt="ror-blue-logo" />RoR
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_rails.svg" class="black-logo"
+                                        width="18px" height="18px" alt="ror-logo" /><img loading="lazy"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_rails.svg" class="blue-logo"
+                                        width="18px" height="18px" alt="ror-blue-logo" />RoR
                                     </li>
                                 </a>
                                 <a href="<?php echo home_url('/mongo-db/'); ?>">
                                     <li class="font-18"><img loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_mongodb.svg"
-                                            class="black-logo" width="18px" height="18px" alt="mongodb-logo" /><img
-                                            loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_mongodb.svg"
-                                            class="blue-logo" width="18px" height="18px"
-                                            alt="mongodb-blue-logo" />MongoDB
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_mongodb.svg" class="black-logo"
+                                        width="18px" height="18px" alt="mongodb-logo" /><img loading="lazy"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_mongodb.svg" class="blue-logo"
+                                        width="18px" height="18px" alt="mongodb-blue-logo" />MongoDB
                                     </li>
                                 </a>
                                 <a href="<?php echo home_url('/java/'); ?>">
                                     <li class="font-18"><img loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_java.svg"
-                                            class="black-logo" width="18px" height="18px" alt="java-logo" /><img
-                                            loading="lazy"
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_java.svg"
-                                            class="blue-logo" width="18px" height="18px" alt="java-blue-logo" />Java
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_java.svg" class="black-logo"
+                                        width="18px" height="18px" alt="java-logo" /><img loading="lazy"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_java.svg" class="blue-logo"
+                                        width="18px" height="18px" alt="java-blue-logo" />Java
                                     </li>
                                 </a>
                             </ul>
@@ -708,71 +716,58 @@ get_header(); ?>
                                 <ul class="grid-3">
                                     <a href="<?php echo home_url('/auto-mated-testing/'); ?>">
                                         <li class="font-18"><img loading="lazy"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_auto.svg"
-                                                class="black-logo" width="18px" height="18px" alt="auto-logo" /><img
-                                                loading="lazy"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_auto.svg"
-                                                class="blue-logo" width="18px" height="18px"
-                                                alt="auto-blue-logo" />Automated
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_auto.svg" class="black-logo"
+                                            width="18px" height="18px" alt="auto-logo" /><img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_auto.svg" class="blue-logo"
+                                            width="18px" height="18px" alt="auto-blue-logo" />Automated
                                             Test</li>
                                     </a>
                                     <a href="<?php echo home_url('/manual-testing/'); ?>">
                                         <li class="font-18"><img loading="lazy"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_manual.svg"
-                                                class="black-logo" width="18px" height="18px" alt="manual-logo" /><img
-                                                loading="lazy"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_manual.svg"
-                                                class="blue-logo" width="18px" height="18px"
-                                                alt="manual-blue-logo" />Manual
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_manual.svg" class="black-logo"
+                                            width="18px" height="18px" alt="manual-logo" /><img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_manual.svg" class="blue-logo"
+                                            width="18px" height="18px" alt="manual-blue-logo" />Manual
                                             Test</li>
                                     </a>
                                     <a href="<?php echo home_url('/api-testing/'); ?>">
                                         <li class="font-18"><img loading="lazy"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_api.svg"
-                                                class="black-logo" width="18px" height="18px" alt="api-logo" /><img
-                                                loading="lazy"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_api.svg"
-                                                class="blue-logo" width="18px" height="18px" alt="api-blue-logo" />Api
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_api.svg" class="black-logo"
+                                            width="18px" height="18px" alt="api-logo" /><img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_api.svg" class="blue-logo"
+                                            width="18px" height="18px" alt="api-blue-logo" />Api
                                             Test</li>
                                     </a>
                                     <a href="<?php echo home_url('/mobile-testing/'); ?>">
                                         <li class="font-18"><img loading="lazy"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_mobile.svg"
-                                                class="black-logo" width="18px" height="18px" alt="mobile-logo" /><img
-                                                loading="lazy"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_mobile.svg"
-                                                class="blue-logo" width="18px" height="18px"
-                                                alt="mobile-blue-logo" />Mobile
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_mobile.svg" class="black-logo"
+                                            width="18px" height="18px" alt="mobile-logo" /><img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_mobile.svg" class="blue-logo"
+                                            width="18px" height="18px" alt="mobile-blue-logo" />Mobile
                                             Test</li>
                                     </a>
                                     <a href="<?php echo home_url('/software-testing/'); ?>">
                                         <li class="font-18"><img loading="lazy"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_software.svg"
-                                                class="black-logo" width="18px" height="18px" alt="software-logo" /><img
-                                                loading="lazy"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_software.svg"
-                                                class="blue-logo" width="18px" height="18px"
-                                                alt="software-blue-logo" />Software
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_software.svg" class="black-logo"
+                                            width="18px" height="18px" alt="software-logo" /><img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_software.svg" class="blue-logo"
+                                            width="18px" height="18px" alt="software-blue-logo" />Software
                                             Test</li>
                                     </a>
                                     <a href="<?php echo home_url('/support-testing/'); ?>">
                                         <li class="font-18"><img loading="lazy"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_support.svg"
-                                                class="black-logo" width="18px" height="18px" alt="support-logo" /><img
-                                                loading="lazy"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_support.svg"
-                                                class="blue-logo" width="18px" height="18px"
-                                                alt="support-blue-logo" />Support
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_support.svg" class="black-logo"
+                                            width="18px" height="18px" alt="support-logo" /><img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_support.svg" class="blue-logo"
+                                            width="18px" height="18px" alt="support-blue-logo" />Support
                                             Test</li>
                                     </a>
                                     <a href="<?php echo home_url('/performance-testing/'); ?>">
                                         <li class="font-18"><img loading="lazy"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_performance.svg"
-                                                class="black-logo" width="18px" height="18px"
-                                                alt="performance-logo" /><img loading="lazy"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_performance.svg"
-                                                class="blue-logo" width="18px" height="18px"
-                                                alt="performance-blue-logo" />Performance
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_performance.svg" class="black-logo"
+                                            width="18px" height="18px" alt="performance-logo" /><img loading="lazy"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_performance.svg" class="blue-logo"
+                                            width="18px" height="18px" alt="performance-blue-logo" />Performance
                                             Test</li>
                                     </a>
                                 </ul>
@@ -792,10 +787,10 @@ get_header(); ?>
                     <div
                         class="col-xxl-5 col-lg-7 col-md-6 col-12 px-0 d-flex flex-column align-items-md-start align-items-center">
                         <h2 class="section-title mb-3 text-left text-white">Our Recent Work</h3>
-                            <p class="section-description text-left text-white">Explore our latest projects,
-                                testaments
-                                to our commitment to delivering
-                                transformative digital solutions.</p>
+                        <p class="section-description text-left text-white">Explore our latest projects,
+                            testaments
+                            to our commitment to delivering
+                            transformative digital solutions.</p>
                     </div>
                     <div
                         class="col-xxl-7 col-lg-5 col-md-6 col-12 px-0 d-flex justify-content-md-end  justify-content-sm-start  justify-content-center mt-md-0 mt-3">
@@ -808,8 +803,8 @@ get_header(); ?>
                 </div>
                 <div class="work__card__section section-40 pb-0">
                     <div class="work__card d-flex flex-column gap-md-5 gap-3">
-                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/codesclue_Green Relef.webp"
-                            alt="Green Relef.webp" class="border-radius img-fluid hire-portfolio-img" />
+                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/codesclue_Mazady.webp"
+                            alt="Mazady.webp" class="border-radius img-fluid hire-portfolio-img" />
                         <div class="card_details d-flex flex-column gap-3 border-radius  mb-md-0 mb-2">
                             <h2 class="section-title text-primary mb-0">15+</h2>
                             <p class="content-desc text-primary mb-0">Project Delivered</p>
@@ -839,11 +834,9 @@ get_header(); ?>
             </div>
         </section>
 
-        <!-- Hire Section -->
-
-
+      
+       
     </main>
-
 
 
 <?php get_footer(); ?> 

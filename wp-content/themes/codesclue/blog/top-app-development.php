@@ -64,7 +64,7 @@ get_header(); ?>
                                     </span>
                                 <p class="content-desc text-left mb-2">India has emerged as one of the leading hubs for mobile and web application development. From startups to enterprise-grade solutions, app development companies in India are delivering cutting-edge technology, innovative designs, and scalable software solutions.
                                 </p>
-                                <p class="content-desc text-left mb-2">Choosing the right partner can make all the difference for your business’s digital growth. Let’s explore the top app development companies making waves in India. (Also featured on<a class="text-primary" href="https://www.goodfirms.co/directory/country/app-development/in?rate%5B1%5D=%3C+%2425&industry%5B8%5D=9"> GoodFirms — Top App Development Companies in India</a>)</p>
+                                <p class="content-desc text-left mb-2">Choosing the right partner can make all the difference for your business’s digital growth. Let’s explore the top app development companies making waves in India. (Also featured on<a class="text-primary" target="_blank" href="https://www.goodfirms.co/directory/country/app-development/in?rate%5B1%5D=%3C+%2425&industry%5B8%5D=9"> GoodFirms — Top App Development Companies in India</a>)</p>
                                 <div>
                                     <h3 class="content-title mt-3">🔹 CodesClue Technologies</h3>
                                     <p class="content-desc text-left mb-2"><strong>Location</strong>: Ahmedabad</p>

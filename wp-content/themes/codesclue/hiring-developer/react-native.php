@@ -8,7 +8,8 @@ get_header(); ?>
 
 
     <main class="hiring-main">
-        <section class="react-native-bg">
+
+        <section class="hiring-bg react-native-bg">
             <div class="container">
                 <div class="row align-items-center">
                   <div class="col-lg-7">
@@ -106,9 +107,9 @@ get_header(); ?>
 
         <section class="mt-40-hiring">
             <div class="container">
-                <h2 class="section-heading">Our Dedicated Developer Hiring Models</h2>
+                <h2 class="section-heading text-center">Our Dedicated Developer Hiring Models</h2>
                 <div class="row hiring-mt-16">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mb-16-hiring-md">
                         <div class="bg-sec-blue">
                             <div class="inner-blue-heading">
                                 <i class="fa-solid fa-clock-rotate-left me-2"></i>
@@ -232,15 +233,519 @@ get_header(); ?>
             </div>
         </section>
 
-        <section>
+        <section class="mt-40-hiring light-blue-hiring">
             <div class="container">
+                <h2 class="section-heading text-center">Hire Android Developers in just 4 Steps</h2>
+                <p class="content-desc-hiring text-center hiring-mt-16">Looking to hire a app developer for your unique project? Look no further, as CodesClue offers a quick and easy 4-step process to connect you with the best talent that meets your requirements.</p>
                 <div class="row">
-                     <div class="col-lg-2"></div>
-                     <div class="col-lg-7"></div>
-                     <div class="col-lg-3"></div>
+                     <div class="col-lg-3-hiring hiring-mt-16">
+                          <div class="d-flex justify-content-center border-bottom-hiring">
+                              <div class="icon-box-hiring"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-share.svg" alt="share.webp"
+                                    class="h-30" /></div>
+                          </div>
+                          <h3 class="step-hiring-h3 text-center hiring-mt-16">1. Share Your Requirements</h3>
+                          <p class="content-desc-hiring text-center hiring-mt-16">To help us understand your needs, give us a brief synopsis of your project and the particular abilities you are searching for.</p>
+                     </div>
+                     <div class="col-lg-3-hiring hiring-mt-16">
+                          <div class="d-flex justify-content-center border-bottom-hiring">
+                              <div class="icon-box-hiring"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-credit-card.svg" alt="share.webp"
+                                    class="h-30" /></div>
+                          </div>
+                          <h3 class="step-hiring-h3 text-center hiring-mt-16">2. Identify Suitable
+                                    Candidates</h3>
+                          <p class="content-desc-hiring text-center hiring-mt-16">We will select
+                                    developers from our talent pool based on the need of the project and relevant
+                                    experience level.</p>
+                     </div>
+                     <div class="col-lg-3-hiring hiring-mt-16">
+                          <div class="d-flex justify-content-center border-bottom-hiring">
+                              <div class="icon-box-hiring"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-user-time.svg" alt="share.webp"
+                                    class="h-30" /></div>
+                          </div>
+                          <h3 class="step-hiring-h3 text-center hiring-mt-16">3. Conduct Interviews
+                                    Candidates</h3>
+                          <p class="content-desc-hiring text-center hiring-mt-16">Choose the
+                                    shortlisted candidates to interview so you can evaluate their work styles and skills
+                                    and determine which is the best fit for your project.</p>
+                     </div>
+                     <div class="col-lg-3-hiring hiring-mt-16">
+                          <div class="d-flex justify-content-center border-bottom-hiring">
+                              <div class="icon-box-hiring"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-chart-tree.svg" alt="share.webp"
+                                    class="h-30" /></div>
+                          </div>
+                          <h3 class="step-hiring-h3 text-center hiring-mt-16">4. Onboarding and Start
+                                    the Project</h3>
+                          <p class="content-desc-hiring text-center hiring-mt-16">After you have
+                                    selected the best applicant, we will help with the onboarding procedure and provide
+                                    support to you remotely.</p>
+                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3-hiring hiring-mt-16">
+                            <span class="tag_step">
+                                <i class="fa-brands fa-apple font-18"></i> iOS Development
+                            </span>
+                    </div>
+                     <div class="col-lg-3-hiring hiring-mt-16">
+                            <span class="tag_step">
+                                <i class="fa-brands fa-react font-18"></i> React Native Apps
+                            </span>
+                    </div>
+                    <div class="col-lg-3-hiring hiring-mt-16">
+                            <span class="tag_step">
+                                <i class="fa-solid fa-mobile-screen font-18"></i> Native App Development
+                            </span>
+                    </div>
+                    <div class="col-lg-3-hiring hiring-mt-16">
+                            <span class="tag_step">
+                                <i class="fa-solid fa-link font-18"></i> Cross-Platform Apps
+                            </span>
+                    </div>
+                    <div class="col-lg-3-hiring hiring-mt-16">
+                            <span class="tag_step">
+                                <i class="fa-brands fa-flutter font-18"></i> Flutter Development
+                            </span>
+                    </div>
+                    <div class="col-lg-3-hiring hiring-mt-16">
+                            <span class="tag_step">
+                                <i class="fa-brands fa-android font-18"></i> Android Development
+                            </span>
+                    </div>
+                    <div class="col-lg-3-hiring hiring-mt-16">
+                            <span class="tag_step">
+                                <i class="fa-solid fa-palette font-18"></i> Mobile UI/UX Design
+                            </span>
+                    </div>
+                    <div class="col-lg-3-hiring hiring-mt-16">
+                            <span class="tag_step">
+                                <i class="fa-solid fa-chart-line font-18"></i> App Store Optimization
+                            </span>
+                    </div>
+                </div>
+                <div class="text-center">
+                     <a href="<?php echo home_url('/hire-react-native-developer/'); ?>"
+                            class="btn-hiring d-inline-flex justify-content-between align-items-center px-md-5 px-4 mt-3 py-md-3 py-2 gap-3  text-white">
+                            <i class="fa-solid fa-arrow-up-right-from-square rotate-90"></i>
+                            Hire Developer Now
+                        </a>
                 </div>
             </div>
         </section>
+
+        <section class="expertise-blue-bg">
+            <div class="container">
+                <h2 class="text-center section-heading text-light">Our Expertise In React Native</h2>
+                <div class="row justify-content-center">
+                    <!-- Card 1 -->
+                    <div class="col-md-expertise-hirig hiring-mt-16">
+                        <div class="expertise-card position-relative">
+                            <div class="card-number">01</div>
+                            <i class="fa-solid fa-globe icon-size-hiring"></i>
+                        </div>
+                        <div class="card-text">
+                                React Native Cross-Platform App Development
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-md-expertise-hirig hiring-mt-16">
+                        <div class="expertise-card position-relative">
+                            <div class="card-number">02</div>
+                            <i class="fa-brands fa-apple icon-size-hiring"></i>
+                        </div>
+                        <div class="card-text">
+                                React Native IOS App Development
+                            </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-md-expertise-hirig hiring-mt-16">
+                        <div class="expertise-card position-relative">
+                            <div class="card-number">03</div>
+                            <i class="fa-brands fa-android icon-size-hiring"></i>
+                        </div>
+                        <div class="card-text">
+                                React Native Android App Development
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-md-expertise-hirig hiring-mt-16">
+                        <div class="expertise-card position-relative">
+                            <div class="card-number">04</div>
+                            <i class="fa-solid fa-link icon-size-hiring"></i>
+                        </div>
+                        <div class="card-text">
+                                Native Module Development
+                        </div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="col-md-expertise-hirig hiring-mt-16">
+                        <div class="expertise-card position-relative">
+                            <div class="card-number">05</div>
+                            <i class="fa-solid fa-screwdriver-wrench icon-size-hiring"></i>
+                        </div>
+                        <div class="card-text">
+                                React Native Update, Support, and Maintenance
+                        </div>
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="col-md-expertise-hirig hiring-mt-16">
+                        <div class="expertise-card position-relative">
+                            <div class="card-number">06</div>
+                            <i class="fa-solid fa-comments icon-size-hiring"></i>
+                        </div>
+                        <div class="card-text">
+                                React Native App Consultancy
+                        </div>
+                    </div>
+                    <!-- Card 7 -->
+                    <div class="col-md-expertise-hirig hiring-mt-16">
+                        <div class="expertise-card position-relative">
+                            <div class="card-number">07</div>
+                            <i class="fa-solid fa-cogs icon-size-hiring"></i>
+                        </div>
+                        <div class="card-text">
+                                React Native Integration
+                            </div>
+                    </div>
+                    <!-- Card 8 -->
+                    <div class="col-md-expertise-hirig hiring-mt-16">
+                        <div class="expertise-card position-relative">
+                            <div class="card-number">08</div>
+                            <i class="fa-solid fa-code-branch icon-size-hiring"></i>
+                        </div>
+                        <div class="card-text">
+                                API Integration
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="mt-40-hiring">
+            <div class="container">
+                <h4 class="font-24">Why Hire Developers?</h4>
+                <h2 class="section-heading hiring-mt-16">How Hiring App Developers Can Benefit Your Business?</h2>
+                <div class="row">
+                    <div class="col-lg-6 d-flex align-items-stretch hiring-mt-16">
+                        <div class="hiring-developers-card bg-hiring-green">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-screwdriver-wrench me-3"></i>
+                                <h3 class="step-hiring-h3">Complete App Development Services </h3>
+                            </div>
+                            <p class="content-desc-hiring hiring-mt-16">CodesClue is a leading React Native app
+                                    development company serving clients across the USA, UK, and Australia. We offer end-to-end
+                                    React Native app development services, from concept and design to development and launch.
+                                    Our API integration approach ensures that every application is tailored to meet your unique
+                                    business needs, delivering seamless performance and functionality.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex align-items-stretch hiring-mt-16">
+                        <div class="hiring-developers-card bg-hiring-pink">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-earth-americas me-3"></i>
+                                <h3 class="step-hiring-h3">Local Expertise with a Global Reach</h3>
+                            </div>
+                            <p class="content-desc-hiring hiring-mt-16">With over 2 years of experience and 7+
+                            satisfied customers worldwide, CodesClue has built a strong reputation as a trusted partner
+                            in React Native application development. Our deep understanding of regional challenges and
+                            opportunities enables us to create tailored solutions, making us the ideal choice for
+                            businesses looking to enhance their global online presence.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex align-items-stretch hiring-mt-16">
+                        <div class="hiring-developers-card bg-hiring-perpol">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-gauge-high me-3"></i>
+                                <h3 class="step-hiring-h3">Better Usability and Performance</h3>
+                            </div>
+                            <p class="content-desc-hiring hiring-mt-16">At CodesClue, we create apps with
+                            better performance by using native code to render JavaScript code. Our emphasis on utilizing JSX
+                            and JavaScript guarantees that your application offers a genuine native experience,
+                            gratifying users with snappy load speeds and seamless user interfaces.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex align-items-stretch hiring-mt-16">
+                        <div class="hiring-developers-card bg-hiring-yellow">
+                            <div class="d-flex align-items-center">
+                                <i class="fa-solid fa-trophy me-3"></i>
+                                <h3 class="step-hiring-h3">Dedication to Excellence</h3>
+                            </div>
+                            <p class="content-desc-hiring hiring-mt-16">Every facet of the React Native app
+                            development service is driven to quality by understanding your business requirements and
+                            translating them into a digital product that stands out in the market.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tech-showcase">
+            <div class="container position-relative">
+
+                <!-- Radio Buttons (Hidden) -->
+                <input type="radio" name="tab" id="tab-1" checked class="d-none">
+                <input type="radio" name="tab" id="tab-2" class="d-none">
+                <input type="radio" name="tab" id="tab-3" class="d-none">
+                <input type="radio" name="tab" id="tab-4" class="d-none">
+
+                <div class="row align-items-end flex-column flex-lg-row ">
+                    <!-- Left Side -->
+                    <div class="custom-col-lg-4">
+                        <p class="font-24">- Discover Our</p>
+                        <h2 class="mbd-5-cus fs-2 fw-bold aos-init aos-animate hiring-mt-16"> Service Portfolio</h2>
+                        <div class="d-flex flex-wrap gap-2">
+                            <label for="tab-1" class="btn-tab">Mobile</label>
+                            <label for="tab-4" class="btn-tab">Frontend</label>
+                            <label for="tab-2" class="btn-tab">Backend</label>
+                            <label for="tab-3" class="btn-tab">Testing</label>
+                        </div>
+                    </div>
+
+                    <!-- Right Side -->
+                    <div class="custom-col-lg-6">
+                        <div class="tab-box shadow-sm rounded p-4 bg-white">
+
+                            <!-- Frontend -->
+                            <div class="tab-content tab-4 d-flex flex-wrap gap-4 justify-content-start">
+                                <a href="<?php echo home_url('/angular/'); ?>" class="tech-pill"
+                                    data-desc="6+ years creating dynamic, enterprise-grade Angular applications.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_angular.svg" loading="lazy"
+                                        alt="Angular">
+                                    <span class="pill-content">Angular</span>
+                                </a>
+                                <a href="<?php echo home_url('/react-js/'); ?>" class="tech-pill"
+                                    data-desc="6+ years building fast, modern UIs with React.js.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_react.svg" loading="lazy"
+                                        alt="ReactJS">
+                                    <span class="pill-content">React.js</span>
+                                </a>
+                                <a href="<?php echo home_url('/vue-js/'); ?>" class="tech-pill"
+                                    data-desc="5+ years building fast Programing with Vue JS.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_vue js.svg" loading="lazy"
+                                        alt="Vue">
+                                    <span class="pill-content">Vue.js</span>
+                                </a>
+                                <a href="<?php echo home_url('/js/'); ?>" class="tech-pill"
+                                    data-desc="3+ years building secure, scalable Java apps with Spring, Hibernate.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue-js.png" loading="lazy"
+                                        alt="Java">
+                                    <span class="pill-content">Javascript</span>
+                                </a>
+                                <a href="<?php echo home_url('/html-page/'); ?>" class="tech-pill"
+                                    data-desc="5+ years crafting responsive UIs using modern HTML frameworks.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_html.svg" loading="lazy"
+                                        alt="HTML">
+                                    <span class="pill-content">HTML</span>
+                                </a>
+                                <a href="<?php echo home_url('/css/'); ?>" class="tech-pill"
+                                    data-desc="5+ years designing with CSS and SASS.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_css.svg" loading="lazy"
+                                        alt="CSS">
+                                    <span class="pill-content">CSS</span>
+                                </a>
+                            </div>
+
+                            <!-- Backend -->
+                            <div class="tab-content tab-2 d-none flex-wrap gap-4">
+                                <a href="<?php echo home_url('/laravel/'); ?>" class="tech-pill"
+                                    data-desc="10+ years crafting intuitive, high-quality iOS apps aligned with Apple's ecosystem.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue-laravel.png" loading="lazy"
+                                        alt="iOS">
+                                    <span class="pill-content">Laravel</span>
+                                </a>
+                                <a href="<?php echo home_url('/node-js/'); ?>" class="tech-pill"
+                                    data-desc="5+ years developing real-time, high-performance Node.js apps.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_node.svg" loading="lazy"
+                                        alt="NodeJS">
+                                    <span class="pill-content">Node.js</span>
+                                </a>
+                                <a href="<?php echo home_url('/php/'); ?>" class="tech-pill"
+                                    data-desc="8+ years developing robust web apps with PHP and its frameworks.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_php.svg" loading="lazy"
+                                        alt="PHP">
+                                    <span class="pill-content">PHP</span>
+                                </a>
+                                <a href="<?php echo home_url('/dotnet/'); ?>" class="tech-pill"
+                                    data-desc="4+ years building secure, scalable apps with .NET technologies.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_dotnet.svg" loading="lazy"
+                                        alt=".NET">
+                                    <span class="pill-content">.NET</span>
+                                </a>
+                                <a href="<?php echo home_url('/ror/'); ?>" class="tech-pill"
+                                    data-desc="4+ years building secure, scalable apps with Ruby on Rails.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_ror.svg" loading="lazy"
+                                        alt="RoR">
+                                    <span class="pill-content">Ruby on
+                                        Rails</span>
+                                </a>
+                                <a href="<?php echo home_url('/mongo-db/'); ?>" class="tech-pill"
+                                    data-desc="4+ years designing flexible, fast solutions with MongoDB.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_mongodb.svg" loading="lazy"
+                                        alt="MongoDB">
+                                    <span class="pill-content">MongoDB</span>
+                                </a>
+                                <a href="<?php echo home_url('/java/'); ?>" class="tech-pill"
+                                    data-desc="3+ years building secure, scalable Java apps with Spring, Hibernate.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_java.svg" loading="lazy"
+                                        alt="Java">
+                                    <span class="pill-content">Java</span>
+                                </a>
+                            </div>
+
+                            <!-- Database -->
+                            <div class="tab-content tab-3 d-none flex-wrap gap-4">
+                                <a <?php echo home_url('/auto-mated-testing/'); ?> class="tech-pill" data-desc="4+ years designing fast solutions with Firbase.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue-automated-test.png" loading="lazy"
+                                        alt="firebase">
+                                    <span class="pill-content">Automated Test</span>
+                                </a>
+                                <a href="<?php echo home_url('/manual-testing/'); ?>" class="tech-pill" data-desc="4+ years build a programing with My SQL.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue-manual-test.png" loading="lazy"
+                                        alt="SQL">
+                                    <span class="pill-content">Manual Test</span>
+                                </a>
+                                <a href="<?php echo home_url('/api-testing/'); ?>" class="tech-pill" data-desc="3+ years build a programing with MSQL.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue-api-test.png" loading="lazy"
+                                        alt="msql">
+                                    <span class="pill-content">Api Test</span>
+                                </a>
+                                <a href="<?php echo home_url('/mobile-testing/'); ?>" class="tech-pill" data-desc="3+ years build a programing with SQL Lite.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue-mobile-test.png" loading="lazy"
+                                        alt="sqlLite">
+                                    <span class="pill-content">Mobile Test</span>
+                                </a>
+                                <a href="<?php echo home_url('/software-testing/'); ?>" class="tech-pill" data-desc="3+ years build a programing with PgSQL.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue-software-test.png" loading="lazy"
+                                        alt="pgsql">
+                                    <span class="pill-content">Software Test</span>
+                                </a>
+                                <a href="<?php echo home_url('/support-testing/'); ?>" class="tech-pill" data-desc="3+ years building fast, Designing with Talwin CSS.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue-support-test.png" loading="lazy"
+                                        alt="Talwin">
+                                    <span class="pill-content">Support Test</span>
+                                </a>
+                                <a href="<?php echo home_url('/performance-testing/'); ?>" class="tech-pill" data-desc="5+ years building fast,style with Bootstrap.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue-performance-test.png" loading="lazy"
+                                        alt="Bootstrap">
+                                    <span class="pill-content">Performance Test</span>
+                                </a>
+                            </div>
+
+                            <!-- UI/UX -->
+                            <div class="tab-content tab-1 d-none flex-wrap gap-4">
+                                <a href="<?php echo home_url('/android/'); ?>" class="tech-pill"
+                                    data-desc="8+ years building fast, scalable Android apps for business growth.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_android.svg" loading="lazy"
+                                        alt="Android">
+                                    <span class="pill-content">Android</span>
+                                </a>
+                                <a href="<?php echo home_url('/react-native/'); ?>" class="tech-pill"
+                                    data-desc="5+ years creating cross-platform apps with native-like experience.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_react.svg" loading="lazy"
+                                        alt="React Native">
+                                    <span class="pill-content">React
+                                        Native</span>
+                                </a>
+                                <a href="<?php echo home_url('/ios/'); ?>" class="tech-pill"
+                                    data-desc="10+ years crafting intuitive, high-quality iOS apps aligned with Apple's ecosystem.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_ios.svg" loading="lazy"
+                                        alt="iOS">
+                                    <span class="pill-content">iOS</span>
+                                </a>
+                                <a href="<?php echo home_url('/flutter/'); ?>" class="tech-pill"
+                                    data-desc="5+ years building dynamic, scalable Flutter apps with great UX.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_flutter.svg" loading="lazy"
+                                        alt="Flutter">
+                                    <span class="pill-content">Flutter</span>
+                                </a>
+                                <a href="<?php echo home_url('/pwa/'); ?>" class="tech-pill"
+                                    data-desc="5+ years building dynamic, scalable Flutter apps with great UX.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/cosesclue-pwa.png" loading="lazy"
+                                        alt="Flutter">
+                                    <span class="pill-content">PWA</span>
+                                </a>
+                                <a href="<?php echo home_url('/kotlin/'); ?>" class="tech-pill"
+                                    data-desc="8+ years crafting efficient Android apps using Kotlin.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_kotlin.svg" loading="lazy"
+                                        alt="Kotlin">
+                                    <span class="pill-content">Kotlin</span>
+                                </a>
+                                <a href="<?php echo home_url('/ipad/'); ?>" class="tech-pill"
+                                    data-desc="8+ years crafting efficient Android apps using Kotlin.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue-iPad.png" loading="lazy"
+                                        alt="Kotlin">
+                                    <span class="pill-content">iPad</span>
+                                </a>
+                                <a href="<?php echo home_url('/swift/'); ?>" class="tech-pill"
+                                    data-desc="6+ years developing high-performance iOS apps using Swift.">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_swift.svg" loading="lazy"
+                                        alt="Swift">
+                                    <span class="pill-content">Swift</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-40-hiring mb-40-hiring">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4-hiring d-flex align-items-stretch mt-sm-16-hiring">
+                        <div>
+                        <h2 class="section-heading">Our Recent Work</h2>
+                        <p class="content-desc-hiring hiring-mt-16">Explore our latest projects, testaments to our commitment to delivering transformative digital solutions.</p>
+                        <a href="<?php echo home_url('/hire-react-native-developer/'); ?>"
+                            class="btn-hiring d-inline-flex justify-content-between align-items-center px-md-5 px-4 hiring-mt-16 py-md-3 py-2 gap-3  text-white">
+                            <i class="fa-solid fa-briefcase"></i>
+                            Hire Developer Now
+                        </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4-hiring d-flex align-items-stretch mt-sm-16-hiring">
+                        <img class="border-6-hiring" src="<?php echo get_template_directory_uri(); ?>/assets//images/new/Cannabis.png" alt="img">
+                    </div>
+                    <div class="col-lg-4-hiring d-flex align-items-stretch mt-sm-16-hiring">
+                        <img class="border-6-hiring" src="<?php echo get_template_directory_uri(); ?>/assets//images/new/Therapix.png" alt="img">
+                    </div>
+                    <div class="col-lg-4-hiring d-flex align-items-stretch mt-sm-16-hiring">
+                        <img class="border-6-hiring" src="<?php echo get_template_directory_uri(); ?>/assets//images/portfolio-img/codesclue-ridereach 1.png" alt="img">
+                    </div>
+                    <div class="col-lg-8-hiring">
+                        <div class="row">
+                             <div class="col-lg-6 hiring-mt-16">
+                             <div class="project-hiring">
+                                <h4 class="font-24">20+</h4>
+                                <p class="content-desc-hiring hiring-mt-16">Project Delivered</p>
+                             </div>
+                        </div>
+                        <div class="col-lg-6 hiring-mt-16">
+                             <div class="clients-hiring">
+                                <h4 class="font-24">15+</h4>
+                                <p class="content-desc-hiring hiring-mt-16">Happy Clients</p>
+                             </div>
+                        </div>
+                        <div class="col-lg-12  hiring-mt-16">
+                            <p class="content-desc-hiring hiring-mt-16">Experience the Journey of Innovation with CodesClue. See How We Transform Creative Ideas into Real Business Impact Through Our Case Studies.</p>
+                        </div>
+                        <div class="col-lg-12  hiring-mt-16">
+                            <a href="<?php echo home_url('/case-studies/'); ?>"
+                            class="btn-hiring d-inline-flex justify-content-between align-items-center px-md-5 px-4 hiring-mt-16 py-md-3 py-2 gap-3  text-white">
+                            <i class="fa-solid fa-briefcase"></i>
+                            View Case Study
+                        </a>
+                        </div>
+                     </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
 

@@ -1,25 +1,27 @@
 <?php
 /**
- * Template Name: Hire React-Native Developer Page
+ * Template Name: Hire Dotnet Developer Page
  *
  * @package CodesClue
  */
-get_header(); ?>
-
-  <main>
+get_header(); ?>   
+   
+   
+    <main>
         <!-- Hero section -->
-        <section class="main-hero-section react-bg d-flex align-items-center py-cus" id="heroSection">
+        <section class="main-hero-section dotnet-bg d-flex align-items-center py-cus" id="heroSection">
             <div class="container">
                 <div class="row align-items-center g-4">
 
                     <div class="col-xl-7 col-lg-7 col-md-12 text-lg-start">
 
-                        <h1 class="h1-font-style font-48 mb-2 text-white text-left">Hire React Native Developers
+                        <h1 class="h1-font-style font-48 text-white mb-2 text-left">Hire .NET Developers
                         </h1>
-                        <p class="hero_description fw-500 text-white mb-0 mt-0 text-left">Build powerful and efficient
-                            cross-platform mobile apps with our experienced React Native developers. We ensure seamless
-                            performance, faster development, and cost-effective solutions to bring your mobile app
-                            vision to life.</p>
+                        <p class="hero_description text-white fw-500 mb-0 mt-0 text-left">Hire dedicated .NET developers
+                            from
+                            CodesClue
+                            to accelerate your project with cutting-edge Microsoft technologies. Build secure,
+                            scalable, and high-performance applications with our expert .NET developers.</p>
                         <div class="row mt-5-cus-services  gx-2 gy-2">
                             <div class="col-lg-4 col-md-4 col-sm-12 ">
                                 <div class="feature-box">
@@ -42,59 +44,55 @@ get_header(); ?>
                     </div>
                     <div class="col-xl-5 col-lg-5 col-md-12">
                         <div class="bg-custom bg-opacity-75 p-4 rounded">
+                            <h3 class="content-title mb-3 text-white">Get Free Consultation</h3>
+                            <form id="DotnethiringForm">
+                                <div class="form-group mb-2 mt-2">
+                                    <label for="name" class="text-light">Full Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Full Name"
+                                        required />
+                                </div>
+                                <div class="form-group mb-2 mt-2">
+                                    <label for="email" class="text-light">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Email Address"
+                                        required />
+                                </div>
+                                <div class="form-group mb-2 mt-2">
+                                    <label for="phone" class="text-light">Phone No</label>
+                                    <input type="number" id="phone" class="form-control" name="phone" required
+                                        minlength="8" maxlength="12" placeholder="Phone No." />
+                                </div>
 
-                            <h3 class="content-title mb-3 text-white">Get Free Consultation</h2>
-                                <form id="ReactNativehiringForm">
-                                    <div class="form-group mb-2 mt-2">
-                                        <label for="name" class="text-light">Full Name</label>
-                                        <input type="text" class="form-control" id="name" placeholder="Full Name"
-                                            required />
-                                    </div>
-                                    <div class="form-group mb-2 mt-2">
-                                        <label for="email" class="text-light">Email</label>
-                                        <input type="email" class="form-control" id="email" placeholder="Email Address"
-                                            required />
-                                    </div>
-                                    <div class="form-group mb-2 mt-2">
-                                        <label for="phone" class="text-light">Phone No</label>
-                                        <input type="number" id="phone" class="form-control" name="phone" required
-                                            minlength="8" maxlength="12" placeholder="Phone No." />
-                                    </div>
-
-                                    <div class="form-group mb-3 hiring-checks">
-                                        <label for="exampleInput1" class="text-light">Choose one hiring model</label>
-                                        <div class="d-flex gap-2 flex-wrap">
-                                            <div class="bagdehire" data-service="Full Time">
-                                                <input type="checkbox" name="job-type[]" id="full" value="Full time">
-                                                <label for="full" itemprop="name">Full time</label>
-                                            </div>
-                                            <div class="bagdehire" data-service="Part Time">
-                                                <input type="checkbox" name="job-type[]" id="part" value="Part time">
-                                                <label for="part" itemprop="name">Part time</label>
-                                            </div>
-                                            <div class="bagdehire" data-service="Hourly Hire">
-                                                <input type="checkbox" name="job-type[]" id="hourly"
-                                                    value="Hourly hire">
-                                                <label for="hourly" itemprop="name">Hourly hire</label>
-                                            </div>
+                                <div class="form-group mb-3 hiring-checks">
+                                    <label for="exampleInput1" class="text-light">Choose one hiring model</label>
+                                    <div class="d-flex gap-2 flex-wrap">
+                                        <div class="bagdehire" data-service="Full Time">
+                                            <input type="checkbox" name="job-type[]" id="full" value="Full time">
+                                            <label for="full" itemprop="name">Full time</label>
                                         </div>
-                                    </div>
-                                    <button class="btn btn-secondary border-radius w-100 reverse col-12"
-                                        type="submit">Hire
-                                        Developer</button>
-                                </form>
-                                <div class="position-fixed top-0 end-0 p-3" style="z-index: 1050;">
-                                    <div id="toastContainer"
-                                        class="toast align-items-center text-white bg-success border-0" role="alert"
-                                        aria-live="assertive" aria-atomic="true">
-                                        <div class="d-flex">
-                                            <div class="toast-body" id="toastMessage">Your message here.</div>
-                                            <button type="button" class="btn-close btn-close-white me-2 m-auto"
-                                                data-bs-dismiss="toast" aria-label="Close"></button>
+                                        <div class="bagdehire" data-service="Part Time">
+                                            <input type="checkbox" name="job-type[]" id="part" value="Part time">
+                                            <label for="part" itemprop="name">Part time</label>
+                                        </div>
+                                        <div class="bagdehire" data-service="Hourly Hire">
+                                            <input type="checkbox" name="job-type[]" id="hourly" value="Hourly hire">
+                                            <label for="hourly" itemprop="name">Hourly hire</label>
                                         </div>
                                     </div>
                                 </div>
-                                </aritcle>
+                                <button class="btn btn-secondary border-radius w-100 reverse col-12" type="submit">Hire
+                                    Developer</button>
+                            </form>
+                            <div class="position-fixed top-0 end-0 p-3" style="z-index: 1050;">
+                                <div id="toastContainer" class="toast align-items-center text-white bg-success border-0"
+                                    role="alert" aria-live="assertive" aria-atomic="true">
+                                    <div class="d-flex">
+                                        <div class="toast-body" id="toastMessage">Your message here.</div>
+                                        <button type="button" class="btn-close btn-close-white me-2 m-auto"
+                                            data-bs-dismiss="toast" aria-label="Close"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            </aritcle>
                         </div>
                         <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_black-plane.webp" alt="black-plane"
                             class="hero-bg-img" />
@@ -233,7 +231,7 @@ get_header(); ?>
 
 
 
-
+        <!-- Hire Section -->
         <section class="hire__section section-40">
             <div class="container">
                 <div class="row mx-0 px-0">
@@ -278,10 +276,9 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="col-lg-5 col-12 ps-lg-4 px-0">
-                        <h2 class="section-sub-title text-left">Hire React Native Developers in just
-                            4
+                        <h2 class="section-sub-title text-left">Hire .NET Developers in just 4
                             Steps</h2>
-                        <p class="conten-desc text-left my-3">Looking to hire a app
+                        <p class="conten-desc text-left my-3">Looking to hire a frontend
                             developer
                             for your unique project?
                             Look no further, as CodesClue offers a quick and easy 4-step
@@ -289,31 +286,31 @@ get_header(); ?>
                             requirements.</p>
                         <div class="tags_step_section mt-4 mb-3">
                             <span class="tag_step">
-                                <i class="fa-solid fa-cube font-18"></i> iOS Development
+                                <i class="fa-solid fa-cube font-18"></i> Frontend Development
                             </span>
                             <span class="tag_step">
-                                <i class="fa-solid fa-cube font-18"></i> React Native Apps
+                                <i class="fa-solid fa-cube font-18"></i> Full Stack Development
                             </span>
                             <span class="tag_step">
-                                <i class="fa-solid fa-cube font-18"></i> Native App Development
+                                <i class="fa-solid fa-cube font-18"></i> Responsive Web Design
                             </span>
                             <span class="tag_step">
-                                <i class="fa-solid fa-cube font-18"></i> Cross-Platform Apps
+                                <i class="fa-solid fa-cube font-18"></i> UI/UX Design
                             </span>
                             <span class="tag_step">
-                                <i class="fa-solid fa-cube font-18"></i> Flutter Development
+                                <i class="fa-solid fa-cube font-18"></i> Progressive Web Apps (PWA)
                             </span>
                             <span class="tag_step">
-                                <i class="fa-solid fa-cube font-18"></i> Android Development
+                                <i class="fa-solid fa-cube font-18"></i> CMS Development
                             </span>
                             <span class="tag_step">
-                                <i class="fa-solid fa-cube font-18"></i> Mobile UI/UX Design
+                                <i class="fa-solid fa-cube font-18"></i> E-commerce Development
                             </span>
                             <span class="tag_step">
-                                <i class="fa-solid fa-cube font-18"></i> App Store Optimization
+                                <i class="fa-solid fa-cube font-18"></i> Web App Security
                             </span>
                         </div>
-                        <a href="<?php echo home_url('/hire-react-native-developer/'); ?>"
+                        <a href="<?php echo home_url('/hire-dotnet-developer/'); ?>"
                             class="btn btn-secondary-outliner export_btn d-inline-flex justify-content-between align-items-center px-md-5 px-4 mt-3 py-md-3 py-2 gap-3 bg-black text-white">
                             <i class="fa-solid fa-arrow-up-right-from-square font-24 rotate-90"></i>
                             Hire Developer Now
@@ -327,91 +324,109 @@ get_header(); ?>
 
 
 
+
         <!-- Our Expertise section -->
         <section class="section-40 pt-0 service__section" id="serviceSection">
             <div class="container">
-                <h2 class="section-title text-left ">Our Expertise In React Native</h2>
+                <h2 class="section-title text-left pb-2">Our Expertise in .NET</h2>
                 <div class="d-flex mt-md-4  mb-md-0 my-2 justify-content-lg-start justify-content-center flex-wrap">
                     <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
-                        <div
-                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                        <div class="expertise_tab d-flex align-items-center justify-content-center">
                             <h3 class="number-main mb-0 text-center">01</h3>
-                            <div
-                                class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native Cross-Platform App
-                                    Development</span>
+                            <div class="pink-bg mb-0 mt-0 d-flex px-3 align-items-center">
+                                <span class="content-desc text-center py-2">Custom ASP.NET Development</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
-                        <div
-                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                        <div class="expertise_tab d-flex align-items-center justify-content-center">
                             <h3 class="number-main mb-0 text-center">02</h3>
-                            <div
-                                class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native iOS App Development</span>
+                            <div class="pink-bg mb-0 mt-0 d-flex px-3 align-items-center">
+                                <span class="content-desc text-center py-2">Classic ASP to ASP.NET Migration</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
-                        <div
-                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                        <div class="expertise_tab d-flex align-items-center justify-content-center">
                             <h3 class="number-main mb-0 text-center">03</h3>
-                            <div
-                                class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native Android App Development</span>
+                            <div class="pink-bg mb-0 mt-0 d-flex px-3 align-items-center">
+                                <span class="content-desc text-center py-2">SQL Server Reporting Services (SSRS)</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
-                        <div
-                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                        <div class="expertise_tab d-flex align-items-center justify-content-center">
                             <h3 class="number-main mb-0 text-center">04</h3>
-                            <div
-                                class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native Integration</span>
+                            <div class="pink-bg mb-0 mt-0 d-flex px-3 align-items-center">
+                                <span class="content-desc text-center py-2">Azure Cloud Services</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
-                        <div
-                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                        <div class="expertise_tab d-flex align-items-center justify-content-center">
                             <h3 class="number-main mb-0 text-center">05</h3>
-                            <div
-                                class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native Update, Support, and
-                                    Maintenance</span>
+                            <div class="pink-bg mb-0 mt-0 d-flex px-3 align-items-center">
+                                <span class="content-desc text-center py-2">Database Optimization Services</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
-                        <div
-                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                        <div class="expertise_tab d-flex align-items-center justify-content-center">
                             <h3 class="number-main mb-0 text-center">06</h3>
-                            <div
-                                class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native App Consultancy</span>
+                            <div class="pink-bg mb-0 mt-0 d-flex px-3 align-items-center">
+                                <span class="content-desc text-center py-2">Third-party Integration and
+                                    Customization</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
-                        <div
-                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                        <div class="expertise_tab d-flex align-items-center justify-content-center">
                             <h3 class="number-main mb-0 text-center">07</h3>
-                            <div
-                                class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">Native Module Development</span>
+                            <div class="pink-bg mb-0 mt-0 d-flex px-3 align-items-center">
+                                <span class="content-desc text-center py-2">Artificial Intelligence and Big Data</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
-                        <div
-                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                        <div class="expertise_tab d-flex align-items-center justify-content-center">
                             <h3 class="number-main mb-0 text-center">08</h3>
-                            <div
-                                class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">API Integration</span>
+                            <div class="pink-bg mb-0 mt-0 d-flex px-3 align-items-center">
+                                <span class="content-desc text-center py-2">Machine Learning Implementation</span>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
+                        <div class="expertise_tab d-flex align-items-center justify-content-center">
+                            <h3 class="number-main mb-0 text-center">09</h3>
+                            <div class="pink-bg mb-0 mt-0 d-flex px-3 align-items-center">
+                                <span class="content-desc text-center py-2">ASP.NET Maintenance and Support</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
+                        <div class="expertise_tab d-flex align-items-center justify-content-center">
+                            <h2 class="number-main mb-0 text-center">10</h3>
+                                <div class="pink-bg mb-0 mt-0 d-flex px-3 align-items-center">
+                                    <span class="content-desc text-center py-2">MS-SQL Database Optimization
+                                        Service</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
+                        <div class="expertise_tab d-flex align-items-center justify-content-center">
+                            <h2 class="number-main mb-0 text-center">11</h3>
+                                <div class="pink-bg mb-0 mt-0 d-flex px-3 align-items-center">
+                                    <span class="content-desc text-center py-2">SAP, Salesforce, Quickbooks, Sage
+                                        etc</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
+                        <div class="expertise_tab d-flex align-items-center justify-content-center">
+                            <h2 class="number-main mb-0 text-center">12</h3>
+                                <div class="pink-bg mb-0 mt-0 d-flex px-3 align-items-center">
+                                    <span class="content-desc text-center py-2">Third party integrations</span>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -419,10 +434,10 @@ get_header(); ?>
         </section>
 
         <!-- Benefit section -->
-        <section class="section-40 benefit__section mobile-part" id="benefitSection">
+        <section class="section-40 benefit__section" id="benefitSection">
             <div class="container">
                 <p class="small-service-text mb-3">• Why Hire Developers?</p>
-                <span class="section-title mb-md-3 mb-2">How Hiring App Developers Can Benefit
+                <span class="section-title mb-md-3 mb-2">How Hiring Web Developers Can Benefit
                     Your Business?</span>
                 <div class="benefit__card__section section-40 mt-2 gap-md-4 gap-3 pb-0">
                     <div class="benefit__card  p-md-3 p-2 border-radius">
@@ -431,13 +446,14 @@ get_header(); ?>
                                 <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp"
                                     alt="Combined Shape" />
                             </div>
-                            <h3 class="content-sub-title mb-0 text-left">Complete App Development Services </h3>
+                            <h3 class="content-sub-title mb-0 text-left">Proactive Security Practices
+                            </h3>
                         </div>
-                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">CodesClue is a leading React Native app
-                            development company serving clients across the USA, UK, and Australia. We offer end-to-end
-                            React Native app development services, from concept and design to development and launch.
-                            Our API integration approach ensures that every application is tailored to meet your unique
-                            business needs, delivering seamless performance and functionality.</p>
+                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">In ASP.NET MVC several security
+                            measures like Authentication
+                            (forms as well as Windows), authorization, Cross Site Scripting (XSS), Cross Site Request
+                            Forgery (CSRF) and others can be implemented. We follow 38 point checklist for development
+                            best practices that needs to be implemented to ensure security of your bespoke platform.</p>
 
                     </div>
                     <div class="benefit__card  p-md-3 p-2 border-radius">
@@ -446,14 +462,13 @@ get_header(); ?>
                                 <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp"
                                     alt="Combined Shape" />
                             </div>
-                            <h3 class="content-sub-title mb-0 text-left">Local Expertise with a Global Reach
-                            </h3>
+                            <h3 class="content-sub-title mb-0 text-left">End-to-End Engineering</h3>
                         </div>
-                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">With over 2 years of experience and 7+
-                            satisfied customers worldwide, CodesClue has built a strong reputation as a trusted partner
-                            in React Native application development. Our deep understanding of regional challenges and
-                            opportunities enables us to create tailored solutions, making us the ideal choice for
-                            businesses looking to enhance their global online presence.</p>
+                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">We take a WHY, WHAT and HOW approach,
+                            whereby we understand
+                            WHY behind the concept to understand your business needs. We define WHAT in terms of
+                            technical specifications which we discuss with you thereby suggesting HOW which is turnkey
+                            execution of your concept from design to deployment.</p>
                     </div>
                     <div class="benefit__card  p-md-3 p-2 border-radius">
                         <div class="d-flex align-items-center gap-3">
@@ -461,13 +476,12 @@ get_header(); ?>
                                 <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp"
                                     alt="Combined Shape" />
                             </div>
-                            <h3 class="content-sub-title mb-0 text-left">Better Usability and Performance </h3>
+                            <h3 class="content-sub-title mb-0 text-left">Talent At Your Fingertips</h3>
                         </div>
-                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">At CodesClue, we create apps with
-                            better
-                            performance by using native code to render JavaScript code. Our emphasis on utilizing JSX
-                            and JavaScript guarantees that your application offers a genuine native experience,
-                            gratifying users with snappy load speeds and seamless user interfaces.</p>
+                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">Glad of our recruitment, training and
+                            mentoring methods that
+                            we have built a strong team of ASP.Net developers that helps you leverage the development
+                            bandwidth for your project.</p>
                     </div>
                     <div class="benefit__card  p-md-3 p-2 border-radius">
                         <div class="d-flex align-items-center gap-3">
@@ -475,11 +489,13 @@ get_header(); ?>
                                 <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp"
                                     alt="Combined Shape" />
                             </div>
-                            <h3 class="content-sub-title mb-0 text-left">Dedication to Excellence </h3>
+                            <h3 class="content-sub-title mb-0 text-left">Source Code Ownership and IP Protection</h3>
                         </div>
-                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">Every facet of the React Native app
-                            development service is driven to quality by understanding your business requirements and
-                            translating them into a digital product that stands out in the market.</p>
+                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">We ensure you have complete ownership
+                            of the source code as
+                            well as Intellectual Property (IP) Rights for the work done by us. We write clean code,
+                            which is well commented and lean. We have three layers of code review process in place to
+                            ensure quality coding standards.</p>
                     </div>
                 </div>
             </div>
@@ -487,12 +503,14 @@ get_header(); ?>
 
         <!-- Service Portfolio section -->
         <section class="section tech-stack__section section-40" id="techStackSection">
-            <div class="container">
-                <div class="content-desc text-dark fst-italic d-flex align-items-center mb-2">
-                    <div class="line"></div>
-                    Discover Our
+            <div class="text-center pb-0">
+                <div class="container">
+                    <div class="content-desc text-dark fst-italic d-flex align-items-center mb-2">
+                        <div class="line"></div>
+                        Discover Our
+                    </div>
+                    <h3 class="section-title mb-4">Service Portfolio</h3>
                 </div>
-                <h3 class="section-title mb-4">Service Portfolio</h3>
             </div>
             <div class="container">
                 <div class="col-12 mx-auto px-0 d-flex flex-wrap">
@@ -824,8 +842,8 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="work__card d-flex flex-column gap-md-5 gap-3">
-                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/codesclue_The Fit Level.webp"
-                            alt="The Fit Level.webp" class="border-radius img-fluid hire-portfolio-img" />
+                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/codesclue_Mazady.webp" alt="Mazady.webp"
+                            class="border-radius img-fluid hire-portfolio-img" />
                         <div class="d-flex justify-content-center align-items-center flex-column pt-3 mt-1 gap-3">
                             <p class="content-title text-white mb-0">View our case study?</p>
                             <a href="<?php echo home_url('/case-studies/'); ?>"
@@ -839,11 +857,7 @@ get_header(); ?>
             </div>
         </section>
 
-        <!-- Hire Section -->
-
 
     </main>
 
-
-
-<?php get_footer(); ?> 
+<?php get_footer(); ?>
