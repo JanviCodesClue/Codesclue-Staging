@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Hire React-Native Developer Page
+ * Template Name: Hire Flutter Developer Page
  *
  * @package CodesClue
  */
@@ -8,19 +8,19 @@ get_header(); ?>
 
   <main>
         <!-- Hero section -->
-        <section class="main-hero-section react-bg d-flex align-items-center py-cus" id="heroSection">
-            <div class="container">
-                <div class="row align-items-center g-4">
+     <section class="main-hero-section bg-blue d-flex align-items-center py-cus" id="heroSection">
+    <div class="container">
+        <div class="row align-items-center g-4">
 
                     <div class="col-xl-7 col-lg-7 col-md-12 text-lg-start">
 
-                        <h1 class="h1-font-style font-48 mb-2 text-white text-left">Hire React Native Developers
-                        </h1>
-                        <p class="hero_description fw-500 text-white mb-0 mt-0 text-left">Build powerful and efficient
-                            cross-platform mobile apps with our experienced React Native developers. We ensure seamless
-                            performance, faster development, and cost-effective solutions to bring your mobile app
-                            vision to life.</p>
-                        <div class="row mt-5-cus-services  gx-2 gy-2">
+                            <h1 class="h1-font-style font-48 mb-2 text-white text-left">Hire Flutter Developers
+                            </h1>
+                            <p class="hero_description fw-500 mb-0 mt-0 text-white text-left">Want a single codebase for both iOS
+                                and Android? Our skilled Flutter developers create high-performance, cross-platform
+                                applications with native-like experiences. Hire our Flutter experts to accelerate your
+                                app development.</p>
+                           <div class="row mt-5-cus-services  gx-2 gy-2">
                             <div class="col-lg-4 col-md-4 col-sm-12 ">
                                 <div class="feature-box">
                                     <i class="fa-solid fa-sack-dollar"></i>
@@ -39,68 +39,70 @@ get_header(); ?>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-5 col-md-12">
-                        <div class="bg-custom bg-opacity-75 p-4 rounded">
-
-                            <h3 class="content-title mb-3 text-white">Get Free Consultation</h2>
-                                <form id="ReactNativehiringForm">
-                                    <div class="form-group mb-2 mt-2">
-                                        <label for="name" class="text-light">Full Name</label>
-                                        <input type="text" class="form-control" id="name" placeholder="Full Name"
-                                            required />
-                                    </div>
-                                    <div class="form-group mb-2 mt-2">
-                                        <label for="email" class="text-light">Email</label>
-                                        <input type="email" class="form-control" id="email" placeholder="Email Address"
-                                            required />
-                                    </div>
-                                    <div class="form-group mb-2 mt-2">
-                                        <label for="phone" class="text-light">Phone No</label>
-                                        <input type="number" id="phone" class="form-control" name="phone" required
-                                            minlength="8" maxlength="12" placeholder="Phone No." />
-                                    </div>
-
-                                    <div class="form-group mb-3 hiring-checks">
-                                        <label for="exampleInput1" class="text-light">Choose one hiring model</label>
-                                        <div class="d-flex gap-2 flex-wrap">
-                                            <div class="bagdehire" data-service="Full Time">
-                                                <input type="checkbox" name="job-type[]" id="full" value="Full time">
-                                                <label for="full" itemprop="name">Full time</label>
-                                            </div>
-                                            <div class="bagdehire" data-service="Part Time">
-                                                <input type="checkbox" name="job-type[]" id="part" value="Part time">
-                                                <label for="part" itemprop="name">Part time</label>
-                                            </div>
-                                            <div class="bagdehire" data-service="Hourly Hire">
-                                                <input type="checkbox" name="job-type[]" id="hourly"
-                                                    value="Hourly hire">
-                                                <label for="hourly" itemprop="name">Hourly hire</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button class="btn btn-secondary border-radius w-100 reverse col-12"
-                                        type="submit">Hire
-                                        Developer</button>
-                                </form>
-                                <div class="position-fixed top-0 end-0 p-3" style="z-index: 1050;">
-                                    <div id="toastContainer"
-                                        class="toast align-items-center text-white bg-success border-0" role="alert"
-                                        aria-live="assertive" aria-atomic="true">
-                                        <div class="d-flex">
-                                            <div class="toast-body" id="toastMessage">Your message here.</div>
-                                            <button type="button" class="btn-close btn-close-white me-2 m-auto"
-                                                data-bs-dismiss="toast" aria-label="Close"></button>
-                                        </div>
-                                    </div>
-                                </div>
-                                </aritcle>
                         </div>
-                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_black-plane.webp" alt="black-plane"
-                            class="hero-bg-img" />
+                       <div class="col-xl-5 col-lg-5 col-md-12">
+    <div class="bg-custom bg-opacity-75 p-4 rounded">
+
+                                    <h3 class="content-title mb-3 text-white">Get Free Consultation</h2>
+                                    <form id="FlutterhiringForm">
+                                        <div class="form-group mb-2 mt-2">
+                                            <label for="name" class="text-light">Full Name</label>
+                                            <input type="text" class="form-control" id="name" placeholder="Full Name"
+                                                required />
+                                        </div>
+                                        <div class="form-group mb-2 mt-2">
+                                            <label for="email" class="text-light">Email</label>
+                                            <input type="email" class="form-control" id="email"
+                                                placeholder="Email Address" required />
+                                        </div>
+                                        <div class="form-group mb-2 mt-2">
+                                            <label for="phone" class="text-light">Phone No</label>
+                                            <input type="number" id="phone" class="form-control" name="phone" required
+                                                minlength="8" maxlength="12" placeholder="Phone No." />
+                                        </div>
+
+                                        <div class="form-group mb-3 hiring-checks">
+                                            <label for="exampleInput1" class="text-light">Choose one hiring model</label>
+                                            <div class="d-flex gap-2 flex-wrap">
+                                                <div class="bagdehire" data-service="Full Time">
+                                                    <input type="checkbox" name="job-type[]" id="full"
+                                                        value="Full time">
+                                                    <label for="full" itemprop="name">Full time</label>
+                                                </div>
+                                                <div class="bagdehire" data-service="Part Time">
+                                                    <input type="checkbox" name="job-type[]" id="part"
+                                                        value="Part time">
+                                                    <label for="part" itemprop="name">Part time</label>
+                                                </div>
+                                                <div class="bagdehire" data-service="Hourly Hire">
+                                                    <input type="checkbox" name="job-type[]" id="hourly"
+                                                        value="Hourly hire">
+                                                    <label for="hourly" itemprop="name">Hourly hire</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-secondary border-radius w-100 reverse col-12"
+                                            type="submit">Hire
+                                            Developer</button>
+                                    </form>
+                                    <div class="position-fixed top-0 end-0 p-3" style="z-index: 1050;">
+                                        <div id="toastContainer"
+                                            class="toast align-items-center text-white bg-success border-0" role="alert"
+                                            aria-live="assertive" aria-atomic="true">
+                                            <div class="d-flex">
+                                                <div class="toast-body" id="toastMessage">Your message here.</div>
+                                                <button type="button" class="btn-close btn-close-white me-2 m-auto"
+                                                    data-bs-dismiss="toast" aria-label="Close"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </aritcle>
+                            </div>
+                            <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_white-plane.webp" alt="white-plane"
+                                class="hero-bg-img" />
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </section>
 
@@ -231,9 +233,250 @@ get_header(); ?>
             </div>
         </section>
 
+        <!-- <section class="tech-stack__section section-40">
+            <div class="container">
+
+                <div class="row mx-0 px-0">
+                    <div class="d-flex justify-content-xl-between flex-wrap mt-xl-0 mt-0 mb-0 py-0 px-md-3 px-1">
+                        <div class="w-100 pe-xl-4">
+                            <div
+                                class="content-desc text-dark fst-italic d-flex justify-content-start align-items-center mb-md-4 mb-2">
+                                <div class="line"></div>
+                                Hire Best Resources
+                            </div>
+                            <h2 class="section-sub-title mb-md-4 mb-3">Our Dedicated Flutter
+                                Developers Hiring Models
+                            </h2>
+                            <div class="d-flex flex-wrap justify-content-xl-between justify-content-center">
+                                <div class="col-xl-4 col-sm-6 col-12 pe-sm-3 md-w-100 py-sm-0 py-3">
+                                    <div class="d-flex gap-3 align-items-center rounded-up-5 py-2 px-3 bg-yellow">
+                                        <i class="fa-regular fa-clock font-24 my-2"></i>
+                                        <strong class="content-sub-title mb-0">Full Time Monthly Hire
+                                        </strong>
+                                    </div>
+                                    <div class="d-flex border-yellow d-flex justify-content-between p-4">
+                                        <div class="d-flex flex-column">
+                                            <h3 class="content-title">8</h3>
+                                            <p class="content-desc">Hours per Day</p>
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <h3 class="content-title">160</h3>
+                                            <p class="content-desc">Hours</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-6 col-12 pe-sm-3 md-w-100 py-sm-0 py-3">
+                                    <div class="d-flex gap-3 align-items-center rounded-up-5 py-2 px-3 bg-pink">
+                                        <i class="fa-solid fa-clock-rotate-left font-24 my-2"></i>
+                                        <strong class="content-sub-title mb-0">Part Time Monthly Hire
+                                        </strong>
+                                    </div>
+                                    <div class="d-flex border-pink d-flex justify-content-between p-4">
+                                        <div class="d-flex flex-column">
+                                            <h3 class="content-title">4</h3>
+                                            <p class="content-desc">Hours per Day</p>
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <h3 class="content-title">80</h3>
+                                            <p class="content-desc">Hours</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-6 col-12 pe-sm-3 md-w-100 py-xl-0 py-3">
+                                    <div class="d-flex gap-3 align-items-center rounded-up-5 py-2 px-3 bg-orange">
+                                        <i class="fa-solid fa-circle-dollar-to-slot font-24 my-2"></i>
+                                        <strong class="content-sub-title mb-0">Hourly Hire
+                                        </strong>
+                                    </div>
+                                    <div class="d-flex border-orange d-flex justify-content-between p-4 gap-xl-5 gap-3">
+                                        <div class="d-flex flex-column">
+                                            <h3 class="content-title">100/50</h3>
+                                            <p class="content-desc">Hours</p>
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <h3 class="content-title">Flexible</h3>
+                                            <p class="content-desc">Maintenance service</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-sm-6 col-12 d-xl-none d-sm-flex d-none pe-sm-3 md-w-100 py-xl-0 py-3">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flutter-img.svg" alt="flutter-img.svg" height="200px" class="w-100" />
+                                </div>
+                            </div>
+                            <div class="d-flex gap-4 flex-wrap my-3">
+                                <div class="ai-plateform-list">
+                                    <h3 class="content-title">Benefits</h3>
+                                    <div class="d-lg-grid grid-3 d-grid grid-small-2 column-gap-md-5 column-gap-3 row-gap-md-3 flex-wrap">
+                                        <div class="d-flex gap-3 align-items-center">
+                                            <i class="fa-regular fa-circle-check font-18 my-2"></i>
+                                            <p class="content-desc my-0">No Charges for Project
+                                                Manager
+                                            </p>
+                                        </div>
+                                        <div class="d-flex gap-3 align-items-center">
+                                            <i class="fa-regular fa-circle-check font-18 my-2"></i>
+                                            <p class="content-desc my-0">Direct Communication</p>
+                                        </div>
+                                        <div class="d-flex gap-3 align-items-center">
+                                            <i class="fa-regular fa-circle-check font-18 my-2"></i>
+                                            <p class="content-desc my-0">Daily Reporting & Code Push
+
+                                            </p>
+                                        </div>
+                                        <div class="d-flex gap-3 align-items-center">
+                                            <i class="fa-regular fa-circle-check font-18 my-2"></i>
+                                            <p class="content-desc my-0">Project Management Tools
+
+                                            </p>
+                                        </div>
+                                        <div class="d-flex gap-3 align-items-center">
+                                            <i class="fa-regular fa-circle-check font-18 my-2"></i>
+                                            <p class="content-desc my-0">Version Control
+                                                Implementation
+                                            </p>
+                                        </div>
+                                        <div class="d-flex gap-3 align-items-center">
+                                            <i class="fa-regular fa-circle-check font-18 my-2"></i>
+                                            <p class="content-desc my-0">SCRUM Based Execution</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-center mt-3">
+                                <a href="./flutter.html"
+                                    class="btn btn-secondary bg-blue text-white py-md-3 px-md-5 py-2 px-4 border-0"
+                                    type="submit">
+                                    Hire Flutter Developer
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Slider content - Expertise -->
+        <!-- <section class="expertise__section section-40" id="expertiseSection">
+            <div class="container">
+                <div class="d-flex gap-3 flex-column align-items-center text-center mb-4">
+
+                    <h2 class="section-sub-title mb-0">Our Expertise In iOS, Android & React Native App Development</h2>
+                    <p class="section-description">Our skilled mobile app developers leverage the
+                        latest technologies to build high-performance, user-centric mobile applications for iOS and
+                        Android. From native to cross-platform solutions, we ensure seamless functionality,
+                        intuitive design, and robust performance to help businesses engage users and drive growth.
+                    </p>
+                </div>
+                <div id="expertiseCarousel" class="mt-lg-4 mt-3 mb-2 carousel  slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-flex flex-wrap">
+                                <a href="<?php echo home_url('/hire-ios-developer/'); ?>" class="col-md-6 col-12  py-2 px-2">
+                                    <article class="card d-flex flex-column gap-md-4 gap-2 border-radius py-3">
+                                        <div class="d-flex gap-4">
+                                            <h3 class="content-title">iOS <br />
+                                                App Development
+                                            </h3>
+
+                                        </div>
+                                        <p class="content-desc">
+                                            Develop cutting-edge iOS applications with our expert iOS developers. Our
+                                            team specializes in building secure, high-quality, and engaging mobile
+                                            applications that align perfectly with Apple's ecosystem and deliver
+                                            outstanding user experiences.
+                                        </p>
+                                        <div class="tags d-flex flex-wrap">
+                                            <span class="small-text badge active">App Development</span>
+                                            <span class="small-text badge">iOS</span>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="<?php echo home_url('/hire-android-developer/'); ?>" class="col-md-6 col-12  py-2 px-2">
+                                    <article class="card d-flex flex-column gap-md-4 gap-2 border-radius py-3">
+                                        <div class="d-flex gap-4">
+                                            <h3 class="content-title">Android <br />
+                                                Development
+                                            </h3>
+
+                                        </div>
+                                        <p class="content-desc">
+                                            Looking for an Android developer? Our proficient Android developers build
+                                            scalable, robust, and feature-rich mobile applications customized for your
+                                            business. Whether it's a startup app or enterprise-level solution, we
+                                            deliver excellence.
+                                        </p>
+                                        <div class="tags d-flex flex-wrap">
+                                            <span class="small-text badge active">App Development</span>
+                                            <span class="small-text badge">Android</span>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex flex-wrap">
+                                <a href="<?php echo home_url('/hire-react-native-developer/'); ?>" class="col-md-6 col-12  py-2 px-2">
+                                    <article class="card d-flex flex-column gap-md-4 gap-2 border-radius py-3">
+                                        <div class="d-flex gap-4">
+                                            <h3 class="content-title">React Native <br />
+                                                Development
+                                            </h3>
+
+                                        </div>
+                                        <p class="content-desc">
+                                            Build powerful and efficient cross-platform mobile apps with our experienced
+                                            React Native developers. We ensure seamless performance, faster development,
+                                            and cost-effective solutions to bring your mobile app vision to life.
+                                        </p>
+                                        <div class="tags d-flex flex-wrap">
+                                            <span class="small-text badge active">Web App Development</span>
+                                            <span class="small-text badge">React Native</span>
+                                        </div>
+                                    </article>
+                                </a>
+                                <a href="<?php echo home_url('/hire-flutter-developer/'); ?>" class="col-md-6 col-12  py-2 px-2">
+                                    <article class="card d-flex flex-column gap-md-4 gap-2 border-radius py-3">
+                                        <div class="d-flex gap-4">
+                                            <h3 class="content-title">Flutter <br />
+                                                App Development
+                                            </h3>
+
+                                        </div>
+                                        <p class="content-desc">
+                                            Want a single codebase for both iOS and Android? Our skilled Flutter
+                                            developers create high-performance, cross-platform applications with
+                                            native-like experiences. Hire our Flutter experts to accelerate your app
+                                            development.
+                                        </p>
+                                        <div class="tags d-flex flex-wrap">
+                                            <span class="small-text badge active">App Development</span>
+                                            <span class="small-text badge">Flutter</span>
+                                        </div>
+                                    </article>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex w-100 justify-content-center gap-4">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#expertiseCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#expertiseCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section> -->
 
 
-
+  <!-- Hire Section -->
         <section class="hire__section section-40">
             <div class="container">
                 <div class="row mx-0 px-0">
@@ -278,8 +521,7 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="col-lg-5 col-12 ps-lg-4 px-0">
-                        <h2 class="section-sub-title text-left">Hire React Native Developers in just
-                            4
+                        <h2 class="section-sub-title text-left">Hire Flutter Developers in just 4
                             Steps</h2>
                         <p class="conten-desc text-left my-3">Looking to hire a app
                             developer
@@ -292,19 +534,19 @@ get_header(); ?>
                                 <i class="fa-solid fa-cube font-18"></i> iOS Development
                             </span>
                             <span class="tag_step">
-                                <i class="fa-solid fa-cube font-18"></i> React Native Apps
-                            </span>
-                            <span class="tag_step">
-                                <i class="fa-solid fa-cube font-18"></i> Native App Development
+                                <i class="fa-solid fa-cube font-18"></i> Flutter Development
                             </span>
                             <span class="tag_step">
                                 <i class="fa-solid fa-cube font-18"></i> Cross-Platform Apps
                             </span>
                             <span class="tag_step">
-                                <i class="fa-solid fa-cube font-18"></i> Flutter Development
+                                <i class="fa-solid fa-cube font-18"></i> Native App Development
                             </span>
                             <span class="tag_step">
                                 <i class="fa-solid fa-cube font-18"></i> Android Development
+                            </span>
+                            <span class="tag_step">
+                                <i class="fa-solid fa-cube font-18"></i> React Native Apps
                             </span>
                             <span class="tag_step">
                                 <i class="fa-solid fa-cube font-18"></i> Mobile UI/UX Design
@@ -313,7 +555,7 @@ get_header(); ?>
                                 <i class="fa-solid fa-cube font-18"></i> App Store Optimization
                             </span>
                         </div>
-                        <a href="<?php echo home_url('/hire-react-native-developer/'); ?>"
+                        <a href="<?php echo home_url('/hire-flutter-developer/'); ?>"
                             class="btn btn-secondary-outliner export_btn d-inline-flex justify-content-between align-items-center px-md-5 px-4 mt-3 py-md-3 py-2 gap-3 bg-black text-white">
                             <i class="fa-solid fa-arrow-up-right-from-square font-24 rotate-90"></i>
                             Hire Developer Now
@@ -326,11 +568,10 @@ get_header(); ?>
         </section>
 
 
-
         <!-- Our Expertise section -->
         <section class="section-40 pt-0 service__section" id="serviceSection">
             <div class="container">
-                <h2 class="section-title text-left ">Our Expertise In React Native</h2>
+                <h2 class="section-title text-left pb-2">Our Expertise In Flutter</h2>
                 <div class="d-flex mt-md-4  mb-md-0 my-2 justify-content-lg-start justify-content-center flex-wrap">
                     <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
                         <div
@@ -338,7 +579,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">01</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native Cross-Platform App
+                                <span class="content-desc text-center py-2">Cross-Platform Application
                                     Development</span>
                             </div>
                         </div>
@@ -349,7 +590,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">02</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native iOS App Development</span>
+                                <span class="content-desc text-center py-2">Flutter Enterprise Apps</span>
                             </div>
                         </div>
                     </div>
@@ -359,7 +600,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">03</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native Android App Development</span>
+                                <span class="content-desc text-center py-2">Platform Migration to Flutter</span>
                             </div>
                         </div>
                     </div>
@@ -369,7 +610,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">04</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native Integration</span>
+                                <span class="content-desc text-center py-2">Flutter App Consultation</span>
                             </div>
                         </div>
                     </div>
@@ -379,8 +620,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">05</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native Update, Support, and
-                                    Maintenance</span>
+                                <span class="content-desc text-center py-2">Flutter Ondemand App</span>
                             </div>
                         </div>
                     </div>
@@ -390,7 +630,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">06</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native App Consultancy</span>
+                                <span class="content-desc text-center py-2">Flutter Delivery App</span>
                             </div>
                         </div>
                     </div>
@@ -400,7 +640,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">07</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">Native Module Development</span>
+                                <span class="content-desc text-center py-2">Flutter Healthcare App</span>
                             </div>
                         </div>
                     </div>
@@ -410,8 +650,48 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">08</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">API Integration</span>
+                                <span class="content-desc text-center py-2">Flutter based IoT App</span>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
+                        <div
+                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                            <h3 class="number-main mb-0 text-center">09</h3>
+                            <div
+                                class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
+                                <span class="content-desc text-center py-2">Flutter Android App Development</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
+                        <div
+                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                            <h2 class="number-main mb-0 text-center">10</h3>
+                                <div
+                                    class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
+                                    <span class="content-desc text-center py-2">Flutter Game Development</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
+                        <div
+                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                            <h2 class="number-main mb-0 text-center">11</h3>
+                                <div
+                                    class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
+                                    <span class="content-desc text-center py-2">Flutter App Development</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
+                        <div
+                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                            <h2 class="number-main mb-0 text-center">12</h3>
+                                <div
+                                    class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
+                                    <span class="content-desc text-center py-2">Internet of Things (IOT)</span>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -426,34 +706,49 @@ get_header(); ?>
                     Your Business?</span>
                 <div class="benefit__card__section section-40 mt-2 gap-md-4 gap-3 pb-0">
                     <div class="benefit__card  p-md-3 p-2 border-radius">
-                        <div class="d-flex align-items-center gap-3">
+                        <div class="d-flex align-items-center gap-3 flex-wrap">
                             <div class="benefit-img">
                                 <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp"
                                     alt="Combined Shape" />
                             </div>
-                            <h3 class="content-sub-title mb-0 text-left">Complete App Development Services </h3>
+                            <h3 class="content-sub-title mb-0 text-left">Excellent Team <br />
+                                by CodesClue</h3>
                         </div>
-                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">CodesClue is a leading React Native app
-                            development company serving clients across the USA, UK, and Australia. We offer end-to-end
-                            React Native app development services, from concept and design to development and launch.
-                            Our API integration approach ensures that every application is tailored to meet your unique
-                            business needs, delivering seamless performance and functionality.</p>
+                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">CodesClue flaunts a
+                            fabulous Flutter app
+                            development agency that consists of a team of competent full-stack developers, innovative
+                            UX/ UI designers, experts in business analysis, experienced quality checkers, and a set of
+                            professionals with core expertise in every phase of the application development process.</p>
 
                     </div>
                     <div class="benefit__card  p-md-3 p-2 border-radius">
-                        <div class="d-flex align-items-center gap-3">
+                        <div class="d-flex align-items-center gap-3 flex-wrap">
                             <div class="benefit-img">
                                 <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp"
                                     alt="Combined Shape" />
                             </div>
-                            <h3 class="content-sub-title mb-0 text-left">Local Expertise with a Global Reach
-                            </h3>
+                            <h3 class="content-sub-title mb-0 text-left">Excellent Track Record </h3>
                         </div>
-                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">With over 2 years of experience and 7+
-                            satisfied customers worldwide, CodesClue has built a strong reputation as a trusted partner
-                            in React Native application development. Our deep understanding of regional challenges and
-                            opportunities enables us to create tailored solutions, making us the ideal choice for
-                            businesses looking to enhance their global online presence.</p>
+                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">CodesClue has proven
+                            expertise in building
+                            cross-platform mobile apps using the recent technology, Flutter. Such applications run
+                            seamlessly across diverse devices operating on iOS or Android. One team. One code. One
+                            project and one app. But you reach out to two streams of OS (Operating System) namely, iOS
+                            and Android.</p>
+                    </div>
+                    <div class="benefit__card  p-md-3 p-2 border-radius">
+                        <div class="d-flex align-items-center gap-3 flex-wrap">
+                            <div class="benefit-img">
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp"
+                                    alt="Combined Shape" />
+                            </div>
+                            <h3 class="content-sub-title mb-0 text-left">Excellent Design </h3>
+                        </div>
+                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">In addition to the
+                            functionality and the
+                            performance, the interface design and the interactivity features are also critical for a
+                            mobile app. To render this, CodesClue deploys the huge collection of ready-made widgets
+                            available in Flutter to take the visual aesthetics of the app to a greater level.</p>
                     </div>
                     <div class="benefit__card  p-md-3 p-2 border-radius">
                         <div class="d-flex align-items-center gap-3">
@@ -461,25 +756,13 @@ get_header(); ?>
                                 <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp"
                                     alt="Combined Shape" />
                             </div>
-                            <h3 class="content-sub-title mb-0 text-left">Better Usability and Performance </h3>
+                            <h3 class="content-sub-title mb-0 text-left">Excellent Customization </h3>
                         </div>
-                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">At CodesClue, we create apps with
-                            better
-                            performance by using native code to render JavaScript code. Our emphasis on utilizing JSX
-                            and JavaScript guarantees that your application offers a genuine native experience,
-                            gratifying users with snappy load speeds and seamless user interfaces.</p>
-                    </div>
-                    <div class="benefit__card  p-md-3 p-2 border-radius">
-                        <div class="d-flex align-items-center gap-3">
-                            <div class="benefit-img">
-                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp"
-                                    alt="Combined Shape" />
-                            </div>
-                            <h3 class="content-sub-title mb-0 text-left">Dedication to Excellence </h3>
-                        </div>
-                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">Every facet of the React Native app
-                            development service is driven to quality by understanding your business requirements and
-                            translating them into a digital product that stands out in the market.</p>
+                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">At CodesClue, we take
+                            utmost care to
+                            ensure that every app we develop is uniquely built for every business challenge. We help our
+                            clients get the much-needed competitive edge to outperform their business competitors by
+                            providing them with excellently customized Flutter mobile apps.</p>
                     </div>
                 </div>
             </div>
@@ -487,12 +770,14 @@ get_header(); ?>
 
         <!-- Service Portfolio section -->
         <section class="section tech-stack__section section-40" id="techStackSection">
-            <div class="container">
-                <div class="content-desc text-dark fst-italic d-flex align-items-center mb-2">
-                    <div class="line"></div>
-                    Discover Our
+            <div class="text-center pb-0">
+                <div class="container">
+                    <div class="content-desc text-dark fst-italic d-flex align-items-center mb-2">
+                        <div class="line"></div>
+                        Discover Our
+                    </div>
+                    <h3 class="section-title mb-4">Service Portfolio</h3>
                 </div>
-                <h3 class="section-title mb-4">Service Portfolio</h3>
             </div>
             <div class="container">
                 <div class="col-12 mx-auto px-0 d-flex flex-wrap">
@@ -839,11 +1124,8 @@ get_header(); ?>
             </div>
         </section>
 
-        <!-- Hire Section -->
-
-
+      
+      
     </main>
-
-
 
 <?php get_footer(); ?> 

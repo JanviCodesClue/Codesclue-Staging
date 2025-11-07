@@ -329,7 +329,7 @@ get_header(); ?>
 
                             <div class="custom-col my-3">
                                 <div >
-                                    <h3>15+</h3>
+                                    <h3>20+</h3>
                                     <p>Successful Projects</p>
                                 </div>
                             </div>

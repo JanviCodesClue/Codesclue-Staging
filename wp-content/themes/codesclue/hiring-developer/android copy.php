@@ -1,25 +1,25 @@
 <?php
 /**
- * Template Name: Hire React-Native Developer Page
+ * Template Name: Hire Android Developer Page
  *
  * @package CodesClue
  */
 get_header(); ?>
 
-  <main>
-        <!-- Hero section -->
-        <section class="main-hero-section react-bg d-flex align-items-center py-cus" id="heroSection">
+    <main>
+        <section class="main-hero-section android-bg d-flex align-items-center py-cus" id="heroSection">
             <div class="container">
                 <div class="row align-items-center g-4">
 
+                    <!-- Left Content -->
                     <div class="col-xl-7 col-lg-7 col-md-12 text-lg-start">
-
-                        <h1 class="h1-font-style font-48 mb-2 text-white text-left">Hire React Native Developers
-                        </h1>
-                        <p class="hero_description fw-500 text-white mb-0 mt-0 text-left">Build powerful and efficient
-                            cross-platform mobile apps with our experienced React Native developers. We ensure seamless
-                            performance, faster development, and cost-effective solutions to bring your mobile app
-                            vision to life.</p>
+                        <h1 class="h1-font-style text-white mb-3 text-left">Hire Android Developers</h1>
+                        <p class="text-white fw-medium">
+                            Looking for an Android developer? Our proficient Android developers build scalable, robust,
+                            and feature-rich mobile applications customized for your business. Whether it's a startup
+                            app
+                            or enterprise-level solution, we deliver excellence.
+                        </p>
                         <div class="row mt-5-cus-services  gx-2 gy-2">
                             <div class="col-lg-4 col-md-4 col-sm-12 ">
                                 <div class="feature-box">
@@ -40,69 +40,58 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Right Form -->
                     <div class="col-xl-5 col-lg-5 col-md-12">
                         <div class="bg-custom bg-opacity-75 p-4 rounded">
+                            <h3 class="text-white mb-3">Get Free Consultation</h3>
+                            <form id="AndroidhiringForm">
+                                <div class="form-group mb-2 mt-2">
+                                    <label for="name" class="text-light">Full Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Full Name"
+                                        required />
+                                </div>
+                                <div class="form-group mb-2 mt-2">
+                                    <label for="email" class="text-light">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Email Address"
+                                        required />
+                                </div>
+                                <div class="form-group mb-2 mt-2">
+                                    <label for="phone" class="text-light">Phone No</label>
+                                    <input type="number" id="phone" class="form-control" name="phone" required
+                                        minlength="8" maxlength="12" placeholder="Phone No." />
+                                </div>
 
-                            <h3 class="content-title mb-3 text-white">Get Free Consultation</h2>
-                                <form id="ReactNativehiringForm">
-                                    <div class="form-group mb-2 mt-2">
-                                        <label for="name" class="text-light">Full Name</label>
-                                        <input type="text" class="form-control" id="name" placeholder="Full Name"
-                                            required />
-                                    </div>
-                                    <div class="form-group mb-2 mt-2">
-                                        <label for="email" class="text-light">Email</label>
-                                        <input type="email" class="form-control" id="email" placeholder="Email Address"
-                                            required />
-                                    </div>
-                                    <div class="form-group mb-2 mt-2">
-                                        <label for="phone" class="text-light">Phone No</label>
-                                        <input type="number" id="phone" class="form-control" name="phone" required
-                                            minlength="8" maxlength="12" placeholder="Phone No." />
-                                    </div>
-
-                                    <div class="form-group mb-3 hiring-checks">
-                                        <label for="exampleInput1" class="text-light">Choose one hiring model</label>
-                                        <div class="d-flex gap-2 flex-wrap">
-                                            <div class="bagdehire" data-service="Full Time">
-                                                <input type="checkbox" name="job-type[]" id="full" value="Full time">
-                                                <label for="full" itemprop="name">Full time</label>
-                                            </div>
-                                            <div class="bagdehire" data-service="Part Time">
-                                                <input type="checkbox" name="job-type[]" id="part" value="Part time">
-                                                <label for="part" itemprop="name">Part time</label>
-                                            </div>
-                                            <div class="bagdehire" data-service="Hourly Hire">
-                                                <input type="checkbox" name="job-type[]" id="hourly"
-                                                    value="Hourly hire">
-                                                <label for="hourly" itemprop="name">Hourly hire</label>
-                                            </div>
+                                <div class="form-group mb-3 hiring-checks">
+                                    <label for="exampleInput1" class="text-light">Choose one hiring model</label>
+                                    <div class="d-flex gap-2 flex-wrap">
+                                        <div class="bagdehire" data-service="Full Time">
+                                            <input type="checkbox" name="job-type[]" id="full" value="Full time">
+                                            <label for="full" itemprop="name">Full time</label>
                                         </div>
-                                    </div>
-                                    <button class="btn btn-secondary border-radius w-100 reverse col-12"
-                                        type="submit">Hire
-                                        Developer</button>
-                                </form>
-                                <div class="position-fixed top-0 end-0 p-3" style="z-index: 1050;">
-                                    <div id="toastContainer"
-                                        class="toast align-items-center text-white bg-success border-0" role="alert"
-                                        aria-live="assertive" aria-atomic="true">
-                                        <div class="d-flex">
-                                            <div class="toast-body" id="toastMessage">Your message here.</div>
-                                            <button type="button" class="btn-close btn-close-white me-2 m-auto"
-                                                data-bs-dismiss="toast" aria-label="Close"></button>
+                                        <div class="bagdehire" data-service="Part Time">
+                                            <input type="checkbox" name="job-type[]" id="part" value="Part time">
+                                            <label for="part" itemprop="name">Part time</label>
+                                        </div>
+                                        <div class="bagdehire" data-service="Hourly Hire">
+                                            <input type="checkbox" name="job-type[]" id="hourly" value="Hourly hire">
+                                            <label for="hourly" itemprop="name">Hourly hire</label>
                                         </div>
                                     </div>
                                 </div>
-                                </aritcle>
+                                <button class="btn btn-secondary border-radius w-100 reverse col-12" type="submit">Hire
+                                    Developer</button>
+                            </form>
                         </div>
-                        <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_black-plane.webp" alt="black-plane"
-                            class="hero-bg-img" />
                     </div>
+
                 </div>
             </div>
-            </div>
         </section>
+
+
+
+
 
         <section class="tech-slack__section section-40">
             <div class="container">
@@ -232,8 +221,6 @@ get_header(); ?>
         </section>
 
 
-
-
         <section class="hire__section section-40">
             <div class="container">
                 <div class="row mx-0 px-0">
@@ -278,8 +265,7 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="col-lg-5 col-12 ps-lg-4 px-0">
-                        <h2 class="section-sub-title text-left">Hire React Native Developers in just
-                            4
+                        <h2 class="section-sub-title text-left">Hire Android Developers in just 4
                             Steps</h2>
                         <p class="conten-desc text-left my-3">Looking to hire a app
                             developer
@@ -292,19 +278,19 @@ get_header(); ?>
                                 <i class="fa-solid fa-cube font-18"></i> iOS Development
                             </span>
                             <span class="tag_step">
-                                <i class="fa-solid fa-cube font-18"></i> React Native Apps
-                            </span>
-                            <span class="tag_step">
-                                <i class="fa-solid fa-cube font-18"></i> Native App Development
+                                <i class="fa-solid fa-cube font-18"></i> Android Development
                             </span>
                             <span class="tag_step">
                                 <i class="fa-solid fa-cube font-18"></i> Cross-Platform Apps
                             </span>
                             <span class="tag_step">
+                                <i class="fa-solid fa-cube font-18"></i> Native App Development
+                            </span>
+                            <span class="tag_step">
                                 <i class="fa-solid fa-cube font-18"></i> Flutter Development
                             </span>
                             <span class="tag_step">
-                                <i class="fa-solid fa-cube font-18"></i> Android Development
+                                <i class="fa-solid fa-cube font-18"></i> React Native Apps
                             </span>
                             <span class="tag_step">
                                 <i class="fa-solid fa-cube font-18"></i> Mobile UI/UX Design
@@ -313,7 +299,7 @@ get_header(); ?>
                                 <i class="fa-solid fa-cube font-18"></i> App Store Optimization
                             </span>
                         </div>
-                        <a href="<?php echo home_url('/hire-react-native-developer/'); ?>"
+                        <a href="<?php echo home_url('/hire-android-developer/'); ?>"
                             class="btn btn-secondary-outliner export_btn d-inline-flex justify-content-between align-items-center px-md-5 px-4 mt-3 py-md-3 py-2 gap-3 bg-black text-white">
                             <i class="fa-solid fa-arrow-up-right-from-square font-24 rotate-90"></i>
                             Hire Developer Now
@@ -327,10 +313,14 @@ get_header(); ?>
 
 
 
+
+
+
+
         <!-- Our Expertise section -->
         <section class="section-40 pt-0 service__section" id="serviceSection">
             <div class="container">
-                <h2 class="section-title text-left ">Our Expertise In React Native</h2>
+                <h2 class="section-title text-left ">Our Expertise In Android</h2>
                 <div class="d-flex mt-md-4  mb-md-0 my-2 justify-content-lg-start justify-content-center flex-wrap">
                     <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
                         <div
@@ -338,8 +328,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">01</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native Cross-Platform App
-                                    Development</span>
+                                <span class="content-desc text-center py-2">Enterprise Android App</span>
                             </div>
                         </div>
                     </div>
@@ -349,7 +338,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">02</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native iOS App Development</span>
+                                <span class="content-desc text-center py-2">Smart Wearable Apps</span>
                             </div>
                         </div>
                     </div>
@@ -359,7 +348,8 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">03</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native Android App Development</span>
+                                <span class="content-desc text-center py-2">Android TV and Custom Video Streaming
+                                    Apps</span>
                             </div>
                         </div>
                     </div>
@@ -369,7 +359,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">04</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native Integration</span>
+                                <span class="content-desc text-center py-2">Social Networking App</span>
                             </div>
                         </div>
                     </div>
@@ -379,8 +369,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">05</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native Update, Support, and
-                                    Maintenance</span>
+                                <span class="content-desc text-center py-2">HIPAA Compliant Applications</span>
                             </div>
                         </div>
                     </div>
@@ -390,7 +379,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">06</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">React Native App Consultancy</span>
+                                <span class="content-desc text-center py-2">On-Demand Delivery App</span>
                             </div>
                         </div>
                     </div>
@@ -400,7 +389,7 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">07</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">Native Module Development</span>
+                                <span class="content-desc text-center py-2">Custom eLearning Platform</span>
                             </div>
                         </div>
                     </div>
@@ -410,7 +399,49 @@ get_header(); ?>
                             <h3 class="number-main mb-0 text-center">08</h3>
                             <div
                                 class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
-                                <span class="content-desc text-center py-2">API Integration</span>
+                                <span class="content-desc text-center py-2">System Level apps, SDKs and
+                                    Middleware</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
+                        <div
+                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                            <h3 class="number-main mb-0 text-center">09</h3>
+                            <div
+                                class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
+                                <span class="content-desc text-center py-2">Intelligent BOT and Chat App</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
+                        <div
+                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                            <h3 class="number-main mb-0 text-center">10</h3>
+                            <div
+                                class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
+                                <span class="content-desc text-center py-2">eHealthcare App Development</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
+                        <div
+                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                            <h3 class="number-main mb-0 text-center">11</h3>
+                            <div
+                                class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
+                                <span class="content-desc text-center py-2">Near Field Communication (NFC) & Beacon
+                                    Apps</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4  col-sm-12 col-12 p-md-2 py-2 px-sm-2 px-0">
+                        <div
+                            class="expertise_tab mobile-bg d-flex align-items-center flex-column justify-content-between">
+                            <h3 class="number-main mb-0 text-center">12</h3>
+                            <div
+                                class="android-expertise-bg text-center mb-0 mt-0 d-flex px-3 align-items-center justify-content-center">
+                                <span class="content-desc text-center py-2">Internet of Things (IOT)</span>
                             </div>
                         </div>
                     </div>
@@ -426,22 +457,38 @@ get_header(); ?>
                     Your Business?</span>
                 <div class="benefit__card__section section-40 mt-2 gap-md-4 gap-3 pb-0">
                     <div class="benefit__card  p-md-3 p-2 border-radius">
-                        <div class="d-flex align-items-center gap-3">
+                        <div class="d-flex align-items-center gap-3 flex-wrap">
                             <div class="benefit-img">
                                 <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp"
                                     alt="Combined Shape" />
                             </div>
-                            <h3 class="content-sub-title mb-0 text-left">Complete App Development Services </h3>
+                            <h3 class="content-sub-title mb-0 text-left">Complete App <br />
+                                Development Services</h3>
                         </div>
-                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">CodesClue is a leading React Native app
+                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">CodesClue is a leading
+                            Android app
                             development company serving clients across the USA, UK, and Australia. We offer end-to-end
-                            React Native app development services, from concept and design to development and launch.
-                            Our API integration approach ensures that every application is tailored to meet your unique
-                            business needs, delivering seamless performance and functionality.</p>
+                            Android app development services, from concept and design to development and launch. Our API
+                            integration approach ensures that every application is tailored to meet your unique business
+                            needs, delivering seamless performance and functionality.</p>
 
                     </div>
                     <div class="benefit__card  p-md-3 p-2 border-radius">
-                        <div class="d-flex align-items-center gap-3">
+                        <div class="d-flex align-items-center gap-3 flex-wrap">
+                            <div class="benefit-img">
+                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp"
+                                    alt="Combined Shape" />
+                            </div>
+                            <h3 class="content-sub-title mb-0 text-left">Better Usability and Performance </h3>
+                        </div>
+                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">At CodesClue, we create
+                            apps with better
+                            performance by using native code to render JavaScript code. Our emphasis on utilizing JSX
+                            and JavaScript guarantees that your application offers a genuine native experience,
+                            gratifying users with snappy load speeds and seamless user interfaces.</p>
+                    </div>
+                    <div class="benefit__card  p-md-3 p-2 border-radius">
+                        <div class="d-flex align-items-center gap-3 flex-wrap">
                             <div class="benefit-img">
                                 <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp"
                                     alt="Combined Shape" />
@@ -449,37 +496,25 @@ get_header(); ?>
                             <h3 class="content-sub-title mb-0 text-left">Local Expertise with a Global Reach
                             </h3>
                         </div>
-                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">With over 2 years of experience and 7+
+                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">With over 2 years of
+                            experience and 7+
                             satisfied customers worldwide, CodesClue has built a strong reputation as a trusted partner
-                            in React Native application development. Our deep understanding of regional challenges and
+                            in Android application development. Our deep understanding of regional challenges and
                             opportunities enables us to create tailored solutions, making us the ideal choice for
                             businesses looking to enhance their global online presence.</p>
                     </div>
                     <div class="benefit__card  p-md-3 p-2 border-radius">
-                        <div class="d-flex align-items-center gap-3">
-                            <div class="benefit-img">
-                                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp"
-                                    alt="Combined Shape" />
-                            </div>
-                            <h3 class="content-sub-title mb-0 text-left">Better Usability and Performance </h3>
-                        </div>
-                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">At CodesClue, we create apps with
-                            better
-                            performance by using native code to render JavaScript code. Our emphasis on utilizing JSX
-                            and JavaScript guarantees that your application offers a genuine native experience,
-                            gratifying users with snappy load speeds and seamless user interfaces.</p>
-                    </div>
-                    <div class="benefit__card  p-md-3 p-2 border-radius">
-                        <div class="d-flex align-items-center gap-3">
+                        <div class="d-flex align-items-center gap-3 flex-wrap">
                             <div class="benefit-img">
                                 <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Combined Shape.webp"
                                     alt="Combined Shape" />
                             </div>
                             <h3 class="content-sub-title mb-0 text-left">Dedication to Excellence </h3>
                         </div>
-                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">Every facet of the React Native app
-                            development service is driven to quality by understanding your business requirements and
-                            translating them into a digital product that stands out in the market.</p>
+                        <p class="content-desc mb-0 mt-md-3 mt-2 text-lg-start ">Every facet of the Android
+                            app development
+                            service is driven to quality by understanding your business requirements and translating
+                            them into a digital product that stands out in the market.</p>
                     </div>
                 </div>
             </div>
@@ -487,12 +522,15 @@ get_header(); ?>
 
         <!-- Service Portfolio section -->
         <section class="section tech-stack__section section-40" id="techStackSection">
-            <div class="container">
-                <div class="content-desc text-dark fst-italic d-flex align-items-center mb-2">
+            <div class="text-center pb-0">
+                <div class="container content-desc text-dark fst-italic d-flex  align-items-center mb-2">
                     <div class="line"></div>
                     Discover Our
                 </div>
-                <h3 class="section-title mb-4">Service Portfolio</h3>
+                <div class="container">
+                    <h2 class="section-title mb-4">Service Portfolio</h2>
+                </div>
+
             </div>
             <div class="container">
                 <div class="col-12 mx-auto px-0 d-flex flex-wrap">
@@ -791,11 +829,11 @@ get_header(); ?>
                     class="d-flex flex-wrap justify-content-md-between justify-content-center align-items-md-start align-items-center">
                     <div
                         class="col-xxl-5 col-lg-7 col-md-6 col-12 px-0 d-flex flex-column align-items-md-start align-items-center">
-                        <h2 class="section-title mb-3 text-left text-white">Our Recent Work</h3>
-                            <p class="section-description text-left text-white">Explore our latest projects,
-                                testaments
-                                to our commitment to delivering
-                                transformative digital solutions.</p>
+                        <h2 class="section-title mb-3 text-left text-white">Our Recent Work</h2>
+                        <p class="section-description text-left text-white">Explore our latest projects,
+                            testaments
+                            to our commitment to delivering
+                            transformative digital solutions.</p>
                     </div>
                     <div
                         class="col-xxl-7 col-lg-5 col-md-6 col-12 px-0 d-flex justify-content-md-end  justify-content-sm-start  justify-content-center mt-md-0 mt-3">
@@ -839,11 +877,9 @@ get_header(); ?>
             </div>
         </section>
 
-        <!-- Hire Section -->
 
 
     </main>
 
-
-
 <?php get_footer(); ?> 
+
