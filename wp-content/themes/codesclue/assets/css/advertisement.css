@@ -2,7 +2,7 @@
     .advertisement-hero-title { font-size: 2.8rem; font-weight: 700;}
     .advertisement-hero-desc { font-size: 1.12rem; color: #5b5c62;}
     /* .advertisement-hero-img { max-width: 400px;} */
-    .advertisement-feature-box { background: #fff; border-radius: 16px; padding: 24px 14px; min-height: 220px; box-shadow: 0 4px 16px rgba(44,77,128,0.09);}
+    .advertisement-feature-box { width: 100%; background: #fff; border-radius: 16px; padding: 24px 14px; min-height: 220px; box-shadow: 0 4px 16px rgba(44,77,128,0.09);}
     .advertisement-feature-icon { font-size: 2.3rem; color: #7057fa;}
     .advertisement-section-title {     font-weight: 700;
     font-size: 2.5rem;}
@@ -10,24 +10,25 @@
     .advertisement-testi-box { background: #fff; border-radius: 12px; padding: 18px 20px; box-shadow: 0 2px 9px rgba(0,0,0,0.04);}
     .advertisement-blog-card img { border-radius: 10px 10px 0 0; object-fit: cover; height: 128px;}
     .advertisement-blog-card { min-height: 300px; }
-   
     @media (max-width: 575px) {
-      .advertisement-hero-title { font-size: 1.7rem;}
-      .advertisement-hero-img { max-width: 220px;}
-      .advertisement-section-title { font-size: 1.24rem;}
-      .advertisement-feature-box { padding: 15px 5px;}
+      .advertisement-hero-title { font-size: 2rem;}
+      .advertisement-hero-img { max-width: 100%;}
+      .advertisement-section-title { font-size: 28px;}
+      .advertisement-feature-box {width: 100%; padding: 15px 5px;}
       .advertisement-pricing-card { padding: 16px 6px !important; }
     }
 
 
-
+.mt-ad-40{
+  margin-top: 40px;
+}
 
 
 .ag-courses_box {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch; /* equal height */
-  padding: 50px 0;
+  padding: 0;
 }
 
 .ag-courses_item {
@@ -120,8 +121,8 @@
 
 @media only screen and (max-width: 979px) {
   .ag-courses_item {
-    -ms-flex-preferred-size: calc(50% - 30px);
-    flex-basis: calc(50% - 30px);
+    /* -ms-flex-preferred-size: calc(50% - 30px); */
+    /* flex-basis: calc(50% - 30px); */
   }
   .ag-courses-item_title {
     font-size: 24px;
@@ -145,7 +146,7 @@
     font-size: 24px;
   }
   .ag-courses-item_link {
-    padding: 22px 40px;
+    padding: 22px 15px;
   }
   .ag-courses-item_date-box {
     font-size: 16px;

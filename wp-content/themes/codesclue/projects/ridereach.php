@@ -284,11 +284,11 @@ get_header(); ?>
               <div class="row ">
                  <div class="col-lg-4 d-flex align-items-stretch pt-16">
                     <div class="ride-step-card">
-                        <div class="d-flex">
+                        <div class="d-flex align-items-center">
                             <div class="icon-bg-2 me-2">
                                 <i class="fa-solid fa-puzzle-piece sub-heading-hero-ride-reach-icon"></i>
                             </div>
-                            <h4 class="ride-card-h4 sub-heading-hero-ride-reach pt-16">Microservices Frameworkn</h4>
+                            <h4 class="ride-card-h4 sub-heading-hero-ride-reach">Microservices Framework</h4>
                         </div>
                             <p class="pt-16 hero-card-des-ride"><strong>Modular Design</strong><br>Each ad component (delivery, analytics, targeting) runs as an independent service, enabling flexibility and faster updates.</p>
                             <p class="pt-16 hero-card-des-ride"><strong>Fault Isolation</strong><br>Failures in one service don’t affect the rest, ensuring system stability and uninterrupted ad delivery.</p>
@@ -299,11 +299,11 @@ get_header(); ?>
                  </div>
                  <div class="col-lg-4 d-flex align-items-stretch pt-16">
                     <div class="ride-step-card">
-                        <div class="d-flex">
+                        <div class="d-flex align-items-center">
                             <div class="icon-bg-2 me-2">
                                 <i class="fa-solid fa-network-wired sub-heading-hero-ride-reach-icon"></i>
                             </div>
-                            <h4 class="ride-card-h4 sub-heading-hero-ride-reach pt-16">API-First Integration</h4>
+                            <h4 class="ride-card-h4 sub-heading-hero-ride-reach">API-First Integration</h4>
                         </div>
                             <p class="pt-16 hero-card-des-ride"><strong>Secure Gateway</strong><br>A central API layer ensures safe, authenticated communication between apps, servers, and third-party tools.</p>
                             <p class="pt-16 hero-card-des-ride"><strong>Flexible Endpoints</strong><br>Support for REST and GraphQL APIs allows easy integration with advertiser systems and future platforms.</p>
@@ -311,11 +311,11 @@ get_header(); ?>
                  </div>
                  <div class="col-lg-4 d-flex align-items-stretch pt-16">
                     <div class="ride-step-card">
-                        <div class="d-flex">
+                        <div class="d-flex align-items-center">
                             <div class="icon-bg-2 me-2">
                                 <i class="fa-solid fa-bolt sub-heading-hero-ride-reach-icon"></i>
                             </div>
-                            <h4 class="ride-card-h4 sub-heading-hero-ride-reach pt-16">Real-Time Ad Delivery</h4>
+                            <h4 class="ride-card-h4 sub-heading-hero-ride-reach">Real-Time Ad Delivery</h4>
                         </div>
                             <p class="pt-16 hero-card-des-ride"><strong>Event Driven Triggers</strong><br>Ads are served instantly during rider actions like booking, pickup, or route changes.</p>
                             <p class="pt-16 hero-card-des-ride"><strong>Low Latency Performance</strong><br>Smart caching and distributed servers guarantee smooth, lag-free ad experiences.</p>
@@ -326,11 +326,11 @@ get_header(); ?>
                  </div>
                  <div class="col-lg-4 d-flex align-items-stretch pt-16">
                     <div class="ride-step-card">
-                        <div class="d-flex">
+                        <div class="d-flex align-items-center">
                             <div class="icon-bg-2 me-2">
                                 <i class="fa-solid fa-bullseye sub-heading-hero-ride-reach-icon"></i>
                             </div>
-                            <h4 class="ride-card-h4 sub-heading-hero-ride-reach pt-16">Advanced Targeting Engine</h4>
+                            <h4 class="ride-card-h4 sub-heading-hero-ride-reach">Advanced Targeting Engine</h4>
                         </div>
                             <p class="pt-16 hero-card-des-ride"><strong>AI-Powered Segmentation</strong><br>Riders are grouped by location, ride history, and preferences for hyper-personalized ads.</p>
                             <p class="pt-16 hero-card-des-ride"><strong>Contextual Relevance</strong><br>Ads adapt dynamically to routes and rider journeys, boosting engagement and conversion.</p>
@@ -338,11 +338,11 @@ get_header(); ?>
                  </div>
                  <div class="col-lg-4 d-flex align-items-stretch pt-16">
                     <div class="ride-step-card">
-                        <div class="d-flex">
+                        <div class="d-flex align-items-center">
                             <div class="icon-bg-2 me-2">
                                 <i class="fa-solid fa-database sub-heading-hero-ride-reach-icon"></i>
                             </div>
-                            <h4 class="ride-card-h4 sub-heading-hero-ride-reach pt-16">Data Pipeline & Analytics</h4>
+                            <h4 class="ride-card-h4 sub-heading-hero-ride-reach">Data Pipeline & Analytics</h4>
                         </div>
                             <p class="pt-16 hero-card-des-ride"><strong>Centralized Data Lake</strong><br>All impressions, clicks, and conversions are stored in a unified repository for advanced insights.</p>
                             <p class="pt-16 hero-card-des-ride"><strong>Real Time Dashboards</strong><br>Advertisers and admins can monitor campaign performance live for quick optimization.</p>
@@ -353,11 +353,11 @@ get_header(); ?>
                  </div>
                  <div class="col-lg-4 d-flex align-items-stretch pt-16">
                     <div class="ride-step-card">
-                        <div class="d-flex">
+                        <div class="d-flex align-items-center">
                             <div class="icon-bg-2 me-2">
                                 <i class="fa-solid fa-cloud sub-heading-hero-ride-reach-icon"></i>
                             </div>
-                            <h4 class="ride-card-h4 sub-heading-hero-ride-reach pt-16">Scalable Cloud Infrastructure</h4>
+                            <h4 class="ride-card-h4 sub-heading-hero-ride-reach">Scalable Cloud Infrastructure</h4>
                         </div>
                             <p class="pt-16 hero-card-des-ride"><strong>Auto Scaling Capacity</strong><br>Handles spikes in traffic during peak ride hours without downtime.</p>
                             <p class="pt-16 hero-card-des-ride"><strong>Multi Region Deployment</strong><br>Ensures fast ad delivery and reliability across different geographies.</p>
@@ -365,11 +365,11 @@ get_header(); ?>
                  </div>
                  <div class="col-lg-4 d-flex align-items-stretch pt-16">
                     <div class="ride-step-card">
-                        <div class="d-flex">
+                        <div class="d-flex align-items-center">
                             <div class="icon-bg-2 me-2">
                                 <i class="fa-solid fa-shield-halved sub-heading-hero-ride-reach-icon"></i>
                             </div>
-                            <h4 class="ride-card-h4 sub-heading-hero-ride-reach pt-16">Security & Compliance</h4>
+                            <h4 class="ride-card-h4 sub-heading-hero-ride-reach">Security & Compliance</h4>
                         </div>
                             <p class="pt-16 hero-card-des-ride"><strong>GDPR Ready Systems</strong><br>All ad targeting is consent-driven with strict adherence to data protection laws.</p>
                             <p class="pt-16 hero-card-des-ride"><strong>Encrypted Data Handling</strong><br>End-to-end encryption secures rider and advertiser data both in transit and at rest.</p>
@@ -380,11 +380,11 @@ get_header(); ?>
                  </div>
                  <div class="col-lg-4 d-flex align-items-stretch pt-16">
                     <div class="ride-step-card">
-                        <div class="d-flex">
+                        <div class="d-flex align-items-center">
                             <div class="icon-bg-2 me-2">
                                 <i class="fa-solid fa-rocket sub-heading-hero-ride-reach-icon"></i>
                             </div>
-                            <h4 class="ride-card-h4 sub-heading-hero-ride-reach pt-16">Future Ready Extensibility</h4>
+                            <h4 class="ride-card-h4 sub-heading-hero-ride-reach">Future Ready Extensibility</h4>
                         </div>
                             <p class="pt-16 hero-card-des-ride"><strong>Plug and Play Modules</strong><br>Architecture supports easy integration of new ad formats without system overhauls.</p>
                             <p class="pt-16 hero-card-des-ride"><strong>Emerging Tech Integration</strong><br>Built to accommodate AI predictions, AR/VR ads, and immersive experiences.</p>
@@ -403,7 +403,7 @@ get_header(); ?>
                             <div class="icon-bg-2 me-2">
                                 <i class="fa-solid fa-puzzle-piece sub-heading-hero-ride-reach-icon"></i>
                             </div>
-                            <h4 class="ride-card-h4 sub-heading-hero-ride-reach pt-16">Microservices Frameworkn</h4>
+                            <h4 class="ride-card-h4 sub-heading-hero-ride-reach pt-16">Microservices Framework</h4>
                         </div>
                             <p class="pt-16 hero-card-des-ride"><strong>Modular Design</strong><br>Each ad component (delivery, analytics, targeting) runs as an independent service, enabling flexibility and faster updates.</p>
                             <p class="pt-16 hero-card-des-ride"><strong>Fault Isolation</strong><br>Failures in one service don’t affect the rest, ensuring system stability and uninterrupted ad delivery.</p>
@@ -603,10 +603,10 @@ get_header(); ?>
 
        <section class="design-system mt-40-lg">
             <div class="container">
+                <h2 class="section-heading-ride text-center">Design System</h2>
                 <div class="design-system-box">
                     <div class="row">
                         <div class="col-lg-6-ride-design">
-                            <h2 class="section-heading-ride text-center">Design System</h2>
                             <h4 class="pt-16">Poppins</h4>
                             <div class="pt-16">
                                  <span class="Regular">Regular</span>,
