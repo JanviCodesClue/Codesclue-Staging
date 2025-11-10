@@ -11,7 +11,7 @@ get_header(); ?>
         <section class="main-hero-section section-40 bg-blue">
             <div class="container">
                 <div class="row mx-0 px-0 align-items-center">
-                    <div class="col-xl-6 px-xl-2 px-0">
+                    <div class="col-lg-6 col-12 px-lg-2 px-0 row-gap-xl-4 row-gap-3">
                         <div class="main-descriptions text-center">
                             <h1 class="h1-font-style mb-0 text-white mb-md-3 mb-2 font-48">Flutter Development
                                 Technology</h1>
@@ -27,7 +27,7 @@ get_header(); ?>
 
                         </div>
                     </div>
-                    <div class="col-xl-6 px-xl-2 px-0">
+                    <div class="col-lg-6 col-12 px-lg-2 px-0 row-gap-xl-4 row-gap-3">
                         <div class="main-hero-img z-1 text-center">
                             <div class="main-hero-inner-img">
                                 <img loading="lazy" alt="service-tech-banner-img"

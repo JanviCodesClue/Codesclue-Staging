@@ -6,13 +6,13 @@
  */
 get_header(); ?>
 
-    <main>
-        <section class="main-hero-section section-40 blog-bg">
+    <main class="blog-main">
+        <section class="main-hero-section blog-pt blog-bg">
             <div class="container">
                 <div class="row mx-0 px-0 align-items-center">
                     <div class="col-lg-6 col-12 px-lg-2 px-0 row-gap-xl-4 row-gap-3">
                         <div class="main-descriptions text-center">
-                            <h1 class="h1-font-style text-left font-48 text-left">Top App Development Companies in India 📱🚀</h1>
+                            <h1 class="h1-font-style text-left font-48 text-left">Top App Development Companies in India </h1>
                             <!-- <p class="hero_description text-white" >Stay updated with the latest trends in IT, software development, AI, and cloud computing. Explore expert insights, best practices, and innovative solutions for modern businesses.</p> -->
                             <!-- <a class="btn btn-secondary mt-md-4 mt-2"
                                 href="<?php echo home_url('/contact-us/'); ?>">Contact
@@ -31,7 +31,7 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 px-xl-2 px-0">
+                    <div class="col-lg-6 col-12 px-lg-2 px-0 row-gap-xl-4 row-gap-3">
                         <div class="main-hero-img z-1 text-center blog-main-banner">
                             <div class="main-hero-inner-img">
                                 <img loading="lazy" alt="blog-banner-design"
@@ -60,7 +60,7 @@ get_header(); ?>
                             </ul>
                             <div class="pt-md-3 mt-sm-4 mt-3">
                                 <p class="content-title font-medium text-left mb-3">
-                                    Powering the App Revolution in India 📱🚀
+                                    Powering the App Revolution in India
                                     </span>
                                 <p class="content-desc text-left mb-2">India has emerged as one of the leading hubs for mobile and web application development. From startups to enterprise-grade solutions, app development companies in India are delivering cutting-edge technology, innovative designs, and scalable software solutions.
                                 </p>

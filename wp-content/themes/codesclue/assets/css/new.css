@@ -2407,7 +2407,7 @@ pre[class*="language-"] code[class*="language-"] .token.string { color: #7ec699 
 
 .custom-card-text {
   flex: 1;
-  min-width: 300px;
+  width: 100%;
   padding: 20px;
 }
 
@@ -2454,7 +2454,21 @@ pre[class*="language-"] code[class*="language-"] .token.string { color: #7ec699 
 }
 
 @media (max-width: 363px) {
- 
+ .custom-card-text {
+  flex: 1;
+  width: 100%;
+  padding: 20px;
+}
+
+.custom-card-text h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.custom-card-text p {
+  color: #333;
+  font-size: 0.8rem;
+}
  .custom-card-image-project {
   flex: 1;
   min-width: 150px;

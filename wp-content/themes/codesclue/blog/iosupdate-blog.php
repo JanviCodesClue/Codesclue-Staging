@@ -6,8 +6,8 @@
  */
 get_header(); ?>
 
-    <main>
-        <section class="main-hero-section section-40 blog-bg">
+    <main class="blog-main">
+        <section class="main-hero-section blog-pt blog-bg">
             <div class="container">
                 <div class="row mx-0 px-0 align-items-center">
                     <div class="col-lg-6 col-12 px-lg-2 px-0 row-gap-xl-4 row-gap-3">
@@ -28,7 +28,7 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 px-xl-2 px-0">
+                    <div class="col-lg-6 col-12 px-lg-2 px-0 row-gap-xl-4 row-gap-3">
                         <div class="main-hero-img z-1 text-center blog-main-banner">
                             <div class="main-hero-inner-img">
                                 <img loading="lazy" alt="blog-banner-design"
