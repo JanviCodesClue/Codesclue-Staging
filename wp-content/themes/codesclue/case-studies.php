@@ -7,157 +7,131 @@
 get_header(); ?>
 
     <main>
-        <!-- Company Banner section -->
-        <section class="main-hero-section section-40 bg-yellow casehero">
+        <section class="page-title-area">
             <div class="container">
-                <div class="row mx-0 px-0 align-items-center">
-                    <div class="col-xl-6 px-xl-2 px-0">
-                        <div class="main-descriptions text-center">
-                            <h1 class="h1-font-style">App Success Stories in India</h1>
-                            <p class="hero_description">
-                                Discover how CodesClue has transformed ideas into scalable digital solutions.
-                                These case studies highlight our journey with clients tackling complex challenges,
-                                delivering innovative app development services.
-                            </p>
-                            <a class="btn btn-secondary reverse-cus mt-md-4 mt-2 d-inline-block w-auto" href="<?php echo home_url('/contact-us/'); ?>">
-    Contact Us
-</a>
+                <div class="page-title-area-inner section-spacing-top">
 
+                    <div class="section-content-wrapper">
+                        <div class="content-shape-1 fade-anim" data-direction="top" data-ease="bounce.out"
+                            data-delay="0.60" data-offset="100" data-rotate="360">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/shape-36.webp" alt="image">
                         </div>
-                    </div>
-                    <div class="col-xl-6 px-xl-2 px-0">
-                        <div class="main-hero-img z-1 text-center">
-                            <div class="main-hero-inner-img">
-                                <img loading="lazy" alt="case-design" class="main-hero-right-img mt-xl-0 mt-4"
-                                    src="<?php echo get_template_directory_uri(); ?>/assets/images/case-study/codesclue_case-studies-banner.webp" />
+
+                        <div class="section-content">
+                            <div class="section-title-wrapper">
+                                <div class="title-wrapper">
+                                    <h1 class="section-title char-anim">CodesClue</h1>
+                                </div>
+                                <div class="subtitle-wrapper">
+                                    <span class="section-subtitle char-anim" data-delay="0.75">Our Company
+                                    </span>
+                                </div>
                             </div>
+                        </div>
+                        <div class="breadcrumb-wrapper fade-anim" data-direction="left" data-offset="100"
+                            data-delay="0.90">
+                            <ul class="breadcrumb">
+                                <li><a href="<?php echo home_url(''); ?>">HOME</a></li>
+                                <li>Our Company</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Case studies cards -->
-        <section class="section-40 z-11 pt-xl-5 pb-xl-0 py-4">
-           
-         
-            
+        <section class="cs-mt-40">
             <div class="container">
-                <div class="row mx-0 px-0">
-                    <div class="col-lg-12">
-                        <div class="casestudies-header">
-                            <h2 class="section-title">Our Case Studies
-                            </h2>
-                            <hr class="light-black" />
-                            </h2>
-                        </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1 class="hero-case-study-h1">App Success Stories in India</h1>
+                        <p class="hero-case-study-p cs-mt-16">Discover how CodesClue has transformed ideas into scalable digital solutions. These case studies highlight our journey with clients tackling complex challenges, delivering innovative app development services.</p>
+                        <a href="<?php echo home_url('/contact-us/'); ?>" class="btn case-study-hero-btn cs-mt-16">Contact Us →</a>
                     </div>
                 </div>
-                <div class="row mx-0 px-0">
-                    <div class="col-sm-12 col-md-6 col-lg-6 px-sm-2 px-1 py-md-2 py-3">
-                        <div class="casestudies-item border-radius">
-                            <div class="casestudies-inner d-flex flex-column justify-content-between h-inherit">
-                                <div class="casestudies-img">
-                                    <img loading="lazy" alt="case-study image"
-                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/case-study/codesclue_CaseStudy1.webp" alt="case-study-1" />
-                                </div>
-                                <h3 class="content-title">Fostering
-                                    holistic medical care with AI
-                                    health assistant</h3>
-                                <p class="content-desc mt-0 pt-0">The
-                                    client belongs to the healthcare
-                                    sector and is looking to offer an
-                                    intelligent
-                                    assistant designed to help users
-                                    identify health risk factors associated
-                                    with any disease, considering their
-                                    symptoms, medical history, and past
-                                    consultations.
-                                    <br>
-                                    <br>Custom Lifestyle Tips
-                                    <br>Virtual Consultation
-                                    <br>Personalized Diet Plans
-                                </p>
-                            </div>
-                        </div>
+            </div>
+        </section>
+
+        <div class="cs-mt-40">
+            <h2 class="cs-section-h2 text-center">Our Case Studies</h2>
+        </div>
+
+        <section class="cs-mt-40">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/case-study/case-study-inner-1.png" class="img-fluid cs-b-10" alt="image">
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 px-sm-2 px-1 py-md-2 py-3 company-section">
-                        <div class="casestudies-item border-radius orange-light">
-                            <div class="casestudies-inner d-flex flex-column justify-content-between h-inherit">
-                                <div class="casestudies-img">
-                                    <img loading="lazy" alt="case-study image"
-                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/case-study/codesclue_CaseStudy2.webp" alt="case-study-2" />
-                                </div>
-                                <h3 class="content-title">Cooking made easy with your AI grocery
-                                    buddy Instakitchen</h3>
-                                <p class="content-desc mt-0 pt-0">
-                                    Our highly experienced AI team has
-                                    crafted an on-demand grocery delivery
-                                    app that streamlines the cooking process
-                                    and takes the culinary experience to a
-                                    new level.
-                                    <br>
-                                    <br>Image-Based Product Search
-                                    <br>Personalized Recipes
-                                    <br>Easy Ingredient Ordering
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 px-sm-2 px-1 py-md-2 py-3 company-section">
-                        <div class="casestudies-item border-radius">
-                            <div class="casestudies-inner d-flex flex-column justify-content-between h-inherit">
-                                <div class="casestudies-img">
-                                    <img loading="lazy" alt="case-study image"
-                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/case-study/codesclue_CaseStudy3.webp" alt="case-study-3" />
-                                </div>
-                                <h3 class="content-title">AI powered analytics platform for
-                                    accurate data assessment</h3>
-                                <p class="content-desc mt-0 pt-0">We designed an AI data analytics tool for
-                                    our client, which allows easy access
-                                    to and analysis of the MySQL database
-                                    when required.
-                                    The platform simplifies collaboration
-                                    with robust connectivity and accelerates
-                                    the process with AI-powered report
-                                    generation. We also added natural
-                                    language processing, so users do not
-                                    have to rely on certain keywords to get
-                                    the results.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 px-sm-2 px-1 py-md-2 py-3 company-section">
-                        <div class="casestudies-item border-radius orange-light">
-                            <div class="casestudies-inner d-flex flex-column justify-content-between h-inherit">
-                                <div class="casestudies-img">
-                                    <img class="img-fluid" loading="lazy" alt="case-study image"
-                                        src="<?php echo get_template_directory_uri(); ?>/assets/images/case-study/codesclue_CaseStudy4.webp" alt="case-study-4" />
-                                </div>
-                                <h3 class="content-title">Finance Management Application To Spike
-                                    Your Savings</h3>
-                                <p class="content-desc mt-0 pt-0">
-                                    Investii, Inc is a trusted financial
-                                    enterprise that focuses on
-                                    financial literacy and helps
-                                    professionals and people of
-                                    all ages to make profitable monetary
-                                    decisions.
-                                    It offers an array of services including
-                                    - management of financial information
-                                    (bank accouFinance Management Applicationnts, investments, IRA),
-                                    automated savings,
-                                    and applications to smoothen
-                                    individuals fund management.
-                                </p>
-                            </div>
+                    <div class="col-lg-6 cs-mt-16-sm">
+                        <h2 class="inner-cs-heading">Fostering holistic medical care with AI health assistant</h2>
+                        <p class="inner-cs-dec cs-mt-16">The client belongs to the healthcare sector and is looking to offer an intelligent assistant designed to help users identify health risk factors associated with any disease, considering their symptoms, medical history, and past consultations.</p>
+                        <div class="tags-wrapper cs-mt-16">
+                            <div class="inner-tag-cs">Custom Lifestyle Tips</div>
+                            <div class="inner-tag-cs">Virtual Consultation</div>
+                            <div class="inner-tag-cs">Personalized Diet Plans</div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <section class="cs-mt-40">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6 cs-order-1 cs-mt-16-sm">
+                        <h2 class="inner-cs-heading">Cooking made easy with your AI grocery buddy Instakitchen</h2>
+                        <p class="inner-cs-dec cs-mt-16">Our highly experienced AI team has crafted an on-demand grocery delivery app that streamlines the cooking process and takes the culinary experience to a new level.</p>
+                        <div class="tags-wrapper cs-mt-16">
+                            <div class="inner-tag-cs">Image-Based Product Search</div>
+                            <div class="inner-tag-cs">Personalized Recipes</div>
+                            <div class="inner-tag-cs">Easy Ingredient Ordering</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 cs-order-2 order-lg-2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/case-study/case-study-inner-2.png" class="img-fluid cs-b-10" alt="image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cs-mt-40">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/case-study/case-study-inner-3.png" class="img-fluid cs-b-10" alt="image">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="inner-cs-heading cs-mt-16-sm">AI powered analytics platform for accurate data assessment</h2>
+                        <p class="inner-cs-dec cs-mt-16">We designed an AI data analytics tool for our client, which allows easy access to and analysis of the MySQL database when required. The platform simplifies collaboration with robust connectivity and accelerates the process with AI-powered report generation. We also added natural language processing, so users do not have to rely on certain keywords to get the results.</p>
+                        <div class="tags-wrapper cs-mt-16">
+                            <div class="inner-tag-cs">AI Data Analytics</div>
+                            <div class="inner-tag-cs">Smart Insights</div>
+                            <div class="inner-tag-cs">Natural Language Query</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cs-mt-40 cs-mb-40">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6 cs-order-1 cs-mt-16-sm">
+                        <h2 class="inner-cs-heading">Finance Management Application To Spike Your Savings</h2>
+                        <p class="inner-cs-dec cs-mt-16">Investii, Inc is a trusted financial enterprise that focuses on financial literacy and helps professionals and people of all ages to make profitable monetary decisions. It offers an array of services including - management of financial information (bank accouFinance Management Applicationnts, investments, IRA), automated savings, and applications to smoothen individuals fund management.</p>
+                        <div class="tags-wrapper cs-mt-16">
+                            <div class="inner-tag-cs">Smart Finance Management</div>
+                            <div class="inner-tag-cs">Automated Savings</div>
+                            <div class="inner-tag-cs">Financial Literacy</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 cs-order-2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/case-study/case-study-inner-4.png" class="img-fluid cs-b-10" alt="image">
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
 
-<?php get_footer(); ?> 
+<?php get_footer(); ?>

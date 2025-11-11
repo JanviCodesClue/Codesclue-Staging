@@ -244,8 +244,8 @@ if (is_page('blog')) {
         wp_enqueue_style('codesclue-career', get_template_directory_uri() . '/assets/css/career.css', array(), '1.0.0');
     }
 
-    if (is_page('casestudy')) {
-        wp_enqueue_style('codesclue-casestudy', get_template_directory_uri() . '/assets/css/casestudy.css', array(), '1.0.0');
+    if (is_page('case-studies')) {
+        wp_enqueue_style('codesclue-case-studies', get_template_directory_uri() . '/assets/css/casestudy.css', array(), '1.0.0');
     }
 
     if (is_page('ecommerce')) {
