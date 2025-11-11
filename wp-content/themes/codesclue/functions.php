@@ -305,6 +305,12 @@ if (is_page('blog')) {
         wp_enqueue_style('codesclue-faq', get_template_directory_uri() . '/assets/css/faq.css', array(), '1.0.0');
     }
 
+
+     if (is_page('our-company')) {
+        wp_enqueue_style('codesclue-our-company', get_template_directory_uri() . '/assets/css/our-company.css', array(), '1.0.0');
+    }
+
+
     // ===== Global Scripts =====
     wp_enqueue_script('jquery');
     wp_enqueue_script('owl-carousel', get_template_directory_uri() . '/assets/js/owl.carousel.js', array('jquery'), '2.3.4', true);
