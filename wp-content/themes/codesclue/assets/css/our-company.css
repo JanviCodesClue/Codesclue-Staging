@@ -1,0 +1,204 @@
+.hero-our-company-h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.hero-our-company-p {
+    font-size: 16px;
+}
+
+.our-company-hero-btn {
+    background: #007bff;
+    border: none;
+    padding: 12px 30px;
+    font-weight: 600;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.our-company-hero-btn:hover {
+    background: #0056b3;
+}
+
+.oc-mt-40{
+    margin-top: 40px;
+}
+.oc-mb-40{
+    margin-bottom: 40px;
+}
+.oc-mt-16{
+    margin-top: 16px;
+}
+.oc-b-10{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.card-oc{
+    border-bottom: 8px solid #158AFF;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 31px;
+    justify-content: center;
+}
+.card-oc-icon{
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    justify-content: center;
+}
+.card-oc-heading{
+    font-size: 24px;
+    font-weight: 700;
+}
+.card-oc-dec{
+    font-size: 16px;
+}
+
+.oc-section-h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.oc-creative-team-bg{
+    background: url("../images/our-company/oc-creative-team.png") center/cover no-repeat;
+    padding: 25px;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.oc-blue-box{
+    background-color: #158AFF;
+    padding: 25px;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.oc-white-card{
+    background-color: #fff;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 21px 0;
+}
+
+.oc-icon-size{
+    font-size: 50px;
+}
+.card-oc-b{
+    border: 1px solid #CACACA;
+    padding: 18px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.services-contact-oc {
+    background: #000000;
+    color: #fff;
+}
+.services-btn-oc {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.services-circle-oc {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid rgba(255, 255, 255, 0.142);
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .services-circle-oc {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 10px solid rgba(255, 255, 255, 0.142);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pt-xsm-cus {
+        display: none;
+    }
+    .oc-contect-text{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 991.98px) {
+    .pt-oc-16-sm {
+        padding-top: 16px;
+    }
+}
+
+
+@media only screen and (max-width: 1440px) and (min-width: 820px) {
+
+}
+
+@media only screen and (max-width: 819.99px) and (min-width: 394px) {
+.hero-our-company-h1 {
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.hero-our-company-p {
+    font-size: 16px;
+}
+.oc-section-h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+.card-oc-heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+}
+
+@media only screen and (max-width: 393px) {
+.hero-our-company-h1 {
+    font-size: 27.2px;
+    font-weight: 900;
+}
+
+.hero-our-company-p {
+    font-size: 15px;
+}
+.oc-section-h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-oc-heading{
+    font-size: 18px;
+    font-weight: 700;
+}
+}
