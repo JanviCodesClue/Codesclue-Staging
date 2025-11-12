@@ -248,6 +248,10 @@ if (is_page('blog')) {
         wp_enqueue_style('codesclue-case-studies', get_template_directory_uri() . '/assets/css/casestudy.css', array(), '1.0.0');
     }
 
+    if (is_page('taxi-booking')) {
+        wp_enqueue_style('codesclue-taxi-booking', get_template_directory_uri() . '/assets/css/taxi-booking.css', array(), '1.0.0');
+    }
+
     if (is_page('ecommerce')) {
         wp_enqueue_style('codesclue-industries', get_template_directory_uri() . '/assets/css/industries.css', array(), '1.0.0');
     }
