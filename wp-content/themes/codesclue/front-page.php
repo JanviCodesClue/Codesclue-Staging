@@ -244,9 +244,9 @@ get_header(); ?>
 
         </section>
        <!-- <div class="parallax"> -->
-<div class="parallax" data-speed="0.3"></div>
+        <div class="parallax" data-speed="0.3"></div>
 
-</div>
+
 
 
 
@@ -383,7 +383,7 @@ get_header(); ?>
 
         </section>
 
-        <div class="service-area-4 mt-5">
+        <div class="service-area-4 ">
             <div class="service-area-4-inner section-spacing">
                 <div class="container">
                     <div class="section-header">
@@ -886,7 +886,7 @@ get_header(); ?>
         </div>
 
         <!-- Services -->
-        <section class="tech-showcase py-5">
+        <section class="tech-showcase ">
             <div class="container position-relative">
 
                 <!-- Radio Buttons (Hidden) -->
@@ -1122,7 +1122,7 @@ get_header(); ?>
             </div>
         </section>
 
-        <div class="container mb-3 py-2 border-bottom border-dark">
+        <div class="container pt-40-cc  border-bottom border-dark">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-6">
                     <p class="text-muted mb-1">The Technologies Behind
@@ -1138,7 +1138,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="container py-4">
+        <div class="container mt-cc-16">
             <div class="row gy-4">
                 <div class="col-md-6">
 
@@ -1220,7 +1220,7 @@ get_header(); ?>
         </div>
 
         <!-- Our trusted Client -->
-        <section class="section-40 bg-linear-white">
+        <section class=" bg-linear-white pt-40-cc">
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
@@ -1271,7 +1271,7 @@ get_header(); ?>
         </section>
 
         <!-- FAQ Section-->
-        <section class="faq-section section-40 bg-linear-white" id="faqSection">
+        <section class="faq-section  bg-linear-white" id="faqSection">
             <div class="container z-11">
                 <div class="row mx-0 px-0">
                     <div class="col-lg-7 px-lg-0 px-0">
