@@ -1,0 +1,86 @@
+.taxi-booking-hero-bg{
+    background-image: url("../images/taxi-booking/taxi-hero-bg.png");
+    width: 100%;
+    height: 96vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tb-btn-custom {
+    background: #199675;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+.tb-btn-custom:hover {
+    background: #0f5845;
+    color: #fff;
+}
+.hero-tb-h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #199675;
+}
+
+.hero-tb-p {
+    font-size: 16px;
+}
+.tb-dec{
+    font-size: 16px;
+}
+
+.tb-b-10 {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.tb-mt-40 {
+    margin-top: 40px;
+}
+
+.tb-mt-16 {
+    margin-top: 16px;
+}
+
+.tb-mb-40 {
+    margin-bottom: 40px;
+}
+
+.tb-section-h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #199675;
+}
+
+.inner-tb-heading {
+    font-size: 24px;
+    font-weight: 700;
+}
+.taxi-banner{
+    width: 100%;
+    height: auto;
+}
+.tb-border{
+    border-bottom: 2px solid #000;
+}
+.bg-green-tb{
+    background-color: #199675;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
