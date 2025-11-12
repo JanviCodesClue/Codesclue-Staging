@@ -265,7 +265,7 @@ get_header(); ?>
                                 Behance—each piece reflecting our
                                 commitment to design excellence.</p>
                         </div>
-                        <div class="row">
+                        <div class="row d-lg-cc">
                             <div class="col-lg-6 col-md-12 col-sm-12">
                                 <!-- Dribbble Button -->
                                 <div class="btn-share mt-3">
@@ -298,6 +298,31 @@ get_header(); ?>
                                     </ul>
                                     <a href="https://www.behance.net/codesclue" class="btn-mobile-link" target="_blank"
                                         rel="noopener noreferrer"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-md-cc">
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <!-- Dribbble Button -->
+                                <div class="btn-share-md-cc mt-3">
+                                            <a href="https://dribbble.com/CodesClue" target="_blank"
+                                                rel="noopener noreferrer" class="d-flex align-items-center">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/dribble.svg" class="btn-img-40"
+                                                    alt="Dribbble" />
+                                                <span class="btn-text ps-2">Dribbble</span>
+                                            </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <!-- Behance Button -->
+                                <div class="btn-share-md-cc mt-3">
+
+                                            <a href="https://www.behance.net/codesclue" target="_blank"
+                                                rel="noopener noreferrer" class="d-flex align-items-center">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/behance-1.svg" class="btn-img-40"
+                                                    alt="Behance" />
+                                                    <span class="btn-text ps-2">Behance</span>
+                                            </a>
                                 </div>
                             </div>
                         </div>
