@@ -70,7 +70,6 @@ get_header(); ?>
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/aos.css">
-    
     <!-- Custom FAQ Styles -->
     <style>
         .accordion-button:not(.collapsed) {
@@ -204,6 +203,7 @@ get_header(); ?>
 <body>
     <!-- Main -->
     <main>
+
         <section class="ai-section">
             <div class="container">
                 <div class="row align-items-center gy-5">
@@ -253,7 +253,7 @@ get_header(); ?>
         <section class="expertise-section ">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
                         <h2 class="pt-3">Innovative Expertise</h2>
                         <div class="social-description">
                             <p> Dive into our world of creativity where
@@ -266,7 +266,7 @@ get_header(); ?>
                                 commitment to design excellence.</p>
                         </div>
                         <div class="row d-lg-cc">
-                            <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <!-- Dribbble Button -->
                                 <div class="btn-share mt-3">
                                     <span class="btn-text">Dribbble</span>
@@ -283,7 +283,7 @@ get_header(); ?>
                                         rel="noopener noreferrer"></a>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <!-- Behance Button -->
                                 <div class="btn-share mt-3">
                                     <span class="btn-text">Behance</span>
@@ -302,7 +302,7 @@ get_header(); ?>
                             </div>
                         </div>
                         <div class="row d-md-cc">
-                            <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <!-- Dribbble Button -->
                                 <div class="btn-share-md-cc mt-3">
                                             <a href="https://dribbble.com/CodesClue" target="_blank"
@@ -313,7 +313,7 @@ get_header(); ?>
                                             </a>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <!-- Behance Button -->
                                 <div class="btn-share-md-cc mt-3">
 
@@ -328,7 +328,7 @@ get_header(); ?>
                         </div>
 
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-lg-8">
                         <p class="description">
                             CodesClue delivers smart, AI-driven
                             solutions that power business growth. We
@@ -915,7 +915,7 @@ get_header(); ?>
                         <div class="tab-box shadow-sm rounded p-4 bg-white">
 
                             <!-- Frontend -->
-                            <div class="tab-content tab-1 d-flex flex-wrap gap-4 justify-content-start">
+                            <div class="tab-content tab-1 d-flex flex-wrap gap-4-fp justify-content-start">
 
                                 <a href="<?php echo home_url('/technology-ios/'); ?>" class="tech-pill"
                                     data-desc="10+ years crafting intuitive, high-quality iOS apps aligned with Apple's ecosystem.">

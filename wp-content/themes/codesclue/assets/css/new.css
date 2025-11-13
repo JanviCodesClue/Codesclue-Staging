@@ -172,6 +172,10 @@ body {
   .mbd-5-cus{
   margin-bottom: 1rem!important;
 }
+.btn-img-40{
+  width: 25px!important;
+  height: 25px!important;
+}
 }
 
 .mbd-5-cus{
@@ -1161,6 +1165,12 @@ body {
 
 .tech-pill:hover::after {
   opacity: 1;
+}
+/* Hide tooltip on tablet and mobile */
+@media (max-width: 991px) {
+  .tech-pill::after {
+    display: none;
+  }
 }
 
 .parallax {
@@ -2253,8 +2263,8 @@ input[type="radio"]#tab-4:checked ~ .row label[for="tab-4"] {
 
 }
 .btn-img-40{
-  width: 40px!important;
-  height: 40px!important;
+  width: 40px;
+  height: 40px;
 }
 
 .size-32{
