@@ -56,7 +56,7 @@
 
                 <a href="tel:+447221898236" class="d-flex align-items-start">
                     <i class="fa-solid fa-phone mt-1 me-2"></i>
-                    <p class="mb-0">(+44) 722 1898 236</p>
+                    <p class="mb-0">(+49) 155 10725637</p>
                 </a>
             </div>
 
