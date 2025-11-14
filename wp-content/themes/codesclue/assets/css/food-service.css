@@ -444,7 +444,7 @@
       }
 
 
-      .screen-mobile  .food-hero {
+      .screen-mobile .food-hero {
         height: auto;
         width: 100%;
         padding: 60px 0;
@@ -453,63 +453,63 @@
         background: url('../images/industries/food-hero.png') center/cover no-repeat;
       }
 
-      .screen-mobile  .food-sm-hide {
+      .screen-mobile .food-sm-hide {
         display: none;
       }
 
-      .screen-mobile  .food-hero-title {
+      .screen-mobile .food-hero-title {
         font-size: 27.2px!important;
         font-weight: bold;
         text-align: center;
         color: #fff;
       }
 
-      .screen-mobile  .food-hero-des {
+      .screen-mobile .food-hero-des {
         font-size: 16px;
         font-weight: 300;
         text-align: center;
         color: #fff;
       }
 
-      .screen-mobile  .food-service-text {
+      .screen-mobile .food-service-text {
         font-size: 15px;
       }
 
-      .screen-mobile  .food-section-heading {
+      .screen-mobile .food-section-heading {
         font-size: 26px;
         font-weight: bold;
         text-align: center;
       }
 
-      .screen-mobile  .food-section-dec {
+      .screen-mobile .food-section-dec {
         font-size: 15px;
         font-weight: 300;
         text-align: center;
       }
 
-      .screen-mobile  .food-service-title {
+      .screen-mobile .food-service-title {
         font-size: 18px;
       }
 
-      .screen-mobile  .food-section-four-heading {
+      .screen-mobile .food-section-four-heading {
         font-size: 26px;
         font-weight: bold;
         text-align: left;
         color: #000;
       }
 
-      .screen-mobile  .food-section-four-dec {
+      .screen-mobile .food-section-four-dec {
         font-size: 15px;
         font-weight: 300;
         text-align: left;
         color: #000;
       }
 
-      .screen-mobile  .d-only-big {
+      .screen-mobile .d-only-big {
         display: none !important;
       }
 
-      .screen-mobile  .pt-40 {
+      .screen-mobile .pt-40 {
         padding-top: 0px;  /* margin ko hata diya */
     margin-top: 40px;
       }
