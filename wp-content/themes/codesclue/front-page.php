@@ -254,7 +254,7 @@ get_header(); ?>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
-                        <h2 class="pt-3">Innovative Expertise</h2>
+                        <h2>Innovative Expertise</h2>
                         <div class="social-description">
                             <p> Dive into our world of creativity where
                                 design meets purpose. Explore
@@ -265,9 +265,8 @@ get_header(); ?>
                                 Behance—each piece reflecting our
                                 commitment to design excellence.</p>
                         </div>
-                        <div class="row d-lg-cc">
+                        <!-- <div class="row d-lg-cc">
                             <div class="col-lg-6 col-md-6 col-sm-12">
-                                <!-- Dribbble Button -->
                                 <div class="btn-share mt-3">
                                     <span class="btn-text">Dribbble</span>
                                     <ul class="social-icons">
@@ -284,7 +283,6 @@ get_header(); ?>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12">
-                                <!-- Behance Button -->
                                 <div class="btn-share mt-3">
                                     <span class="btn-text">Behance</span>
                                     <ul class="social-icons">
@@ -300,8 +298,8 @@ get_header(); ?>
                                         rel="noopener noreferrer"></a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row d-md-cc">
+                        </div> -->
+                        <div class="row ">
                             <div class="col-lg-6 col-md-6 col-sm-12">
                                 <!-- Dribbble Button -->
                                 <div class="btn-share-md-cc mt-3">
@@ -328,7 +326,7 @@ get_header(); ?>
                         </div>
 
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-8 fp-cc-pt-16">
                         <p class="description">
                             CodesClue delivers smart, AI-driven
                             solutions that power business growth. We
@@ -393,8 +391,8 @@ get_header(); ?>
                                     Services That Connects the Future
                                 </h2>
                             </div>
-                            <div class="subtitle-wrapper">
-                                <span class="section-subtitle">Our team
+                            <div class="subtitle-wrapper fp-cc-pt-16">
+                                <span class="section-subtitle ">Our team
                                     build scalable, ethical, and
                                     adaptable AI that
                                     not only transforms operations but
@@ -992,7 +990,7 @@ get_header(); ?>
                             </div>
 
                             <!-- Backend -->
-                            <div class="tab-content tab-2 d-none flex-wrap gap-4">
+                            <div class="tab-content tab-2 d-none flex-wrap gap-4-fp">
                                 <a href="<?php echo home_url('/php/'); ?>" class="tech-pill"
                                     data-desc="8+ years developing robust web apps with PHP and its frameworks.">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_php.svg" loading="lazy"
@@ -1049,7 +1047,7 @@ get_header(); ?>
                             </div>
 
                             <!-- Database -->
-                            <div class="tab-content tab-3 d-none flex-wrap gap-4">
+                            <div class="tab-content tab-3 d-none flex-wrap gap-4-fp">
                                 <a href="<?php echo home_url('/mongo-db/'); ?>" class="tech-pill"
                                     data-desc="4+ years designing flexible, fast solutions with MongoDB.">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_mongodb.svg" loading="lazy"
@@ -1087,7 +1085,7 @@ get_header(); ?>
                             </div>
 
                             <!-- UI/UX -->
-                            <div class="tab-content tab-4 d-none flex-wrap gap-4">
+                            <div class="tab-content tab-4 d-none flex-wrap gap-4-fp">
                                 <a class="tech-pill"
                                     data-desc="4+ years designing seamless UI/UX experiences with Figma.">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_figma.svg" loading="lazy"

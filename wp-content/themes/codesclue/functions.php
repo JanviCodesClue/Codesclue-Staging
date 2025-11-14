@@ -1522,3 +1522,5 @@ add_action('wp_enqueue_scripts', function () {
         'ajax_url' => admin_url('admin-ajax.php')
     ]);
 });
+
+
