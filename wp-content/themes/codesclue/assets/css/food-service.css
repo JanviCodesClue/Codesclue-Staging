@@ -216,15 +216,15 @@
       border-radius: 20px;
     }
 
-
-      .screen-tablet .food-card {
+    @media (max-width: 1045px) {
+      .food-card {
         padding: 80px 20px 30px;
         /* upar space taaki image overlap kare */
         margin: 80px 0 20px 0px!important;
         text-align: center;
       }
 
-      .screen-tablet .food-img {
+      .food-img {
         position: absolute;
         top: -80px;
         /* card ke upar overlap */
@@ -232,23 +232,23 @@
         transform: translateX(-50%);
       }
 
-      .screen-tablet .food-img.left,
-      .screen-tablet .food-img.right {
+      .food-img.left,
+      .food-img.right {
         left: 50%;
         /* dono center me aa jayenge */
         right: auto;
       }
 
-      .screen-tablet .food-img img {
+      .food-img img {
         width: 140px;
         height: 140px;
       }
 
-      .screen-tablet .food-content {
+      .food-content {
         padding: 0;
         /* side space hatao */
       }
- 
+    }
 
 
 
