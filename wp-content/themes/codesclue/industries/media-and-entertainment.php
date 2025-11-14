@@ -9,15 +9,15 @@ get_header(); ?>
         <div class="media-hero">
             <div class="container">
                 <div class="row d-flex align-items-center">
-                    <div class="col-lg-6 text-center">
+                    <div class="col-lg-6-media text-center">
                         <h1 class="media-hero-title media-mt-20">Reimagining Media and Entertainment with Digital Innovation</h1>
                         <p class="media-hero-des media-mt-20">We empower media and entertainment companies with cutting edge digital solutions that transform how content is created, distributed, and consumed. From streaming platforms and mobile apps to AI-powered recommendation engines and immersive experiences, our solutions help brands engage audiences at scale. We build secure, scalable platforms that support high traffic, personalized content delivery, and seamless monetization models. With expertise in cloud, AI, and analytics, we enable businesses to unlock new revenue streams, enhance user engagement, and stay ahead in a rapidly evolving digital landscape.</p>
                         <a href="<?php echo home_url('/contact-us/'); ?>" class="btn media-btn media-mt-20">
                             LET’S CONNECT →
                         </a>
                     </div>
-                    <div class="col-lg-6">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/media/food-hero-inner.png" alt="Service" class="media-sm-hide">
+                    <div class="col-lg-6-media media-sm-hide">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/media/food-hero-inner.png" alt="Service">
                     </div>
                 </div>
             </div>
@@ -130,14 +130,14 @@ get_header(); ?>
                 </div>
             </div>
         </div>
-                <div class="media-second-four-bg">
+         <div class="media-second-four-bg">
             <div class="container">
                 <div class="row media-pt-16 g-16">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4-media">
                         <h2 class="media-section-four-heading">Forging the Future of Media & Entertainment with Advanced Digital Solutions</h2>
                         <p class="media-section-four-dec media-pt-16">CodesClue empowers media and entertainment enterprises with next generation digital solutions that redefine how content is produced, distributed, and monetized. Our expertise drives global audience engagement, operational efficiency, and sustained revenue growth.</p>
                     </div>
-                    <div class="col-lg-4 d-flex align-items-stretch">
+                    <div class="col-lg-4-media d-flex align-items-stretch">
                         <div class="media-third-card four-bg-1">
                             <h3 class="media-service-title">OTT & Video Streaming Platforms</h3>
                                 <p class="media-service-text pt-16">
@@ -145,7 +145,7 @@ get_header(); ?>
                                 </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 d-flex align-items-stretch">
+                    <div class="col-lg-4-media d-flex align-items-stretch">
                         <div class="media-third-card four-bg-2">
                             <h3 class="media-service-title">Advanced Content Management Systems (CMS)</h3>
                                 <p class="media-service-text pt-16">
@@ -153,7 +153,7 @@ get_header(); ?>
                                 </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 d-flex align-items-stretch">
+                    <div class="col-lg-4-media d-flex align-items-stretch">
                         <div class="media-third-card four-bg-3">
                             <h3 class="media-service-title">Audience Engagement & Personalization</h3>
                                 <p class="media-service-text pt-16">
@@ -161,7 +161,7 @@ get_header(); ?>
                                 </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 d-flex align-items-stretch">
+                    <div class="col-lg-4-media d-flex align-items-stretch">
                         <div class="media-third-card four-bg-4">
                             <h3 class="media-service-title">AR/VR & Immersive Experiences</h3>
                                 <p class="media-service-text pt-16">
@@ -169,13 +169,13 @@ get_header(); ?>
                                 </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 d-flex align-items-stretch d-only-big">
+                    <div class="col-lg-4-media d-flex align-items-stretch d-only-big">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/media/content-management-systems.png" class="img-fluid four-img-right" alt="VR Image">
                     </div>
-                    <div class="col-lg-4 d-flex align-items-stretch d-only-big">
+                    <div class="col-lg-4-media d-flex align-items-stretch d-only-big">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/media/media-monetization-solutions.png" class="img-fluid four-img-right" alt="VR Image">
                     </div>
-                    <div class="col-lg-4 d-flex align-items-stretch">
+                    <div class="col-lg-4-media d-flex align-items-stretch">
                         <div class="media-third-card four-bg-3">
                             <h3 class="media-service-title">Media Monetization Frameworks</h3>
                                 <p class="media-service-text pt-16">
@@ -183,7 +183,7 @@ get_header(); ?>
                                 </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 d-flex align-items-stretch">
+                    <div class="col-lg-4-media d-flex align-items-stretch">
                         <div class="media-third-card four-bg-4">
                             <h3 class="media-service-title">Data Analytics & Business Insights</h3>
                                 <p class="media-service-text pt-16">
