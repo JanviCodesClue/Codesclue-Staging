@@ -230,77 +230,77 @@ get_header(); ?>
 
 
         <section class="solutions-section">
-        <div class="container">
-            <div class="text-center ">
-            <h2 class="financial-sub-heading pb-3">Advanced FinTech Solutions: Pioneering the Future of Finance</h2>
-            <p class="text-muted pb-3">
-                We design next generation FinTech platforms that combine security, scalability, and intelligence helping financial institutions deliver seamless, innovative, and future ready services.
-            </p>
-            </div>
+            <div class="container">
+                <div class="text-center ">
+                <h2 class="financial-sub-heading pb-3">Advanced FinTech Solutions: Pioneering the Future of Finance</h2>
+                <p class="text-muted pb-3">
+                    We design next generation FinTech platforms that combine security, scalability, and intelligence helping financial institutions deliver seamless, innovative, and future ready services.
+                </p>
+                </div>
 
-            <div class="row g-4">
-            <!-- Card 1 -->
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-16">
-                <div class="solution-card bg1">
-                <div class="solution-icon"><i class="fa-solid fa-money-bill-transfer font-color-green"></i></div>
-                <h5>Digital Banking Platforms</h5>
-                <p>Build secure mobile and web banking solutions with real-time transactions, intuitive dashboards, and personalized services.</p>
+                <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-16">
+                    <div class="solution-card bg1">
+                    <div class="solution-icon"><i class="fa-solid fa-money-bill-transfer font-color-green"></i></div>
+                    <h5>Digital Banking Platforms</h5>
+                    <p>Build secure mobile and web banking solutions with real-time transactions, intuitive dashboards, and personalized services.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-16">
+                    <div class="solution-card bg2">
+                    <div class="solution-icon"><i class="fa-solid fa-wallet font-color-orange"></i></div>
+                    <h5>Payment Gateways & Wallets</h5>
+                    <p>Seamlessly integrate multi currency payment systems, e-wallets, and contactless payment options to enhance customer convenience.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-16">
+                    <div class="solution-card bg3">
+                    <div class="solution-icon"><i class="fa-solid fa-lock font-color-blue"></i></div>
+                    <h5>AI-Powered Risk & Fraud Detection</h5>
+                    <p>Deploy advanced machine learning models to detect anomalies, prevent fraud, and ensure regulatory compliance.</p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-16">
+                    <div class="solution-card bg4">
+                    <div class="solution-icon"><i class="fa-solid fa-chart-line font-color-pink"></i></div>
+                    <h5>Wealth & Investment Platforms</h5>
+                    <p>Create smart tools for portfolio management, robo advisory, and real-time market insights to empower investors.</p>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-16">
+                    <div class="solution-card bg5">
+                    <div class="solution-icon"><i class="fa-solid fa-network-wired font-color-yellow"></i></div>
+                    <h5>Blockchain & Smart Contracts</h5>
+                    <p>Leverage decentralized technologies for transparent, secure, and tamper-proof financial transactions.</p>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-16">
+                    <div class="solution-card bg6">
+                    <div class="solution-icon"><i class="fa-solid fa-file-shield font-color-dark"></i></div>
+                    <h5>RegTech & Compliance Automation</h5>
+                    <p>Automate KYC, AML, and compliance workflows to reduce risk, improve efficiency, and meet evolving regulatory standards.</p>
+                    </div>
+                </div>
                 </div>
             </div>
-
-            <!-- Card 2 -->
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-16">
-                <div class="solution-card bg2">
-                <div class="solution-icon"><i class="fa-solid fa-wallet font-color-orange"></i></div>
-                <h5>Payment Gateways & Wallets</h5>
-                <p>Seamlessly integrate multi currency payment systems, e-wallets, and contactless payment options to enhance customer convenience.</p>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-16">
-                <div class="solution-card bg3">
-                <div class="solution-icon"><i class="fa-solid fa-lock font-color-blue"></i></div>
-                <h5>AI-Powered Risk & Fraud Detection</h5>
-                <p>Deploy advanced machine learning models to detect anomalies, prevent fraud, and ensure regulatory compliance.</p>
-                </div>
-            </div>
-
-            <!-- Card 4 -->
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-16">
-                <div class="solution-card bg4">
-                <div class="solution-icon"><i class="fa-solid fa-chart-line font-color-pink"></i></div>
-                <h5>Wealth & Investment Platforms</h5>
-                <p>Create smart tools for portfolio management, robo advisory, and real-time market insights to empower investors.</p>
-                </div>
-            </div>
-
-            <!-- Card 5 -->
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-16">
-                <div class="solution-card bg5">
-                <div class="solution-icon"><i class="fa-solid fa-network-wired font-color-yellow"></i></div>
-                <h5>Blockchain & Smart Contracts</h5>
-                <p>Leverage decentralized technologies for transparent, secure, and tamper-proof financial transactions.</p>
-                </div>
-            </div>
-
-            <!-- Card 6 -->
-            <div class="col-xl-4 col-lg-4 col-md-4 col-12 mt-16">
-                <div class="solution-card bg6">
-                <div class="solution-icon"><i class="fa-solid fa-file-shield font-color-dark"></i></div>
-                <h5>RegTech & Compliance Automation</h5>
-                <p>Automate KYC, AML, and compliance workflows to reduce risk, improve efficiency, and meet evolving regulatory standards.</p>
-                </div>
-            </div>
-            </div>
-        </div>
         </section>
-    
 
 
 
 
-        
+
+
 
             <section class="tech-showcase container">
                 <div class="position-relative">
