@@ -123,6 +123,11 @@ p {
   font-weight: 400;
   line-height: 1.5;
 }
+
+.blog-pt{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 @media (max-width: 600px) {
   body {
     font-size: 14px;
@@ -305,11 +310,15 @@ hr {
 .text-primary {
     color: #108aff !important;
 }
-
+@media screen and (max-width: 1199.99px) {
+    .blog-main {
+        padding-top: 51px !important;
+    }
+}
 /* Base Button Style */
 .btn {
     font-family: "Inter", sans-serif;
-    padding: 12px 20px!important;
+    padding: 12px 15px!important;
     font-size: 1rem !important;
     line-height: 160% !important;
     cursor: pointer !important;
@@ -733,7 +742,7 @@ header nav {
 }
 
 .h1-font-style.font-48 {
-    font-size: 48px !important;
+    font-size: 40px !important;
     line-height: 1.2 !important;
 }
 
@@ -1870,17 +1879,21 @@ header nav {
 
 .blog-filter-btn {
     padding: 6px 20px !important;
-    border: none;
-    /* border-radius: 20px; */
+    border: 1px solid #000;
+    border-radius: 50px;
     cursor: pointer;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     transition: background-color 0.3s;
     text-wrap-mode: nowrap;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
 }
 
 .blog-filter-btn.active,
 .blog-filter-btn:hover {
-    background-color: #108aff;
+    background-color: #000000;
     color: white;
 }
 
@@ -1904,16 +1917,31 @@ header nav {
 }
 
 .blog-item.show {
-    display: flex !important;
+    display: block !important;
     opacity: 1;
-    border: 1px solid transparent;
+    padding: 16px;
+    border: 1px solid #000;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
 }
 
 .blog-item:hover {
-    background-color: #108aff22;
+    background-color: #108cff25;
+    display: block !important;
+    opacity: 1;
+    padding: 16px;
     border: 1px solid #108aff;
-    border-radius: 6px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
 }
+
+
 
 .footer-link:hover {
     opacity: 0.7;

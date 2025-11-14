@@ -196,9 +196,7 @@ function codesclue_scripts() {
         wp_enqueue_style('codesclue-portfolio', get_template_directory_uri() . '/assets/css/portfolio.css', array(), '1.0.0');
     }
 
-    if (is_page('meet-our-team')) {
-        wp_enqueue_style('codesclue-team', get_template_directory_uri() . '/assets/css/team.css', array(), '1.0.0');
-    }
+ 
 
    
 
@@ -206,104 +204,116 @@ function codesclue_scripts() {
         wp_enqueue_style('codesclue-food-service', get_template_directory_uri() . '/assets/css/food-service.css', array(), '1.0.0');
     }
 
-if ( is_page('clinet-testimonials') ) {
-wp_enqueue_style(
-    'testimonial-css',
-    get_template_directory_uri() . '/assets/css/testimonial.css'
-);
+    if ( is_page('clinet-testimonials') ) {
+    wp_enqueue_style(
+        'testimonial-css',
+        get_template_directory_uri() . '/assets/css/testimonial.css'
+    );
 
-wp_enqueue_style(
-    'owl-carousel-css',
-    get_template_directory_uri() . '/assets/css/owl.carousel.min.css'
-);
+    wp_enqueue_style(
+        'owl-carousel-css',
+        get_template_directory_uri() . '/assets/css/owl.carousel.min.css'
+    );
 
-wp_enqueue_script(
-    'owl-carousel-js',
-    get_template_directory_uri() . '/assets/js/owl.carousel.min.js',
-    array('jquery'),
-    '2.3.4',
-    true
-);
+    wp_enqueue_script(
+        'owl-carousel-js',
+        get_template_directory_uri() . '/assets/js/owl.carousel.min.js',
+        array('jquery'),
+        '2.3.4',
+        true
+    );
 
-wp_enqueue_script(
-    'main-scripts',
-    get_template_directory_uri() . '/assets/js/testimonial.js',
-    array('jquery','owl-carousel-js'),
-    '1.0.0',
-    true
-);
+    wp_enqueue_script(
+        'main-scripts',
+        get_template_directory_uri() . '/assets/js/testimonial.js',
+        array('jquery','owl-carousel-js'),
+        '1.0.0',
+        true
+    );
 
-}
-
-
-    if (is_page('contact-us')) {
-        wp_enqueue_style('codesclue-contact', get_template_directory_uri() . '/assets/css/contact.css', array(), '1.0.0');
     }
+    if (is_page('blog')) {
+            wp_enqueue_style('codesclue-blog', get_template_directory_uri() . '/assets/css/blog.css', array(), '1.0.0');
+        }
 
-    if (is_page('career')) {
-        wp_enqueue_style('codesclue-career', get_template_directory_uri() . '/assets/css/career.css', array(), '1.0.0');
-    }
+        if (is_page('contact-us')) {
+            wp_enqueue_style('codesclue-contact', get_template_directory_uri() . '/assets/css/contact.css', array(), '1.0.0');
+        }
 
-    if (is_page('casestudy')) {
-        wp_enqueue_style('codesclue-casestudy', get_template_directory_uri() . '/assets/css/casestudy.css', array(), '1.0.0');
-    }
+        if (is_page('career')) {
+            wp_enqueue_style('codesclue-career', get_template_directory_uri() . '/assets/css/career.css', array(), '1.0.0');
+        }
 
-    if (is_page('ecommerce')) {
-        wp_enqueue_style('codesclue-industries', get_template_directory_uri() . '/assets/css/industries.css', array(), '1.0.0');
-    }
+        if (is_page('case-studies')) {
+            wp_enqueue_style('codesclue-case-studies', get_template_directory_uri() . '/assets/css/casestudy.css', array(), '1.0.0');
+        }
+
+        if (is_page('taxi-booking')) {
+            wp_enqueue_style('codesclue-taxi-booking', get_template_directory_uri() . '/assets/css/taxi-booking.css', array(), '1.0.0');
+        }
+
+        if (is_page('ecommerce')) {
+            wp_enqueue_style('codesclue-industries', get_template_directory_uri() . '/assets/css/industries.css', array(), '1.0.0');
+        }
 
 
-    if (is_page('project')) {
-        wp_enqueue_style('codesclue-project', get_template_directory_uri() . '/assets/css/project.css', array(), '1.0.0');
-    }
+        if (is_page('project')) {
+            wp_enqueue_style('codesclue-project', get_template_directory_uri() . '/assets/css/project.css', array(), '1.0.0');
+        }
 
-    if (is_page('advertisement')) {
-        wp_enqueue_style('codesclue-advertisement', get_template_directory_uri() . '/assets/css/advertisement.css', array(), '1.0.0');
-    }
+        if (is_page('advertisement')) {
+            wp_enqueue_style('codesclue-advertisement', get_template_directory_uri() . '/assets/css/advertisement.css', array(), '1.0.0');
+        }
 
-    if (is_page('financial')) {
-        wp_enqueue_style('codesclue-financial', get_template_directory_uri() . '/assets/css/financial.css', array(), '1.0.0');
-    }
+        if (is_page('financial')) {
+            wp_enqueue_style('codesclue-financial', get_template_directory_uri() . '/assets/css/financial.css', array(), '1.0.0');
+        }
 
-    if (is_page('media-and-entertainment')) {
-        wp_enqueue_style('codesclue-media-and-entertainment', get_template_directory_uri() . '/assets/css/media.css', array(), '1.0.0');
-    }
+        if (is_page('media-and-entertainment')) {
+            wp_enqueue_style('codesclue-media-and-entertainment', get_template_directory_uri() . '/assets/css/media.css', array(), '1.0.0');
+        }
 
-    if (is_page('ride-reach')) {
-        wp_enqueue_style('codesclue-ride-reach', get_template_directory_uri() . '/assets/css/ridereach.css', array(), '1.0.0');
-    }
+        if (is_page('ride-reach')) {
+            wp_enqueue_style('codesclue-ride-reach', get_template_directory_uri() . '/assets/css/ridereach.css', array(), '1.0.0');
+        }
 
-    if (is_page('healthcare')) {
-        wp_enqueue_style('codesclue-heathcare', get_template_directory_uri() . '/assets/css/healthcare.css', array(), '1.0.0');
-    }
+        if (is_page('healthcare')) {
+            wp_enqueue_style('codesclue-heathcare', get_template_directory_uri() . '/assets/css/healthcare.css', array(), '1.0.0');
+        }
 
-    if (is_page('ai-software-development') || is_page('aipage')) {
-        wp_enqueue_style('codesclue-aipage', get_template_directory_uri() . '/assets/css/aipage.css', array(), '1.0.0');
-    }
+        if (is_page('ai-software-development') || is_page('aipage')) {
+            wp_enqueue_style('codesclue-aipage', get_template_directory_uri() . '/assets/css/aipage.css', array(), '1.0.0');
+        }
 
-    if (is_page('cannabis')) {
-        wp_enqueue_style('codesclue-cannabis', get_template_directory_uri() . '/assets/css/Cannabis.css', array(), '1.0.0');
-    }
+        if (is_page('cannabis')) {
+            wp_enqueue_style('codesclue-cannabis', get_template_directory_uri() . '/assets/css/Cannabis.css', array(), '1.0.0');
+        }
 
-    if (is_page('trackntake')) {
-        wp_enqueue_style('codesclue-trackntake', get_template_directory_uri() . '/assets/css/TrackNtake.css', array(), '1.0.0');
-    }
+        if (is_page('trackntake')) {
+            wp_enqueue_style('codesclue-trackntake', get_template_directory_uri() . '/assets/css/TrackNtake.css', array(), '1.0.0');
+        }
 
-    if (is_page('banking')) {
-        wp_enqueue_style('codesclue-banking', get_template_directory_uri() . '/assets/css/banking.css', array(), '1.0.0');
-    }
+        if (is_page('banking')) {
+            wp_enqueue_style('codesclue-banking', get_template_directory_uri() . '/assets/css/banking.css', array(), '1.0.0');
+        }
 
-    if (is_page('manufacturing')) {
-        wp_enqueue_style('codesclue-manufacturing', get_template_directory_uri() . '/assets/css/manufacturing.css', array(), '1.0.0');
-    }
+        if (is_page('manufacturing')) {
+            wp_enqueue_style('codesclue-manufacturing', get_template_directory_uri() . '/assets/css/manufacturing.css', array(), '1.0.0');
+        }
 
-    if (is_page('eagle-bank')) {
-        wp_enqueue_style('codesclue-eagle-bank', get_template_directory_uri() . '/assets/css/eagle-bank.css', array(), '1.0.0');
-    }
+        if (is_page('eagle-bank')) {
+            wp_enqueue_style('codesclue-eagle-bank', get_template_directory_uri() . '/assets/css/eagle-bank.css', array(), '1.0.0');
+        }
 
-    if (is_page('faq')) {
-        wp_enqueue_style('codesclue-faq', get_template_directory_uri() . '/assets/css/faq.css', array(), '1.0.0');
-    }
+        if (is_page('faq')) {
+            wp_enqueue_style('codesclue-faq', get_template_directory_uri() . '/assets/css/faq.css', array(), '1.0.0');
+        }
+
+
+        if (is_page('our-company')) {
+            wp_enqueue_style('codesclue-our-company', get_template_directory_uri() . '/assets/css/our-company.css', array(), '1.0.0');
+        }
+
 
     // ===== Global Scripts =====
     wp_enqueue_script('jquery');
@@ -328,15 +338,14 @@ wp_enqueue_script(
     wp_enqueue_script('codesclue-contact-email', get_template_directory_uri() . '/assets/js/contactEmail.js', array('jquery'), '1.0.0', true);
     wp_enqueue_script('codesclue-ainavtab', get_template_directory_uri() . '/assets/js/ainavtab.js', array('jquery'), '1.0.0', true);
     wp_enqueue_script('codesclue-hiring-form', get_template_directory_uri() . '/assets/js/hiringForm.js', array('jquery'), '1.0.0', true);
-    wp_enqueue_script('codesclue-team', get_template_directory_uri() . '/assets/js/team.js', array('jquery'), '1.0.0', true);
     wp_enqueue_script('codesclue-counter', get_template_directory_uri() . '/assets/js/counter.js', array('jquery'), '1.0.0', true);
     wp_enqueue_script('codesclue-cache-buster', get_template_directory_uri() . '/assets/js/cacheBuster.js', array(), '1.0.0', true);
 
 
 
-    
+
     // ===== Page Specific Scripts =====
-    
+
     if (is_page('cannabis')) {
         wp_enqueue_script('Cannabis', get_template_directory_uri() . '/assets/js/Cannabis.js', array(), '1.0.0', true);
     }
@@ -351,16 +360,16 @@ wp_enqueue_script(
      if (is_page('advertisement')) {
         wp_enqueue_script('advertisement', get_template_directory_uri() . '/assets/js/advertisement.js', array(), '1.0.0', true);
     }
-    
- if ( is_page( array('our-portfolio', 'contact-us') ) ) {
-        wp_enqueue_script(
-            'our-portfolio',
-            get_template_directory_uri() . '/assets/js/new.js',
-            array(),    // dependencies
-            '1.0.0',
-            true        // footer me load hoga
-        );
-    }
+
+    if ( is_page( array('our-portfolio', 'contact-us') ) ) {
+            wp_enqueue_script(
+                'our-portfolio',
+                get_template_directory_uri() . '/assets/js/new.js',
+                array(),    // dependencies
+                '1.0.0',
+                true        // footer me load hoga
+            );
+        }
     // GSAP core
     wp_enqueue_script(
         'gsap',
@@ -567,6 +576,21 @@ function enqueue_dotlottie_player() {
     );
 }
 add_action('wp_enqueue_scripts', 'enqueue_dotlottie_player');
+
+
+function enqueue_team_assets() {
+    if (is_page('meet-our-team')) { // sirf team page ke liye
+        wp_enqueue_style('team-css', get_template_directory_uri() . '/assets/css/team.css');
+        wp_enqueue_script('team-js', get_template_directory_uri() . '/assets/js/team.js', array(), null, true);
+
+        wp_localize_script('team-js', 'themeData', array(
+            'themeUri' => get_template_directory_uri()
+        ));
+    }
+}
+add_action('wp_enqueue_scripts', 'enqueue_team_assets');
+
+
 
 
 
@@ -1451,7 +1475,7 @@ function send_contact_email()
             <td>" . implode(', ', $options) . "</td>
         </tr>";
     }
- 
+
     // Email body with logo and table
     $body = '
     <html>
@@ -1468,14 +1492,14 @@ function send_contact_email()
     </body>
     </html>
     ';
- 
+
     $headers = [
         "MIME-Version: 1.0",
         "Content-Type: text/html; charset=UTF-8",
         "From: CodesClue <yash.codesclue@gmail.com>", // must match SMTP
         "Cc: " . implode(", ", $cc)
     ];
- 
+
     // Send email
     if (wp_mail($to, "Thank you for conacting us, {$name}", $body, $headers)) {
         wp_send_json_success("Email sent to $to and CC'd to " . implode(", ", $cc));
@@ -1485,15 +1509,17 @@ function send_contact_email()
         wp_send_json_error("Failed to send email. Error: $error");
     }
 }
- 
- 
- 
+
+
+
 add_action('wp_ajax_send_contact_email', 'send_contact_email');
 add_action('wp_ajax_nopriv_send_contact_email', 'send_contact_email');
- 
+
 add_action('wp_enqueue_scripts', function () {
     wp_enqueue_script('contact-form', get_template_directory_uri() . '/js/contact-form.js', ['jquery'], null, true);
     wp_localize_script('contact-form', 'contact_ajax_obj', [
         'ajax_url' => admin_url('admin-ajax.php')
     ]);
 });
+
+

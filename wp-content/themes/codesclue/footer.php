@@ -62,9 +62,9 @@
 
             <div class="col-md-4 col-lg-4 location border-mobile">
                 <div class="location-title">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/codesclue_africa.svg"
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/germany.png"
                         alt="Canada Flag" class="location-icon">
-                    DR Congo - Africa
+                    Germany
                 </div>
 
                 <div class="d-flex align-items-start mb-2">
@@ -74,18 +74,18 @@
 
                 <div class="d-flex align-items-start mb-2">
                     <i class="fas fa-map-marker-alt mt-1 me-2"></i>
-                    <p class="mb-0">56 - Avenue Colonel Ebeya, Gommbe, Kinshasa DR Congo</p>
+                    <p class="mb-0">Rheinische Str. 155, 44147 Dortmund, Germany</p>
                 </div>
 
-                <a href="tel:+234826040211" class="d-flex align-items-start">
+                <a href="tel:+4915510725637" class="d-flex align-items-start">
 
                     <i class="fa-solid fa-phone mt-1 me-2"></i>
-                    <p class="mb-0">(+243) 826 040 211</p>
+                    <p class="mb-0">+49 15510725637</p>
                 </a>
             </div>
 
 
-            
+
 
         </div>
 
@@ -148,14 +148,22 @@
             <div class="review-box-footer">
     <!-- GoodFirm Widget -->
     <div class="review-item-footer">
-      <div class="goodfirm-widget-wrapper custom-body-class">
+      <!-- <div class="goodfirm-widget-wrapper custom-body-class">
   <div class="goodfirm-widget"
        data-widget-type="goodfirms-widget-t6"
        data-widget-pattern="star-no-review"
        data-height="100"
        data-company-id="169180">
-  </div>
-</div>
+  </div> -->
+        <div>
+            <div class="rating-footer">EXCELLENT</div>
+            <div class="stars-footer">★★★★★</div>
+            <div class="d-flex align-items-center justify-content-center pb-2">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/GoodFirm.png" class="size-32 rounded-circle "/>
+                <h5 class="ps-2">GoodFirm</h5>
+            </div>
+            <storng>8 Reviews</storng>
+        </div>
 
 
     </div>
@@ -167,10 +175,11 @@
         <div>
             <div class="rating-footer">EXCELLENT</div>
             <div class="stars-footer">★★★★★</div>
-            <div class="d-flex align-items-center justify-content-center">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Clutch.png" class="size-32 rounded-circle "/>
-            <h5 class="ps-2">Clutch</h5>
-        </div>
+            <div class="d-flex align-items-center justify-content-center pb-2">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Clutch.png" class="size-32 rounded-circle "/>
+                <h5 class="ps-2">Clutch</h5>
+            </div>
+            <storng>5 Reviews</storng>
         </div>
     </div>
 
@@ -191,7 +200,7 @@
         <div class="container">
             <a class="col-lg-auto col-12 footer-brand py-0 me-0 d-flex justify-content-start"
                 href="<?php echo home_url(''); ?>">
-                <img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Logo.png"
+                <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Logo.png"
                     alt="CodesCluelogo" />
             </a>
             <div class="row mx-0 px-0 location-section gap-md-0  my-footer">
@@ -202,30 +211,30 @@
                         <div class="link-section d-flex flex-column gap-3">
                             <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                 href="<?php echo home_url('/our-portfolio/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_portfolio.svg"
                                     class="black-logo icon-menu-size-20" alt="portfolio-logo" />
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_portfolio.svg"
                                     class="blue-logo icon-menu-size-20" alt="portfolio-blue-logo" />
                                 Our Portfolio
                             </a>
                             <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                 href="<?php echo home_url('/case-studies/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_case.svg"
                                     class="black-logo icon-menu-size-20" alt="case-logo" />
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_case.svg"
                                     class="blue-logo icon-menu-size-20" alt="case-blue-logo" />
                                 Case Studies
                             </a>
                             <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                 href="<?php echo home_url('/blog/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_blog.svg"
                                     class="black-logo icon-menu-size-20" alt="blog-logo" />
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_blog.svg"
                                     class="blue-logo icon-menu-size-20" alt="blog-blue-logo" />
                                 Blog
@@ -240,40 +249,40 @@
                         <div class="link-section d-flex flex-column gap-3">
                             <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                 href="<?php echo home_url('/about-us/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_about.svg"
                                     class="black-logo icon-menu-size-20" alt="about-logo" />
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_about.svg"
                                     class="blue-logo icon-menu-size-20" alt="about-blue-logo" />
                                 About Us
                             </a>
                             <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                 href="<?php echo home_url('/meet-our-team/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_meet team.svg"
                                     class="black-logo icon-menu-size-20" alt="meet-logo" />
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_meet team.svg"
                                     class="blue-logo icon-menu-size-20" alt="meet-blue-logo" />
                                 Meet Our Team
                             </a>
                             <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                 href="<?php echo home_url('/clinet-testimonials/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_testimonial.svg"
                                     class="black-logo icon-menu-size-20" alt="testimonial-logo" />
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_testimonial.svg"
                                     class="blue-logo icon-menu-size-20" alt="testimonial-blue-logo" />
                                 Client Testimonial
                             </a>
                             <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                 href="<?php echo home_url('/career/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_career.svg"
                                     class="black-logo icon-menu-size-20" alt="testimonial-logo" />
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_career.svg"
                                     class="blue-logo icon-menu-size-20" alt="testimonial-blue-logo" />
                                 Career
@@ -286,7 +295,7 @@
                     <div class="social-wrapper">
                         <a target="_blank" href="https://www.linkedin.com/company/codesclue/posts/?feedView=all"
                             class="social-details">
-                            <img loading="lazy"
+                            <img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/social_icon/codesclue_linkedin.svg"
                                 class="size-32" alt="linkedin-logo" />
                             <div class="social-text">
@@ -296,7 +305,7 @@
                         </a>
 
                         <a target="_blank" href="https://dribbble.com/CodesClue" class="social-details">
-                            <img loading="lazy"
+                            <img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/new/dribble.svg"
                                 class="size-32" alt="dribbble-logo" />
                             <div class="social-text">
@@ -312,7 +321,7 @@
                     <div class="d-flex flex-column gap-lg-3 gap-2">
                         <a target="_blank" href="mailto:business@codesclue.com"
                             class="social-details d-flex gap-sm-3 gap-1 align-items-center">
-                            <img loading="lazy"
+                            <img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/social_icon/codesclue_mail.svg"
                                 class="size-32" alt="mail-logo" />
                             <div class="d-flex flex-column gap-1">
@@ -323,7 +332,7 @@
                         </a>
                         <a target="_blank" href="https://wa.me/+919998977764"
                             class="social-details d-flex gap-sm-3 gap-1 align-items-center mt-sm-cus">
-                            <img loading="lazy"
+                            <img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/social_icon/codesclue_whatsapp.svg"
                                 class="size-32" alt="whatsapp-logo" />
                             <div class="d-flex flex-column gap-1">
@@ -344,10 +353,10 @@
                         <a target="_blank" href="https://www.dmca.com/r/kzre8p6" title="DMCA.com Protection Status"
                             class="dmca-badge restrictedLink">
                             <img src="https://images.dmca.com/Badges/dmca_protected_sml_120l.png?ID=97306158-22b0-4c24-a56d-e6be709e6611"
-                                alt="DMCA.com Protection Status" loading="lazy" />
+                                alt="DMCA.com Protection Status"  />
                         </a>
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_copyscape.svg"
-                            alt="copyscape" loading="lazy" />
+                            alt="copyscape"  />
                     </div>
                     <p class="copy-text mb-0 py-0 text-center">Copyright
                         &copy; 2025 CodesClue. All Rights Reserved.

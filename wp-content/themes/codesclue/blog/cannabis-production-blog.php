@@ -6,8 +6,8 @@
  */
 get_header(); ?>
 
-    <main>
-        <section class="main-hero-section section-40 blog-bg">
+    <main class="blog-main">
+        <section class="main-hero-section blog-pt blog-bg">
             <div class="container">
                 <div class="row mx-0 px-0 align-items-center">
                     <div class="col-lg-6 col-12 px-lg-2 px-0 row-gap-xl-4 row-gap-3">
@@ -15,7 +15,7 @@ get_header(); ?>
                             <h1 class="h1-font-style text-left font-48 text-left">Key Learnings from a Cannabis
                                 Production Deployment</h1>
                             <!-- <p class="hero_description text-white" >Stay updated with the latest trends in IT, software development, AI, and cloud computing. Explore expert insights, best practices, and innovative solutions for modern businesses.</p> -->
-                            <!-- <a class="btn btn-secondary mt-md-4 mt-2" 
+                            <!-- <a class="btn btn-secondary mt-md-4 mt-2"
                                 href="<?php echo home_url('/contact-us/'); ?>">Contact
                                 Us</a> -->
                             <div class="d-flex my-3 gap-sm-4 gap-2 flex-wrap align-items-center">
@@ -32,7 +32,7 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 px-xl-2 px-0">
+                    <div class="col-lg-6 col-12 px-lg-2 px-0 row-gap-xl-4 row-gap-3">
                         <div class="main-hero-img z-1 text-center blog-main-banner">
                             <div class="main-hero-inner-img">
                                 <img loading="lazy" alt="blog-banner-design"
@@ -279,37 +279,37 @@ get_header(); ?>
                                 </div>
                                 <div class="recent-post">
                                     <span class="content-sub-title text-left">Other Blogs</span>
-                                    <a href="<?php echo home_url('/greenreleaf-dutchie-blog/'); ?>" class="recent-blog-items">
-                                        <div class="d-flex justify-content-start py-2 gap-3">
-                                            <img loading="lazy" alt="external-img-blog3" class="img-thumbnail"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/codesClue_Dutchi.jpg" />
-                                            <div class="d-flex flex-column">
-                                                <p class="small-service-text bold-text mb-0 mt-0 text-left text-capitalize">
-                                                    🌿 How We Built GreenReleaf Dispensary with Dutchie POS APIs</p>
-                                                <span class="gray-text mt-2">September 07, 2025</span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="<?php echo home_url('/expressjs-blog/'); ?>" class="recent-blog-items">
-                                        <div class="d-flex justify-content-start py-2 gap-3">
-                                            <img loading="lazy" alt="external-img-blog3" class="img-thumbnail"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/codesclue_Express.JSBlogs.webp" />
-                                            <div class="d-flex flex-column">
-                                                <p class="small-service-text bold-text mb-0 mt-0 text-left text-capitalize">
-                                                    🚀 Everything You Need to Know About Express.js</p>
-                                                <span class="gray-text mt-2">March 13, 2025</span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="<?php echo home_url('/iosupdate-blog/'); ?>" class="recent-blog-items">
+                                    <a href="<?php echo home_url('/top-app-development/'); ?>" class="recent-blog-items">
                                         <div class="d-flex justify-content-start py-2 gap-3">
                                             <img loading="lazy" alt="external-img-blog1" class="img-thumbnail"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/codesclue_iosUpdate.webp" />
+                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/top-app-development.jpg" />
                                             <div class="d-flex flex-column">
                                                 <p
                                                     class="small-service-text bold-text mb-0 mt-0 text-left text-capitalize">
-                                                    🚀 Your App Stays Compliant with iOS 18 & Xcode 16</p>
-                                                <span class="gray-text mt-2">March 10, 2025</span>
+                                                    Powering the App Revolution in India 📱🚀</p>
+                                                <span class="gray-text mt-2">November 4, 2025</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="<?php echo home_url('/next-wave-tech/'); ?>" class="recent-blog-items">
+                                        <div class="d-flex justify-content-start py-2 gap-3">
+                                            <img loading="lazy" alt="external-img-blog1" class="img-thumbnail" src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/next-wave-tech.png">
+                                            <div class="d-flex flex-column">
+                                                <p class="small-service-text bold-text mb-0 mt-0 text-left text-capitalize">
+                                                   Powering the Next Digital Wave 🌊💻</p>
+                                                <span class="gray-text mt-2">October 9, 2025</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="<?php echo home_url('/greenreleaf-dutchie-blog/'); ?>" class="recent-blog-items">
+                                        <div class="d-flex justify-content-start py-2 gap-3">
+                                            <img loading="lazy" alt="external-img-blog1" class="img-thumbnail"
+                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/codesClue_Dutchi.jpg" />
+                                            <div class="d-flex flex-column">
+                                                <p
+                                                    class="small-service-text bold-text mb-0 mt-0 text-left text-capitalize">
+                                                    🌿 How We Built GreenReleaf Dispensary with Dutchie POS APIs</p>
+                                                <span class="gray-text mt-2">September 07, 2025</span>
                                             </div>
                                         </div>
                                     </a>

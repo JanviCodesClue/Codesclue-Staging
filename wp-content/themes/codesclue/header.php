@@ -79,10 +79,10 @@
             <!-- left side logo + pill -->
             <div class="d-flex gap-sm-3 gap-1 align-items-center">
                 <a class="navbar-brand py-0 my-xl-0 my-2 me-0" href="<?php echo home_url(''); ?>">
-                    <img loading="lazy"
+                    <img 
                         src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_Logo.png"
                         class="nav-logo" alt="logo" />
-                    <img loading="lazy"
+                    <img 
                         src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue_favicon.png" width="50"
                         height="50" class="nav-logo d-none svg-logo-sm" alt="logo" />
                 </a>
@@ -138,19 +138,19 @@
                                                 <div class="inner-services">
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/about-us/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_about.svg"
                                                             class="black-logo icon-menu-size-20" alt="about-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_about.svg"
                                                             class="blue-logo icon-menu-size-20" alt="about-blue-logo" />
                                                         About us</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/privacy/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_privacy.svg"
                                                             class="black-logo icon-menu-size-20" alt="privacy-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_privacy.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="privacy-blue-logo" />
@@ -160,10 +160,10 @@
                                                 <div class="inner-services px-xl-5">
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/meet-our-team/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_meet team.svg"
                                                             class="black-logo icon-menu-size-20" alt="meetteam-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_meet team.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="meetteam-blue-logo" />
@@ -171,11 +171,11 @@
                                                         Team</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/clinet-testimonials/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_testimonial.svg"
                                                             class="black-logo icon-menu-size-20"
                                                             alt="testimonial-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_testimonial.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="testimonial-blue-logo" />
@@ -186,19 +186,19 @@
 
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/faq/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_faq.svg"
                                                             class="black-logo icon-menu-size-20" alt="faq-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_faq.svg"
                                                             class="blue-logo icon-menu-size-20" alt="faq-blue-logo" />
                                                         FAQs</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/our-company/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_Our_Company.svg"
                                                             class="black-logo icon-menu-size-20" alt="faq-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_Our_Company.svg"
                                                             class="blue-logo icon-menu-size-20" alt="faq-blue-logo" />
                                                         Our Company</a>
@@ -208,7 +208,7 @@
                                                         class="bg-light-blue p-xxl-4 d-sm-grid d-flex flex-sm-row flex-column grid-2 gap-xl-4 gap-2 p-sm-3 p-2">
                                                         <a target="_blank" href="mailto:business@codesclue.com"
                                                             class="social-details d-flex gap-sm-3 gap-1 align-items-center">
-                                                            <img loading="lazy"
+                                                            <img 
                                                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/social_icon/codesclue_mail.svg"
                                                                 class="size-32" alt="mail-logo" />
                                                             <div class="d-flex flex-column gap-1">
@@ -220,7 +220,7 @@
                                                         <a target="_blank"
                                                             href="https://www.linkedin.com/company/codesclue/posts/?feedView=all"
                                                             class="social-details d-flex gap-sm-3 gap-1 align-items-center">
-                                                            <img loading="lazy"
+                                                            <img 
                                                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/social_icon/codesclue_linkedin.svg"
                                                                 class="size-32" alt="skype-logo" />
                                                             <div class="d-flex flex-column gap-1">
@@ -230,7 +230,7 @@
                                                         </a>
                                                         <a target="_blank" href="https://wa.me/+919998977764"
                                                             class="social-details d-flex gap-sm-3 gap-1 align-items-center">
-                                                            <img loading="lazy"
+                                                            <img 
                                                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/social_icon/codesclue_whatsapp.svg"
                                                                 class="size-32" alt="whatsapp-logo" />
                                                             <div class="d-flex flex-column gap-1">
@@ -243,7 +243,7 @@
                                                         </a>
                                                         <a target="_blank" href="https://dribbble.com/CodesClue"
                                                             class="social-details d-flex gap-sm-3 gap-1 align-items-center">
-                                                            <img loading="lazy"
+                                                            <img 
                                                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/new/dribble.svg"
                                                                 class="size-32" alt="insta-logo" />
                                                             <div class="d-flex flex-column gap-1">
@@ -289,20 +289,20 @@
                                                 <div class="inner-services">
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/android/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_android.svg"
                                                             class="black-logo icon-menu-size-20" alt="android-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_android.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="android-blue-logo" />
                                                         Android</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/react-native/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_react.svg"
                                                             class="black-logo icon-menu-size-20" alt="reactjs-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_react.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="reactjs-blue-logo" />
@@ -310,57 +310,57 @@
                                                         Native</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/flutter/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_flutter.svg"
                                                             class="black-logo icon-menu-size-20" alt="flutter-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_flutter.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="flutter-blue-logo" />
                                                         Flutter</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/ios/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_ios.svg"
                                                             class="black-logo icon-menu-size-20" alt="ios-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_ios.svg"
                                                             class="blue-logo icon-menu-size-20" alt="ios-blue-logo" />
                                                         iOS</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/ipad/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_ipad.svg"
                                                             class="black-logo icon-menu-size-20" alt="ipad-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_ipad.svg"
                                                             class="blue-logo icon-menu-size-20" alt="ipad-blue-logo" />
                                                         iPad</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/pwa/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_pwa.svg"
                                                             class="black-logo icon-menu-size-20" alt="pwa-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_pwa.svg"
                                                             class="blue-logo icon-menu-size-20" alt="pwa-blue-logo" />
                                                         PWA</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/kotlin/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_kotlin.svg"
                                                             class="black-logo icon-menu-size-20" alt="kotlin-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_kotlin.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="kotlin-blue-logo" />
                                                         Kotlin</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/swift/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_swift.svg"
                                                             class="black-logo icon-menu-size-20" alt="swift-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_swift.svg"
                                                             class="blue-logo icon-menu-size-20" alt="swift-blue-logo" />
                                                         Swift</a>
@@ -379,58 +379,58 @@
                                                 <div class="inner-services">
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/html-page/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_html.svg"
                                                             class="black-logo icon-menu-size-20" alt="htmlpage-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_html.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="htmlpage-blue-logo" />
                                                         Html</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/css/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_css.svg"
                                                             class="black-logo icon-menu-size-20" alt="css-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_css.svg"
                                                             class="blue-logo icon-menu-size-20" alt="css-blue-logo" />
                                                         CSS</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/js/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_js.svg"
                                                             class="black-logo icon-menu-size-20" alt="js-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_js.svg"
                                                             class="blue-logo icon-menu-size-20" alt="js-blue-logo" />
                                                         Javascript</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/angular/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_angular.svg"
                                                             class="black-logo icon-menu-size-20" alt="angular-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_angular.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="angular-blue-logo" />
                                                         Angular</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/react-js/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_react.svg"
                                                             class="black-logo icon-menu-size-20" alt="reactjs-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_react.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="reactjs-blue-logo" />
                                                         React.js</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/vue-js/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_vue.svg"
                                                             class="black-logo icon-menu-size-20" alt="vuejs-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_vue.svg"
                                                             class="blue-logo icon-menu-size-20" alt="vuejs-blue-logo" />
                                                         Vue.JS</a>
@@ -450,67 +450,67 @@
                                                 <div class="inner-services">
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/laravel/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_laravel.svg"
                                                             class="black-logo icon-menu-size-20" alt="laravel-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_laravel.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="laravel-blue-logo" />
                                                         Laravel</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/php/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_php.svg"
                                                             class="black-logo icon-menu-size-20" alt="php-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_php.svg"
                                                             class="blue-logo icon-menu-size-20" alt="php-blue-logo" />
                                                         PHP</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/node-js/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_node.svg"
                                                             class="black-logo icon-menu-size-20" alt="node-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_node.svg"
                                                             class="blue-logo icon-menu-size-20" alt="node-blue-logo" />
                                                         Node.js</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/java/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_java.svg"
                                                             class="black-logo icon-menu-size-20" alt="java-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_java.svg"
                                                             class="blue-logo icon-menu-size-20" alt="java-blue-logo" />
                                                         Java</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/ror/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_rails.svg"
                                                             class="black-logo icon-menu-size-20" alt="ruby-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_rails.svg"
                                                             class="blue-logo icon-menu-size-20" alt="ruby-blue-logo" />
                                                         Ruby on
                                                         Rails</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/mongo-db/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_mongodb.svg"
                                                             class="black-logo icon-menu-size-20" alt="mongodb-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_mongodb.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="mongodb-blue-logo" />
                                                         MongoDB</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/dotnet/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_dotnet.svg"
                                                             class="black-logo icon-menu-size-20" alt="dotnet-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_dotnet.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="dotnet-blue-logo" />
@@ -530,56 +530,56 @@
                                                 <div class="inner-services">
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/cloud-consulting-migrations/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/cloud-consulting-migrations.svg"
                                                             class="black-logo icon-menu-size-20" alt="laravel-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/cloud-consulting-migrations-blue.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="laravel-blue-logo" />
                                                         Cloud Consulting & Migrations</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/devsecops-sre/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/DevSecOps-SRE.svg"
                                                             class="black-logo icon-menu-size-20" alt="php-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/DevSecOps-SRE-blue.svg"
                                                             class="blue-logo icon-menu-size-20" alt="php-blue-logo" />
                                                         DevSecOps & SRE</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/security-governance/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/security-governance.svg"
                                                             class="black-logo icon-menu-size-20" alt="node-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/security-governance-blue.svg"
                                                             class="blue-logo icon-menu-size-20" alt="node-blue-logo" />
                                                         Security & Governance</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/cloud-reporting/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/cloud-reporting.svg"
                                                             class="black-logo icon-menu-size-20" alt="java-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/cloud-reporting-blue.svg"
                                                             class="blue-logo icon-menu-size-20" alt="java-blue-logo" />
                                                         Cloud Reporting</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/application-modernization/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/Application-modernization.svg"
                                                             class="black-logo icon-menu-size-20" alt="ruby-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/Application-modernization-blue.svg"
                                                             class="blue-logo icon-menu-size-20" alt="ruby-blue-logo" />
                                                         Application Modernization</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/genaiops/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/GenAIOps.svg"
                                                             class="black-logo icon-menu-size-20" alt="mongodb-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/GenAIOps-blue.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="mongodb-blue-logo" />
@@ -602,11 +602,11 @@
                                                 <div class="inner-services">
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/auto-mated-testing/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_auto.svg"
                                                             class="black-logo icon-menu-size-20"
                                                             alt="automatedtesting-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_auto.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="automatedtesting-blue-logo" />
@@ -614,11 +614,11 @@
                                                         Testing</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/manual-testing/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_manual.svg"
                                                             class="black-logo icon-menu-size-20"
                                                             alt="manualtesting-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_manual.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="manualtesting-blue-logo" />
@@ -626,11 +626,11 @@
                                                         Testing</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/api-testing/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_api.svg"
                                                             class="black-logo icon-menu-size-20"
                                                             alt="apitesting-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_api.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="apitesting-blue-logo" />
@@ -641,7 +641,7 @@
                                                         <img loading=" lazy"
                                                         src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_mobile.svg"
                                                         class="black-logo icon-menu-size-20" alt="mobiletesting-logo" />
-                                                    <img loading="lazy"
+                                                    <img 
                                                         src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_mobile.svg"
                                                         class="blue-logo icon-menu-size-20"
                                                         alt="mobiletesting-blue-logo" />
@@ -649,11 +649,11 @@
                                                     Testing</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/software-testing/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_software.svg"
                                                             class="black-logo icon-menu-size-20"
                                                             alt="softwaretesting-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_software.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="softwaretesting-blue-logo" />
@@ -661,11 +661,11 @@
                                                         Testing</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/support-testing/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_support.svg"
                                                             class="black-logo icon-menu-size-20"
                                                             alt="supporttesting-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_support.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="supporttesting-blue-logo" />
@@ -673,11 +673,11 @@
                                                         Testing</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/performance-testing/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_performance.svg"
                                                             class="black-logo icon-menu-size-20"
                                                             alt="performancetesting-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_performance.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="performancetesting-blue-logo" />
@@ -713,10 +713,10 @@
                                                 <div class="inner-services">
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/our-portfolio/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_portfolio.svg"
                                                             class="black-logo icon-menu-size-20" alt="portfolio-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_portfolio.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="portfolio-blue-logo" />
@@ -724,10 +724,10 @@
                                                         Portfolio</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/case-studies/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_case.svg"
                                                             class="black-logo icon-menu-size-20" alt="case-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_case.svg"
                                                             class="blue-logo icon-menu-size-20" alt="case-blue-logo" />
                                                         Case
@@ -737,10 +737,10 @@
 
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/blog/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_blog.svg"
                                                             class="black-logo icon-menu-size-20" alt="blog-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_blog.svg"
                                                             class="blue-logo icon-menu-size-20" alt="blog-blue-logo" />
                                                         Blog</a>
@@ -757,7 +757,7 @@
                                                                         <span>5.0</span><span class="font-18">/</span>5
                                                                     </div>
                                                                     <p class="stamp-widget_reviews">
-                                                                        7
+                                                                        8
                                                                         reviews
                                                                     </p>
                                                                 </div>
@@ -780,7 +780,7 @@
                                                                         <span>5.0</span><span class="font-18">/</span>5
                                                                     </div>
                                                                     <p class="stamp-widget_reviews">
-                                                                        4
+                                                                       5
                                                                         reviews
                                                                     </p>
                                                                 </div>
@@ -843,10 +843,10 @@
                                                 <div class="inner-services">
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/hire-android-developer/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_android.svg"
                                                             class="black-logo icon-menu-size-20" alt="android-logo" />
-                                                        <img loading="lazy"
+                                                        <img
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_android.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="android-blue-logo" />
@@ -855,10 +855,10 @@
                                                         developers</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/hire-react-native-developer/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_react.svg"
                                                             class="black-logo icon-menu-size-20" alt="reactjs-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_react.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="reactjs-blue-logo" />
@@ -868,10 +868,10 @@
                                                         Developer</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/hire-flutter-developer/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_flutter.svg"
                                                             class="black-logo icon-menu-size-20" alt="flutter-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_flutter.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="flutter-blue-logo" />
@@ -880,10 +880,10 @@
                                                         Developer</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/hire-ios-developer/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_ios.svg"
                                                             class="black-logo icon-menu-size-20" alt="ios-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_ios.svg"
                                                             class="blue-logo icon-menu-size-20" alt="ios-blue-logo" />
                                                         Hire iOS
@@ -904,10 +904,10 @@
                                                 <div class="inner-services">
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/hire-angular-developer/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_angular.svg"
                                                             class="black-logo icon-menu-size-20" alt="angular-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_angular.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="angular-blue-logo" />
@@ -916,10 +916,10 @@
                                                         Developer</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/hire-react-js-developer/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_react.svg"
                                                             class="black-logo icon-menu-size-20" alt="reactjs-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_react.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="reactjs-blue-logo" />
@@ -929,10 +929,10 @@
                                                     </a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/hire-javascript-developer/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_js.svg"
                                                             class="black-logo icon-menu-size-20" alt="js-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_js.svg"
                                                             class="blue-logo icon-menu-size-20" alt="js-blue-logo" />
                                                         Hire
@@ -955,20 +955,20 @@
                                                 <div class="inner-services">
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/hire-php-developer/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_php.svg"
                                                             class="black-logo icon-menu-size-20" alt="php-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_php.svg"
                                                             class="blue-logo icon-menu-size-20" alt="php-blue-logo" />
                                                         Hire PHP
                                                         Developer</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/hire-node-js-developer/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_node.svg"
                                                             class="black-logo icon-menu-size-20" alt="node-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_node.svg"
                                                             class="blue-logo icon-menu-size-20" alt="node-blue-logo" />
                                                         Hire
@@ -976,20 +976,20 @@
                                                         Developer</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/hire-ror-developers/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_rails.svg"
                                                             class="black-logo icon-menu-size-20" alt="ruby-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_rails.svg"
                                                             class="blue-logo icon-menu-size-20" alt="ruby-blue-logo" />
                                                         Hire RoR
                                                         Developer</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/hire-java-developer/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_java.svg"
                                                             class="black-logo icon-menu-size-20" alt="java-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_java.svg"
                                                             class="blue-logo icon-menu-size-20" alt="java-blue-logo" />
                                                         Hire
@@ -997,10 +997,10 @@
                                                         Developer</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/hire-dotnet-developer/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_dotnet.svg"
                                                             class="black-logo icon-menu-size-20" alt="dotnet-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_dotnet.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="dotnet-blue-logo" />
@@ -1023,11 +1023,11 @@
                                                 <div class="inner-services">
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/hire-automated-qa/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_auto.svg"
                                                             class="black-logo icon-menu-size-20"
                                                             alt="automated-qa-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_auto.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="automated-qa-blue-logo" />
@@ -1036,10 +1036,10 @@
                                                         QA</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/hire-manual-qa/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_manual.svg"
                                                             class="black-logo icon-menu-size-20" alt="manual-qa-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_manual.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="manual-qa-blue-logo" />
@@ -1081,46 +1081,46 @@
                                                 <div class="inner-services">
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/cannabis/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_cannabis.svg"
                                                             class="black-logo icon-menu-size-20" alt="about-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_cannabis.svg"
                                                             class="blue-logo icon-menu-size-20" alt="about-blue-logo" />
                                                         Cannabis</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/healthcare/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_healthcare.svg"
                                                             class="black-logo icon-menu-size-20" alt="about-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_healthcare_blue.svg"
                                                             class="blue-logo icon-menu-size-20" alt="about-blue-logo" />
                                                         Health Care</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/food-service/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue__foodservices.svg"
                                                             class="black-logo icon-menu-size-20" alt="about-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_foodservices.svg"
                                                             class="blue-logo icon-menu-size-20" alt="about-blue-logo" />
                                                         Food Service</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/advertisement/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/advertisement-black.svg"
                                                             class="black-logo icon-menu-size-20" alt="about-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/advertisement-blue.svg"
                                                             class="blue-logo icon-menu-size-20" alt="about-blue-logo" />
                                                         Advertisement</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/banking/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/banking-black.svg"
                                                             class="black-logo icon-menu-size-20" alt="about-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/banking-blue.svg"
                                                             class="blue-logo icon-menu-size-20" alt="about-blue-logo" />
                                                         Banking</a>
@@ -1128,30 +1128,30 @@
                                                 <div class="inner-services">
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/ecommerce/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_E-Commerce.svg"
                                                             class="black-logo icon-menu-size-20" alt="privacy-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue_E-Commerce.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="privacy-blue-logo" />
                                                         E-Commerce</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/financial/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codescluefinancial-performancial.svg"
                                                             class="black-logo icon-menu-size-20" alt="privacy-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codescluefinancial-performancial-blue.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="privacy-blue-logo" />
                                                         Financial</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/media-and-entertainment/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue__media_and_entertainment.svg"
                                                             class="black-logo icon-menu-size-20" alt="privacy-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/codesclue_blue__media_and_entertainment.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="privacy-blue-logo" />
@@ -1159,10 +1159,10 @@
                                                         Entertainment</a>
                                                     <a class="nav-link dropdown-item d-flex gap-lg-3 gap-2 align-items-center"
                                                         href="<?php echo home_url('/manufacturing/'); ?>">
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/Manufacturing-black.svg"
                                                             class="black-logo icon-menu-size-20" alt="privacy-logo" />
-                                                        <img loading="lazy"
+                                                        <img 
                                                             src="<?php echo get_template_directory_uri(); ?>/assets/images/header/blue_icon/Manufacturing-blue.svg"
                                                             class="blue-logo icon-menu-size-20"
                                                             alt="privacy-blue-logo" />
@@ -1174,7 +1174,7 @@
                                                         class="bg-light-blue p-xxl-4 d-sm-grid d-flex flex-sm-row flex-column grid-2 gap-xl-4 gap-2 p-sm-3 p-2">
                                                         <a target="_blank" href="mailto:business@codesclue.com"
                                                             class="social-details d-flex gap-sm-3 gap-1 align-items-center">
-                                                            <img loading="lazy"
+                                                            <img 
                                                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/social_icon/codesclue_mail.svg"
                                                                 class="size-32" alt="mail-logo" />
                                                             <div class="d-flex flex-column gap-1">
@@ -1186,7 +1186,7 @@
                                                         <a target="_blank"
                                                             href="https://www.linkedin.com/company/codesclue/posts/?feedView=all"
                                                             class="social-details d-flex gap-sm-3 gap-1 align-items-center">
-                                                            <img loading="lazy"
+                                                            <img 
                                                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/social_icon/codesclue_linkedin.svg"
                                                                 class="size-32" alt="skype-logo" />
                                                             <div class="d-flex flex-column gap-1">
@@ -1196,7 +1196,7 @@
                                                         </a>
                                                         <a target="_blank" href="https://wa.me/+919998977764"
                                                             class="social-details d-flex gap-sm-3 gap-1 align-items-center">
-                                                            <img loading="lazy"
+                                                            <img 
                                                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/social_icon/codesclue_whatsapp.svg"
                                                                 class="size-32" alt="whatsapp-logo" />
                                                             <div class="d-flex flex-column gap-1">
@@ -1209,7 +1209,7 @@
                                                         </a>
                                                         <a target="_blank" href="https://dribbble.com/CodesClue"
                                                             class="social-details d-flex gap-sm-3 gap-1 align-items-center">
-                                                            <img loading="lazy"
+                                                            <img 
                                                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/new/dribble.svg"
                                                                 class="size-32" alt="insta-logo" />
                                                             <div class="d-flex flex-column gap-1">
@@ -1308,25 +1308,25 @@
             </div>
             <div class="submenu-list">
                 <ul>
-                    <li class="sub-menu-2"><a href="<?php echo home_url('/about-us/'); ?>"><img loading="lazy"
+                    <li class="sub-menu-2"><a href="<?php echo home_url('/about-us/'); ?>"><img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_about.svg"
                                 class="me-3 icon-menu-size-20" alt="about-logo" />About us</a></li>
-                    <li class="sub-menu-2"><a href="<?php echo home_url('/privacy/'); ?>"><img loading="lazy"
+                    <li class="sub-menu-2"><a href="<?php echo home_url('/privacy/'); ?>"><img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_privacy.svg"
                                 class="me-3 icon-menu-size-20" alt="privacy-logo" />Privacy Policy</a></li>
-                    <li class="sub-menu-2"><a href="<?php echo home_url('/meet-our-team/'); ?>"><img loading="lazy"
+                    <li class="sub-menu-2"><a href="<?php echo home_url('/meet-our-team/'); ?>"><img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_meet team.svg"
                                 class="me-3 icon-menu-size-20" alt="meet-logo" />Meet Our Team</a></li>
                     <li class="sub-menu-2"><a href="<?php echo home_url('/clinet-testimonials/'); ?>"><img
-                                loading="lazy"
+                                
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_testimonial.svg"
                                 class="me-3 icon-menu-size-20" alt="testimonial-logo" />Client
                             Testimonial</a></li>
-                    <li class="sub-menu-2"><a href="<?php echo home_url('/faq/'); ?>"><img loading="lazy"
+                    <li class="sub-menu-2"><a href="<?php echo home_url('/faq/'); ?>"><img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_faq.svg"
                                 class="me-3 icon-menu-size-20" alt="faq-logo" />FAQs</a></li>
                     <li class="sub-menu-2"><a href="<?php echo home_url('/our-company/'); ?>">
-                            <img loading="lazy"
+                            <img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_Our_Company.svg"
                                 class="me-3 icon-menu-size-20" alt="faq-logo" />Our Company</a></li>
                 </ul>
@@ -1349,55 +1349,55 @@
                     <h6>Mobile Development</h6>
                     <ul>
                         <li><a href="<?php echo home_url('/android/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_android.svg"
                                     class="me-3 icon-menu-size-20" alt="android-logo" />Android</a></li>
                         <li><a href="<?php echo home_url('/react-native/'); ?>"><img
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_react.svg"
-                                    loading="lazy" class="me-3" alt="React Native">React Native</a></li>
+                                     class="me-3" alt="React Native">React Native</a></li>
                         <li><a href="<?php echo home_url('/flutter/'); ?>"><img
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_flutter.svg"
-                                    loading="lazy" class="me-3" alt="React Native">Flutter</a></li>
+                                     class="me-3" alt="React Native">Flutter</a></li>
                         <li><a href="<?php echo home_url('/ios/'); ?>"><img
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_ios.svg"
-                                    loading="lazy" class="me-3" alt="React Native">iOS</a></li>
+                                     class="me-3" alt="React Native">iOS</a></li>
                         <li><a href="<?php echo home_url('/ipad/'); ?>"><img
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_ipad.svg"
-                                    loading="lazy" class="me-3" alt="React Native">iPad</a></li>
+                                     class="me-3" alt="React Native">iPad</a></li>
                         <li><a href="<?php echo home_url('/pwa/'); ?>"><img
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_pwa.svg"
-                                    loading="lazy" class="me-3" alt="React Native">PWA</a></li>
+                                     class="me-3" alt="React Native">PWA</a></li>
                         <li><a href="<?php echo home_url('/kotlin/'); ?>"><img
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_kotlin.svg"
-                                    loading="lazy" class="me-3" alt="React Native">Kotlin</a></li>
+                                     class="me-3" alt="React Native">Kotlin</a></li>
                         <li><a href="<?php echo home_url('/swift/'); ?>"><img
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_swift.svg"
-                                    loading="lazy" class="me-3" alt="React Native">Swift</a></li>
+                                     class="me-3" alt="React Native">Swift</a></li>
                     </ul>
                 </div>
                 <div class="submenu-section">
                     <h6>Frontend Development</h6>
                     <ul>
                         <li><a href="<?php echo home_url('/html-page/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_html.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />HTML</a></li>
-                        <li><a href="<?php echo home_url('/css/'); ?>"> <img loading="lazy"
+                        <li><a href="<?php echo home_url('/css/'); ?>"> <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_css.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />CSS</a></li>
-                        <li><a href="<?php echo home_url('/js/'); ?>"><img loading="lazy"
+                        <li><a href="<?php echo home_url('/js/'); ?>"><img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_js.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />JavaScript</a></li>
                         <li><a href="<?php echo home_url('/angular/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_angular.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Angular</a></li>
                         <li><a href="<?php echo home_url('/react-js/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_react.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />React.js</a></li>
                         <li><a href="<?php echo home_url('/vue-js/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_vue.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Vue.js</a></li>
                     </ul>
@@ -1406,29 +1406,29 @@
                     <h6>Backend Development</h6>
                     <ul>
                         <li><a href="<?php echo home_url('/laravel/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_laravel.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Laravel</a></li>
-                        <li><a href="<?php echo home_url('/php/'); ?>"> <img loading="lazy"
+                        <li><a href="<?php echo home_url('/php/'); ?>"> <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_php.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />PHP</a></li>
                         <li><a href="<?php echo home_url('/node-js/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_node.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Node.js</a></li>
                         <li><a href="<?php echo home_url('/java/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_java.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Java</a></li>
-                        <li><a href="<?php echo home_url('/ror/'); ?>"> <img loading="lazy"
+                        <li><a href="<?php echo home_url('/ror/'); ?>"> <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_rails.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Ruby on Rails</a></li>
                         <li><a href="<?php echo home_url('/mongo-db/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_mongodb.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />MongoDB</a></li>
                         <li><a href="<?php echo home_url('/dotnet/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_dotnet.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />.NET</a></li>
                     </ul>
@@ -1437,25 +1437,25 @@
                     <h6>Cloud Service</h6>
                     <ul>
                         <li><a href="<?php echo home_url('/cloud-consulting-migrations/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/cloud-consulting-migrations.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Cloud Consulting & Migrations</a></li>
-                        <li><a href="<?php echo home_url('/devsecops-sre/'); ?>"> <img loading="lazy"
+                        <li><a href="<?php echo home_url('/devsecops-sre/'); ?>"> <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/DevSecOps-SRE.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />DevSecOps & SRE</a></li>
                         <li><a href="<?php echo home_url('/security-governance/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/security-governance.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Security & Governances</a></li>
                         <li><a href="<?php echo home_url('/cloud-reporting/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/cloud-reporting.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Cloud Reporting</a></li>
-                        <li><a href="<?php echo home_url('/application-modernization/'); ?>"> <img loading="lazy"
+                        <li><a href="<?php echo home_url('/application-modernization/'); ?>"> <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/Application-modernization.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Application Modernization</a></li>
                         <li><a href="<?php echo home_url('/genaiops/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/GenAIOps.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />GenAIOps</a></li>
                     </ul>
@@ -1464,17 +1464,17 @@
                     <h6>Testing & QA</h6>
                     <ul>
                         <li><a href="<?php echo home_url('/auto-mated-testing/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_auto.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Automated
                                 Testing</a></li>
                         <li><a href="<?php echo home_url('/manual-testing/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_manual.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Manual
                                 Testing</a></li>
                         <li><a href="<?php echo home_url('/api-testing/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_api.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />API Testing</a></li>
                         <li><a href="<?php echo home_url('/mobile-testing/'); ?>"">
@@ -1483,17 +1483,17 @@
                                 class="me-3 icon-menu-size-20" alt="html-logo" />Mobile
                             Testing</a></li>
                         <li><a href="<?php echo home_url('/software-testing/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_software.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Software
                                 Testing</a></li>
                         <li><a href="<?php echo home_url('/support-testing/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_support.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Support
                                 Testing</a></li>
                         <li><a href="<?php echo home_url('/performance-testing/'); ?>">
-                                <img loading="lazy"
+                                <img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_performance.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Performance
                                 Testing</a></li>
@@ -1514,13 +1514,13 @@
             </div>
             <div class="submenu-list">
                 <ul>
-                    <li class="sub-menu-2"><a href="<?php echo home_url('/our-portfolio/'); ?>"><img loading="lazy"
+                    <li class="sub-menu-2"><a href="<?php echo home_url('/our-portfolio/'); ?>"><img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_portfolio.svg"
                                 class="me-3 icon-menu-size-20" alt="html-logo" />Our Portfolio</a></li>
-                    <li class="sub-menu-2"><a href="<?php echo home_url('/case-studies/'); ?>"><img loading="lazy"
+                    <li class="sub-menu-2"><a href="<?php echo home_url('/case-studies/'); ?>"><img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_case.svg"
                                 class="me-3 icon-menu-size-20" alt="html-logo" />Case Studies</a></li>
-                    <li class="sub-menu-2"><a href="<?php echo home_url('/blog/'); ?>"><img loading="lazy"
+                    <li class="sub-menu-2"><a href="<?php echo home_url('/blog/'); ?>"><img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_blog.svg"
                                 class="me-3 icon-menu-size-20" alt="html-logo" />Blog</a></li>
                 </ul>
@@ -1542,21 +1542,21 @@
                 <div class="submenu-section">
                     <h6>Mobile Developers</h6>
                     <ul>
-                        <li><a href="<?php echo home_url('/hire-android-developer/'); ?>"><img loading="lazy"
+                        <li><a href="<?php echo home_url('/hire-android-developer/'); ?>"><img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_android.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Hire Android
                                 developers</a>
                         </li>
-                        <li><a href="<?php echo home_url('/hire-react-native-developer/'); ?>"><img loading="lazy"
+                        <li><a href="<?php echo home_url('/hire-react-native-developer/'); ?>"><img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_react.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Hire React Native
                                 Developer</a>
                         </li>
-                        <li><a href="<?php echo home_url('/hire-flutter-developer/'); ?>"><img loading="lazy"
+                        <li><a href="<?php echo home_url('/hire-flutter-developer/'); ?>"><img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_flutter.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Hire Flutter
                                 Developer</a></li>
-                        <li><a href="<?php echo home_url('/hire-ios-developer/'); ?>"><img loading="lazy"
+                        <li><a href="<?php echo home_url('/hire-ios-developer/'); ?>"><img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_ios.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Hire iOS
                                 Developer</a></li>
@@ -1565,16 +1565,16 @@
                 <div class="submenu-section">
                     <h6>Frontend Developers</h6>
                     <ul>
-                        <li><a href="<?php echo home_url('/hire-angular-developer/'); ?>"><img loading="lazy"
+                        <li><a href="<?php echo home_url('/hire-angular-developer/'); ?>"><img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_angular.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Hire Angular
                                 Developer</a></li>
-                        <li><a href="<?php echo home_url('/hire-react-js-developer/'); ?>"><img loading="lazy"
+                        <li><a href="<?php echo home_url('/hire-react-js-developer/'); ?>"><img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_react.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Hire React.js
                                 Developer</a>
                         </li>
-                        <li><a href="<?php echo home_url('/hire-javascript-developer/'); ?>"><img loading="lazy"
+                        <li><a href="<?php echo home_url('/hire-javascript-developer/'); ?>"><img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_java.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Hire Javascript
                                 Developer</a>
@@ -1584,23 +1584,23 @@
                 <div class="submenu-section">
                     <h6>Backend Developers</h6>
                     <ul>
-                        <li><a href="<?php echo home_url('/hire-php-developer/'); ?>"><img loading="lazy"
+                        <li><a href="<?php echo home_url('/hire-php-developer/'); ?>"><img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_php.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Hire PHP
                                 Developer</a></li>
-                        <li><a href="<?php echo home_url('/hire-node-js-developer/'); ?>"><img loading="lazy"
+                        <li><a href="<?php echo home_url('/hire-node-js-developer/'); ?>"><img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_node.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Hire Node.js
                                 Developer</a></li>
-                        <li><a href="<?php echo home_url('/hire-ror-developers/'); ?>"><img loading="lazy"
+                        <li><a href="<?php echo home_url('/hire-ror-developers/'); ?>"><img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_rails.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Hire RoR
                                 Developer</a></li>
-                        <li><a href="<?php echo home_url('/hire-java-developer/'); ?>"><img loading="lazy"
+                        <li><a href="<?php echo home_url('/hire-java-developer/'); ?>"><img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_java.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Hire Java
                                 Developer</a></li>
-                        <li><a href="<?php echo home_url('/hire-dotnet-developer/'); ?>"><img loading="lazy"
+                        <li><a href="<?php echo home_url('/hire-dotnet-developer/'); ?>"><img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_dotnet.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Hire .NET
                                 Developer</a></li>
@@ -1609,11 +1609,11 @@
                 <div class="submenu-section">
                     <h6>Quality Assurance</h6>
                     <ul>
-                        <li><a href="<?php echo home_url('/hire-automated-qa/'); ?>"><img loading="lazy"
+                        <li><a href="<?php echo home_url('/hire-automated-qa/'); ?>"><img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_auto.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Hire Automated
                                 QA</a></li>
-                        <li><a href="<?php echo home_url('/hire-manual-qa/'); ?>"><img loading="lazy"
+                        <li><a href="<?php echo home_url('/hire-manual-qa/'); ?>"><img 
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_manual.svg"
                                     class="me-3 icon-menu-size-20" alt="html-logo" />Hire Manual
                                 QA</a></li>
@@ -1635,33 +1635,33 @@
             </div>
             <div class="submenu-list">
                 <ul>
-                    <li class="sub-menu-2"><a href="<?php echo home_url('/cannabis/'); ?>"><img loading="lazy"
+                    <li class="sub-menu-2"><a href="<?php echo home_url('/cannabis/'); ?>"><img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_cannabis.svg"
                                 class="me-3 icon-menu-size-20" alt="html-logo" />Cannabis</a></li>
-                    <li class="sub-menu-2"><a href="<?php echo home_url('/healthcare/'); ?>"><img loading="lazy"
+                    <li class="sub-menu-2"><a href="<?php echo home_url('/healthcare/'); ?>"><img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_healthcare.svg"
                                 class="me-3 icon-menu-size-20" alt="html-logo" />Health Care</a></li>
-                    <li class="sub-menu-2"><a href="<?php echo home_url('/ecommerce/'); ?>"><img loading="lazy"
+                    <li class="sub-menu-2"><a href="<?php echo home_url('/ecommerce/'); ?>"><img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue_E-Commerce.svg"
                                 class="me-3 icon-menu-size-20" alt="html-logo" />E-Commerce</a></li>
-                    <li class="sub-menu-2"><a href="<?php echo home_url('/financial/'); ?>"><img loading="lazy"
+                    <li class="sub-menu-2"><a href="<?php echo home_url('/financial/'); ?>"><img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codescluefinancial-performancial.svg"
                                 class="me-3 icon-menu-size-20" alt="html-logo" />Financial</a></li>
-                    <li class="sub-menu-2"><a href="<?php echo home_url('/food-service/'); ?>"><img loading="lazy"
+                    <li class="sub-menu-2"><a href="<?php echo home_url('/food-service/'); ?>"><img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue__foodservices.svg"
                                 class="me-3 icon-menu-size-20" alt="html-logo" />Food Service</a></li>
                     <li class="sub-menu-2"><a href="<?php echo home_url('/media-and-entertainment/'); ?>"><img
-                                loading="lazy"
+                                
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/codesclue__media_and_entertainment.svg"
                                 class="me-3 icon-menu-size-20" alt="html-logo" />Media &
                             Entertainment</a></li>
-                    <li class="sub-menu-2"><a href="<?php echo home_url('/advertisement/'); ?>"><img loading="lazy"
+                    <li class="sub-menu-2"><a href="<?php echo home_url('/advertisement/'); ?>"><img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/advertisement-black.svg"
                                 class="me-3 icon-menu-size-20" alt="html-logo" />Advertisement</a></li>
-                    <li class="sub-menu-2"><a href="<?php echo home_url('/banking/'); ?>"><img loading="lazy"
+                    <li class="sub-menu-2"><a href="<?php echo home_url('/banking/'); ?>"><img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/banking-black.svg"
                                 class="me-3 icon-menu-size-20" alt="html-logo" />Banking</a></li>
-                    <li class="sub-menu-2"><a href="<?php echo home_url('/manufacturing/'); ?>"><img loading="lazy"
+                    <li class="sub-menu-2"><a href="<?php echo home_url('/manufacturing/'); ?>"><img 
                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/header/black_icon/Manufacturing-black.svg"
                                 class="me-3 icon-menu-size-20" alt="html-logo" />Manufacturing</a></li>
                 </ul>

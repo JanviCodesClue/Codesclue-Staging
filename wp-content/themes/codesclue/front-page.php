@@ -70,7 +70,6 @@ get_header(); ?>
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/aos.css">
-    
     <!-- Custom FAQ Styles -->
     <style>
         .accordion-button:not(.collapsed) {
@@ -91,34 +90,34 @@ get_header(); ?>
             margin-bottom: 0;
             line-height: 1.6;
         }
-        
+
         /* Fix AOS opacity issue for FAQ section */
         .faq-section [data-aos^="fade"] {
             opacity: 1 !important;
         }
-        
+
         .faq-section .accordion-body {
             opacity: 1 !important;
             visibility: visible !important;
         }
-        
+
         .faq-section .accordion-collapse.show {
             opacity: 1 !important;
             visibility: visible !important;
         }
-        
+
         /* Override any AOS animations that might interfere */
         .faq-section * {
             opacity: 1 !important;
         }
-        
+
         /* Ensure FAQ content is always visible */
         .faq-section .content-desc,
         .faq-section .content-title {
             opacity: 1 !important;
             visibility: visible !important;
         }
-        
+
 
     </style>
 
@@ -170,7 +169,7 @@ get_header(); ?>
               }
             ]
           }
-          
+
     </script>
     <!-- Google tag (gtag.js) -->
     <script>
@@ -204,6 +203,7 @@ get_header(); ?>
 <body>
     <!-- Main -->
     <main>
+
         <section class="ai-section">
             <div class="container">
                 <div class="row align-items-center gy-5">
@@ -244,17 +244,17 @@ get_header(); ?>
 
         </section>
        <!-- <div class="parallax"> -->
-<div class="parallax" data-speed="0.3"></div>
+        <div class="parallax" data-speed="0.3"></div>
 
-</div>
+
 
 
 
         <section class="expertise-section ">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <h2 class="pt-3">Innovative Expertise</h2>
+                    <div class="col-lg-4">
+                        <h2>Innovative Expertise</h2>
                         <div class="social-description">
                             <p> Dive into our world of creativity where
                                 design meets purpose. Explore
@@ -265,9 +265,8 @@ get_header(); ?>
                                 Behance—each piece reflecting our
                                 commitment to design excellence.</p>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                                <!-- Dribbble Button -->
+                        <!-- <div class="row d-lg-cc">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="btn-share mt-3">
                                     <span class="btn-text">Dribbble</span>
                                     <ul class="social-icons">
@@ -283,8 +282,7 @@ get_header(); ?>
                                         rel="noopener noreferrer"></a>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                                <!-- Behance Button -->
+                            <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="btn-share mt-3">
                                     <span class="btn-text">Behance</span>
                                     <ul class="social-icons">
@@ -300,10 +298,35 @@ get_header(); ?>
                                         rel="noopener noreferrer"></a>
                                 </div>
                             </div>
+                        </div> -->
+                        <div class="row ">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <!-- Dribbble Button -->
+                                <div class="btn-share-md-cc mt-3">
+                                            <a href="https://dribbble.com/CodesClue" target="_blank"
+                                                rel="noopener noreferrer" class="d-flex align-items-center">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/dribble.svg" class="btn-img-40"
+                                                    alt="Dribbble" />
+                                                <span class="btn-text ps-2">Dribbble</span>
+                                            </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <!-- Behance Button -->
+                                <div class="btn-share-md-cc mt-3">
+
+                                            <a href="https://www.behance.net/codesclue" target="_blank"
+                                                rel="noopener noreferrer" class="d-flex align-items-center">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/behance-1.svg" class="btn-img-40"
+                                                    alt="Behance" />
+                                                    <span class="btn-text ps-2">Behance</span>
+                                            </a>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-lg-8 fp-cc-pt-16">
                         <p class="description">
                             CodesClue delivers smart, AI-driven
                             solutions that power business growth. We
@@ -322,14 +345,14 @@ get_header(); ?>
 
                             <div class="custom-col my-3">
                                 <div >
-                                    <h3>20+</h3>
+                                    <h3>30+</h3>
                                     <p>Professional Teams</p>
                                 </div>
                             </div>
 
                             <div class="custom-col my-3">
                                 <div >
-                                    <h3>12+</h3>
+                                    <h3>20+</h3>
                                     <p>Successful Projects</p>
                                 </div>
                             </div>
@@ -358,7 +381,7 @@ get_header(); ?>
 
         </section>
 
-        <div class="service-area-4 mt-5">
+        <div class="service-area-4 ">
             <div class="service-area-4-inner section-spacing">
                 <div class="container">
                     <div class="section-header">
@@ -368,8 +391,8 @@ get_header(); ?>
                                     Services That Connects the Future
                                 </h2>
                             </div>
-                            <div class="subtitle-wrapper">
-                                <span class="section-subtitle">Our team
+                            <div class="subtitle-wrapper fp-cc-pt-16">
+                                <span class="section-subtitle ">Our team
                                     build scalable, ethical, and
                                     adaptable AI that
                                     not only transforms operations but
@@ -861,7 +884,7 @@ get_header(); ?>
         </div>
 
         <!-- Services -->
-        <section class="tech-showcase py-5">
+        <section class="tech-showcase ">
             <div class="container position-relative">
 
                 <!-- Radio Buttons (Hidden) -->
@@ -890,7 +913,7 @@ get_header(); ?>
                         <div class="tab-box shadow-sm rounded p-4 bg-white">
 
                             <!-- Frontend -->
-                            <div class="tab-content tab-1 d-flex flex-wrap gap-4 justify-content-start">
+                            <div class="tab-content tab-1 d-flex flex-wrap gap-4-fp justify-content-start">
 
                                 <a href="<?php echo home_url('/technology-ios/'); ?>" class="tech-pill"
                                     data-desc="10+ years crafting intuitive, high-quality iOS apps aligned with Apple's ecosystem.">
@@ -967,7 +990,7 @@ get_header(); ?>
                             </div>
 
                             <!-- Backend -->
-                            <div class="tab-content tab-2 d-none flex-wrap gap-4">
+                            <div class="tab-content tab-2 d-none flex-wrap gap-4-fp">
                                 <a href="<?php echo home_url('/php/'); ?>" class="tech-pill"
                                     data-desc="8+ years developing robust web apps with PHP and its frameworks.">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_php.svg" loading="lazy"
@@ -1024,7 +1047,7 @@ get_header(); ?>
                             </div>
 
                             <!-- Database -->
-                            <div class="tab-content tab-3 d-none flex-wrap gap-4">
+                            <div class="tab-content tab-3 d-none flex-wrap gap-4-fp">
                                 <a href="<?php echo home_url('/mongo-db/'); ?>" class="tech-pill"
                                     data-desc="4+ years designing flexible, fast solutions with MongoDB.">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_mongodb.svg" loading="lazy"
@@ -1062,7 +1085,7 @@ get_header(); ?>
                             </div>
 
                             <!-- UI/UX -->
-                            <div class="tab-content tab-4 d-none flex-wrap gap-4">
+                            <div class="tab-content tab-4 d-none flex-wrap gap-4-fp">
                                 <a class="tech-pill"
                                     data-desc="4+ years designing seamless UI/UX experiences with Figma.">
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets//images/header/main_icon/codesclue_figma.svg" loading="lazy"
@@ -1097,7 +1120,7 @@ get_header(); ?>
             </div>
         </section>
 
-        <div class="container mb-3 py-2 border-bottom border-dark">
+        <div class="container pt-40-cc  border-bottom border-dark">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-6">
                     <p class="text-muted mb-1">The Technologies Behind
@@ -1113,7 +1136,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="container py-4">
+        <div class="container mt-cc-16">
             <div class="row gy-4">
                 <div class="col-md-6">
 
@@ -1195,7 +1218,7 @@ get_header(); ?>
         </div>
 
         <!-- Our trusted Client -->
-        <section class="section-40 bg-linear-white">
+        <section class=" bg-linear-white pt-40-cc">
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
@@ -1246,7 +1269,7 @@ get_header(); ?>
         </section>
 
         <!-- FAQ Section-->
-        <section class="faq-section section-40 bg-linear-white" id="faqSection">
+        <section class="faq-section  bg-linear-white" id="faqSection">
             <div class="container z-11">
                 <div class="row mx-0 px-0">
                     <div class="col-lg-7 px-lg-0 px-0">

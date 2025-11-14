@@ -6,8 +6,8 @@
  */
 get_header(); ?>
 
-    <main>
-        <section class="main-hero-section section-40 blog-bg">
+    <main class="blog-main">
+        <section class="main-hero-section blog-pt blog-bg">
             <div class="container">
                 <div class="row mx-0 px-0 align-items-center">
                     <div class="col-lg-6 col-12 px-lg-2 px-0 row-gap-xl-4 row-gap-3">
@@ -31,7 +31,7 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 px-xl-2 px-0">
+                    <div class="col-lg-6 col-12 px-lg-2 px-0 row-gap-xl-4 row-gap-3">
                         <div class="main-hero-img z-1 text-center blog-main-banner">
                             <div class="main-hero-inner-img">
                                 <img loading="lazy" alt="blog-banner-design"
@@ -164,33 +164,33 @@ get_header(); ?>
                             class="col-lg-4 sticky-col col-12 ps-xxl-5 ps-lg-4 mt-lg-0 mt-lg-4 mt-2 mb-md-0 mb-3 row-gap-md-4 row-gap-2 d-flex flex-lg-column flex-column-reverse">
                             <div class="d-flex gap-md-3 gap-4 flex-xl-row flex-column flex-wrap">
                                <div class="ai-plateform-list">
-    <h3 class="content-title mb-lg-0 mb-2">Digital Transformation Strategy</h3>
-    <div class="d-flex gap-md-3 gap-2 align-items-center">
-        <i class="fa-regular fa-circle-check font-20"></i>
-        <p class="content-desc mb-0">Strategic Technology Roadmapping</p>
-    </div>
-    <div class="d-flex gap-md-3 gap-2 align-items-center">
-        <i class="fa-regular fa-circle-check font-20"></i>
-        <p class="content-desc mb-0">Cloud-Native Architecture Deployment</p>
-    </div>
-    <div class="d-flex gap-md-3 gap-2 align-items-center">
-        <i class="fa-regular fa-circle-check font-20"></i>
-        <p class="content-desc mb-0">AI & Automation Integration</p>
-    </div>
-    <div class="d-flex gap-md-3 gap-2 align-items-center">
-        <i class="fa-regular fa-circle-check font-20"></i>
-        <p class="content-desc mb-0">Addressing Real-World Challenges</p>
-    </div>
-    <div class="d-flex gap-md-3 gap-2 align-items-center">
-        <i class="fa-regular fa-circle-check font-20"></i>
-        <p class="content-desc mb-0">Continuous Innovation & Optimization</p>
-    </div>
-</div>
-<div class="tags d-flex flex-wrap mt-2">
-    <span class="border-radius p-0 badge">Digital Transformation</span>
-    <span class="border-radius p-0 badge">Cloud Deployment</span>
-    <span class="border-radius p-0 badge">AI Integration</span>
-</div>
+                                    <h3 class="content-title mb-lg-0 mb-2">Digital Transformation Strategy</h3>
+                                    <div class="d-flex gap-md-3 gap-2 align-items-center">
+                                        <i class="fa-regular fa-circle-check font-20"></i>
+                                        <p class="content-desc mb-0">Strategic Technology Roadmapping</p>
+                                    </div>
+                                    <div class="d-flex gap-md-3 gap-2 align-items-center">
+                                        <i class="fa-regular fa-circle-check font-20"></i>
+                                        <p class="content-desc mb-0">Cloud-Native Architecture Deployment</p>
+                                    </div>
+                                    <div class="d-flex gap-md-3 gap-2 align-items-center">
+                                        <i class="fa-regular fa-circle-check font-20"></i>
+                                        <p class="content-desc mb-0">AI & Automation Integration</p>
+                                    </div>
+                                    <div class="d-flex gap-md-3 gap-2 align-items-center">
+                                        <i class="fa-regular fa-circle-check font-20"></i>
+                                        <p class="content-desc mb-0">Addressing Real-World Challenges</p>
+                                    </div>
+                                    <div class="d-flex gap-md-3 gap-2 align-items-center">
+                                        <i class="fa-regular fa-circle-check font-20"></i>
+                                        <p class="content-desc mb-0">Continuous Innovation & Optimization</p>
+                                    </div>
+                                </div>
+                                <div class="tags d-flex flex-wrap mt-2">
+                                    <span class="border-radius p-0 badge">Digital Transformation</span>
+                                    <span class="border-radius p-0 badge">Cloud Deployment</span>
+                                    <span class="border-radius p-0 badge">AI Integration</span>
+                                </div>
 
                                 <div class="follow__us d-flex gap-3 align-items-center mt-xl-2 px-xl-2">
                                     <strong class="bold__text">Share it:</strong>
@@ -215,6 +215,18 @@ get_header(); ?>
                                 </div>
                                 <div class="recent-post">
                                     <span class="content-sub-title text-left">Other Blogs</span>
+                                    <a href="<?php echo home_url('/top-app-development/'); ?>" class="recent-blog-items">
+                                        <div class="d-flex justify-content-start py-2 gap-3">
+                                            <img loading="lazy" alt="external-img-blog1" class="img-thumbnail"
+                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/top-app-development.jpg" />
+                                            <div class="d-flex flex-column">
+                                                <p
+                                                    class="small-service-text bold-text mb-0 mt-0 text-left text-capitalize">
+                                                    Powering the App Revolution in India 📱🚀</p>
+                                                <span class="gray-text mt-2">November 4, 2025</span>
+                                            </div>
+                                        </div>
+                                    </a>
                                     <a href="<?php echo home_url('/greenreleaf-dutchie-blog/'); ?>" class="recent-blog-items">
                                         <div class="d-flex justify-content-start py-2 gap-3">
                                             <img loading="lazy" alt="external-img-blog1" class="img-thumbnail"
@@ -235,18 +247,6 @@ get_header(); ?>
                                                 <p class="small-service-text bold-text mb-0 mt-0 text-left text-capitalize">
                                                     🚀 Everything You Need to Know About Express.js</p>
                                                 <span class="gray-text mt-2">March 13, 2025</span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="<?php echo home_url('/iosupdate-blog/'); ?>" class="recent-blog-items">
-                                        <div class="d-flex justify-content-start py-2 gap-3">
-                                            <img loading="lazy" alt="external-img-blog1" class="img-thumbnail"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/codesclue_iosUpdate.webp" />
-                                            <div class="d-flex flex-column">
-                                                <p
-                                                    class="small-service-text bold-text mb-0 mt-0 text-left text-capitalize">
-                                                    🚀 Your App Stays Compliant with iOS 18 & Xcode 16</p>
-                                                <span class="gray-text mt-2">March 10, 2025</span>
                                             </div>
                                         </div>
                                     </a>

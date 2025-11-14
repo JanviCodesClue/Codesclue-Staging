@@ -1,45 +1,215 @@
-.banking-hero-bg{
-    background-image: url("../images/industries/banking/baking-hero-bg.png");
-    width: 100%;
-    height: auto;
-    padding: 20px 0;
+.banking-main {
+  padding-top: 80px;
 }
-  .btn-custom {
-    background: #007bff;
-    color: #fff;
-    font-weight: 600;
-    padding: 12px 25px;
-    border-radius: 30px;
-    transition: 0.3s;
-    display: inline-block;
-    text-decoration: none;
+
+.banking-hero {
+  height: 92vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: url('../images/industries/banking/banking-hero-bg.png') center/cover no-repeat;
+}
+
+.banking-btn {
+  background: #1e73ff;
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.banking-btn:hover {
+  background: #0056d2;
+  color: #fff;
+}
+
+.banking-hero-title {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+  color: #fff;
+}
+
+.banking-hero-des {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  color: #fff;
+}
+
+.banking-mt-20 {
+  margin-top: 20px;
+}
+
+.banking-sm-hide {
+  display: inline;
+}
+
+.banking-pt-16 {
+  padding-top: 16px;
+}
+
+.banking-section-heading {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banking-section-dec {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.banking-inner-heading{
+    font-size: 20px;
+  font-weight: 700;
+}
+.banking-btn-position {
+  justify-content: left;
+}
+
+.mt-banking-40 {
+  margin-top: 40px;
+}
+
+.banking-sec-card{
+  border: 1px solid #000000;
+  padding: 28px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 1px 0px 0px, rgba(6, 24, 44, 0.65) 0px 4px 0px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px 0px inset;
+}
+.banking-last-card{
+  padding: 28px;
+  border-radius: 6px;
+}
+.bg-third{
+  background: url('../images/industries/banking/banking-third-bg.png') center/cover no-repeat;
+  padding: 34px 0;
+  color: #fff;
+}
+.bg-1{
+  background-color: #EFEFFB;
+}
+.bg-2{
+  background-color: #F7F9EC;
+}
+.bg-3{
+  background-color: #E7F9EF;
+}
+.bg-4{
+  background-color: #FFF4E6;
+}
+.bg-5{
+  background-color: #FFEBEC;
+}
+.bg-6{
+  background-color: #FDF2F8;
+}
+.mb-banking-40{
+  margin-bottom: 40px;
+}
+.banking-blue-card{
+  border: #0AAEFF 1px solid;
+  background-color: #ffffff31;
+  padding: 24px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.d-lg{
+  display: flex;
+}
+@media only screen and (max-width: 1440px) and (min-width: 820px) {}
+
+@media only screen and (max-width: 991.98px) and (min-width: 820px) {
+.d-lg{
+  display: none;
+}
+}
+
+@media only screen and (max-width: 819.99px) and (min-width: 394px) {
+  .banking-hero {
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding: 130px 0;
+    align-items: center;
+    text-align: left;
+    background: url('../images/industries/banking/banking-hero-bg-tab.png') center/cover no-repeat;
   }
 
-  .btn-custom:hover {
-    background: #0056b3;
+  .banking-section-heading {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .banking-hero-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
     color: #fff;
   }
-  .banking-card{
-    padding: 20px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    border-radius: 15px;
+.d-lg{
+  display: none;
+}
+}
+
+@media only screen and (max-width: 393px) {
+  .banking-hero {
+    height: auto;
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/industries/banking/banking-hero-bg-mobile.png') center/cover no-repeat;
   }
-  .banking-card:hover{
-    background-color: #a6d1ff;
-    padding: 20px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    border-radius: 15px;
-    scale: 1.02;
+
+  .banking-btn-position {
+    justify-content: center;
+    display: flex;
   }
-  .banking-icon-25{
-    font-size: 25px;
-    padding-right: 20px;
+
+  .banking-hero-title {
+    font-size: 27.2px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
   }
-  .border-left{
-    border-left: 2px #1389FD solid;
-    margin-left:10px;
-    padding-left: 35px;
+
+  .banking-hero-des {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
   }
-  .icon-blue{
-    color: #1389FD;
+
+  .banking-service-text {
+    font-size: 15px;
   }
+
+  .banking-section-heading {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .banking-section-dec {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+  }
+  .d-lg{
+  display: none;
+}
+}

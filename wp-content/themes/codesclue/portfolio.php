@@ -194,7 +194,7 @@ get_header(); ?>
                                 <p class="text">Technologies We Used</p>
                             </div>
                             <div class="counter-item fade-anim" data-delay="0.75">
-                                <h3 class="number t-counter">25+</h3>
+                                <h3 class="number t-counter">20+</h3>
                                 <p class="text">Successful Projects</p>
                             </div>
                         </div>

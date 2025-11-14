@@ -28,7 +28,7 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 px-xl-2 px-0">
+                    <div class="col-lg-6 col-12 px-lg-2 px-0 row-gap-xl-4 row-gap-3">
                         <div class="main-hero-img z-1 text-center blog-main-banner">
                             <div class="main-hero-inner-img">
                                 <img loading="lazy" alt="blog-banner-design"
@@ -60,12 +60,12 @@ get_header(); ?>
                                     Learn how Dutchie POS API integration streamlined eCommerce, inventory, and customer experience.
                                     </span>
                                 <p class="content-desc text-left mb-2"><strong>Introduction:</strong>
-                                    At CodesClue, we specialize in cannabis eCommerce development and creating powerful, 
-                                    user focused digital solutions for dispensaries. One of our flagship projects is 
-                                    GreenReleaf Dispensary, an advanced and compliant dispensary eCommerce platform designed 
+                                    At CodesClue, we specialize in cannabis eCommerce development and creating powerful,
+                                    user focused digital solutions for dispensaries. One of our flagship projects is
+                                    GreenReleaf Dispensary, an advanced and compliant dispensary eCommerce platform designed
                                     to help cannabis businesses grow their online presence.
-                                    In this post, we’ll share how we designed and developed GreenReleaf 
-                                    using the [Dutchie POS API, ensuring seamless integration between the 
+                                    In this post, we’ll share how we designed and developed GreenReleaf
+                                    using the [Dutchie POS API, ensuring seamless integration between the
                                     physical store and the digital storefront.
 
                                 </p>
@@ -86,7 +86,7 @@ get_header(); ?>
                                             Offer a mobile-first experience with PWA capabilities</li>
                                     </ul>
                                     <p class="content-desc text-left mb-2">
-                                        As a leading cannabis web development company, our goal was to deliver a solution that’s 
+                                        As a leading cannabis web development company, our goal was to deliver a solution that’s
                                         compliant, intuitive, and optimized for conversions.
                                     </p>
                                 </div>
@@ -159,10 +159,10 @@ get_header(); ?>
                                     <h3 class="content-title mt-3">🚀 The Outcome
                                     </h3>
                                     <ul class="gray-text text-left mb-2 px-lg-3 list-dot">
-                                        <p class="content-desc text-left mb-2">Today, GreenReleaf Dispensary 
-                                            stands as a leading example of cannabis eCommerce development 
-                                            done right. Customers enjoy a seamless online shopping 
-                                            experience, and the business benefits from streamlined 
+                                        <p class="content-desc text-left mb-2">Today, GreenReleaf Dispensary
+                                            stands as a leading example of cannabis eCommerce development
+                                            done right. Customers enjoy a seamless online shopping
+                                            experience, and the business benefits from streamlined
                                             operations and increased reach.
                                         </p>
                                     </ul>
@@ -180,10 +180,9 @@ get_header(); ?>
                                         This API became the backbone of GreenReleaf’s seamless dispensary web development process.
                                     </p>
                                 </div>
-                                
                                 <p class="content-desc text-left mt-4 mb-md-5 mb-3">
                                     Whether you’re looking to launch a new dispensary website or upgrade
-                                     your current platform, we can help you create a compliant, scalable, 
+                                     your current platform, we can help you create a compliant, scalable,
                                      and customer focused digital experience.
                                 </p>
                             </div>
@@ -256,6 +255,18 @@ get_header(); ?>
                                 </div>
                                 <div class="recent-post">
                                     <span class="content-sub-title text-left">Other Blogs</span>
+                                    <a href="<?php echo home_url('/top-app-development/'); ?>" class="recent-blog-items">
+                                        <div class="d-flex justify-content-start py-2 gap-3">
+                                            <img loading="lazy" alt="external-img-blog1" class="img-thumbnail"
+                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/top-app-development.jpg" />
+                                            <div class="d-flex flex-column">
+                                                <p
+                                                    class="small-service-text bold-text mb-0 mt-0 text-left text-capitalize">
+                                                    Powering the App Revolution in India 📱🚀</p>
+                                                <span class="gray-text mt-2">November 4, 2025</span>
+                                            </div>
+                                        </div>
+                                    </a>
                                     <a href="<?php echo home_url('/next-wave-tech/'); ?>" class="recent-blog-items">
                                         <div class="d-flex justify-content-start py-2 gap-3">
                                             <img loading="lazy" alt="external-img-blog2" class="img-thumbnail"
@@ -279,27 +290,13 @@ get_header(); ?>
                                             </div>
                                         </div>
                                     </a>
-                                    <a href="<?php echo home_url('/iosupdate-blog/'); ?>" class="recent-blog-items">
-                                        <div class="d-flex justify-content-start py-2 gap-3">
-                                            <img loading="lazy" alt="external-img-blog1" class="img-thumbnail"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/codesclue_iosUpdate.webp" />
-                                            <div class="d-flex flex-column">
-                                                <p
-                                                    class="small-service-text bold-text mb-0 mt-0 text-left text-capitalize">
-                                                    🚀 Your App Stays Compliant with iOS 18 & Xcode 16</p>
-                                                <span class="gray-text mt-2">March 10, 2025</span>
-                                            </div>
-                                        </div>
-                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </section>
-        
     </main>
 
-<?php get_footer(); ?> 
+<?php get_footer(); ?>

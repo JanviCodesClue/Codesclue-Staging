@@ -2,9 +2,8 @@
 /*
 Template Name: Advertisement Template
 */
-get_header(); ?>  
-    
-    
+get_header(); ?>
+
     <main>
 <!-- Hero Section -->
 <section class="advertisement-hero-section text-center">
@@ -22,32 +21,32 @@ get_header(); ?>
 </section>
 
 <!-- Features Section -->
-<section class="py-5">
+<section class="mt-ad-40">
   <div class="container">
-    <h2 class="advertisement-section-title text-center mb-5">Our Solutions for Advertising</h2>
+    <h2 class="advertisement-section-title text-center mb-2">Our Solutions for Advertising</h2>
     <div class="row text-center g-4 align-content-stretch">
-      <div class="col-sm-6 col-md-3 d-flex">
+      <div class="col-lg-3 d-flex">
         <div class="advertisement-feature-box">
           <div class="advertisement-feature-icon mb-2"><i class="fa-solid fa-bullhorn"></i></div>
           <h5 class="fw-bold mb-2">AdTech Platforms</h5>
           <p>End-to-end programmatic solutions with real-time bidding, audience segmentation, and campaign management.</p>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3 d-flex">
+      <div class="col-lg-3 d-flex">
         <div class="advertisement-feature-box">
           <div class="advertisement-feature-icon mb-2"><i class="fa-solid fa-brain"></i></div>
           <h5 class="fw-bold mb-2">AI-Powered Insights</h5>
           <p>Predictive analytics to understand customer behavior and optimize ad spend.</p>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3 d-flex">
+      <div class="col-lg-3 d-flex">
         <div class="advertisement-feature-box">
           <div class="advertisement-feature-icon mb-2"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
           <h5 class="fw-bold mb-2">Creative Automation</h5>
           <p>Smart tools for generating, personalizing, and scaling ad creatives.</p>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3 d-flex">
+      <div class="col-lg-3 d-flex">
         <div class="advertisement-feature-box">
           <div class="advertisement-feature-icon mb-2"><i class="fa-solid fa-chart-pie"></i></div>
           <h5 class="fw-bold mb-2">Data & Analytics</h5>
@@ -59,9 +58,9 @@ get_header(); ?>
 </section>
 
 <!-- App Screenshots -->
-<section class="bg-light py-5">
+<section class="bg-light mt-ad-40">
   <div class="container">
-    <h2 class="advertisement-section-title text-center mb-4">Challenges in the Advertising Industry</h2>
+    <h2 class="advertisement-section-title text-center pt-3 mb-2">Challenges in the Advertising Industry</h2>
     <div class="row justify-content-center mt-4">
      <div class="ag-format-container">
   <div class="ag-courses_box">
@@ -154,13 +153,13 @@ get_header(); ?>
 
 
 <!-- Pricing Section -->
-<div class="container py-5">
+<div class="container mt-ad-40">
   <div class="row g-4">
 <h2 class="text-center advertisement-section-title">
   How We Add Value
 </h2>
     <!-- Card 1 -->
-    <div class="col-md-3 col-sm-6">
+    <div class="col-lg-3">
       <div class="feature-card bg-gradient-1 text-white  p-4 h-100">
         <h5 class="mb-2">Omni Channel Reach</h5>
         <p class="mb-0 small">Seamless integration across digital, mobile, and social platforms.</p>
@@ -168,7 +167,7 @@ get_header(); ?>
     </div>
 
     <!-- Card 2 -->
-    <div class="col-md-3 col-sm-6">
+    <div class="col-lg-3">
       <div class="feature-card bg-gradient-2 text-white  p-4 h-100">
         <h5 class="mb-2">Agility & Scalability</h5>
         <p class="mb-0 small">Solutions that evolve as your audience and campaigns grow.</p>
@@ -176,7 +175,7 @@ get_header(); ?>
     </div>
 
     <!-- Card 3 -->
-    <div class="col-md-3 col-sm-6">
+    <div class="col-lg-3">
       <div class="feature-card bg-gradient-3 text-white  p-4 h-100">
         <h5 class="mb-2">Security & Compliance</h5>
         <p class="mb-0 small">Adhering to global data protection and industry standards.</p>
@@ -184,7 +183,7 @@ get_header(); ?>
     </div>
 
     <!-- Card 4 -->
-    <div class="col-md-3 col-sm-6">
+    <div class="col-lg-3">
       <div class="feature-card bg-gradient-4 text-white p-4 h-100">
         <h5 class="mb-2">Faster Time-to-Market</h5>
         <p class="mb-0 small">Agile processes ensuring rapid deployment.</p>
@@ -196,9 +195,9 @@ get_header(); ?>
 
 
 <!-- Testimonials -->
- <div class="container py-5">
+ <div class="container mt-ad-40">
     <!-- Header -->
-    <div class="row mb-5 align-items-center">
+    <div class="row mb-2 align-items-center">
       <div class="col-md-8">
         <div class="headline-black">Why Partner with CodesClue?</div>
          <div class="lead-text">
@@ -223,24 +222,27 @@ get_header(); ?>
       </div>
     </div>
     <!-- Story Row -->
-    <div class="row align-items-center">
-      <div class="col-md-7">
-        <div class="fs-4 mb-2">
-         The future of advertising is personalized, data driven, and AI-powered. At CodesClue, we partner with agencies and brands to design solutions that not only meet today’s challenges but also prepare for tomorrow's opportunities.
-        </div>
-      </div>
-      <div class="col-md-5 mb-3 mb-md-0">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/ad.jpg" alt="Team working" class="img-fluid rounded-4 w-100">
-      </div>
-      
+  <div class="row align-items-center">
+  <!-- Image column -->
+  <div class="col-md-5 my-3 mb-md-0 order-1 order-md-2">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/ad.png" alt="Team working" class="img-fluid rounded-4 w-100">
+  </div>
+
+  <!-- Text column -->
+  <div class="col-md-7 order-2 order-md-1">
+    <div class="fs-4 mb-2 py-3">
+      The future of advertising is personalized, data driven, and AI-powered. At CodesClue, we partner with agencies and brands to design solutions that not only meet today’s challenges but also prepare for tomorrow's opportunities.
     </div>
+  </div>
+</div>
+
   </div>
 
 
-<div class="container pb-5">
+<div class="container mt-ad-40">
       <h2 class="advertisement-section-title text-center mb-4">Technologies We Use</h2>
     <div class="row g-4">
-      <div class="col-md-3">
+      <div class="col-lg-3">
         <div class="card h-100">
           <div class="feature-icon"><i class="fa-solid fa-robot"></i></div>
           <h5 class="card-title">AI & Machine Learning</h5>
@@ -248,7 +250,7 @@ get_header(); ?>
         </div>
       </div>
       
-      <div class="col-md-3">
+      <div class="col-lg-3">
         <div class="card h-100">
           <div class="feature-icon"><i class="fa-solid fa-cloud"></i></div>
           <h5 class="card-title">Big Data & Cloud</h5>
@@ -256,7 +258,7 @@ get_header(); ?>
         </div>
       </div>
       
-      <div class="col-md-3">
+      <div class="col-lg-3">
         <div class="card h-100">
           <div class="feature-icon"><i class="fa-solid fa-gears"></i></div>
           <h5 class="card-title">DevOps & Automation</h5>
@@ -264,7 +266,7 @@ get_header(); ?>
         </div>
       </div>
       
-      <div class="col-md-3">
+      <div class="col-lg-3">
         <div class="card h-100">
           <div class="feature-icon"><i class="fa-solid fa-paint-brush"></i></div>
           <h5 class="card-title">UI/UX Design</h5>
@@ -272,7 +274,7 @@ get_header(); ?>
         </div>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-lg-3">
         <div class="card h-100">
           <div class="feature-icon"><i class="fa-solid fa-chart-pie"></i></div>
           <h5 class="card-title">Data Analytics & Visualization</h5>
@@ -280,7 +282,7 @@ get_header(); ?>
         </div>
       </div>
       
-      <div class="col-md-3">
+      <div class="col-lg-3">
         <div class="card h-100">
           <div class="feature-icon"><i class="fa-solid fa-code"></i></div>
           <h5 class="card-title">Mobile & Web Development</h5>
@@ -288,7 +290,7 @@ get_header(); ?>
         </div>
       </div>
       
-      <div class="col-md-3">
+      <div class="col-lg-3">
         <div class="card h-100">
           <div class="feature-icon"><i class="fa-solid fa-plug"></i></div>
           <h5 class="card-title">APIs & Integrations</h5>
@@ -296,7 +298,7 @@ get_header(); ?>
         </div>
       </div>
       
-      <div class="col-md-3">
+      <div class="col-lg-3">
         <div class="card h-100">
           <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
           <h5 class="card-title">Cybersecurity & Compliance</h5>
@@ -308,12 +310,11 @@ get_header(); ?>
 
 
   <!-- Dynamic Carousel -->
-   <section class="container">
+   <section class="container mt-ad-40">
     <h2 class="headline-black">Our Projects</h2>
     <div class="owl-carousel owl-theme" id="dynamicCarousel">
         <div class="custom-card-project d-flex align-items-center">
-        
-          <div class="custom-card-text flex-grow-1 p-4 ps-5">
+          <div class="custom-card-text flex-grow-1 p-4">
             <h3 class="mb-3">RideReach</h3>
             <p class="mb-4">
               Bring your business to life with mobile, high impact advertising that guarantees visibility where it matters most on the busiest streets of Manchester.
@@ -394,7 +395,7 @@ get_header(); ?>
 
         
 
-            <section class="tech-showcase py-5 container">
+            <section class="tech-showcase container">
                 <div class="position-relative">
 
                     <!-- Radio Buttons (Hidden) -->
@@ -632,7 +633,7 @@ get_header(); ?>
             </section>
 
 
-            <section class="container faq-section section-40 bg-linear-white" id="faqSection">
+            <section class="container faq-section mt-ad-40 bg-linear-white" id="faqSection">
                
                     <div class="row mx-0 px-0">
                         <div class="col-lg-7 px-lg-0 px-0">

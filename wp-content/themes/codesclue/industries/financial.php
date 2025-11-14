@@ -541,7 +541,7 @@ get_header(); ?>
 
 
             <section class="container faq-section bg-linear-white" id="faqSection">
-               
+
                     <div class="row mx-0 px-0">
                         <div class="col-lg-7 px-lg-0 px-0">
                             <h2 class="section-title">FAQs</h2>

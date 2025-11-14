@@ -20,17 +20,17 @@ get_header(); ?>
                                         src="https://lottie.host/98bcbfce-9bcd-40d1-9a8d-0ce2a79b2797/TDZTFKUzdG.lottie"
                                         background="transparent" speed="1" style="width: 55px; height: 55px" autoplay
                                         loop></dotlottie-player>
-                                    </picture> 
+                                    </picture>
                                 </div>
                                 <span class="gray-text mb-0">by CodesClue</span>
                                 <div class="content-desc mt-0">November 15, 2024</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 px-xl-2 px-0">
+                    <div class="col-lg-6 col-12 px-lg-2 px-0 row-gap-xl-4 row-gap-3">
                         <div class="main-hero-img z-1 text-center blog-main-banner">
                             <div class="main-hero-inner-img">
-                                <img loading="lazy" alt="blog-banner-design" 
+                                <img loading="lazy" alt="blog-banner-design"
                                     class="main-hero-right-img blog-banner-img mt-xl-0 pt-xl-0 pt-0 mt-2"
                                     src="<?php echo get_template_directory_uri(); ?>/assets/images//blog/codesclue_blog-banner-img.webp" />
 
@@ -131,14 +131,24 @@ get_header(); ?>
                                     </a>
                                 </div>
                                 <div class="recent-post">
-                                    <span class="content-sub-title text-left mb-3">Other Blogs</span>
-                                    <a href="<?php echo home_url('/next-wave-tech/'); ?>" class="recent-blog-items">
+                                    <span class="content-sub-title text-left">Other Blogs</span>
+                                    <a href="<?php echo home_url('/top-app-development/'); ?>" class="recent-blog-items">
                                         <div class="d-flex justify-content-start py-2 gap-3">
-                                            <img loading="lazy" alt="external-img-blog2" class="img-thumbnail"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/next-wave-tech.png" />
+                                            <img loading="lazy" alt="external-img-blog1" class="img-thumbnail"
+                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/top-app-development.jpg" />
                                             <div class="d-flex flex-column">
                                                 <p
                                                     class="small-service-text bold-text mb-0 mt-0 text-left text-capitalize">
+                                                    Powering the App Revolution in India 📱🚀</p>
+                                                <span class="gray-text mt-2">November 4, 2025</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="<?php echo home_url('/next-wave-tech/'); ?>" class="recent-blog-items">
+                                        <div class="d-flex justify-content-start py-2 gap-3">
+                                            <img loading="lazy" alt="external-img-blog1" class="img-thumbnail" src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/next-wave-tech.png">
+                                            <div class="d-flex flex-column">
+                                                <p class="small-service-text bold-text mb-0 mt-0 text-left text-capitalize">
                                                    Powering the Next Digital Wave 🌊💻</p>
                                                 <span class="gray-text mt-2">October 9, 2025</span>
                                             </div>
@@ -146,23 +156,13 @@ get_header(); ?>
                                     </a>
                                     <a href="<?php echo home_url('/greenreleaf-dutchie-blog/'); ?>" class="recent-blog-items">
                                         <div class="d-flex justify-content-start py-2 gap-3">
-                                            <img loading="lazy" alt="external-img-blog3" class="img-thumbnail"
+                                            <img loading="lazy" alt="external-img-blog1" class="img-thumbnail"
                                                 src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/codesClue_Dutchi.jpg" />
                                             <div class="d-flex flex-column">
-                                                <p class="small-service-text bold-text mb-0 mt-0 text-left text-capitalize">
+                                                <p
+                                                    class="small-service-text bold-text mb-0 mt-0 text-left text-capitalize">
                                                     🌿 How We Built GreenReleaf Dispensary with Dutchie POS APIs</p>
                                                 <span class="gray-text mt-2">September 07, 2025</span>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="<?php echo home_url('/expressjs-blog/'); ?>" class="recent-blog-items">
-                                        <div class="d-flex justify-content-start py-2 gap-3">
-                                            <img loading="lazy" alt="external-img-blog3" class="img-thumbnail"
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/images/blog/codesclue_Express.JSBlogs.webp" />
-                                            <div class="d-flex flex-column">
-                                                <p class="small-service-text bold-text mb-0 mt-0 text-left text-capitalize">
-                                                    🚀 Everything You Need to Know About Express.js</p>
-                                                <span class="gray-text mt-2">March 13, 2025</span>
                                             </div>
                                         </div>
                                     </a>
