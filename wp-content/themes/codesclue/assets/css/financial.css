@@ -598,15 +598,15 @@
   }
 
   /* Mobile Layout */
-  @media(max-width: 991px) {
-    .desktop-layout {
+
+    .screen-tablet .desktop-layout {
       display: none;
     }
 
-    .mobile-layout {
+    .screen-tablet .mobile-layout {
       display: block;
     }
-  }
+
 
   @media(min-width: 992px) {
     .desktop-layout {
