@@ -30,6 +30,35 @@
 
 
 
+    @media (max-width: 768px) {
+      .food-hero {
+        background: url('../images/industries/food-hero.png') no-repeat center center/cover;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding: 80px 0;
+      }
+
+      .food-hero-title {
+        font-size: 1.5rem !important;
+        text-align: center;
+        font-weight: 700;
+      }
+
+      .food-hero-text {
+        margin: 0 auto;
+        font-size: 0.8rem !important;
+        text-align: center;
+        max-width: 750px;
+      }
+
+      .tech-showcase {
+        margin-top: 30px;
+      }
+    }
+
 
 
     .food-mt-20 {
@@ -80,13 +109,10 @@
     .icon-circle {
       background: #FA8E00;
       background: linear-gradient(90deg, rgba(250, 142, 0, 1) 0%, rgba(255, 9, 9, 1) 100%);
-      /* padding: 22px 27px; */
+      padding: 22px 27px;
       border-radius: 50px;
-      width: 50px;
-      height: 50px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      width: fit-content;
+      height: auto;
       color: #fff;
     }
 
@@ -216,15 +242,15 @@
       border-radius: 20px;
     }
 
-
-      .screen-tablet .food-card {
+    @media (max-width: 1045px) {
+      .food-card {
         padding: 80px 20px 30px;
         /* upar space taaki image overlap kare */
-        margin: 80px 0 20px 0px!important;
+        margin: 80px 0 20px 0;
         text-align: center;
       }
 
-      .screen-tablet .food-img {
+      .food-img {
         position: absolute;
         top: -80px;
         /* card ke upar overlap */
@@ -232,25 +258,47 @@
         transform: translateX(-50%);
       }
 
-      .screen-tablet .food-img.left,
-      .screen-tablet .food-img.right {
+      .food-img.left,
+      .food-img.right {
         left: 50%;
         /* dono center me aa jayenge */
         right: auto;
       }
 
-      .screen-tablet .food-img img {
+      .food-img img {
         width: 140px;
         height: 140px;
       }
 
-      .screen-tablet .food-content {
+      .food-content {
         padding: 0;
         /* side space hatao */
       }
- 
+    }
 
+    @media (max-width: 576px) {
+      .food-card {
+        padding: 60px 15px 20px;
+      }
 
+      .food-img {
+        top: -70px;
+        /* chhote screen pe overlap thoda kam */
+      }
+
+      .food-img img {
+        width: 110px;
+        height: 110px;
+      }
+
+      .food-content h5 {
+        font-size: 16px;
+      }
+
+      .food-content p {
+        font-size: 14px;
+      }
+    }
 
     .pe-16 {
       padding-right: 16px;
@@ -265,8 +313,7 @@
     }
 
     .pt-40 {
-      padding-top: 0px;  /* margin ko hata diya */
-    margin-top: 40px;
+      padding-top: 40px;
     }
 
     .food-service-text {
@@ -392,17 +439,26 @@
       }
     }
 
-.pt-22{
-  padding-top: 0px;  /* margin ko hata diya */
-    margin-top: 40px;
-}
+    @media only screen and (max-width: 991.98px) and (min-width: 820px) {
+      .food-sm-hide {
+        display: none;
+      }
 
+      .d-only-big {
+        display: none !important;
+      }
 
-      .screen-tablet .col-md-4 {
+      .col-md-4 {
+        width: 50%;
+      }
+    }
+
+    @media only screen and (max-width: 819.99px) and (min-width: 394px) {
+      .col-md-4 {
         width: 100%;
       }
 
-      .screen-tablet .food-hero {
+      .device-ipad .food-hero {
         height: auto;
         width: 100%;
         display: flex;
@@ -411,40 +467,42 @@
         background: url('../images/industries/food-hero.png') center/cover no-repeat;
       }
 
-      .screen-tablet .food-sm-hide {
+      .food-sm-hide {
         display: none;
       }
 
-      .screen-tablet .food-hero-title {
+      .food-hero-title {
         font-size: 32px;
         font-weight: bold;
         text-align: center;
         color: #fff;
       }
 
-      .screen-tablet .food-section-heading {
+      .food-section-heading {
         font-size: 28px;
         font-weight: bold;
         text-align: center;
       }
 
-      .screen-tablet .food-service-title {
+      .food-service-title {
         font-size: 20px;
       }
 
-      .screen-tablet .food-section-four-heading {
+      .food-section-four-heading {
         font-size: 28px;
         font-weight: bold;
         text-align: left;
         color: #000;
       }
 
-      .screen-tablet .d-only-big {
+      .d-only-big {
         display: none !important;
       }
 
+    }
 
-      .screen-mobile  .food-hero {
+    @media only screen and (max-width: 393px) {
+      .device-iphone .food-hero {
         height: auto;
         width: 100%;
         padding: 60px 0;
@@ -453,84 +511,68 @@
         background: url('../images/industries/food-hero.png') center/cover no-repeat;
       }
 
-      .screen-mobile  .food-sm-hide {
+      .device-iphone .food-sm-hide {
         display: none;
       }
 
-      .screen-mobile  .food-hero-title {
-        font-size: 27.2px!important;
+      .device-iphone .food-hero-title {
+        font-size: 27.2px;
         font-weight: bold;
         text-align: center;
         color: #fff;
       }
 
-      .screen-mobile  .food-hero-des {
+      .device-iphone .food-hero-des {
         font-size: 16px;
         font-weight: 300;
         text-align: center;
         color: #fff;
       }
 
-      .screen-mobile  .food-service-text {
+      .device-iphone .food-service-text {
         font-size: 15px;
       }
 
-      .screen-mobile  .food-section-heading {
+      .device-iphone .food-section-heading {
         font-size: 26px;
         font-weight: bold;
         text-align: center;
       }
 
-      .screen-mobile  .food-section-dec {
+      .device-iphone .food-section-dec {
         font-size: 15px;
         font-weight: 300;
         text-align: center;
       }
 
-      .screen-mobile  .food-service-title {
+      .device-iphone .food-service-title {
         font-size: 18px;
       }
 
-      .screen-mobile  .food-section-four-heading {
+      .device-iphone .food-section-four-heading {
         font-size: 26px;
         font-weight: bold;
         text-align: left;
         color: #000;
       }
 
-      .screen-mobile  .food-section-four-dec {
+      .device-iphone .food-section-four-dec {
         font-size: 15px;
         font-weight: 300;
         text-align: left;
         color: #000;
       }
 
-      .screen-mobile  .d-only-big {
+      .device-iphone .d-only-big {
         display: none !important;
       }
 
-      .screen-mobile  .pt-40 {
-        padding-top: 0px;  /* margin ko hata diya */
-    margin-top: 40px;
+      .device-iphone .pt-40 {
+        margin-top: 40px;
       }
-
-        .screen-mobile  .pt-22 {
-        padding-top: 0px;  /* margin ko hata diya */
-    margin-top: 25px;
-      }
-    .screen-mobile .icon-circle {
-      background: #FA8E00;
-      background: linear-gradient(90deg, rgba(250, 142, 0, 1) 0%, rgba(255, 9, 9, 1) 100%);
-      border-radius: 50px;
-      width: 40px;
-      height: 40px;
-      color: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
     }
 
-    .screen-tablet .food-hero {
+    .device-ipad .food-hero {
       height: auto;
       width: 100%;
       display: flex;
@@ -539,7 +581,7 @@
       background: url('../images/industries/food-hero.png') center/cover no-repeat;
     }
 
-    .screen-tablet .food-hero {
+    .device-ipad .food-hero {
       height: auto;
       width: 100%;
       display: flex;
@@ -547,17 +589,7 @@
       align-items: center;
       background: url('../images/industries/food-hero.png') center/cover no-repeat;
     }
-    .screen-tablet .icon-circle {
-      background: #FA8E00;
-      background: linear-gradient(90deg, rgba(250, 142, 0, 1) 0%, rgba(255, 9, 9, 1) 100%);
-      border-radius: 50px;
-      width: 50px;
-      height: 50px;
-      color: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+
     .food-hero {
       background: url('../images/industries/food-hero.png') no-repeat center center/cover;
       color: #fff;
