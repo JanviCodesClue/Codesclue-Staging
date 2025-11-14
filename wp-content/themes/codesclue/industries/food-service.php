@@ -27,7 +27,7 @@ get_header(); ?>
                         <div class="col-lg-4 d-flex pt-16">
                             <div class="food-second-card">
                                 <div class="icon-circle">
-                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <i class="fa-solid fa-cart-shopping font-16"></i>
                                 </div>
                                 <h5 class="food-service-title food-py">Online Ordering Systems</h5>
                                 <p class="food-service-text">We develop intuitive online ordering solutions that deliver seamless customer experiences across web and mobile platforms. These systems ensure faster ordering, secure payments, and real-time updates for restaurants and customers alike.</p>
@@ -41,7 +41,7 @@ get_header(); ?>
                         <div class="col-lg-4 d-flex pt-16">
                             <div class="food-second-card">
                                 <div class="icon-circle">
-                                    <i class="fa-solid fa-utensils"></i>
+                                    <i class="fa-solid fa-utensils font-16"></i>
                                 </div>
                                 <h5 class="food-service-title food-py">Restaurant Management Platforms</h5>
                                 <p class="food-service-text">Our platforms streamline operations with integrated POS, resource planning, and workflow automation. By connecting every aspect of the restaurant, we help businesses reduce costs and improve service delivery.</p>
@@ -55,7 +55,7 @@ get_header(); ?>
                         <div class="col-lg-4 d-flex pt-16">
                             <div class="food-second-card">
                                 <div class="icon-circle">
-                                    <i class="fa-solid fa-boxes-stacked"></i>
+                                    <i class="fa-solid fa-boxes-stacked font-16"></i>
                                 </div>
                                 <h5 class="food-service-title food-py">Inventory & Supply Chain Management</h5>
                                 <p class="food-service-text">We deliver intelligent supply chain platforms that automate stock management and optimize resource planning. This minimizes waste while ensuring restaurants never run out of essentials.</p>
@@ -69,7 +69,7 @@ get_header(); ?>
                         <div class="col-lg-4 d-flex pt-16">
                             <div class="food-second-card">
                                 <div class="icon-circle">
-                                    <i class="fa-solid fa-gift"></i>
+                                    <i class="fa-solid fa-gift font-16"></i>
                                 </div>
                                 <h5 class="food-service-title food-py">Cloud Kitchen Solutions</h5>
                                 <p class="food-service-text">CodesClue enables cloud kitchens to scale efficiently with centralized management platforms. Our systems integrate orders, workflows, and deliveries to maximize efficiency across multiple brands.</p>
@@ -84,7 +84,7 @@ get_header(); ?>
                         <div class="col-lg-4 d-flex pt-16">
                             <div class="food-second-card">
                                 <div class="icon-circle">
-                                    <i class="fa-solid fa-motorcycle"></i>
+                                    <i class="fa-solid fa-motorcycle font-16"></i>
                                 </div>
                                 <h5 class="food-service-title food-py">Food Delivery Applications</h5>
                                 <p class="food-service-text">We design robust delivery applications that simplify logistics, enhance visibility, and improve customer trust. Features like real-time tracking and optimized delivery routes ensure faster, reliable service.</p>
@@ -98,7 +98,7 @@ get_header(); ?>
                         <div class="col-lg-4 d-flex pt-16">
                             <div class="food-second-card">
                                 <div class="icon-circle">
-                                    <i class="fa-solid fa-gift"></i>
+                                    <i class="fa-solid fa-gift font-16"></i>
                                 </div>
                                 <h5 class="food-service-title food-py">Loyalty & Rewards Programs</h5>
                                 <p class="food-service-text">Our loyalty solutions keep customers engaged and encourage repeat business. With data-driven insights, brands can offer personalized incentives and strengthen customer relationships.</p>
@@ -112,7 +112,7 @@ get_header(); ?>
                         <div class="col-lg-4 d-flex pt-16">
                             <div class="food-second-card">
                                 <div class="icon-circle">
-                                    <i class="fa-solid fa-credit-card"></i>
+                                    <i class="fa-solid fa-credit-card font-16"></i>
                                 </div>
                                 <h5 class="food-service-title food-py">Payment & Billing Solutions</h5>
                                 <p class="food-service-text">We develop intuitive online ordering solutions that deliver seamless customer experiences across web and mobile platforms. These systems ensure faster ordering, secure payments, and real-time updates for restaurants and customers alike.</p>
@@ -126,7 +126,7 @@ get_header(); ?>
                         <div class="col-lg-4 d-flex pt-16">
                             <div class="food-second-card">
                                 <div class="icon-circle">
-                                    <i class="fa-solid fa-headset"></i>
+                                    <i class="fa-solid fa-headset font-16"></i>
                                 </div>
                                 <h5 class="food-service-title food-py">Customer Experience Platforms</h5>
                                 <p class="food-service-text">We help brands build personalized journeys with omni-channel engagement solutions. From push notifications to real-time feedback, businesses can nurture customer loyalty and boost satisfaction.</p>
@@ -140,7 +140,7 @@ get_header(); ?>
                         <div class="col-lg-4 d-flex pt-16">
                             <div class="food-second-card">
                                 <div class="icon-circle">
-                                    <i class="fa-solid fa-chart-line"></i>
+                                    <i class="fa-solid fa-chart-line font-16"></i>
                                 </div>
                                 <h5 class="food-service-title food-py">Analytics & Business Intelligence</h5>
                                 <p class="food-service-text">Our analytics solutions turn raw data into actionable insights. From customer behavior to sales performance, businesses can make informed decisions to optimize operations and plan growth.</p>
@@ -253,83 +253,83 @@ get_header(); ?>
         </section>
 
 
-  <!-- Bottom Grid Cards -->
-<section class="food-section pt-40">
-    <div class="container">
-      <!-- Heading -->
-      <h2 class="food-section-heading">
-        Cultivating Gastronomic Excellence with Advanced Software Technologies
-      </h2>
-      <p class="food-section-dec pt-16">
-        CodesClue empowers the food and hospitality sector with transformative software solutions that elevate dining experiences and operational efficiency. By blending innovation with scalability, we help businesses deliver consistent quality, personalized engagement, and sustainable growth.
-      </p>
+            <!-- Bottom Grid Cards -->
+            <section class="food-section pt-22">
+                <div class="container">
+                <!-- Heading -->
+                <h2 class="food-section-heading">
+                    Cultivating Gastronomic Excellence with Advanced Software Technologies
+                </h2>
+                <p class="food-section-dec pt-16">
+                    CodesClue empowers the food and hospitality sector with transformative software solutions that elevate dining experiences and operational efficiency. By blending innovation with scalability, we help businesses deliver consistent quality, personalized engagement, and sustainable growth.
+                </p>
 
-      <!-- Cards -->
-      <div class="row align-items-lg-stretch g-4 pt-16">
-        <div class="col-lg-4 col-md-4 d-flex">
-          <div class="p-4 bg-1">
-             <div class="d-flex align-items-center mb-2">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/digital-menu-smart-ordering.png" class="food-card-last-icon" >
-                <h5 class="food-title">Digital Menu & Smart Ordering</h5>
-             </div>
-            <p class="text-start">We design interactive digital menus and contactless ordering systems that enrich the dining experience. With personalization, real-time updates, and mobile accessibility, restaurants can serve customers faster and smarter.</p>
-          </div>
-        </div>
+                <!-- Cards -->
+                <div class="row align-items-lg-stretch g-4 pt-16">
+                    <div class="col-lg-4 col-md-4 d-flex">
+                    <div class="p-4 bg-1">
+                        <div class="d-flex align-items-center mb-2">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/digital-menu-smart-ordering.png" class="food-card-last-icon" >
+                            <h5 class="food-title">Digital Menu & Smart Ordering</h5>
+                        </div>
+                        <p class="text-start">We design interactive digital menus and contactless ordering systems that enrich the dining experience. With personalization, real-time updates, and mobile accessibility, restaurants can serve customers faster and smarter.</p>
+                    </div>
+                    </div>
 
-        <div class="col-lg-4 col-md-4 d-flex">
-          <div class="p-4 bg-2">
-             <div class="d-flex align-items-center mb-2">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/reservation-table-management.png" class="food-card-last-icon" >
-                <h5 class="food-title">Reservation & Table Management</h5>
-             </div>
-            <p class="text-start">Our intelligent booking platforms streamline reservations and optimize table utilization. By reducing wait times and improving seating efficiency, we ensure smoother service delivery and enhanced guest satisfaction.</p>
-          </div>
-        </div>
+                    <div class="col-lg-4 col-md-4 d-flex">
+                    <div class="p-4 bg-2">
+                        <div class="d-flex align-items-center mb-2">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/reservation-table-management.png" class="food-card-last-icon" >
+                            <h5 class="food-title">Reservation & Table Management</h5>
+                        </div>
+                        <p class="text-start">Our intelligent booking platforms streamline reservations and optimize table utilization. By reducing wait times and improving seating efficiency, we ensure smoother service delivery and enhanced guest satisfaction.</p>
+                    </div>
+                    </div>
 
-        
+                    
 
-        <div class="col-lg-4 col-md-4 d-flex">
-          <div class="p-4 bg-3">
-             <div class="d-flex align-items-center mb-2">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/kitchen-display-workflow-automation.png" class="food-card-last-icon" >
-                <h5 class="food-title">Kitchen Display & Workflow Automation</h5>
-             </div>
-            <p class="text-start">We develop kitchen management systems that connect orders directly to chefs, automate task flows, and minimize errors. This ensures quicker service, reduced waste, and better synchronization between front and back of house.</p>
-          </div>
-        </div>
+                    <div class="col-lg-4 col-md-4 d-flex">
+                    <div class="p-4 bg-3">
+                        <div class="d-flex align-items-center mb-2">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/kitchen-display-workflow-automation.png" class="food-card-last-icon" >
+                            <h5 class="food-title">Kitchen Display & Workflow Automation</h5>
+                        </div>
+                        <p class="text-start">We develop kitchen management systems that connect orders directly to chefs, automate task flows, and minimize errors. This ensures quicker service, reduced waste, and better synchronization between front and back of house.</p>
+                    </div>
+                    </div>
 
-        <div class="col-lg-4 col-md-4 d-flex">
-          <div class="p-4 bg-4">
-             <div class="d-flex align-items-center mb-2">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/fried-chicken_3101563 1.png" class="food-card-last-icon" >
-                <h5 class="food-title">Multi Channel Food Delivery Integration</h5>
-             </div>
-            <p class="text-start">Our solutions integrate restaurants with leading delivery platforms, enabling businesses to manage orders across multiple channels. With unified dashboards, real-time tracking, and efficient logistics, brands can expand reach effortlessly.</p>
-          </div>
-        </div>
+                    <div class="col-lg-4 col-md-4 d-flex">
+                    <div class="p-4 bg-4">
+                        <div class="d-flex align-items-center mb-2">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/fried-chicken_3101563 1.png" class="food-card-last-icon" >
+                            <h5 class="food-title">Multi Channel Food Delivery Integration</h5>
+                        </div>
+                        <p class="text-start">Our solutions integrate restaurants with leading delivery platforms, enabling businesses to manage orders across multiple channels. With unified dashboards, real-time tracking, and efficient logistics, brands can expand reach effortlessly.</p>
+                    </div>
+                    </div>
 
-        <div class="col-lg-4 col-md-4 d-flex">
-          <div class="p-4 bg-5">
-             <div class="d-flex align-items-center mb-2">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/feedback-experience-management.png" class="food-card-last-icon" >
-                <h5 class="food-title">Feedback & Experience Management</h5>
-             </div>
-            <p class="text-start">We create feedback-driven systems that capture real-time customer insights and reviews. This empowers businesses to continuously refine their offerings, strengthen brand reputation, and foster long-term loyalty.</p>
-          </div>
-        </div>
+                    <div class="col-lg-4 col-md-4 d-flex">
+                    <div class="p-4 bg-5">
+                        <div class="d-flex align-items-center mb-2">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/feedback-experience-management.png" class="food-card-last-icon" >
+                            <h5 class="food-title">Feedback & Experience Management</h5>
+                        </div>
+                        <p class="text-start">We create feedback-driven systems that capture real-time customer insights and reviews. This empowers businesses to continuously refine their offerings, strengthen brand reputation, and foster long-term loyalty.</p>
+                    </div>
+                    </div>
 
-        <div class="col-lg-4 col-md-4 d-flex">
-          <div class="p-4 bg-6">
-             <div class="d-flex align-items-center mb-2">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/sustainable-operations-compliance.png" class="food-card-last-icon" >
-                <h5 class="food-title">Sustainable Operations & Compliance</h5>
-             </div>
-            <p class="text-start">Our platforms embed sustainability tracking and compliance management into food service operations. From energy optimization to regulatory adherence, we help businesses run responsibly while boosting operational resilience.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-</section>
+                    <div class="col-lg-4 col-md-4 d-flex">
+                    <div class="p-4 bg-6">
+                        <div class="d-flex align-items-center mb-2">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/industries/food/sustainable-operations-compliance.png" class="food-card-last-icon" >
+                            <h5 class="food-title">Sustainable Operations & Compliance</h5>
+                        </div>
+                        <p class="text-start">Our platforms embed sustainability tracking and compliance management into food service operations. From energy optimization to regulatory adherence, we help businesses run responsibly while boosting operational resilience.</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </section>
 
             <section class="tech-showcase container">
                 <div class="position-relative">
@@ -569,8 +569,8 @@ get_header(); ?>
             </section>
 
 
-            <section class="container faq-section section-40 bg-linear-white" id="faqSection">
-               
+            <section class=" faq-section pt-40 bg-linear-white" id="faqSection">
+               <div class="container">
                     <div class="row mx-0 px-0">
                         <div class="col-lg-7 px-lg-0 px-0">
                             <h2 class="section-title">FAQs</h2>
@@ -809,7 +809,7 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-
+              </div>
             </section>
 
 

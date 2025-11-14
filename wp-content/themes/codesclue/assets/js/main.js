@@ -328,3 +328,65 @@
         .appendTo('head');
 
 })(jQuery); 
+
+
+
+
+(function detectDevice() {
+  const w = window.innerWidth;
+  const isTouch = navigator.maxTouchPoints > 0;
+  const finePointer = window.matchMedia("(pointer: fine)").matches;  
+  const hoverSupport = window.matchMedia("(hover: hover)").matches;  
+
+  let key = "";
+
+  if (w <= 767 && isTouch) key = "mobile";
+  else if (isTouch && !finePointer && !hoverSupport) key = "tablet";
+
+  if (key) {
+    document.documentElement.classList.add("screen-" + key);
+    // optional: remove duplicate mobile/tablet classes if needed
+  }
+})();
+
+
+
+
+
+
+
+
+
+
+
+
+// function getDeviceKey() {
+//   const ua = (navigator.userAgent || navigator.vendor || window.opera || "").toLowerCase();
+
+//   if (/windows phone/i.test(ua)) return 'windows-phone';
+//   if (/windows nt|win32|win64/i.test(ua)) return 'windows';
+//   if (/android/i.test(ua)) return 'android';
+//   if (/iphone/i.test(ua)) return 'iphone';
+//   if (/ipad/i.test(ua)) return 'ipad';
+//   if (/ipod/i.test(ua)) return 'ipod';
+//   if (/macintosh|mac os x/i.test(ua)) {
+//     // Detect iPads that identify as Macintosh (iPadOS 13+)
+//     if ('ontouchend' in document) return 'ipad';
+//     return 'mac';
+//   }
+//   if (/linux/i.test(ua)) return 'linux';
+
+//   return 'unknown';
+// }
+
+// (function addDeviceClassToHtml() {
+//   const key = getDeviceKey();
+//   const cls = 'device-' + key.replace(/\s+/g, '-').replace(/[^a-z0-9\-]/g, '');
+//   try {
+//     document.documentElement.classList.add(cls);
+//     window.__detectedDevice = key;
+//     console.log('Detected device:', key, '— added class:', cls);
+//   } catch (e) {
+//     console.warn('Could not set device class', e);
+//   }
+// })();
