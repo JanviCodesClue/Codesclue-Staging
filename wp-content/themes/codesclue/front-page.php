@@ -265,7 +265,7 @@ get_header(); ?>
                                 Behance—each piece reflecting our
                                 commitment to design excellence.</p>
                         </div>
-                        <!-- <div class="row d-lg-cc">
+                        <div class="row d-lg-cc">
                             <div class="col-lg-6 col-md-6 col-sm-12">
                                 <div class="btn-share mt-3">
                                     <span class="btn-text">Dribbble</span>
@@ -298,10 +298,9 @@ get_header(); ?>
                                         rel="noopener noreferrer"></a>
                                 </div>
                             </div>
-                        </div> -->
-                        <div class="row ">
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <!-- Dribbble Button -->
+                        </div>
+                        <div class="row d-md-cc">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="btn-share-md-cc mt-3">
                                             <a href="https://dribbble.com/CodesClue" target="_blank"
                                                 rel="noopener noreferrer" class="d-flex align-items-center">
@@ -311,8 +310,7 @@ get_header(); ?>
                                             </a>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <!-- Behance Button -->
+                            <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="btn-share-md-cc mt-3">
 
                                             <a href="https://www.behance.net/codesclue" target="_blank"
@@ -1158,10 +1156,10 @@ get_header(); ?>
 
                         <div class="glass-info position-absolute bottom-0 text-white">
                             <div class="d-flex justify-content-between align-items-center">
-                                <h5 class="mb-0">AI-Driven Smart
+                                <h5 class="mb-0 project-name">AI-Driven Smart
                                     Search</h5>
                                 <a href="<?php echo home_url('/greenreleaf/'); ?>" class="circle-btn">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/arrow.svg" width="20" height="20" alt="Arrow">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/arrow.svg" class="img-20" alt="Arrow">
                                 </a>
                             </div>
                             <div class="info-description">
@@ -1196,10 +1194,10 @@ get_header(); ?>
 
                         <div class="glass-info position-absolute bottom-0 text-white">
                             <div class="d-flex justify-content-between align-items-center">
-                                <h5 class="mb-0">AI-Powered Clinical
+                                <h5 class="mb-0 project-name">AI-Powered Clinical
                                     Insights</h5>
                                 <a href="<?php echo home_url('/therapix/'); ?>" class="circle-btn">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/arrow.svg" width="20" height="20" alt="Arrow">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/arrow.svg" class="img-20" alt="Arrow">
                                 </a>
                             </div>
                             <div class="info-description">
