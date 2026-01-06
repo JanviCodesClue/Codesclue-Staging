@@ -23,7 +23,7 @@ get_header(); ?>
                                     <h1 class="section-title char-anim">CodesClue</h1>
                                 </div>
                                 <div class="subtitle-wrapper">
-                                    <span class="section-subtitle char-anim" data-delay="0.75">Our Company
+                                    <span class="section-subtitle char-anim" data-delay="0.75">Case Studies
                                     </span>
                                 </div>
                             </div>

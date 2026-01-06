@@ -39,9 +39,9 @@
 
             <div class="col-md-4 col-lg-4 location border-mobile">
                 <div class="location-title">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/codesclue_uk.svg"
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/usa-codesclue.svg"
                         alt="USA Flag" class="location-icon">
-                    United Kingdom
+                    USA
                 </div>
 
                 <div class="d-flex align-items-start mb-2">
@@ -51,12 +51,12 @@
 
                 <div class="d-flex align-items-start mb-2">
                     <i class="fas fa-map-marker-alt mt-1 me-2"></i>
-                    <p class="mb-0">19 - Dowling Street, SN1 5QY, Swindon</p>
+                    <p class="mb-0">601 Holywell Dr, Malvern, PA 19356</p>
                 </div>
 
-                <a href="tel:+447221898236" class="d-flex align-items-start">
+                <a href="tel:+1 (847) 730-7228" class="d-flex align-items-start">
                     <i class="fa-solid fa-phone mt-1 me-2"></i>
-                    <p class="mb-0">(+49) 155 10725637</p>
+                    <p class="mb-0">+1 (847) 730-7228</p>
                 </a>
             </div>
 
@@ -150,16 +150,20 @@
                 </div>
             </div> -->
 
-            <div class="review-box-footer">
-    <!-- GoodFirm Widget -->
-    <div class="review-item-footer">
-      <!-- <div class="goodfirm-widget-wrapper custom-body-class">
+
+
+
+                  <!-- <div class="goodfirm-widget-wrapper custom-body-class">
   <div class="goodfirm-widget"
        data-widget-type="goodfirms-widget-t6"
        data-widget-pattern="star-no-review"
        data-height="100"
        data-company-id="169180">
   </div> -->
+<div class="review-box-footer">
+    <!-- GoodFirm Widget -->
+    <div class="review-item-footer">
+
         <div>
             <div class="rating-footer">EXCELLENT</div>
             <div class="stars-footer">★★★★★</div>
@@ -167,14 +171,14 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/GoodFirm.png" class="size-32 rounded-circle "/>
                 <h5 class="ps-2">GoodFirm</h5>
             </div>
-            <storng>8 Reviews</storng>
+            <storng>9 Reviews</storng>
         </div>
 
 
     </div>
-<div class="review-item-footer only-col-12">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/codesclue-awaerd.png" class="footer-imf-award-sm">
-</div>
+    <div class="review-item-footer only-col-12">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/codesclue-awaerd.png" class="footer-imf-award-sm">
+    </div>
     <!-- Clutch Section -->
     <div class="review-item-footer">
         <div>
@@ -184,7 +188,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Clutch.png" class="size-32 rounded-circle "/>
                 <h5 class="ps-2">Clutch</h5>
             </div>
-            <storng>5 Reviews</storng>
+            <storng>6 Reviews</storng>
         </div>
     </div>
 

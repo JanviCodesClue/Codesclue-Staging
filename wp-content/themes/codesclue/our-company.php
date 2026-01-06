@@ -156,36 +156,44 @@ get_header(); ?>
                                     <h3 class="card-oc-heading oc-mt-16 text-center text-light">Mobile</h3>
                                  </div>
                                  <div class="col-lg-6 oc-mt-16">
-                                     <div class="oc-white-card">
-                                        <div class="text-center">
-                                            <i class="fa-brands fa-flutter oc-icon-size"></i>
-                                            <p class="card-oc-dec oc-mt-16 text-center">Flutter</p>
+                                    <a href="<?php echo home_url('/technology-flutter/'); ?>">
+                                        <div class="oc-white-card">
+                                            <div class="text-center">
+                                                <i class="fa-brands fa-flutter oc-icon-size"></i>
+                                                <p class="card-oc-dec oc-mt-16 text-center">Flutter</p>
+                                            </div>
                                         </div>
-                                     </div>
+                                    </a>
                                  </div>
                                  <div class="col-lg-6 oc-mt-16">
-                                    <div class="oc-white-card">
-                                        <div class="text-center">
-                                            <i class="fa-brands fa-react oc-icon-size"></i>
-                                            <p class="card-oc-dec oc-mt-16 text-center">React Native</p>
+                                    <a href="<?php echo home_url('/technology-react-native/'); ?>">
+                                        <div class="oc-white-card">
+                                            <div class="text-center">
+                                                <i class="fa-brands fa-react oc-icon-size"></i>
+                                                <p class="card-oc-dec oc-mt-16 text-center">React Native</p>
+                                            </div>
                                         </div>
-                                     </div>
+                                    </a>
                                  </div>
                                  <div class="col-lg-6 oc-mt-16">
+                                    <a href="<?php echo home_url('/technology-android/'); ?>">
                                      <div class="oc-white-card">
                                         <div class="text-center">
                                             <i class="fa-brands fa-android oc-icon-size"></i>
                                             <p class="card-oc-dec oc-mt-16 text-center">Android</p>
                                         </div>
                                      </div>
+                                     </a>
                                  </div>
                                  <div class="col-lg-6 oc-mt-16">
-                                    <div class="oc-white-card">
-                                        <div class="text-center">
-                                            <i class="fa-brands fa-apple oc-icon-size"></i>
-                                            <p class="card-oc-dec oc-mt-16 text-center">iOS</p>
+                                    <a href="<?php echo home_url('/technology-ios/'); ?>">
+                                        <div class="oc-white-card">
+                                            <div class="text-center">
+                                                <i class="fa-brands fa-apple oc-icon-size"></i>
+                                                <p class="card-oc-dec oc-mt-16 text-center">iOS</p>
+                                            </div>
                                         </div>
-                                     </div>
+                                     </a>
                                  </div>
                             </div>
                         </div>
@@ -197,36 +205,44 @@ get_header(); ?>
                                     <h3 class="card-oc-heading oc-mt-16 text-center text-light">Web/Backend</h3>
                                  </div>
                                  <div class="col-lg-6 oc-mt-16">
-                                     <div class="oc-white-card">
-                                        <div class="text-center">
-                                            <i class="fa-brands fa-node oc-icon-size"></i>
-                                            <p class="card-oc-dec oc-mt-16 text-center">Node.js</p>
+                                    <a href="<?php echo home_url('/technology-nodejs/'); ?>">
+                                        <div class="oc-white-card">
+                                            <div class="text-center">
+                                                <i class="fa-brands fa-node oc-icon-size"></i>
+                                                <p class="card-oc-dec oc-mt-16 text-center">Node.js</p>
+                                            </div>
                                         </div>
-                                     </div>
+                                     </a>
                                  </div>
                                  <div class="col-lg-6 oc-mt-16">
-                                    <div class="oc-white-card">
-                                        <div class="text-center">
-                                            <i class="fa-brands fa-angular oc-icon-size"></i>
-                                            <p class="card-oc-dec oc-mt-16 text-center">Angular</p>
+                                    <a href="<?php echo home_url('/technology-angular/'); ?>">
+                                        <div class="oc-white-card">
+                                            <div class="text-center">
+                                                <i class="fa-brands fa-angular oc-icon-size"></i>
+                                                <p class="card-oc-dec oc-mt-16 text-center">Angular</p>
+                                            </div>
                                         </div>
-                                     </div>
+                                    </a>
                                  </div>
                                  <div class="col-lg-6 oc-mt-16">
-                                     <div class="oc-white-card">
-                                        <div class="text-center">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets//images/our-company/ruby-programming-language.png" loading="lazy" alt="RoR" class="mx-auto">
-                                            <p class="card-oc-dec oc-mt-16 text-center">Ruby on Rails</p>
+                                    <a href="<?php echo home_url('/technology-ror/'); ?>">
+                                        <div class="oc-white-card">
+                                            <div class="text-center">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets//images/our-company/ruby-programming-language.png" loading="lazy" alt="RoR" class="mx-auto">
+                                                <p class="card-oc-dec oc-mt-16 text-center">Ruby on Rails</p>
+                                            </div>
                                         </div>
-                                     </div>
+                                    </a>
                                  </div>
                                  <div class="col-lg-6 oc-mt-16">
-                                    <div class="oc-white-card">
-                                        <div class="text-center">
-                                            <i class="fa-brands fa-react oc-icon-size"></i>
-                                            <p class="card-oc-dec oc-mt-16 text-center">React.js</p>
+                                    <a href="<?php echo home_url('/technology-reactjs/'); ?>">
+                                        <div class="oc-white-card">
+                                            <div class="text-center">
+                                                <i class="fa-brands fa-react oc-icon-size"></i>
+                                                <p class="card-oc-dec oc-mt-16 text-center">React.js</p>
+                                            </div>
                                         </div>
-                                     </div>
+                                    </a>
                                  </div>
                             </div>
                         </div>
