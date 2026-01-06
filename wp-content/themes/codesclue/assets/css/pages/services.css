@@ -1,0 +1,255 @@
+/* ================================================================
+   SERVICES PAGE CSS - ISOLATED SCOPE
+   All selectors wrapped in .page-services to prevent cross-page leakage
+================================================================= */
+
+.page-services .mission-section {
+  padding: 60px 20px;
+  position: relative;
+}
+
+.page-services .mission-section h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Floating Animation */
+.page-services .float-up-down {
+  animation: float 5s ease-in-out infinite;
+  border-radius: 20px;
+}
+.page-services .mt-sm-services {
+  margin-top: 20px;
+}
+.page-services .text-services {
+  text-align: left !important;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.page-services .mission-img {
+  border-radius: 10px;
+  width: auto;
+  height: 200px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.page-services .d-sm-none {
+  display: block !important;
+}
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .page-services .mission-img {
+    max-width: 150px;
+    margin: 15px auto;
+    display: block;
+  }
+  .page-services .mission-section {
+    text-align: center;
+  }
+  .page-services .text-services {
+    text-align: left !important;
+  }
+
+  .page-services .mt-sm-services {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 1000px) {
+  .page-services .d-sm-none {
+    display: none !important;
+  }
+  .page-services .img-sm{
+    width: 400px;
+    height: auto; 
+    align-content: center;
+  }
+  .page-services .mt-sm-services{
+    margin-top: 20px;
+  }
+}
+
+.page-services .app-benefits-section {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+  background-color: #000;
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.page-services .grid-3.service-grid {
+  display: grid;
+  grid-template-columns: 33% 30% 33%;
+  gap: 10px;
+  justify-content: center;
+}
+
+.page-services .service-grid .text-justify {
+  text-align: left;
+}
+
+.page-services .service-grid .text-justify h3 {
+  text-align: left !important;
+}
+
+.page-services .benifit-details i {
+  width: 60px!important;
+  height: 60px!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-services .benifits-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-services .benifits-img img {
+  height: 700px;
+  min-width: 300px;
+}
+
+.page-services .card-32 {
+  width: 60px !important;
+  height: 60px !important;
+}
+@media screen and (max-width: 1200px) {
+  .page-services .offer-dots {
+    display: none;
+  }
+}
+
+.page-services .services-contact {
+  background: #000000;
+  /* Dark background */
+  color: #fff;
+}
+
+.page-services .services-contact-title {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.page-services .services-btn {
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.page-services .services-btn:hover {
+  background: #fff;
+  color: #1e241e;
+}
+
+/* Circle image container */
+.page-services .services-circle {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid rgba(255, 255, 255, 0.142);
+}
+
+/* All images stacked */
+.page-services .services-circle-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  border-radius: 50%;
+}
+
+/* Show only active */
+.page-services .services-circle-img.active {
+  opacity: 1;
+}
+.page-services .mt-5-cus{
+    margin-top: 50px;
+   }
+   .page-services .my-5-cus{
+    margin-top: 50px;
+    margin-bottom: 30px;
+   }
+@media screen and (max-width: 1200px) {
+   .page-services .pt-xsm-cus{
+    padding-top: 20px;
+   }
+   .page-services .mt-5-cus{
+    margin-top: 20px;
+   }
+      .page-services .my-5-cus{
+    margin-top: 3px;
+    margin-bottom: 20px;
+   }
+}
+
+
+.page-services .bg-white {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+}
+
+@media screen and (max-width: 767.98px) {
+
+   .page-services .services-section .service-card {
+        max-width: 100%;
+    }
+
+    .page-services .black-bg .grid-3 {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 0px;
+    }
+
+    .page-services .black-bg .grid-3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .page-services .benifits-img img {
+        height: 90%;
+        min-width: 130px;
+        margin-bottom: 0px;
+    }
+}
+
+
+.page-services .offer-service-card {
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  height: 100%;
+  transition: all 0.3s ease;
+  background: #fff;
+}
+
+.page-services .offer-service-card:hover {
+  border-color: #0d6efd;
+  transform: translateY(-5px);
+}
+.page-services .fa-size{
+  font-size: 15px;
+}

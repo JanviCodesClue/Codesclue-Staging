@@ -118,6 +118,11 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue-top_clutch.co_software_developers_legal_cannabis_india .png"
                             alt="Award 5" class="badge-img-footer">
                     </a>
+                    
+                    <a href="https://www.goodfirms.co/press-releases/emerging-companies-award?utm_source=gf_marketing&utm_medium=email&utm_campaign=emerging_company_award" target="_blank">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue-top-emerging-companies-award.svg"
+                            alt="Award 5" class="badge-img-footer">
+                    </a>
                 </div>
             </div>
 
@@ -421,6 +426,44 @@ function codesclue_footer_fallback_menu() {
     echo '</ul>';
 }
 ?>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  console.log("BLOG FILTER LOADED");
+
+  const buttons = document.querySelectorAll(".blog-filter-btn");
+  const cards = document.querySelectorAll(".blog-item-add");
+
+  if (!buttons.length || !cards.length) {
+    console.error("Buttons or cards not found");
+    return;
+  }
+
+  buttons.forEach(btn => {
+    btn.addEventListener("click", function () {
+
+      buttons.forEach(b => b.classList.remove("active"));
+      this.classList.add("active");
+
+      const filter = this.dataset.filter;
+
+      cards.forEach(card => {
+        const article = card.querySelector(".blog-item");
+        const category = article?.dataset.category || "";
+
+        if (filter === "all" || category.includes(filter)) {
+          card.style.display = "flex";
+        } else {
+          card.style.display = "none";
+        }
+      });
+
+    });
+  });
+
+});
+</script>
+
 <!-- <script>
 document.addEventListener("contextmenu", e => e.preventDefault());
 

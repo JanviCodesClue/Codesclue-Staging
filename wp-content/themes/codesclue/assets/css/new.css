@@ -2549,7 +2549,7 @@ input[type="radio"]#tab-4:checked~.row label[for="tab-4"] {
 }
 
 .badge-img-footer {
-  max-height: 92px;
+ height: 92px;
   width: auto;
   object-fit: contain;
   transition: transform 0.3s ease;

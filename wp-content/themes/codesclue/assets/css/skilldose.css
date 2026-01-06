@@ -1,0 +1,621 @@
+:root { 
+  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+  --default-color: #0a0f14; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #0f2943; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #e87532; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+}
+.section-skilldose {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 60px 0;
+  scroll-margin-top: 90px;
+  overflow: clip;
+}
+.main-skill{
+    margin-top: 60px;
+}
+@media (max-width: 1199px) {
+
+  section,
+  .section-skilldose {
+    scroll-margin-top: 66px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Global Section Titles
+--------------------------------------------------------------*/
+.section-skilldose-title {
+  text-align: center;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.section-skilldose-title h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  background: linear-gradient(120deg, var(--heading-color), var(--accent-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+}
+
+.section-skilldose-title .title-shape {
+  width: 200px;
+  height: 20px;
+  margin: 0 auto;
+  color: var(--accent-color);
+  opacity: 0.5;
+}
+
+.section-skilldose-title .title-shape svg {
+  width: 100%;
+  height: 100%;
+}
+
+.section-skilldose-title p {
+  margin: 15px auto 0;
+  font-size: 16px;
+  max-width: 700px;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .section-skilldose-title h2 {
+    font-size: 32px;
+  }
+
+  .section-skilldose-title .subtitle-wrapper .subtitle {
+    font-size: 13px;
+  }
+}
+
+
+
+.hero-skilldose {
+  padding: 80px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-skilldose .content h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 991px) {
+  .hero-skilldose .content h2 {
+    font-size: 2.5rem;
+  }
+}
+
+.hero-skilldose .content .lead {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+}
+
+.hero-skilldose .cta-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 576px) {
+  .hero-skilldose .cta-buttons {
+    flex-direction: column;
+  }
+}
+
+.hero-skilldose .cta-buttons .btn {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.hero-skilldose .cta-buttons .btn.btn-primary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+.hero-skilldose .cta-buttons .btn.btn-primary:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 15%);
+  border-color: color-mix(in srgb, var(--accent-color), transparent 15%);
+  transform: translateY(-2px);
+}
+
+.hero-skilldose .cta-buttons .btn.btn-outline {
+  border: 2px solid color-mix(in srgb, var(--accent-color), transparent 70%);
+  color: var(--accent-color);
+  background: transparent;
+}
+
+.hero-skilldose .cta-buttons .btn.btn-outline:hover {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  transform: translateY(-2px);
+}
+
+.hero-skilldose .hero-skilldose-stats {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 576px) {
+  .hero-skilldose .hero-skilldose-stats {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+.hero-skilldose .hero-skilldose-stats .stat-item .stat-number {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--heading-color);
+  line-height: 1;
+}
+
+.hero-skilldose .hero-skilldose-stats .stat-item .stat-label {
+  font-size: 0.9rem;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  margin-top: 0.5rem;
+  display: block;
+}
+
+.hero-skilldose .hero-skilldose-image {
+  position: relative;
+  padding: 2rem;
+}
+
+.hero-skilldose .hero-skilldose-image img {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-skilldose .hero-skilldose-image .shape-1,
+.hero-skilldose .hero-skilldose-image .shape-2 {
+  position: absolute;
+  border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  z-index: 1;
+}
+
+.hero-skilldose .hero-skilldose-image .shape-1 {
+  width: 300px;
+  height: 300px;
+  background-color: color-mix(in srgb, var(--accent-color), transparent 85%);
+  top: -20px;
+  right: -20px;
+  animation: morphShape 15s linear infinite;
+}
+
+.hero-skilldose .hero-skilldose-image .shape-2 {
+  width: 200px;
+  height: 200px;
+  background-color: color-mix(in srgb, var(--heading-color), transparent 90%);
+  bottom: -20px;
+  left: -20px;
+  animation: morphShape 20s linear infinite reverse;
+}
+
+@media (max-width: 991px) {
+  .hero-skilldose {
+    text-align: center;
+    padding: 60px 0;
+  }
+
+  .hero-skilldose .cta-buttons {
+    justify-content: center;
+  }
+
+  .hero-skilldose .hero-skilldose-stats {
+    justify-content: center;
+  }
+
+  .hero-skilldose .hero-skilldose-image {
+    margin-top: 3rem;
+  }
+}
+
+@keyframes morphShape {
+  0% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  }
+
+  25% {
+    border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+  }
+
+  50% {
+    border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+  }
+
+  75% {
+    border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+  }
+
+  100% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.light-background {
+  --background-color: #faf9fb;
+  --surface-color: #ffffff;
+}
+
+.dark-background {
+  --background-color: #060606;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --surface-color: #252525;
+  --contrast-color: #ffffff;
+}
+
+.about .about-image {
+  position: relative;
+}
+
+.about .about-image img {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.about .about-content {
+  padding-left: 2rem;
+}
+
+@media (max-width: 991.98px) {
+  .about .about-content {
+    padding-left: 0;
+    margin-top: 3rem;
+  }
+}
+
+.about .about-content .subtitle {
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.about .about-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.about .about-content .lead {
+  font-size: 1.1rem;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+}
+
+.about .personal-info {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: var(--surface-color);
+  border-radius: 1rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+}
+
+.about .personal-info .info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.about .personal-info .info-item .label {
+  font-size: 0.875rem;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+
+.about .personal-info .info-item .value {
+  font-weight: 600;
+  color: var(--heading-color);
+}
+
+.about .signature {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.about .signature .signature-image {
+  max-width: 150px;
+}
+
+.about .signature .signature-info h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.about .signature .signature-info p {
+  font-size: 0.875rem;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  margin: 0;
+}
+
+
+
+.skills .skill-box {
+  background-color: var(--surface-color);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.skills .skill-box h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.skills .skill-box p {
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+  opacity: 0.6;
+}
+
+.skills .skill-box .progress {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 85%);
+  border-radius: 50px;
+  height: 8px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.skills .skill-box .progress .progress-bar {
+  background-color: var(--accent-color);
+  height: 100%;
+  position: relative;
+  border-radius: 50px;
+  transition: 0.9s;
+  width: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.resume .resume-wrapper .resume-block {
+  margin-bottom: 3rem;
+}
+
+.resume .resume-wrapper .resume-block:last-child {
+  margin-bottom: 0;
+}
+
+.resume .resume-wrapper .resume-block h2 {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+
+.resume .resume-wrapper .resume-block h2 span {
+  color: var(--accent-color);
+}
+
+.resume .resume-wrapper .resume-block .lead {
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  margin-bottom: 3rem;
+}
+
+.resume .resume-wrapper .timeline {
+  position: relative;
+}
+
+.resume .resume-wrapper .timeline::before {
+  content: "";
+  position: absolute;
+  left: 20%;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: color-mix(in srgb, var(--accent-color), transparent 85%);
+}
+
+.resume .resume-wrapper .timeline .timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.resume .resume-wrapper .timeline .timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.resume .resume-wrapper .timeline .timeline-item .timeline-left {
+  width: 20%;
+  padding-right: 3rem;
+}
+
+.resume .resume-wrapper .timeline .timeline-item .timeline-left .company {
+  color: var(--heading-color);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.resume .resume-wrapper .timeline .timeline-item .timeline-left .period {
+  color: var(--accent-color);
+  font-size: 0.9rem;
+}
+
+.resume .resume-wrapper .timeline .timeline-item .timeline-dot {
+  position: absolute;
+  left: calc(20% + 1px);
+  transform: translateX(-50%);
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+.resume .resume-wrapper .timeline .timeline-item .timeline-right {
+  width: 70%;
+  padding-left: 3rem;
+  margin-top: -4px;
+}
+
+.resume .resume-wrapper .timeline .timeline-item .timeline-right .position {
+  color: var(--heading-color);
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+  font-weight: 600;
+}
+
+.resume .resume-wrapper .timeline .timeline-item .timeline-right .description {
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+}
+
+.resume .resume-wrapper .timeline .timeline-item .timeline-right ul {
+  padding-left: 15px;
+}
+
+.resume .resume-wrapper .timeline .timeline-item .timeline-right ul li {
+  padding-bottom: 12px;
+}
+
+@media (max-width: 992px) {
+  .resume .resume-wrapper .resume-block h2 {
+    font-size: 2rem;
+  }
+
+  .resume .resume-wrapper .timeline::before {
+    left: 1rem;
+  }
+
+  .resume .resume-wrapper .timeline .timeline-item {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .resume .resume-wrapper .timeline .timeline-item .timeline-left {
+    width: 100%;
+    text-align: left;
+    padding-right: 0;
+    padding-left: 2.5rem;
+    margin-bottom: 1.6rem;
+    margin-top: -4px;
+  }
+
+  .resume .resume-wrapper .timeline .timeline-item .timeline-dot {
+    left: calc(1rem + 1px);
+  }
+
+  .resume .resume-wrapper .timeline .timeline-item .timeline-right {
+    width: 100%;
+    padding-left: 2.5rem;
+  }
+}
+
+
+
+
+
+
+
+.services {
+  padding: 80px 0;
+}
+
+.services .servies-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.services .btn-outline-primary {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.services .btn-outline-primary:hover {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+.services .service-item {
+  background-color: var(--surface-color);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.services .service-item:hover {
+  transform: scale(1.05);
+}
+
+.services .service-item i {
+  font-size: 2.5rem;
+  color: var(--accent-color);
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.services .service-item h3 {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+
+.services .service-item h3 a {
+  color: var(--heading-color);
+}
+
+.services .service-item h3 a:hover {
+  color: var(--accent-color);
+}
+
+.services .service-item p {
+  font-size: 0.9rem;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+}
+
+@media (max-width: 991px) {
+  .services h2 {
+    font-size: 2rem;
+  }
+}
+
+.w-s-90{
+    width: 90%!important;
+}
+.w-s-80{
+    width: 80%!important;
+}
+.w-s-85{
+    width: 85%!important;
+}

@@ -1,0 +1,367 @@
+.team-area .section-header {
+  display: grid;
+  gap: 20px 60px;
+  grid-template-columns: 1fr auto;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+  .team-area .section-header {
+    grid-template-columns: 1fr;
+  }
+}
+
+.team-area .section-header .title-wrapper {
+  margin-top: 7px;
+}
+
+.team-area .section-header .btn-wrapper {
+  margin-bottom: 5px;
+}
+
+.team-area .team-wrapper-box {
+  border-top: 1px solid rgba(14, 15, 17, 0.1);
+  padding-top: 70px;
+  margin-top: 25px;
+  margin-bottom: 13px;
+}
+.m-hide{
+  display: none;
+}
+.d-hide{
+  display: flex;
+}
+@media only screen and (max-width: 1919px) {
+  .team-area .team-wrapper-box {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .team-area .team-wrapper-box {
+    padding-top: 40px;
+  }
+}
+
+.team-area .team-wrapper {
+  display: grid;
+  gap: 40px 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width: 1200px) {
+  .team-area .team-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 575px) {
+  .team-area .team-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.our-team-h2{
+  font-size: 64px;
+  font-weight: 700;
+}
+.team-dec{
+  font-size: 16px;
+}
+.taem-inner-heading{
+  font-size: 32px;
+  font-weight: 700;
+}
+  .btn-custom {
+    background: #007bff;
+    color: #fff;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 30px;
+    transition: 0.3s;
+    display: flex-block;
+    text-decoration: none;
+  }
+
+  .btn-custom:hover {
+    background: #0056b3;
+    color: #fff;
+  }
+  .pt-40{
+    padding-top: 40px;
+  }
+  .pb-40{
+    padding-bottom: 40px;
+  }
+  .p-8{
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .pt-16{
+    padding-top: 16px;
+  }
+  .pb-16{
+    padding-bottom: 16px;
+  }
+  .d-only-lg{
+    display: flex;
+  }
+  .d-only-md{
+    display: none;
+  }
+   .d-only-lg-sec{
+    display: block;
+  }
+  .d-only-md-sec{
+    display: none;
+  }
+  .co-card{
+    background-color: #E9F4FF;
+    border-radius: 15px;
+    padding: 25px;
+  }
+  .co-name{
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+
+  .life-section {
+      background: #fff;
+      position: relative;
+    }
+
+    .life-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100%;
+      padding: 30px;
+    }
+
+    .life-text h2 {
+      font-weight: 700;
+      font-size: 2rem;
+      color: #222;
+    }
+
+    .life-text h2 span {
+      color: #007bff;
+    }
+
+    .life-text p {
+      max-width: 600px;
+      color: #555;
+      margin-top: 15px;
+      font-size: 16px;
+    }
+
+    .life-img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: opacity 1s ease-in-out;
+    }
+
+    .fade-out {
+      opacity: 0;
+    }
+
+    @media (max-width: 991px) {
+      .life-text {
+        margin-top: 30px;
+      }
+    }
+
+    .divaider{
+      width: 100%;
+      border-top: 1px solid #000;
+    }
+@media only screen and (max-width: 1440px) and (min-width: 820px)  {
+
+ }
+@media only screen and (max-width: 991.98px) and (min-width: 820px)  {
+  .taem-inner-heading{
+  font-size: 28px;
+  font-weight: 700;
+  }
+  .w-100{
+    width:100%;
+  }
+  .pb-16-m{
+    padding-bottom: 16px;
+  }
+      .pt-16-m{
+    padding-top: 16px;
+  }
+    .d-only-lg{
+    display: none;
+  }
+  .d-only-md{
+    display: flex;
+  }
+     .d-only-lg-sec{
+    display: none;
+  }
+  .d-only-md-sec{
+    display: block;
+  }
+    .life-text h2 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #222;
+}
+.life-text p {
+    max-width: 600px;
+    color: #555;
+    margin-top: 15px;
+    font-size: 14px;
+}
+  }
+@media only screen and (max-width: 819.99px) and (min-width: 394px)  {
+    .w-100{
+    width:100%;
+  }
+  .d-hide{
+    display: none;
+  }
+  .m-hide{
+  display: flex;
+}
+  .pb-16-m{
+    padding-bottom: 16px;
+  }
+      .pt-16-m{
+    padding-top: 16px;
+  }
+.col-3-m{
+  flex: 0 0 auto;
+  width: 25%;
+  }
+    .d-only-lg{
+    display: none;
+  }
+   .d-only-md{
+    display: flex;
+  }
+     .d-only-lg-sec{
+    display: none;
+  }
+  .d-only-md-sec{
+    display: block;
+  }
+    .pt-40{
+    padding-top: 40px!important;
+  }
+  .pb-40{
+    padding-bottom: 40px!important;
+  }
+  .p-8{
+    padding-top: 8px!important;
+    padding-bottom: 8px!important;
+  }
+  .pt-16{
+    padding-top: 16px!important;
+  }
+  .pb-16{
+    padding-bottom: 16px!important;
+  }
+    .life-text h2 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #222;
+}
+.life-text p {
+    max-width: 600px;
+    color: #555;
+    margin-top: 15px;
+    font-size: 14px;
+}
+ }
+@media only screen and (max-width: 393px) {
+    .w-100{
+    width:100%;
+  }
+  .d-hide{
+  display: none;
+}
+  .m-hide{
+  display: flex;
+}
+  .pb-16-m{
+    padding-bottom: 16px;
+  }
+    .pt-16-m{
+    padding-top: 16px;
+  }
+.col-3-m{
+  flex: 0 0 auto;
+  width: 33.33%;
+}
+    .d-only-lg{
+    display: none;
+  }
+   .d-only-md{
+    display: flex;
+  }
+  .team-dec{
+  font-size: 15px;
+}
+.taem-inner-heading{
+  font-size: 26px;
+  font-weight: 700;
+}
+     .d-only-lg-sec{
+    display: none;
+  }
+  .d-only-md-sec{
+    display: block;
+  }
+    .pt-40{
+    padding-top: 40px!important;
+  }
+  .pb-40{
+    padding-bottom: 40px!important;
+  }
+  .p-8{
+    padding-top: 8px!important;
+    padding-bottom: 8px!important;
+  }
+  .pt-16{
+    padding-top: 16px!important;
+  }
+  .pb-16{
+    padding-bottom: 16px!important;
+  }
+    .life-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* sabhi col-2 by default 100% width kar do */
+  .life-section .col-2 {
+    flex: 0 0 33.33%;
+    padding: 5px;
+  }
+  .life-text h2 {
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: #222;
+}
+.life-text p {
+    max-width: 600px;
+    color: #555;
+    margin-top: 15px;
+    font-size: 14px;
+}
+}
+.pt-80{
+  padding-top: 80px;
+}

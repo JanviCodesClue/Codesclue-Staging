@@ -1,0 +1,266 @@
+.hero-case-study-h1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.3;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.hero-case-study-p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.case-study-hero-btn {
+    background: #007bff;
+    border: none;
+    padding: 12px 30px;
+    font-weight: 600;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.case-study-hero-btn:hover {
+    background: #0056b3;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+.cs-b-10 {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.cs-mt-40 {
+    margin-top: 40px;
+    padding: 60px 0;
+}
+
+.cs-mt-16 {
+    margin-top: 16px;
+}
+
+.cs-mb-40 {
+    margin-bottom: 40px;
+}
+
+.cs-section-h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.inner-cs-heading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.inner-cs-dec {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.cs-order-1 {
+    order: 1 !important;
+}
+
+.cs-order-2 {
+    order: 2 !important;
+}
+
+.tags-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: start;
+    margin-top: 16px;
+}
+
+.inner-tag-cs {
+    font-size: 16px;
+    width: fit-content;
+    padding: 14px 24px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    white-space: nowrap;
+    color: #000;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+.inner-tag-cs:hover {
+    background: #000;
+    color: #fff;
+}
+
+/* Hero section container spacing */
+section.cs-mt-40 .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Section heading container */
+.cs-mt-40 h2.cs-section-h2 {
+    padding: 40px 0 20px;
+}
+
+/* Case study section images */
+section.cs-mt-40 img.cs-b-10 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+/* Case study content columns */
+section.cs-mt-40 .col-lg-6 {
+    padding: 20px 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .inner-tag-cs {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .tags-wrapper {
+        gap: 12px;
+    }
+
+    .cs-mt-40 {
+        padding: 40px 0;
+    }
+
+    section.cs-mt-40 .container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .case-study-hero-btn {
+        padding: 10px 24px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 991.99px) {
+    .cs-mt-16-sm {
+        margin-top: 16px;
+    }
+
+    .cs-order-1 {
+        order: 2 !important;
+    }
+
+    .cs-order-2 {
+        order: 1 !important;
+    }
+
+    section.cs-mt-40 .col-lg-6 {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    section.cs-mt-40 img.cs-b-10 {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media only screen and (max-width: 819.99px) and (min-width: 394px) {
+    .hero-case-study-h1 {
+        font-size: 38px;
+        font-weight: 900;
+        line-height: 1.3;
+    }
+
+    .hero-case-study-p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .cs-section-h2 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.3;
+    }
+
+    .inner-cs-heading {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1.4;
+    }
+
+    .card-oc-heading {
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (max-width: 393px) {
+    .hero-case-study-h1 {
+        font-size: 27.2px;
+        font-weight: 900;
+        line-height: 1.3;
+        margin-bottom: 16px;
+    }
+
+    .hero-case-study-p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .cs-section-h2 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.3;
+    }
+
+    .inner-cs-heading {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.4;
+        margin-bottom: 12px;
+    }
+
+    .card-oc-heading {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .inner-cs-dec {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .cs-mt-40 {
+        padding: 30px 0;
+    }
+
+    section.cs-mt-40 .container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .case-study-hero-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}

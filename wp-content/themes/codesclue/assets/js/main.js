@@ -13,7 +13,7 @@
         // Initialize all functions
         initMobileMenu();
         initSmoothScrolling();
-        initScrollToTop();
+        // initScrollToTop(); // Handled by scripts.js (loaded inline)
         initStickyHeader();
         initAnimations();
         initTabs();
@@ -60,25 +60,7 @@
         });
     }
 
-    // Scroll to top button
-    // function initScrollToTop() {
-    //     var $scrollTop = $('<button class="scroll-to-top"><i class="fas fa-chevron-up"></i></button>');
-    //     $('body').append($scrollTop);
-
-    //     $(window).on('scroll', function() {
-    //         if ($(this).scrollTop() > 300) {
-    //             $scrollTop.addClass('show');
-    //         } else {
-    //             $scrollTop.removeClass('show');
-    //         }
-    //     });
-
-    //     $scrollTop.on('click', function() {
-    //         $('html, body').animate({
-    //             scrollTop: 0
-    //         }, 800);
-    //     });
-    // }
+    // Scroll to top button - Handled by scripts.js (loaded inline in templates)
 
     // Sticky header
     function initStickyHeader() {
@@ -206,60 +188,7 @@
         $('[data-bs-toggle="tooltip"]').tooltip();
     }
 
-    // Counter animation
-    function initCounters() {
-        $('.counter').each(function() {
-            var $this = $(this);
-            var countTo = $this.attr('data-count');
-            
-            $({ countNum: $this.text() }).animate({
-                countNum: countTo
-            }, {
-                duration: 2000,
-                easing: 'swing',
-                step: function() {
-                    $this.text(Math.floor(this.countNum));
-                },
-                complete: function() {
-                    $this.text(this.countNum);
-                }
-            });
-        });
-    }
-
-    // Initialize counters when they come into view
-    function initCounterOnScroll() {
-        $('.counter').each(function() {
-            var elementTop = $(this).offset().top;
-            var elementBottom = elementTop + $(this).outerHeight();
-            var viewportTop = $(window).scrollTop();
-            var viewportBottom = viewportTop + $(window).height();
-
-            if (elementBottom > viewportTop && elementTop < viewportBottom) {
-                if (!$(this).hasClass('counted')) {
-                    $(this).addClass('counted');
-                    initCounters();
-                }
-            }
-        });
-    }
-
-    // Call counter function on scroll
-    // $(window).on('scroll', initCounterOnScroll);
-
-    // function initParallax() {
-    //     $(window).on('scroll', function() {
-    //         var scrolled = $(this).scrollTop();
-    //         $('.parallax').each(function() {
-    //             var speed = $(this).data('speed') || 0.5;
-    //             var yPos = -(scrolled * speed);
-    //             $(this).css('transform', 'translateY(' + yPos + 'px)');
-    //         });
-    //     });
-    // }
-    // if ($('.parallax').length) {
-    //     initParallax();
-    // }
+    // Counter animation - Handled by scripts.js and jquery.rcounter.js
 
     // Search functionality
     function initSearch() {
@@ -360,33 +289,4 @@
 
 
 
-// function getDeviceKey() {
-//   const ua = (navigator.userAgent || navigator.vendor || window.opera || "").toLowerCase();
-
-//   if (/windows phone/i.test(ua)) return 'windows-phone';
-//   if (/windows nt|win32|win64/i.test(ua)) return 'windows';
-//   if (/android/i.test(ua)) return 'android';
-//   if (/iphone/i.test(ua)) return 'iphone';
-//   if (/ipad/i.test(ua)) return 'ipad';
-//   if (/ipod/i.test(ua)) return 'ipod';
-//   if (/macintosh|mac os x/i.test(ua)) {
-//     // Detect iPads that identify as Macintosh (iPadOS 13+)
-//     if ('ontouchend' in document) return 'ipad';
-//     return 'mac';
-//   }
-//   if (/linux/i.test(ua)) return 'linux';
-
-//   return 'unknown';
-// }
-
-// (function addDeviceClassToHtml() {
-//   const key = getDeviceKey();
-//   const cls = 'device-' + key.replace(/\s+/g, '-').replace(/[^a-z0-9\-]/g, '');
-//   try {
-//     document.documentElement.classList.add(cls);
-//     window.__detectedDevice = key;
-//     console.log('Detected device:', key, '— added class:', cls);
-//   } catch (e) {
-//     console.warn('Could not set device class', e);
-//   }
-// })();
+    // Device detection - Removed unused commented code

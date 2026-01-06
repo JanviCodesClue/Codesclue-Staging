@@ -1,0 +1,60 @@
+/**
+ * Button Component Styles
+ * Used on: ALL pages
+ */
+
+.btn-arrow {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.get-started-btn {
+    display: flex;
+    width: fit-content;
+    background-color: #2477ff;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    padding: 10px 24px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.get-started-btn-2 {
+    background-color: #2477ff;
+    color: white;
+    font-weight: 500;
+    padding: 10px 24px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.get-started-btn:hover {
+    background-image: var(--hover-bg) !important;
+    color: white;
+    font-weight: 500;
+    padding: 10px 24px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+    .get-started-btn {
+        background-color: #2477ff;
+        color: white;
+        font-weight: 500;
+        padding: 6px 24px;
+        border-radius: 40px;
+        text-decoration: none;
+    }
+
+    .get-started-btn-2 {
+        background-color: #2477ff;
+        color: white;
+        font-weight: 500;
+        padding: 5px 15px;
+        border-radius: 40px;
+        text-decoration: none;
+    }
+}
+
