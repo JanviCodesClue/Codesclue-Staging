@@ -239,7 +239,7 @@ get_header(); ?>
                 <h2 class="section-heading text-center">Hire Android Developers in just 4 Steps</h2>
                 <p class="content-desc-hiring text-center hiring-mt-16">Looking to hire a app developer for your unique project? Look no further, as CodesClue offers a quick and easy 4-step process to connect you with the best talent that meets your requirements.</p>
                 <div class="row">
-                     <div class="col-lg-3-hiring hiring-mt-16">
+                     <div class="col-lg-3-hiring hiring-mt-16 ">
                           <div class="d-flex justify-content-center border-bottom-hiring">
                               <div class="icon-box-hiring"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-share.svg" alt="share.webp"
                                     class="h-30" /></div>
@@ -247,7 +247,7 @@ get_header(); ?>
                           <h3 class="step-hiring-h3 text-center hiring-mt-16">1. Share Your Requirements</h3>
                           <p class="content-desc-hiring text-center hiring-mt-16">To help us understand your needs, give us a brief synopsis of your project and the particular abilities you are searching for.</p>
                      </div>
-                     <div class="col-lg-3-hiring hiring-mt-16">
+                     <div class="col-lg-3-hiring hiring-mt-16 ">
                           <div class="d-flex justify-content-center border-bottom-hiring">
                               <div class="icon-box-hiring"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-credit-card.svg" alt="share.webp"
                                     class="h-30" /></div>
@@ -258,7 +258,7 @@ get_header(); ?>
                                     developers from our talent pool based on the need of the project and relevant
                                     experience level.</p>
                      </div>
-                     <div class="col-lg-3-hiring hiring-mt-16">
+                     <div class="col-lg-3-hiring hiring-mt-16 ">
                           <div class="d-flex justify-content-center border-bottom-hiring">
                               <div class="icon-box-hiring"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-user-time.svg" alt="share.webp"
                                     class="h-30" /></div>
@@ -269,7 +269,7 @@ get_header(); ?>
                                     shortlisted candidates to interview so you can evaluate their work styles and skills
                                     and determine which is the best fit for your project.</p>
                      </div>
-                     <div class="col-lg-3-hiring hiring-mt-16">
+                     <div class="col-lg-3-hiring hiring-mt-16 ">
                           <div class="d-flex justify-content-center border-bottom-hiring">
                               <div class="icon-box-hiring"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-chart-tree.svg" alt="share.webp"
                                     class="h-30" /></div>
@@ -282,42 +282,42 @@ get_header(); ?>
                      </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3-hiring hiring-mt-16">
+                    <div class="col-lg-3-hiring hiring-mt-16 d-flex align-items-stretch">
                         <span class="tag_step">
                             <i class="fa-brands fa-apple font-18"></i> iOS Development
                         </span>
                     </div>
-                    <div class="col-lg-3-hiring hiring-mt-16">
+                    <div class="col-lg-3-hiring hiring-mt-16 d-flex align-items-stretch">
                         <span class="tag_step">
                             <i class="fa-brands fa-android font-18"></i> Android Development
                         </span>
                     </div>
-                    <div class="col-lg-3-hiring hiring-mt-16">
+                    <div class="col-lg-3-hiring hiring-mt-16 d-flex align-items-stretch">
                         <span class="tag_step">
                             <i class="fa-solid fa-layer-group font-18"></i> Cross-Platform Apps
                         </span>
                     </div>
-                    <div class="col-lg-3-hiring hiring-mt-16">
+                    <div class="col-lg-3-hiring hiring-mt-16 d-flex align-items-stretch">
                         <span class="tag_step">
                             <i class="fa-solid fa-mobile-screen-button font-18"></i> Native App Development
                         </span>
                     </div>
-                    <div class="col-lg-3-hiring hiring-mt-16">
+                    <div class="col-lg-3-hiring hiring-mt-16 d-flex align-items-stretch">
                         <span class="tag_step">
                             <i class="fa-brands fa-flutter font-18"></i> Flutter Development
                         </span>
                     </div>
-                    <div class="col-lg-3-hiring hiring-mt-16">
+                    <div class="col-lg-3-hiring hiring-mt-16 d-flex align-items-stretch">
                         <span class="tag_step">
                             <i class="fa-brands fa-react font-18"></i> React Native Apps
                         </span>
                     </div>
-                    <div class="col-lg-3-hiring hiring-mt-16">
+                    <div class="col-lg-3-hiring hiring-mt-16 d-flex align-items-stretch">
                         <span class="tag_step">
                             <i class="fa-solid fa-pen-ruler font-18"></i> Mobile UI/UX Design
                         </span>
                     </div>
-                    <div class="col-lg-3-hiring hiring-mt-16">
+                    <div class="col-lg-3-hiring hiring-mt-16 d-flex align-items-stretch">
                         <span class="tag_step">
                             <i class="fa-solid fa-chart-line font-18"></i> App Store Optimization
                         </span>

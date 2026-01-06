@@ -371,13 +371,12 @@
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
     animation: borderFlow 4s linear infinite !important;
-    font-size: 32px;
 }
 
 
-/* @media screen and (max-width: 991.98px) {
+@media screen and (max-width: 991.98px) {
     .section-title {
         font-size: 38px !important;
         text-align: center;
     }
-} */
+}

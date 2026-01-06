@@ -238,7 +238,7 @@ get_header(); ?>
                 <h2 class="section-heading text-center">Hire Manual QA in Just 4 Steps</h2>
                 <p class="content-desc-hiring text-center hiring-mt-16">Looking to hire a QA for your unique project? Look no further, as CodesClue offers a quick and easy 4-step process to connect you with the best talent that meets your requirements.</p>
                 <div class="row">
-                     <div class="col-lg-3-hiring hiring-mt-16">
+                     <div class="col-lg-3-hiring hiring-mt-16 ">
                           <div class="d-flex justify-content-center border-bottom-hiring">
                               <div class="icon-box-hiring"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-share.svg" alt="share.webp"
                                     class="h-30" /></div>
@@ -246,7 +246,7 @@ get_header(); ?>
                           <h3 class="step-hiring-h3 text-center hiring-mt-16">1. Share Your Requirements</h3>
                           <p class="content-desc-hiring text-center hiring-mt-16">To help us understand your needs, give us a brief synopsis of your project and the particular abilities you are searching for.</p>
                      </div>
-                     <div class="col-lg-3-hiring hiring-mt-16">
+                     <div class="col-lg-3-hiring hiring-mt-16 ">
                           <div class="d-flex justify-content-center border-bottom-hiring">
                               <div class="icon-box-hiring"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-credit-card.svg" alt="share.webp"
                                     class="h-30" /></div>
@@ -257,7 +257,7 @@ get_header(); ?>
                                     developers from our talent pool based on the need of the project and relevant
                                     experience level.</p>
                      </div>
-                     <div class="col-lg-3-hiring hiring-mt-16">
+                     <div class="col-lg-3-hiring hiring-mt-16 ">
                           <div class="d-flex justify-content-center border-bottom-hiring">
                               <div class="icon-box-hiring"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-user-time.svg" alt="share.webp"
                                     class="h-30" /></div>
@@ -268,7 +268,7 @@ get_header(); ?>
                                     shortlisted candidates to interview so you can evaluate their work styles and skills
                                     and determine which is the best fit for your project.</p>
                      </div>
-                     <div class="col-lg-3-hiring hiring-mt-16">
+                     <div class="col-lg-3-hiring hiring-mt-16 ">
                           <div class="d-flex justify-content-center border-bottom-hiring">
                               <div class="icon-box-hiring"><img loading="lazy" src="<?php echo get_template_directory_uri(); ?>/assets/images/fi-rr-chart-tree.svg" alt="share.webp"
                                     class="h-30" /></div>
@@ -281,37 +281,37 @@ get_header(); ?>
                      </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3-hiring hiring-mt-16">
+                    <div class="col-lg-3-hiring hiring-mt-16 d-flex align-items-stretch">
                         <span class="tag_step">
                             <i class="fa-solid fa-user-check font-18"></i> Manual Testing
                         </span>
                     </div>
-                    <div class="col-lg-3-hiring hiring-mt-16">
+                    <div class="col-lg-3-hiring hiring-mt-16 d-flex align-items-stretch">
                         <span class="tag_step">
                             <i class="fa-solid fa-robot font-18"></i> Automation Testing
                         </span>
                     </div>
-                    <div class="col-lg-3-hiring hiring-mt-16">
+                    <div class="col-lg-3-hiring hiring-mt-16 d-flex align-items-stretch">
                         <span class="tag_step">
                             <i class="fa-solid fa-gauge-high font-18"></i> Performance Testing
                         </span>
                     </div>
-                    <div class="col-lg-3-hiring hiring-mt-16">
+                    <div class="col-lg-3-hiring hiring-mt-16 d-flex align-items-stretch">
                         <span class="tag_step">
                             <i class="fa-solid fa-code font-18"></i> API Testing
                         </span>
                     </div>
-                    <div class="col-lg-3-hiring hiring-mt-16">
+                    <div class="col-lg-3-hiring hiring-mt-16 d-flex align-items-stretch">
                         <span class="tag_step">
                             <i class="fa-solid fa-eye font-18"></i> Usability Testing
                         </span>
                     </div>
-                    <div class="col-lg-3-hiring hiring-mt-16">
+                    <div class="col-lg-3-hiring hiring-mt-16 d-flex align-items-stretch">
                         <span class="tag_step">
                             <i class="fa-solid fa-repeat font-18"></i> Regression Testing
                         </span>
                     </div>
-                    <div class="col-lg-3-hiring hiring-mt-16">
+                    <div class="col-lg-3-hiring hiring-mt-16 d-flex align-items-stretch">
                         <span class="tag_step">
                             <i class="fa-solid fa-chart-line font-18"></i> Load Testing
                         </span>

@@ -338,6 +338,36 @@ get_header(); ?>
                                     </div>
                                 </div>
                             </div>
+                             <div class="col-md-6">
+                                <div class="work-box-7">
+                                    <div class="thumb">
+                                        <div class="meta"><span class="tag">INVOICE MINDS</span><span class="tag">Accounting</span><span class="tag">Website</span></div>
+                                        <a href="<?php echo home_url('/accounting/'); ?>" target="_blank">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/invoiceminds.png" class="img-fluid"/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="work-box-7">
+                                    <div class="thumb">
+                                        <div class="meta"><span class="tag">Skillsdose</span><span class="tag">Education</span><span class="tag">Website</span></div>
+                                        <a href="<?php echo home_url('/skilldose/'); ?>" target="_blank">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/skillsdose.png" class="img-fluid"/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="work-box-7">
+                                    <div class="thumb">
+                                        <div class="meta"><span class="tag">Free Food Labels</span><span class="tag">NutritionLabel</span><span class="tag">Website</span></div>
+                                        <a href="<?php echo home_url('/free-food-labels/'); ?>" target="_blank">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/free-food-labels.png" class="img-fluid"/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="col-md-6">
                                 <div class="work-box-7">
                                     <div class="thumb">
@@ -567,6 +597,36 @@ get_header(); ?>
                                         <a href="<?php echo home_url('/trackntake/'); ?>" target="_blank">
                                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/codesclue-trackntake.png" class="img-fluid"
                                                 alt="image" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="work-box-7">
+                                    <div class="thumb">
+                                        <div class="meta"><span class="tag">INVOICE MINDS</span><span class="tag">Accounting</span><span class="tag">Website</span></div>
+                                        <a href="<?php echo home_url('/accounting/'); ?>" target="_blank">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/invoiceminds.png" class="img-fluid"/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="work-box-7">
+                                    <div class="thumb">
+                                        <div class="meta"><span class="tag">Skillsdose</span><span class="tag">Education</span><span class="tag">Website</span></div>
+                                        <a href="<?php echo home_url('/skilldose/'); ?>" target="_blank">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/skillsdose.png" class="img-fluid"/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="work-box-7">
+                                    <div class="thumb">
+                                        <div class="meta"><span class="tag">Free Food Labels</span><span class="tag">NutritionLabel</span><span class="tag">Website</span></div>
+                                        <a href="<?php echo home_url('/free-food-labels/'); ?>" target="_blank">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/free-food-labels.png" class="img-fluid"/>
                                         </a>
                                     </div>
                                 </div>

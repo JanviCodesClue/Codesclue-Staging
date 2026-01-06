@@ -65,6 +65,32 @@
     padding: 8px 15px;
     border-radius: 5px;
 }
+
+
+.blog-item-add {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}.blog-item-add {
+    display: none;
+}
+.blog-item {
+    opacity: 0;
+    transform: translateY(40px);
+}
+.fade-anim {
+    opacity: 0;
+}
+/* Default state – blogs visible */
+.blog-item-add {
+    display: flex;
+}
+
+/* Only hide when JS explicitly hides */
+.blog-item-add.is-hidden {
+    display: none !important;
+}
+
 </style>
 
 <body <?php body_class(); ?>>
@@ -89,7 +115,7 @@
                 <a class="d-flex gap-2 ai-pill py-0 my-xl-0 my-2 me-0"
                     href="<?php echo home_url('/ai-software-development/'); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue-ai.svg"
-                        class="btn-img-20"" alt=" codesclue-ai" />
+                        class="btn-img-20" alt=" codesclue-ai" />
                     <p class="content-desc">AI-Powered Growth</p>
                 </a>
             </div>

@@ -1,0 +1,15 @@
+/**
+ * Global CSS Variables
+ * Used across all pages
+ */
+
+:root {
+  --font-body: "Poppins", sans-serif;
+  --font-heading: "Inter", sans-serif;
+  --hover-bg: linear-gradient(135deg, #158aff, #ffcd40);
+  --primary-color: #158aff;
+  --secondary-color: #ffcd40;
+  --white: #ffffff;
+  --black: #000000;
+}
+

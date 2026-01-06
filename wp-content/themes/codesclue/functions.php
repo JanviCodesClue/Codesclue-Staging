@@ -197,8 +197,12 @@ function codesclue_scripts() {
     }
 
  
-
-   
+    if (is_page('accounting')) {
+        wp_enqueue_style('codesclue-accounting', get_template_directory_uri() . '/assets/css/accounting.css', array(), '1.0.0');
+    }
+     if (is_page('skilldose')) {
+        wp_enqueue_style('codesclue-skilldose', get_template_directory_uri() . '/assets/css/skilldose.css', array(), '1.0.0');
+    }
 
       if (is_page('food-service')) {
         wp_enqueue_style('codesclue-food-service', get_template_directory_uri() . '/assets/css/food-service.css', array(), '1.0.0');
@@ -263,6 +267,10 @@ function codesclue_scripts() {
 
         if (is_page('advertisement')) {
             wp_enqueue_style('codesclue-advertisement', get_template_directory_uri() . '/assets/css/advertisement.css', array(), '1.0.0');
+        }
+
+        if (is_page('free-food-labels')) {
+            wp_enqueue_style('codesclue-free-food-labels', get_template_directory_uri() . '/assets/css/freefoodlabels.css', array(), '1.0.0');
         }
 
         if (is_page('financial')) {

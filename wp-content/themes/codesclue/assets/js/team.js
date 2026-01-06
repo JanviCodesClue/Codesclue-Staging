@@ -1,5 +1,12 @@
+// ================================================================
+// TEAM PAGE JS - ISOLATED SCOPE
+// Only runs on team page to prevent cross-page interference
+// ================================================================
+
+// Check if we're on the team page
+if (document.body.classList.contains('page-team')) {
 document.addEventListener("DOMContentLoaded", function() {
-  const images = document.querySelectorAll(".life-img");
+  const images = document.querySelectorAll(".page-team .life-img");
 
   if (!images.length) return; // stop if no images found
 
@@ -39,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
     index = (index + 1) % imageSets.length;
   }, 5000);
 });
+} // End of page-team check
 
 
 

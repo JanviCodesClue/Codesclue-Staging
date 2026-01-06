@@ -1,0 +1,79 @@
+/**
+ * CTA (Call-to-Action) Component
+ * Used on: Services, Hiring, Industries, Projects, About pages
+ */
+
+.get-touch-section {
+    width: calc(100% - 0px);
+    margin: 0 auto;
+    background: url(/assets/images/codesclue_texture.webp) #a4d3ff71 repeat center center;
+    padding: 40px 0px 110px;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-touch-section h2{
+    font-family: 'Inter', sans-serif !important;
+    font-size: 48px !important;
+    line-height: 75px !important;
+    font-weight: 700 !important;
+    color: #313539 !important;
+}
+
+.get-touch-section p{
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1rem !important;
+    line-height: 1.3rem !important;
+    font-weight: 400 !important;
+    color: #303030 !important;
+}
+
+.get-touch-section .btn-secondary {
+    width: fit-content;
+    background-color: #108aff;
+    color: #ffffff !important;
+    border: 1px solid #108aff;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        transform 0.1s ease;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 24px !important;
+    line-height: 40px !important;
+    height: fit-content !important;
+    padding: 10px 30px !important;
+    font-weight: 600 !important;
+}
+
+.get-touch-section .btn-secondary:hover {
+    background-color: #108aff80;
+    color: #303030 !important;
+    border-color: #108aff80;
+}
+
+.get-touch-section .btn-secondary:active {
+    background-color: #303030;
+    color: #ffffff !important;
+    border-color: #303030;
+    border-radius: 50px;
+    transform: scale(0.98);
+}
+
+@media only screen and (max-width: 1024px) {
+    .get-touch-section h2 {
+        font-size: 32px !important;
+        line-height: 50px !important;
+    }
+
+    .get-touch-section .btn-secondary {
+        padding: 10px 15px !important;
+        font-size: 1rem !important;
+        line-height: 1.6rem !important;
+    }
+}
+

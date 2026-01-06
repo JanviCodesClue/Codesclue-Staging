@@ -2,578 +2,137 @@
 /*
 Template Name: Clinet Testimonials Template
 */
-get_header(); ?>  
-    
-    
+get_header(); ?>
     <main>
-        <!-- Company Banner section-40 -->
-        <section class="main-hero-section section-40 bg-blue">
+
+        <section class="page-title-area">
             <div class="container">
-                <div class="row mx-0 px-0 align-items-center">
-                    <div class="col-xl-5 px-xl-2 px-0">
-                        <div class="main-descriptions ">
-                            <h1 class="h1-font-style font-48 text-white">Client Testimonial</h1>
-                            <p class="hero_description text-white">Welcome to the CodesClue Client Testimonial section!
-                                Discover
-                                how our expertise and innovative solutions have empowered businesses through digital
-                                transformation.</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-7 px-xl-2 px-0">
-                        <div class="main-hero-img z-1 text-center">
-                            <div class="main-hero-inner-img">
-                                <img loading="lazy" alt="faq-banner-design"
-                                    class="main-hero-right-img faq-bannerimg mt-lg-0 mt-3"
-                                     src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials/codesclue_testimonial-banner.webp" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                <div class="page-title-area-inner section-spacing-top">
 
-        <section class="section-40 testimonial">
-            <div class="container">
-                <p class="section-description mb-3">What our customers say about us</p>
-                <h2 class="section-title mb-0"><strong>Testimonials</strong></h2>
-                <div class="testimonial-view">
-                    <div class="owl-carousel" id="testimonial-carousel">
-                        <div class="testimonial-box">
-                            <!-- <i class="fa fa-quote-left quote-icon"></i> -->
-                            <div class="d-flex justify-content-center align-items-center mb-sm-4 mb-2">
-                                <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/client-logo/codesclue_TFL_Icon.webp" alt="TFL"
-                                    class="user-img mr-2" />
-                                <div class="d-flex flex-column gap-sm-2 gap-1 justify-content-center">
-                                    <p class="content-title mb-0">Ethan Fraser</p>
-                                    <p class="small-service-text my-0">CEO at TFL</p>
-                                </div>
-                            </div>
-                            <span class="content-desc text-center">Seamless, expert delivery of our TLF fitness appon
-                                time,
-                                on brand, and beyond expectations.We had an exceptional experience working with this
-                                team on our project. From the very beginning, they approached the engagement with
-                                professionalism, clear communication, and a genuine interest in understanding our vision
-                                and goals. Throughout the development process, they were highly responsive, organized,
-                                and transparent, providing regular updates, incorporating feedback quickly, and
-                                proactively offering solutions when challenges arose. What stood out most was their
-                                collaborative spirit and attention to detail. They made us feel like true partners
-                                rather than just clients.</span>
+                    <div class="section-content-wrapper">
+                        <div class="content-shape-1 fade-anim" data-direction="top" data-ease="bounce.out"
+                            data-delay="0.60" data-offset="100" data-rotate="360">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/new/shape-36.webp" alt="image">
                         </div>
-                        <div class="testimonial-box">
-                            <!-- <i class="fa fa-quote-left quote-icon"></i> -->
-                            <div class="d-flex justify-content-center align-items-center mb-sm-4 mb-2">
-                                <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/client-logo/codesclue_therapix-02.svg" alt="Therapix"
-                                    class="user-img mr-2" />
-                                <div class="d-flex flex-column gap-sm-2 gap-1 justify-content-center">
-                                    <p class="content-title mb-0">Mrulay Mistry</p>
-                                    <p class="small-service-text my-0">CEO at Therapix</p>
+
+                        <div class="section-content">
+                            <div class="section-title-wrapper">
+                                <div class="title-wrapper">
+                                    <h1 class="section-title char-anim">CodesClue Services</h1>
+                                </div>
+                                <div class="subtitle-wrapper">
+                                    <span class="section-subtitle char-anim" data-delay="0.75">Clinet Testimonials
+                                    </span>
                                 </div>
                             </div>
-                            <span class="content-desc text-center">A very client centric company with incredible top
-                                executives. They
-                                have years of
-                                experience and outstanding knowledge.
-                                Never faced an issue with scheduling meetings, or change notifications.</span>
                         </div>
-                        <div class="testimonial-box">
-                            <!-- <i class="fa fa-quote-left quote-icon"></i> -->
-                            <div class="d-flex justify-content-center align-items-center mb-sm-4 mb-2">
-                                <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/client-logo/codesclue_Snakz.svg" alt="Snakz"
-                                    class="user-img mr-2" />
-                                <div class="d-flex flex-column gap-sm-2 gap-1 justify-content-center">
-                                    <p class="content-title mb-0">Snakz EU</p>
-                                    <p class="small-service-text my-0">CEO at Snakz</p>
-                                </div>
-                            </div>
-                            <span class="content-desc text-center">Communication was a key part of this any new features
-                                and updates
-                                were handled with care and done in a promptly manner. While what we were asking for was
-                                not always worded in the correct manner for the I.T. space they always understood what
-                                we were asking for.</span>
-                        </div>
-                        <div class="testimonial-box">
-                            <!-- <i class="fa fa-quote-left quote-icon"></i> -->
-                            <div class="d-flex justify-content-center align-items-center mb-sm-4 mb-2">
-                                <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/client-logo/codesclue_Trackntake.webp" alt="TracknTake"
-                                    class="user-img mr-2" />
-                                <div class="d-flex flex-column gap-sm-2 gap-1 justify-content-center">
-                                    <p class="content-title mb-0">Nico Alexander</p>
-                                    <p class="small-service-text my-0">CEO at TracknTake</p>
-                                </div>
-                            </div>
-                            <span class="content-desc text-center">Great communication and problem solving
-                                Was great to work with Ketan. Always optimistic, very professional and hard worker. Knew
-                                how to solve complex problems. Great project manager. Recommend them for web
-                                development.</span>
-                        </div>
-                        <div class="testimonial-box">
-                            <!-- <i class="fa fa-quote-left quote-icon"></i> -->
-                            <div class="d-flex justify-content-center align-items-center mb-sm-4 mb-2">
-                                <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/client-logo/codesclue_AZER_Icon.webp" alt="TracknTake"
-                                    class="user-img mr-2" />
-                                <div class="d-flex flex-column gap-sm-2 gap-1 justify-content-center">
-                                    <p class="content-title mb-0">Ibrahim al Sulati</p>
-                                    <p class="small-service-text my-0">CEO at Aazer</p>
-                                </div>
-                            </div>
-                            <span class="content-desc text-center">CodesClue Technologies delivered a high-quality
-                                product
-                                that met the client's
-                                expectations. The team maintained high professionalism and clear communication
-                                throughout the engagement. Moreover, they were highly responsive to the client's needs
-                                and proactive in problem-solving.</span>
-                        </div>
-                        <div class="testimonial-box">
-                            <!-- <i class="fa fa-quote-left quote-icon"></i> -->
-                            <div class="d-flex justify-content-center align-items-center mb-sm-4 mb-2">
-                                <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/client-logo/codesclue_NLB_Icon.webp" alt="TracknTake"
-                                    class="user-img mr-2" />
-                                <div class="d-flex flex-column gap-sm-2 gap-1 justify-content-center">
-                                    <p class="content-title mb-0">Lucas White</p>
-                                    <p class="small-service-text my-0">CEO at NEXTLIFEBOOK</p>
-                                </div>
-                            </div>
-                            <span class="content-desc text-center">CodesClue built a secure, user-friendly platform for
-                                managing digital legacies on NextLifeBook. My overall experience with developing
-                                NextLifeBook at CodesClue Technologies has been incredibly fulfilling. We built a secure
-                                and intuitive platform that allows users to manage their digital legacies, store
-                                essential documents, and share lasting memories. Our team worked diligently to ensure
-                                seamless functionality, data security, and an exceptional user experience. The project
-                                presented unique challenges that required careful attention to detail, but witnessing
-                                the final product helping users plan their legacy made all the effort worthwhile.
-                            </span>
+                        <div class="breadcrumb-wrapper fade-anim" data-direction="left" data-offset="100"
+                            data-delay="0.90">
+                            <ul class="breadcrumb">
+                                <li><a href="<?php echo home_url(''); ?>">HOME</a></li>
+                                <li>Clinet Testimonials</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="star-section section-40">
-            <div class="container px-0">
-                <p class="section-description mb-3">Rating Breakdown</p>
-                <h2 class="section-title">Client Satisfaction Ratings</h2>
-                <div class="row mx-0 px-0">
-                    <div class="testimonial-view px-md-auto px-0">
-                        <div class="owl-carousel" id="testimonial-star-carousel">
-                            <div class="testimonial-box p-0">
-                                <div class="card mt-0">
-                                    <h3 class="content-title">Ethan Fraser</h3>
-                                    <div class="rounded">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <small>5 out of 5 (GoodFirm)</small>
-                                    </div>
+<section class="testimonial-section">
+    <div class="container h-100">
+        <div class="row align-items-center">
 
-                                    <div class="rating-container">
-                                        <span class="content-desc">Quality</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
+            <!-- LEFT -->
+            <div class="col-lg-6 col-md-6 col-12 text-white left-box">
+                <h2 class="fw-bold mb-3">Client Testimonial</h2>
 
-                                    <div class="rating-container">
-                                        <span class="content-desc">Schedule</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
+                <p class="testimonial-desc">
+                    Welcome to the CodesClue Client Testimonial section!
+                    Discover how our expertise and innovative solutions
+                    have empowered businesses through digital transformation.
+                </p>
 
-                                    <div class="rating-container">
-                                        <span class="content-desc">Reporting</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
+                <!-- CARDS ROW -->
+                <div class="row g-3 mt-4 cards-row">
 
-                                    <div class="rating-container">
-                                        <span class="content-desc">Overall Rating</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="review-glass">
+                            <div class="d-flex align-items-center js-sm">
+                                <span class="review-dot"></span>
+                                <span class="ms-2 fw-semibold">GoodFirm</span>
                             </div>
-                            <div class="testimonial-box p-0">
-                                <div class="card mt-0">
-                                    <h3 class="content-title">Nico Alexander</h3>
-                                    <div class="rounded">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <small>5 out of 5 (GoodFirm)</small>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Quality</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Schedule</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Reporting</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Overall Rating</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-box p-0">
-                                <div class="card">
-                                    <h3 class="content-title">Snakz EU</h3>
-                                    <div class="rounded">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <small>5 out of 5 (GoodFirm)</small>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Quality</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Schedule</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Reporting</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Overall Rating</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-box p-0">
-                                <div class="card">
-                                    <h3 class="content-title">Mrulay Mistry</h3>
-                                    <div class="rounded">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <small>5 out of 5 (GoodFirm)</small>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Quality</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Schedule</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Reporting</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Overall Rating</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-box p-0">
-                                <div class="card">
-                                    <h3 class="content-title">Ibrahim al Sulati</h3>
-                                    <div class="rounded">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <small>5 out of 5 (Clutch)</small>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Quality</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Schedule</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Cost</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Willing to Refer</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-box p-0">
-                                <div class="card mt-0">
-                                    <h3 class="content-title">Lucas White</h3>
-                                    <div class="rounded">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <small>5 out of 5 (GoodFirm)</small>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Quality</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Schedule</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Reporting</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="rating-container">
-                                        <span class="content-desc">Overall Rating</span>
-                                        <div class="d-flex gap-md-4 gap-2">
-                                            <div class="progress-container">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <span>100%</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <div class="stars mt-2">★★★★★</div>
+                            <p class="small mb-0 mt-1">8 Reviews</p>
                         </div>
                     </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="review-glass">
+                            <div class="d-flex align-items-center js-sm">
+                                <span class="review-dot"></span>
+                                <span class="ms-2 fw-semibold">Clutch</span>
+                            </div>
+                            <div class="stars mt-2">★★★★★</div>
+                            <p class="small mb-0 mt-1">5 Reviews</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </section>
+
+            <!-- RIGHT -->
+            <div class="col-lg-6 col-md-6 col-12 position-relative right-box">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonials/testimonials-hero.png"
+                     class="testimonial-man img-fluid"
+                     alt="Client Testimonial">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="reviews-section-v3">
+    <div class="container">
+
+        <h5 class="reviews-subtitle">What our customers say about us</h5>
+        <h2 class="reviews-title">Testimonials</h2>
+
+        <!-- Cards Wrapper -->
+        <div id="reviewsWrapper" class="row g-4 reviews-grid"></div>
+
+        <!-- Pagination Arrows -->
+        <div class="reviews-arrows">
+            <button class="arrow-btn" id="prevBtn">❮❮</button>
+            <button class="arrow-btn" id="nextBtn">❯❯</button>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+<!-- Niche ka Testimonial Slider Section (Bottom Section) -->
+<section class="gf-section">
+    <div class="container">
+        <h2 class="gf-title">What Our Clients Say</h2>
+
+        <div class="gf-slider-wrapper">
+            <div id="gfSlider" class="row"></div>
+
+            <div class="gf-nav-btn-container">
+                <button id="gfPrev" class="gf-nav-btn">❮❮</button>
+                <button id="gfNext" class="gf-nav-btn">❯❯</button>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
 
 
     </main>

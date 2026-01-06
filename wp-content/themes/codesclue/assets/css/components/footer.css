@@ -1,0 +1,372 @@
+/**
+ * Footer Component
+ * Used on: ALL pages
+ */
+
+.footer-section strong {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 13px !important;
+    line-height: 20px !important;
+    font-weight: 500;
+}
+
+.footer-section .contact-details i{
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #575757 !important;
+}
+
+.footer-section .contact-details .list__text {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    font-weight: 500;
+    color: #212121a8 !important;
+}
+
+.footer-section .contact-details:hover i,
+.footer-section .contact-details:hover .list__text {
+    color: #212121 !important;
+}
+
+.location-section span {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    color: #575757 !important;
+}
+
+.location-section .loc_desc {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    font-weight: 500;
+}
+
+.footer-section .link-title {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 18px !important;
+    line-height: 28px !important;
+    font-weight: 700 !important;
+    color: #303030 !important;
+}
+
+.footer-section .link-section a {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1rem !important;
+    line-height: 1.2rem !important;
+    font-weight: 600 !important;
+    color: #212121a8 !important;
+}
+
+.footer-section .link-section a:hover {
+    color: #108aff !important;
+}
+
+.footer-section .link-section a.active {
+    color: #108aff !important;
+}
+
+.footer-section .link-section img {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.footer-section .stamp-widget_rating span {
+    font-size: .875rem !important;
+    line-height: 1.2rem !important;
+}
+
+.footer-section .goodfirm-widget{
+    border: 1px solid #108aff !important;
+}
+
+.footer-section .goodfirm-widget .stamp-widget_top {
+    padding-top: 5px !important;
+}
+
+.footer-section hr {
+    width: 90% !important;
+    margin: 40px auto !important;
+    color: #d9d9d9 !important;
+    opacity: .25;
+}
+
+.footer-brand img{
+    height: 40px !important;
+}
+
+.footer-section .copy-text {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #212121 !important;
+}
+
+.footer-social-link{
+    width: 40px !important;
+    height: 40px !important;
+    border: 1.5px solid #D9D9D9 !important;
+    border-radius: 50px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.footer-social-link:hover {
+    box-shadow: inset 0px -2px 4px #23232340 !important;
+}
+
+.footer-social-link img{
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.footer-social-link:nth-child(1):hover {
+    background: #1769ff66 !important;
+}
+
+.footer-social-link:nth-child(2):hover {
+    background: #ea4c8966 !important;
+}
+
+.footer-social-link:nth-child(3):hover {
+    background: #1da1f266 !important;
+}
+
+.footer-social-link:nth-child(4):hover {
+    background: #0077b566 !important;
+}
+
+.footer-social-link:nth-child(5):hover { 
+    background: linear-gradient(
+    45deg,
+    #f0943366,
+    #e6683c66,
+    #dc274366,
+    #cc236666,
+    #bc188866
+  );
+}
+
+.footer-social-link:nth-child(6):hover {
+    background-color: #ea433566 !important;
+}
+
+.footer-social-link:nth-child(7):hover {
+    background-color: #1877f266 !important;
+}
+
+.footer-social-link:nth-child(8):hover {
+    background-color: #ff000066 !important;
+}
+
+.footer-social-link:nth-child(3) img {
+    height: 15px !important;
+}
+
+.my-footer{
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 767.98px) {
+    .my-footer{
+        margin-top: 30px;
+    }
+    .mt-sm-cus{
+        margin-top: 12px;
+    }
+}
+
+/* Desktop & Tablet (default) → column (upar-niche) */
+.social-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.social-details {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+/* Mobile (<768px) → row (baju-baju) */
+@media (max-width: 767.98px) {
+    .social-wrapper {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .social-details {
+        flex: 1 1 45%;
+    }
+}
+
+.size-32{
+    height: 28px;
+    width: auto;
+}
+
+.gap-md-0{
+    row-gap: 20px;    
+}
+
+/* Footer Awards & Reviews Section */
+.section-wrapper-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.awards-wrapper-footer {
+    flex: 1 1 60%;
+    border-radius: 15px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    background: #f0f9ff;
+}
+
+.d-flex-wrap-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.d-flex-wrap-footer a {
+    display: inline-block;
+}
+
+.badge-img-footer {
+    max-height: 92px;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.badge-img-footer:hover {
+    transform: scale(1.05);
+}
+
+.review-box-footer {
+    flex: 1 1 30%;
+    background: #f1f1f1;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.review-item-footer {
+    text-align: center;
+    flex: 1;
+}
+
+.review-item-footer h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #222;
+}
+
+.stars-footer {
+    color: #f6c100;
+    font-size: 16px;
+    margin: 6px 0;
+}
+
+.rating-footer {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #111;
+}
+
+.only-col-12 {
+    display: none;
+}
+
+@media (max-width: 400px) {
+    .only-col-12 {
+        display: none !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .section-wrapper-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .awards-wrapper-footer,
+    .review-box-footer {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    .badge-img-footer {
+        max-height: 75px;
+    }
+
+    .only-col-12 {
+        display: inline;
+    }
+}
+
+@media (max-width: 575px) {
+    .d-flex-wrap-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .badge-img-footer {
+        max-height: 60px;
+    }
+
+    .review-box-footer {
+        padding: 15px;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .rating-footer {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 1399.98px) {
+    .badge-img-footer {
+        max-height: 100px;
+        width: auto;
+        object-fit: contain;
+        transition: transform 0.3s ease;
+    }
+    .only-col-12 {
+        display: flex;
+        align-items: end;
+        height: 100px;
+        justify-content: center;
+    }
+    .footer-imf-award-sm{
+        height: 100px;
+    }
+}
+
