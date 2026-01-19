@@ -321,7 +321,9 @@ function codesclue_scripts() {
         if (is_page('our-company')) {
             wp_enqueue_style('codesclue-our-company', get_template_directory_uri() . '/assets/css/our-company.css', array(), '1.0.0');
         }
-
+if (is_page('nutrition-facts')) {
+            wp_enqueue_style('codesclue-nutrition-facts', get_template_directory_uri() . '/assets/css/nutrition-facts.css', array(), '1.0.0');
+        }
 
     // ===== Global Scripts =====
     wp_enqueue_script('jquery');
@@ -1509,7 +1511,7 @@ function send_contact_email()
     ];
 
     // Send email
-    if (wp_mail($to, "Thank you for conacting us, {$name}", $body, $headers)) {
+    if (wp_mail($to, "Thank you for contacting us, {$name}", $body, $headers)) {
         wp_send_json_success("Email sent to $to and CC'd to " . implode(", ", $cc));
     } else {
         global $phpmailer;

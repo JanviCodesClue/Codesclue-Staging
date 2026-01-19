@@ -123,6 +123,10 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/codesclue-top-emerging-companies-award.svg"
                             alt="Award 5" class="badge-img-footer">
                     </a>
+                    <a href="https://www.goodfirms.co/resources/online-reviews-consumer-buying-behavior-global-insights" target="_blank">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/research-partner-codesclue.svg"
+                            alt="Award 5" class="badge-img-footer">
+                    </a>
                 </div>
             </div>
 
@@ -204,8 +208,7 @@
     </div>
 </section>
 <footer class="section-40">
-    <section class="footer-section  pb-0 bg-linear-white
-                                        ID">
+    <section class="footer-section  pb-0 bg-linear-white ID">
         <div class="container">
             <a class="col-lg-auto col-12 footer-brand py-0 me-0 d-flex justify-content-start"
                 href="<?php echo home_url(''); ?>">
@@ -368,7 +371,7 @@
                             alt="copyscape"  />
                     </div>
                     <p class="copy-text mb-0 py-0 text-center">Copyright
-                        &copy; 2025 CodesClue. All Rights Reserved.
+                        &copy; 2026 CodesClue. All Rights Reserved.
                     </p>
                 </div>
                 <div

@@ -24,7 +24,7 @@ food brands, educators, and recipe creators at every stage.
     </p>
     </div>
     <div class="col-lg-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/free-food-labels/free-food-labels-hero.png">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/free-food-labels/free-food-labels.png">
         
     </div>
 </div>
@@ -71,7 +71,7 @@ education, and digital use without manual correction.
       </div>
 
       <div class="col-lg-7">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/free-food-labels/free-food-labels.png">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio-img/free-food-labels/free-food-labels-sec.png">
       </div>
 
     </div>
